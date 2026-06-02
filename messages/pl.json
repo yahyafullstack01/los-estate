@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "siteName": "LOS ESTATE",
+    "tagline": "Grupa Nieruchomości",
+    "homeTitle": "Luksusowe nieruchomości — Sprzedaż i wynajem",
+    "homeDescription": "Odkryj premium apartamenty, hotele i domy na sprzedaż i wynajem z LOS ESTATE.",
+    "listingsTitle": "Przeglądaj nieruchomości",
+    "listingsDescription": "Apartamenty, hotele i domy na sprzedaż i wynajem.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Skontaktuj się z LOS ESTATE w sprawie prezentacji, inwestycji i wynajmu."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "listings": "Nieruchomości",
+    "contact": "Kontakt",
+    "sale": "Na sprzedaż",
+    "rent": "Do wynajęcia"
+  },
+  "hero": {
+    "title": "Podnieś standard życia",
+    "subtitle": "Premium apartamenty, hotele i rezydencje dla wymagających kupujących i najemców na całym świecie.",
+    "ctaBrowse": "Przeglądaj oferty",
+    "ctaContact": "Kontakt"
+  },
+  "categories": {
+    "title": "Kategorie",
+    "apartments": "Apartamenty",
+    "hotels": "Hotele",
+    "houses": "Domy",
+    "apartmentsDesc": "Miejski luksus",
+    "hotelsDesc": "Inwestycje hotelowe",
+    "housesDesc": "Posiadłości rodzinne"
+  },
+  "featured": {
+    "title": "Polecane oferty",
+    "sale": "Na sprzedaż",
+    "rent": "Do wynajęcia",
+    "viewAll": "Zobacz wszystkie"
+  },
+  "stats": {
+    "properties": "Nieruchomości",
+    "clients": "Zadowolonych klientów",
+    "cities": "Miast",
+    "years": "Lat doświadczenia"
+  },
+  "cta": {
+    "title": "Gotowy znaleźć kolejną nieruchomość?",
+    "subtitle": "Nasi doradcy pomogą na każdym etapie.",
+    "button": "Skontaktuj się"
+  },
+  "listings": {
+    "title": "Wszystkie oferty",
+    "subtitle": "Filtruj według typu transakcji i kategorii",
+    "filters": "Filtry",
+    "allTypes": "Wszystkie typy",
+    "allTransactions": "Wszystkie",
+    "noResults": "Brak ofert pasujących do filtrów.",
+    "beds": "{count} sypialni",
+    "baths": "{count} łazienek",
+    "area": "{sqm} m²",
+    "perMonth": "/ mies.",
+    "viewDetails": "Szczegóły",
+    "backToListings": "Powrót do katalogu",
+    "description": "Opis",
+    "features": "Cechy",
+    "location": "Lokalizacja",
+    "inquire": "Zapytaj o tę nieruchomość"
+  },
+  "types": {
+    "apartment": "Apartament",
+    "hotel": "Hotel",
+    "house": "Dom"
+  },
+  "transactions": {
+    "sale": "Na sprzedaż",
+    "rent": "Do wynajęcia"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Powiedz, czego szukasz — odpowiemy w ciągu jednego dnia roboczego.",
+    "name": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "phone": "Telefon (opcjonalnie)",
+    "message": "Wiadomość",
+    "submit": "Wyślij",
+    "success": "Dziękujemy! Wkrótce się odezwiemy.",
+    "error": "Proszę wypełnić wymagane pola."
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "tagline": "Grupa Nieruchomości",
+    "quickLinks": "Linki",
+    "contactInfo": "Kontakt"
+  },
+  "theme": {
+    "light": "Jasny motyw",
+    "dark": "Ciemny motyw"
+  },
+  "properties": {
+    "luxury-penthouse-kyiv": {
+      "title": "Luksusowy penthouse — centrum Kijowa",
+      "description": "Oszałamiający penthouse z panoramicznym widokiem, premium wykończeniem i prywatnym tarasem."
+    },
+    "seaside-villa-odesa": {
+      "title": "Willa nad morzem — Odessa",
+      "description": "Elegancka nadmorska willa z ogrodem, basenem infinity i bezpośrednim dostępem do morza."
+    },
+    "boutique-hotel-lviv": {
+      "title": "Hotel butikowy — Stare Miasto we Lwowie",
+      "description": "Działający hotel butikowy na terenie UNESCO. 24 apartamenty, restauracja, wysoka rentowność."
+    },
+    "modern-apartment-rent-kyiv": {
+      "title": "Nowoczesny apartament — Peczersk",
+      "description": "W pełni umeblowany apartament z inteligentnym domem, concierge i parkingiem podziemnym."
+    },
+    "family-house-rent-lviv": {
+      "title": "Dom rodzinny — przedmieścia Lwowa",
+      "description": "Przestronny dom z dużym ogrodem i domowym biurem w spokojnej okolicy."
+    },
+    "hotel-suite-rent-odesa": {
+      "title": "Apartament hotelowy — Marina w Odessie",
+      "description": "Apartament serwisowany w pięciogwiazdkowym hotelu nad morzem ze spa i widokiem na marinę."
+    }
+  }
+}
