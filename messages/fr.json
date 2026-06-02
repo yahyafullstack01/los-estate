@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "siteName": "LOS ESTATE",
+    "tagline": "Groupe Immobilier",
+    "homeTitle": "Immobilier de luxe — Achat et location",
+    "homeDescription": "Découvrez des appartements, hôtels et maisons premium à vendre et à louer avec LOS ESTATE.",
+    "listingsTitle": "Parcourir les biens",
+    "listingsDescription": "Appartements, hôtels et maisons à vendre et à louer.",
+    "contactTitle": "Nous contacter",
+    "contactDescription": "Contactez LOS ESTATE pour des visites, investissements et locations."
+  },
+  "nav": {
+    "home": "Accueil",
+    "listings": "Biens",
+    "contact": "Contact",
+    "sale": "À vendre",
+    "rent": "À louer"
+  },
+  "hero": {
+    "title": "Élevez votre style de vie",
+    "subtitle": "Appartements, hôtels et résidences premium pour acheteurs et locataires exigeants du monde entier.",
+    "ctaBrowse": "Voir les biens",
+    "ctaContact": "Nous contacter"
+  },
+  "categories": {
+    "title": "Explorer par catégorie",
+    "apartments": "Appartements",
+    "hotels": "Hôtels",
+    "houses": "Maisons",
+    "apartmentsDesc": "Vie urbaine de luxe",
+    "hotelsDesc": "Investissements hôteliers",
+    "housesDesc": "Domaines et maisons familiales"
+  },
+  "featured": {
+    "title": "Biens en vedette",
+    "sale": "À vendre",
+    "rent": "À louer",
+    "viewAll": "Voir tout"
+  },
+  "stats": {
+    "properties": "Biens",
+    "clients": "Clients satisfaits",
+    "cities": "Villes",
+    "years": "Années d'expérience"
+  },
+  "cta": {
+    "title": "Prêt à trouver votre prochain bien ?",
+    "subtitle": "Nos conseillers vous accompagnent à chaque étape.",
+    "button": "Nous contacter"
+  },
+  "listings": {
+    "title": "Tous les biens",
+    "subtitle": "Filtrez par type de transaction et catégorie",
+    "filters": "Filtres",
+    "allTypes": "Tous les types",
+    "allTransactions": "Tous",
+    "noResults": "Aucun bien ne correspond à vos filtres.",
+    "beds": "{count} chambres",
+    "baths": "{count} salles de bain",
+    "area": "{sqm} m²",
+    "perMonth": "/ mois",
+    "viewDetails": "Voir les détails",
+    "backToListings": "Retour au catalogue",
+    "description": "Description",
+    "features": "Caractéristiques",
+    "location": "Emplacement",
+    "inquire": "Demander des informations"
+  },
+  "types": {
+    "apartment": "Appartement",
+    "hotel": "Hôtel",
+    "house": "Maison"
+  },
+  "transactions": {
+    "sale": "À vendre",
+    "rent": "À louer"
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "subtitle": "Dites-nous ce que vous recherchez — nous répondrons sous un jour ouvré.",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone (optionnel)",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "Merci ! Nous vous contacterons bientôt.",
+    "error": "Veuillez remplir les champs obligatoires."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "tagline": "Groupe Immobilier",
+    "quickLinks": "Liens",
+    "contactInfo": "Contact"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  },
+  "properties": {
+    "luxury-penthouse-kyiv": {
+      "title": "Penthouse de luxe — Centre de Kyiv",
+      "description": "Superbe penthouse avec vue panoramique, finitions premium et terrasse privée dans le quartier le plus prestigieux."
+    },
+    "seaside-villa-odesa": {
+      "title": "Villa en bord de mer — Côte d'Odesa",
+      "description": "Élégante villa côtière avec jardin privé, piscine à débordement et accès direct à la mer."
+    },
+    "boutique-hotel-lviv": {
+      "title": "Hôtel boutique — Vieille ville de Lviv",
+      "description": "Hôtel boutique en activité dans le centre UNESCO. 24 suites, restaurant et fort rendement."
+    },
+    "modern-apartment-rent-kyiv": {
+      "title": "Appartement moderne — Pechersk",
+      "description": "Appartement meublé design avec domotique, conciergerie et parking souterrain."
+    },
+    "family-house-rent-lviv": {
+      "title": "Maison familiale — Banlieue de Lviv",
+      "description": "Grande maison familiale avec jardin, bureau à domicile et quartier calme."
+    },
+    "hotel-suite-rent-odesa": {
+      "title": "Suite hôtel — Marina d'Odesa",
+      "description": "Suite de service dans un hôtel cinq étoiles en bord de mer avec spa et vue sur la marina."
+    }
+  }
+}

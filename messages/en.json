@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "siteName": "LOS ESTATE",
+    "tagline": "Real Estate Group",
+    "homeTitle": "Luxury Real Estate — Buy & Rent",
+    "homeDescription": "Discover premium apartments, hotels, and houses for sale and rent with LOS ESTATE Real Estate Group.",
+    "listingsTitle": "Browse Properties",
+    "listingsDescription": "Explore apartments, hotels, and houses for sale and rent.",
+    "contactTitle": "Contact Us",
+    "contactDescription": "Get in touch with LOS ESTATE for viewings, investments, and rentals."
+  },
+  "nav": {
+    "home": "Home",
+    "listings": "Properties",
+    "contact": "Contact",
+    "sale": "For Sale",
+    "rent": "For Rent"
+  },
+  "hero": {
+    "title": "Elevate Your Lifestyle",
+    "subtitle": "Premium apartments, hotels, and residences — curated for discerning buyers and tenants worldwide.",
+    "ctaBrowse": "Browse Properties",
+    "ctaContact": "Contact Us"
+  },
+  "categories": {
+    "title": "Explore by Category",
+    "apartments": "Apartments",
+    "hotels": "Hotels",
+    "houses": "Houses",
+    "apartmentsDesc": "Urban luxury living",
+    "hotelsDesc": "Hospitality investments",
+    "housesDesc": "Estates & family homes"
+  },
+  "featured": {
+    "title": "Featured Properties",
+    "sale": "For Sale",
+    "rent": "For Rent",
+    "viewAll": "View all"
+  },
+  "stats": {
+    "properties": "Properties",
+    "clients": "Happy Clients",
+    "cities": "Cities",
+    "years": "Years Experience"
+  },
+  "cta": {
+    "title": "Ready to find your next property?",
+    "subtitle": "Our advisors are available to guide you through every step.",
+    "button": "Get in Touch"
+  },
+  "listings": {
+    "title": "All Properties",
+    "subtitle": "Filter by transaction type and property category",
+    "filters": "Filters",
+    "allTypes": "All types",
+    "allTransactions": "All",
+    "noResults": "No properties match your filters.",
+    "beds": "{count} beds",
+    "baths": "{count} baths",
+    "area": "{sqm} m²",
+    "perMonth": "/ month",
+    "viewDetails": "View details",
+    "backToListings": "Back to properties",
+    "description": "Description",
+    "features": "Features",
+    "location": "Location",
+    "inquire": "Inquire about this property"
+  },
+  "types": {
+    "apartment": "Apartment",
+    "hotel": "Hotel",
+    "house": "House"
+  },
+  "transactions": {
+    "sale": "For Sale",
+    "rent": "For Rent"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Tell us what you're looking for — we'll respond within one business day.",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "submit": "Send message",
+    "success": "Thank you! We'll be in touch soon.",
+    "error": "Please fill in all required fields."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Real Estate Group",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "properties": {
+    "luxury-penthouse-kyiv": {
+      "title": "Luxury Penthouse — Kyiv Center",
+      "description": "A stunning penthouse with panoramic city views, premium finishes, and private terrace. Located in the heart of Kyiv's most prestigious district."
+    },
+    "seaside-villa-odesa": {
+      "title": "Seaside Villa — Odesa Coast",
+      "description": "An elegant coastal villa with private garden, infinity pool, and direct sea access. Perfect for luxury family living or holiday retreat."
+    },
+    "boutique-hotel-lviv": {
+      "title": "Boutique Hotel — Lviv Old Town",
+      "description": "A fully operating boutique hotel in UNESCO-listed Old Town. 24 suites, restaurant, and strong rental yield for investors."
+    },
+    "modern-apartment-rent-kyiv": {
+      "title": "Modern Apartment — Pechersk",
+      "description": "Fully furnished designer apartment in Pechersk. Smart home features, concierge, and underground parking included."
+    },
+    "family-house-rent-lviv": {
+      "title": "Family House — Lviv Suburbs",
+      "description": "Spacious family home with large garden, home office, and quiet neighborhood. Ideal for long-term corporate rentals."
+    },
+    "hotel-suite-rent-odesa": {
+      "title": "Hotel Suite — Odesa Marina",
+      "description": "Premium serviced suite in a five-star waterfront hotel. Daily housekeeping, spa access, and marina views."
+    }
+  }
+}
