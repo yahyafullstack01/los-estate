@@ -15,13 +15,12 @@ import { ContactForm } from "@/components/sections/ContactForm";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
 import { formatPrice } from "@/lib/utils";
 import { getAlternateLanguages } from "@/lib/seo";
-import type { Locale } from "@/i18n/routing";
+import { locales, type Locale } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export function generateStaticParams() {
   const slugs = getListingSlugs();
-  const locales = ["en", "uk", "ru", "es", "ar", "fr", "pl"];
   return locales.flatMap((locale) =>
     slugs.map((slug) => ({ locale, slug }))
   );

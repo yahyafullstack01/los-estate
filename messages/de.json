@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "siteName": "LOS ESTATE",
+    "tagline": "Immobiliengruppe",
+    "homeTitle": "Luxusimmobilien — Kaufen und mieten",
+    "homeDescription": "Entdecken Sie Premium-Apartments, Hotels und Häuser zum Kauf und zur Miete mit der LOS ESTATE Immobiliengruppe.",
+    "listingsTitle": "Immobilien durchsuchen",
+    "listingsDescription": "Entdecken Sie Apartments, Hotels und Häuser zum Kauf und zur Miete.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Kontaktieren Sie LOS ESTATE für Besichtigungen, Investitionen und Vermietungen."
+  },
+  "nav": {
+    "home": "Startseite",
+    "listings": "Immobilien",
+    "contact": "Kontakt",
+    "sale": "Zum Verkauf",
+    "rent": "Zur Miete"
+  },
+  "hero": {
+    "title": "Heben Sie Ihren Lebensstil auf ein neues Niveau",
+    "subtitle": "Premium-Apartments, Hotels und Residenzen — kuratiert für anspruchsvolle Käufer und Mieter weltweit.",
+    "ctaBrowse": "Immobilien ansehen",
+    "ctaContact": "Kontakt aufnehmen"
+  },
+  "categories": {
+    "title": "Nach Kategorie erkunden",
+    "apartments": "Apartments",
+    "hotels": "Hotels",
+    "houses": "Häuser",
+    "apartmentsDesc": "Luxuriöses urbanes Wohnen",
+    "hotelsDesc": "Investitionen in Hotellerie",
+    "housesDesc": "Anwesen und Familienhäuser"
+  },
+  "featured": {
+    "title": "Ausgewählte Immobilien",
+    "sale": "Zum Verkauf",
+    "rent": "Zur Miete",
+    "viewAll": "Alle ansehen"
+  },
+  "stats": {
+    "properties": "Immobilien",
+    "clients": "Zufriedene Kunden",
+    "cities": "Städte",
+    "years": "Jahre Erfahrung"
+  },
+  "cta": {
+    "title": "Bereit, Ihre nächste Immobilie zu finden?",
+    "subtitle": "Unsere Berater begleiten Sie bei jedem Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "listings": {
+    "title": "Alle Immobilien",
+    "subtitle": "Filtern Sie nach Transaktionsart und Immobilienkategorie",
+    "filters": "Filter",
+    "allTypes": "Alle Typen",
+    "allTransactions": "Alle",
+    "noResults": "Keine Immobilie entspricht Ihren Filtern.",
+    "beds": "{count} Schlafzimmer",
+    "baths": "{count} Badezimmer",
+    "area": "{sqm} m²",
+    "perMonth": "/ Monat",
+    "viewDetails": "Details ansehen",
+    "backToListings": "Zurück zu Immobilien",
+    "description": "Beschreibung",
+    "features": "Ausstattung",
+    "location": "Standort",
+    "inquire": "Anfrage zu dieser Immobilie"
+  },
+  "types": {
+    "apartment": "Apartment",
+    "hotel": "Hotel",
+    "house": "Haus"
+  },
+  "transactions": {
+    "sale": "Zum Verkauf",
+    "rent": "Zur Miete"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Sagen Sie uns, wonach Sie suchen — wir antworten innerhalb eines Werktags.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefon (optional)",
+    "message": "Nachricht",
+    "submit": "Nachricht senden",
+    "success": "Vielen Dank! Wir melden uns bald bei Ihnen.",
+    "error": "Bitte füllen Sie alle Pflichtfelder aus."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Immobiliengruppe",
+    "quickLinks": "Schnellzugriff",
+    "contactInfo": "Kontakt"
+  },
+  "theme": {
+    "light": "Heller Modus",
+    "dark": "Dunkler Modus"
+  },
+  "properties": {
+    "luxury-penthouse-kyiv": {
+      "title": "Luxus-Penthouse — Zentrum von Kyiv",
+      "description": "Ein beeindruckendes Penthouse mit Panoramablick über die Stadt, hochwertigen Ausstattungen und privater Terrasse im Herzen des prestigeträchtigsten Viertels von Kyiv."
+    },
+    "seaside-villa-odesa": {
+      "title": "Villa am Meer — Küste von Odesa",
+      "description": "Eine elegante Küstenvilla mit privatem Garten, Infinity-Pool und direktem Zugang zum Meer. Ideal für luxuriöses Familienleben oder als exklusiver Rückzugsort."
+    },
+    "boutique-hotel-lviv": {
+      "title": "Boutique-Hotel — Altstadt von Lviv",
+      "description": "Ein vollständig betriebenes Boutique-Hotel in der UNESCO-geschützten Altstadt. 24 Suiten, Restaurant und starke Mietrendite für Investoren."
+    },
+    "modern-apartment-rent-kyiv": {
+      "title": "Modernes Apartment — Pechersk",
+      "description": "Voll möbliertes Designer-Apartment in Pechersk mit Smart-Home-Funktionen, Concierge-Service und Tiefgaragenstellplatz."
+    },
+    "family-house-rent-lviv": {
+      "title": "Familienhaus — Vororte von Lviv",
+      "description": "Geräumiges Familienhaus mit großem Garten, Homeoffice und ruhiger Nachbarschaft. Ideal für langfristige Firmenmieten."
+    },
+    "hotel-suite-rent-odesa": {
+      "title": "Hotel-Suite — Marina von Odesa",
+      "description": "Premium-Service-Suite in einem Fünf-Sterne-Hotel am Wasser mit täglicher Reinigung, Spa-Zugang und Blick auf die Marina."
+    }
+  }
+}

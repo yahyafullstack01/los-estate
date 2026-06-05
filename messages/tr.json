@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "siteName": "LOS ESTATE",
+    "tagline": "Gayrimenkul Grubu",
+    "homeTitle": "Lüks Gayrimenkul — Satın alma ve kiralama",
+    "homeDescription": "LOS ESTATE Gayrimenkul Grubu ile satılık ve kiralık premium daireleri, otelleri ve evleri keşfedin.",
+    "listingsTitle": "Gayrimenkulleri inceleyin",
+    "listingsDescription": "Satılık ve kiralık daireleri, otelleri ve evleri keşfedin.",
+    "contactTitle": "İletişim",
+    "contactDescription": "Görüntüleme, yatırım ve kiralama talepleriniz için LOS ESTATE ile iletişime geçin."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "listings": "Gayrimenkuller",
+    "contact": "İletişim",
+    "sale": "Satılık",
+    "rent": "Kiralık"
+  },
+  "hero": {
+    "title": "Yaşam tarzınızı yükseltin",
+    "subtitle": "Dünya çapındaki seçkin alıcılar ve kiracılar için özenle seçilmiş premium daireler, oteller ve rezidanslar.",
+    "ctaBrowse": "Gayrimenkulleri incele",
+    "ctaContact": "İletişime geç"
+  },
+  "categories": {
+    "title": "Kategoriye göre keşfet",
+    "apartments": "Daireler",
+    "hotels": "Oteller",
+    "houses": "Evler",
+    "apartmentsDesc": "Lüks şehir yaşamı",
+    "hotelsDesc": "Otelcilik yatırımları",
+    "housesDesc": "Mülkler ve aile evleri"
+  },
+  "featured": {
+    "title": "Öne çıkan gayrimenkuller",
+    "sale": "Satılık",
+    "rent": "Kiralık",
+    "viewAll": "Tümünü gör"
+  },
+  "stats": {
+    "properties": "Gayrimenkul",
+    "clients": "Memnun müşteri",
+    "cities": "Şehir",
+    "years": "Yıllık deneyim"
+  },
+  "cta": {
+    "title": "Bir sonraki gayrimenkulünüzü bulmaya hazır mısınız?",
+    "subtitle": "Danışmanlarımız her adımda size rehberlik etmeye hazır.",
+    "button": "İletişime geç"
+  },
+  "listings": {
+    "title": "Tüm gayrimenkuller",
+    "subtitle": "İşlem türüne ve gayrimenkul kategorisine göre filtreleyin",
+    "filters": "Filtreler",
+    "allTypes": "Tüm türler",
+    "allTransactions": "Tümü",
+    "noResults": "Filtrelerinize uygun gayrimenkul bulunamadı.",
+    "beds": "{count} yatak odası",
+    "baths": "{count} banyo",
+    "area": "{sqm} m²",
+    "perMonth": "/ ay",
+    "viewDetails": "Detayları gör",
+    "backToListings": "Gayrimenkullere dön",
+    "description": "Açıklama",
+    "features": "Özellikler",
+    "location": "Konum",
+    "inquire": "Bu gayrimenkul hakkında bilgi al"
+  },
+  "types": {
+    "apartment": "Daire",
+    "hotel": "Otel",
+    "house": "Ev"
+  },
+  "transactions": {
+    "sale": "Satılık",
+    "rent": "Kiralık"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Ne aradığınızı bize söyleyin — bir iş günü içinde yanıt vereceğiz.",
+    "name": "Ad soyad",
+    "email": "E-posta adresi",
+    "phone": "Telefon (isteğe bağlı)",
+    "message": "Mesaj",
+    "submit": "Mesaj gönder",
+    "success": "Teşekkürler! Yakında sizinle iletişime geçeceğiz.",
+    "error": "Lütfen tüm zorunlu alanları doldurun."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Gayrimenkul Grubu",
+    "quickLinks": "Hızlı bağlantılar",
+    "contactInfo": "İletişim"
+  },
+  "theme": {
+    "light": "Aydınlık mod",
+    "dark": "Karanlık mod"
+  },
+  "properties": {
+    "luxury-penthouse-kyiv": {
+      "title": "Lüks Penthouse — Kyiv merkezi",
+      "description": "Şehrin panoramik manzarasına, premium detaylara ve özel terasa sahip etkileyici bir penthouse. Kyiv'in en prestijli bölgesinin kalbinde yer alır."
+    },
+    "seaside-villa-odesa": {
+      "title": "Deniz kenarı villa — Odesa sahili",
+      "description": "Özel bahçesi, infinity havuzu ve doğrudan deniz erişimi olan zarif bir sahil villası. Lüks aile yaşamı veya tatil evi için idealdir."
+    },
+    "boutique-hotel-lviv": {
+      "title": "Butik otel — Lviv eski şehir",
+      "description": "UNESCO listesindeki eski şehirde faaliyet gösteren tam donanımlı butik otel. 24 süit, restoran ve yatırımcılar için güçlü kira getirisi."
+    },
+    "modern-apartment-rent-kyiv": {
+      "title": "Modern daire — Pechersk",
+      "description": "Pechersk'te tamamen mobilyalı tasarım daire. Akıllı ev özellikleri, concierge hizmeti ve kapalı otopark dahildir."
+    },
+    "family-house-rent-lviv": {
+      "title": "Aile evi — Lviv banliyöleri",
+      "description": "Geniş bahçesi, ev ofisi ve sakin mahallesi olan ferah aile evi. Uzun dönem kurumsal kiralamalar için idealdir."
+    },
+    "hotel-suite-rent-odesa": {
+      "title": "Otel süiti — Odesa Marina",
+      "description": "Beş yıldızlı deniz kenarı otelde premium servisli süit. Günlük temizlik, spa erişimi ve marina manzarası sunar."
+    }
+  }
+}
