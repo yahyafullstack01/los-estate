@@ -11,6 +11,7 @@
   },
   "nav": {
     "home": "Strona główna",
+    "about": "O nas",
     "listings": "Nieruchomości",
     "contact": "Kontakt",
     "sale": "Na sprzedaż",
@@ -21,6 +22,54 @@
     "subtitle": "Premium apartamenty, hotele i rezydencje dla wymagających kupujących i najemców na całym świecie.",
     "ctaBrowse": "Przeglądaj oferty",
     "ctaContact": "Kontakt"
+  },
+  "about": {
+    "title": "O firmie LosEstate",
+    "yearsLabel": "Lat doświadczenia",
+    "lead": "Od ponad 15 lat tworzymy wartość dodaną tam, gdzie inni widzą jedynie metry kwadratowe.",
+    "body": "LosEstate to międzynarodowy zespół ekspertów specjalizujący się w pełnym cyklu inwestycji w nieruchomości. W ciągu półtora dziesięciolecia przeszliśmy drogę od lokalnych transakcji do realizacji dużych projektów w Polsce, Turcji i Hiszpanii. Nasze doświadczenie pozwala nam równie skutecznie pracować zarówno z historycznymi obiektami komercyjnymi wymagającymi głębokiej rekonstrukcji, jak i z nowoczesnymi inwestycjami high-tech.",
+    "specializationTitle": "Nasza specjalizacja",
+    "specializations": [
+      {
+        "title": "Rewitalizacja i rekonstrukcja",
+        "text": "Przejmujemy przestarzałe powierzchnie komercyjne i hotele, przekształcając je w nowoczesne, wysokodochodowe aktywa."
+      },
+      {
+        "title": "Doradztwo inwestycyjne",
+        "text": "Pomagamy inwestorom znajdować obiekty o najlepszym potencjale wzrostu i zapewniamy przejrzystość prawną transakcji."
+      },
+      {
+        "title": "Zarządzanie wynajmem",
+        "text": "Przejmujemy operacyjne zarządzanie apartamentami i kompleksami hotelowymi, maksymalizując rentowność dla właścicieli."
+      },
+      {
+        "title": "Nowe inwestycje",
+        "text": "Głęboka znajomość rynku pozwala nam jako pierwszym wybierać najbardziej obiecujące nowoczesne projekty."
+      }
+    ],
+    "whyTitle": "Dlaczego my",
+    "whyItems": [
+      {
+        "title": "Zasięg międzynarodowy",
+        "text": "Jesteśmy głęboko zintegrowani z rynkami Polski, Turcji i Hiszpanii, rozumiemy ich specyfikę, przepisy podatkowe i kulturowe niuanse."
+      },
+      {
+        "title": "Profesjonalizm pełnego cyklu",
+        "text": "Nie tylko prowadzimy transakcję — budujemy strategię posiadania i zarządzania, od pierwszej inspekcji po optymalizację rentowności."
+      },
+      {
+        "title": "Bezpieczeństwo i doświadczenie",
+        "text": "15 lat na rynku to tysiące udanych realizacji i nienaganna reputacja. Wiemy, jak minimalizować ryzyko przy każdym typie nieruchomości."
+      }
+    ],
+    "closing": "W LosEstate wierzymy: nieruchomość to nie tylko budynek. To narzędzie, które przy właściwym zarządzaniu staje się fundamentem Twojego dobrobytu finansowego.",
+    "images": {
+      "hero": "Elewacja luksusowej nieruchomości",
+      "team": "Specjaliści ds. nieruchomości",
+      "renovation": "Wnętrze hotelu butikowego",
+      "international": "Nadmorski kurort",
+      "closing": "Luksusowa willa nad morzem"
+    }
   },
   "categories": {
     "title": "Kategorie",
@@ -64,6 +113,11 @@
     "description": "Opis",
     "features": "Cechy",
     "location": "Lokalizacja",
+    "units": "{count} niezależnych lokali",
+    "roomSpecs": "Specyfikacja pomieszczeń",
+    "socialAmenities": "Strefy socjalne",
+    "propertyNote": "Uwaga",
+    "photosPlaceholder": "Zdjęcia wkrótce — dodaj obrazy do folderu nieruchomości",
     "inquire": "Zapytaj o tę nieruchomość"
   },
   "types": {
@@ -84,7 +138,12 @@
     "message": "Wiadomość",
     "submit": "Wyślij",
     "success": "Dziękujemy! Wkrótce się odezwiemy.",
-    "error": "Proszę wypełnić wymagane pola."
+    "error": "Proszę wypełnić wymagane pola.",
+    "inquiryFor": "Zapytanie dotyczące",
+    "propertyName": "Nazwa nieruchomości",
+    "propertyType": "Typ nieruchomości",
+    "transactionType": "Typ ogłoszenia",
+    "messagePrefill": "Zapytanie dotyczące: {title} ({type}, {transaction})"
   },
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone.",
@@ -97,29 +156,91 @@
     "dark": "Ciemny motyw"
   },
   "properties": {
-    "luxury-penthouse-kyiv": {
-      "title": "Luksusowy penthouse — centrum Kijowa",
-      "description": "Oszałamiający penthouse z panoramicznym widokiem, premium wykończeniem i prywatnym tarasem."
-    },
-    "seaside-villa-odesa": {
-      "title": "Willa nad morzem — Odessa",
-      "description": "Elegancka nadmorska willa z ogrodem, basenem infinity i bezpośrednim dostępem do morza."
+    "alanya-guzelyali-suites": {
+      "title": "Alanya Güzelyalı — Projekt apartamentów suite przy plaży",
+      "description": "Nasz ukończony projekt apartamentów suite składający się z 24 niezależnych lokali znajduje się na działce 5, obręb 2506 w dystrykcie Alanya w Antalyi, przy ulicy Güzelyalı, Muhabbet Sokak, bezpośrednio przy morzu. Obiekt leży w jednej z najpopularniejszych stref nadmorskich Alanyi, przy plaży Damlataş i w odległości spaceru od plaży Kleopatra. Kluczową zaletą lokalizacji jest położenie naprzeciwko kolejki linowej skracającej dojazd do zamku w Alanyi do 5 minut. Pełna renowacja: wszystkie apartamenty, części wspólne i elewacje odnowione od podstaw. W każdym pokoju nowe klimatyzatory.",
+      "note": "Zgodny z przepisami dotyczącymi krótkoterminowego wynajmu.",
+      "roomSpecs": [
+        "6 lokali — 1+0 / netto 25 m² / brutto 35 m² / 1 balkon / 1 łazienka",
+        "10 lokali — 1+1 / netto 45 m² / brutto 55 m² / 2 balkony / 1 łazienka",
+        "2 lokale — 1+1 duplex / netto 50 m² / brutto 60 m² / 1 balkon / 1 łazienka",
+        "2 lokale — 2+1 duplex / netto 85 m² / brutto 95 m² / 2 balkony / 1 łazienka",
+        "4 lokale handlowe — 16–29 m² w dwóch wariantach"
+      ],
+      "socialAmenities": [
+        "Basen odkryty",
+        "Sauna",
+        "Łaźnia turecka (hamam)",
+        "Łaźnia parowa",
+        "Recepcja",
+        "Lobby"
+      ],
+      "location": "Alanya, Antalya, Turcja"
     },
     "boutique-hotel-lviv": {
       "title": "Hotel butikowy — Stare Miasto we Lwowie",
-      "description": "Działający hotel butikowy na terenie UNESCO. 24 apartamenty, restauracja, wysoka rentowność."
+      "description": "Działający hotel butikowy na terenie UNESCO. 24 apartamenty, restauracja, wysoka rentowność.",
+      "location": "Lwów, Ukraina",
+      "features": [
+        "Restauracja",
+        "24 apartamenty",
+        "Stare Miasto",
+        "Wysoka rentowność"
+      ]
     },
     "modern-apartment-rent-kyiv": {
       "title": "Nowoczesny apartament — Peczersk",
-      "description": "W pełni umeblowany apartament z inteligentnym domem, concierge i parkingiem podziemnym."
+      "description": "W pełni umeblowany apartament z inteligentnym domem, concierge i parkingiem podziemnym.",
+      "location": "Kijów, Ukraina",
+      "features": [
+        "Umeblowane",
+        "Concierge",
+        "Parking",
+        "Siłownia"
+      ]
     },
     "family-house-rent-lviv": {
       "title": "Dom rodzinny — przedmieścia Lwowa",
-      "description": "Przestronny dom z dużym ogrodem i domowym biurem w spokojnej okolicy."
+      "description": "Przestronny dom z dużym ogrodem i domowym biurem w spokojnej okolicy.",
+      "location": "Lwów, Ukraina",
+      "features": [
+        "Ogród",
+        "Biuro domowe",
+        "Garaż",
+        "Spokojna okolica"
+      ]
     },
     "hotel-suite-rent-odesa": {
       "title": "Apartament hotelowy — Marina w Odessie",
-      "description": "Apartament serwisowany w pięciogwiazdkowym hotelu nad morzem ze spa i widokiem na marinę."
+      "description": "Apartament serwisowany w pięciogwiazdkowym hotelu nad morzem ze spa i widokiem na marinę.",
+      "location": "Odessa, Ukraina",
+      "features": [
+        "Sprzątanie",
+        "Spa",
+        "Widok na marinę",
+        "Obsługa pokoju"
+      ]
+    },
+    "alanya-muhabbet-suites": {
+      "title": "Alanya Güzelyalı — Projekt apartamentów suite przy plaży",
+      "description": "Nasz ukończony projekt apartamentów suite składający się z 24 niezależnych lokali znajduje się na działce 5, obręb 2506 w dystrykcie Alanya w Antalyi, przy ulicy Güzelyalı, Muhabbet Sokak, bezpośrednio przy morzu. Obiekt leży w jednej z najpopularniejszych stref nadmorskich Alanyi, przy plaży Damlataş i w odległości spaceru od plaży Kleopatra. Kluczową zaletą lokalizacji jest położenie naprzeciwko kolejki linowej skracającej dojazd do zamku w Alanyi do 5 minut. Pełna renowacja: wszystkie apartamenty, części wspólne i elewacje odnowione od podstaw. W każdym pokoju nowe klimatyzatory.",
+      "note": "Zgodny z przepisami dotyczącymi krótkoterminowego wynajmu.",
+      "roomSpecs": [
+        "6 lokali — 1+0 / netto 25 m² / brutto 35 m² / 1 balkon / 1 łazienka",
+        "10 lokali — 1+1 / netto 45 m² / brutto 55 m² / 2 balkony / 1 łazienka",
+        "2 lokale — 1+1 duplex / netto 50 m² / brutto 60 m² / 1 balkon / 1 łazienka",
+        "2 lokale — 2+1 duplex / netto 85 m² / brutto 95 m² / 2 balkony / 1 łazienka",
+        "4 lokale handlowe — 16–29 m² w dwóch wariantach"
+      ],
+      "socialAmenities": [
+        "Basen odkryty",
+        "Sauna",
+        "Łaźnia turecka (hamam)",
+        "Łaźnia parowa",
+        "Recepcja",
+        "Lobby"
+      ],
+      "location": "Alanya, Antalya, Turcja"
     }
   }
 }

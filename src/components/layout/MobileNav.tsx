@@ -4,13 +4,8 @@ import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
+import { navLinks } from "@/config/nav";
 import { cn } from "@/lib/utils";
-
-const navLinks = [
-  { href: "/", key: "home" as const },
-  { href: "/listings", key: "listings" as const },
-  { href: "/contact", key: "contact" as const },
-];
 
 export function MobileNav() {
   const t = useTranslations("nav");

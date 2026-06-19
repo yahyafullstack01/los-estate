@@ -11,6 +11,7 @@
   },
   "nav": {
     "home": "Startseite",
+    "about": "Über uns",
     "listings": "Immobilien",
     "contact": "Kontakt",
     "sale": "Zum Verkauf",
@@ -21,6 +22,54 @@
     "subtitle": "Premium-Apartments, Hotels und Residenzen — kuratiert für anspruchsvolle Käufer und Mieter weltweit.",
     "ctaBrowse": "Immobilien ansehen",
     "ctaContact": "Kontakt aufnehmen"
+  },
+  "about": {
+    "title": "Über LosEstate",
+    "yearsLabel": "Jahre Erfahrung",
+    "lead": "Seit mehr als 15 Jahren schaffen wir Mehrwert dort, wo andere nur Quadratmeter sehen.",
+    "body": "LosEstate ist ein internationales Expertenteam, das sich auf den vollständigen Zyklus von Immobilieninvestitionen spezialisiert hat. In anderthalb Jahrzehnten sind wir von lokalen Transaktionen zu groß angelegten Projekten in Polen, der Türkei und Spanien gewachsen. Unsere Erfahrung ermöglicht es uns, sowohl mit historischen Gewerbeobjekten, die eine tiefgreifende Rekonstruktion erfordern, als auch mit hochtechnologischen Neubauten gleichermaßen effektiv zu arbeiten.",
+    "specializationTitle": "Unsere Spezialisierung",
+    "specializations": [
+      {
+        "title": "Revitalisierung und Rekonstruktion",
+        "text": "Wir übernehmen veraltete Gewerbeflächen und Hotels und verwandeln sie in moderne, ertragsstarke Assets."
+      },
+      {
+        "title": "Investmentberatung",
+        "text": "Wir helfen Investoren, Objekte mit dem besten Wachstumspotenzial zu finden und gewährleisten rechtliche Transparenz bei Transaktionen."
+      },
+      {
+        "title": "Mietverwaltung",
+        "text": "Wir übernehmen das operative Management von Apartments und Hotelkomplexen und maximieren die Rendite für Eigentümer."
+      },
+      {
+        "title": "Neue Objekte",
+        "text": "Tiefes Marktverständnis ermöglicht es uns, zu den Ersten zu gehören, die die vielversprechendsten modernen Projekte auswählen."
+      }
+    ],
+    "whyTitle": "Warum uns wählen",
+    "whyItems": [
+      {
+        "title": "Internationale Reichweite",
+        "text": "Wir sind tief in die Märkte Polens, der Türkei und Spaniens integriert und verstehen deren Besonderheiten, Steuergesetzgebung und kulturelle Nuancen."
+      },
+      {
+        "title": "Full-Cycle-Professionalität",
+        "text": "Wir begleiten nicht nur die Transaktion — wir entwickeln eine Eigentums- und Managementstrategie, von der ersten Besichtigung bis zur Optimierung der Rentabilität."
+      },
+      {
+        "title": "Sicherheit und Erfahrung",
+        "text": "15 Jahre am Markt bedeuten Tausende erfolgreich abgeschlossener Fälle und einen einwandfreien Ruf. Wir wissen, wie man Risiken bei jedem Immobilientyp minimiert."
+      }
+    ],
+    "closing": "Bei LosEstate glauben wir: Immobilien sind nicht nur ein Gebäude. Sie sind ein Instrument, das bei richtiger Verwaltung zum Fundament Ihres finanziellen Wohlergehens wird.",
+    "images": {
+      "hero": "Außenansicht einer Luxusimmobilie",
+      "team": "Immobilienexperten",
+      "renovation": "Boutique-Hotel-Interieur",
+      "international": "Küstenresort",
+      "closing": "Luxusvilla am Meer"
+    }
   },
   "categories": {
     "title": "Nach Kategorie erkunden",
@@ -64,6 +113,11 @@
     "description": "Beschreibung",
     "features": "Ausstattung",
     "location": "Standort",
+    "units": "{count} unabhängige Einheiten",
+    "roomSpecs": "Raumspezifikationen",
+    "socialAmenities": "Gemeinschaftsbereiche",
+    "propertyNote": "Hinweis",
+    "photosPlaceholder": "Fotos folgen — Bilder in den Immobilienordner legen",
     "inquire": "Anfrage zu dieser Immobilie"
   },
   "types": {
@@ -84,7 +138,12 @@
     "message": "Nachricht",
     "submit": "Nachricht senden",
     "success": "Vielen Dank! Wir melden uns bald bei Ihnen.",
-    "error": "Bitte füllen Sie alle Pflichtfelder aus."
+    "error": "Bitte füllen Sie alle Pflichtfelder aus.",
+    "inquiryFor": "Anfrage zu",
+    "propertyName": "Objektname",
+    "propertyType": "Immobilientyp",
+    "transactionType": "Anzeigentyp",
+    "messagePrefill": "Anfrage zu: {title} ({type}, {transaction})"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
@@ -97,29 +156,91 @@
     "dark": "Dunkler Modus"
   },
   "properties": {
-    "luxury-penthouse-kyiv": {
-      "title": "Luxus-Penthouse — Zentrum von Kyiv",
-      "description": "Ein beeindruckendes Penthouse mit Panoramablick über die Stadt, hochwertigen Ausstattungen und privater Terrasse im Herzen des prestigeträchtigsten Viertels von Kyiv."
-    },
-    "seaside-villa-odesa": {
-      "title": "Villa am Meer — Küste von Odesa",
-      "description": "Eine elegante Küstenvilla mit privatem Garten, Infinity-Pool und direktem Zugang zum Meer. Ideal für luxuriöses Familienleben oder als exklusiver Rückzugsort."
+    "alanya-guzelyali-suites": {
+      "title": "Alanya Güzelyalı — Suite-Apartment-Projekt direkt am Meer",
+      "description": "Unser fertiggestelltes Suite-Apartment-Projekt mit 24 unabhängigen Einheiten befindet sich auf Parzelle 5, Block 2506 im Bezirk Alanya in Antalya, in der Güzelyalı Straße, Muhabbet Sokak, in direkter Strandlage. Es liegt in einer der beliebtesten Küstenregionen Alanyas, unmittelbar am Damlataş-Strand und in Gehweite zum Kleopatra-Strand. Ein Standortvorteil ist die Lage gegenüber der Seilbahn, die die Fahrt zur Burg von Alanya auf 5 Minuten verkürzt. Vollständige Restaurierung: alle Wohnungen, Gemeinschaftsbereiche und Fassaden wurden komplett renoviert. Alle Zimmer verfügen über neue Klimaanlagen.",
+      "note": "Entspricht den Vorschriften für Kurzzeitvermietung.",
+      "roomSpecs": [
+        "6 Einheiten — 1+0 / netto 25 m² / brutto 35 m² / 1 Balkon / 1 Bad",
+        "10 Einheiten — 1+1 / netto 45 m² / brutto 55 m² / 2 Balkone / 1 Bad",
+        "2 Einheiten — 1+1 Duplex / netto 50 m² / brutto 60 m² / 1 Balkon / 1 Bad",
+        "2 Einheiten — 2+1 Duplex / netto 85 m² / brutto 95 m² / 2 Balkone / 1 Bad",
+        "4 Gewerbeeinheiten — 16–29 m² in zwei Größen"
+      ],
+      "socialAmenities": [
+        "Außenpool",
+        "Sauna",
+        "Türkisches Bad (Hammam)",
+        "Dampfbad",
+        "Rezeption",
+        "Lobby"
+      ],
+      "location": "Alanya, Antalya, Türkei"
     },
     "boutique-hotel-lviv": {
       "title": "Boutique-Hotel — Altstadt von Lviv",
-      "description": "Ein vollständig betriebenes Boutique-Hotel in der UNESCO-geschützten Altstadt. 24 Suiten, Restaurant und starke Mietrendite für Investoren."
+      "description": "Ein vollständig betriebenes Boutique-Hotel in der UNESCO-geschützten Altstadt. 24 Suiten, Restaurant und starke Mietrendite für Investoren.",
+      "location": "Lemberg, Ukraine",
+      "features": [
+        "Restaurant",
+        "24 Suiten",
+        "Historische Altstadt",
+        "Hohe Rendite"
+      ]
     },
     "modern-apartment-rent-kyiv": {
       "title": "Modernes Apartment — Pechersk",
-      "description": "Voll möbliertes Designer-Apartment in Pechersk mit Smart-Home-Funktionen, Concierge-Service und Tiefgaragenstellplatz."
+      "description": "Voll möbliertes Designer-Apartment in Pechersk mit Smart-Home-Funktionen, Concierge-Service und Tiefgaragenstellplatz.",
+      "location": "Kyiv, Ukraine",
+      "features": [
+        "Möbliert",
+        "Concierge",
+        "Parkplatz",
+        "Fitnessstudio"
+      ]
     },
     "family-house-rent-lviv": {
       "title": "Familienhaus — Vororte von Lviv",
-      "description": "Geräumiges Familienhaus mit großem Garten, Homeoffice und ruhiger Nachbarschaft. Ideal für langfristige Firmenmieten."
+      "description": "Geräumiges Familienhaus mit großem Garten, Homeoffice und ruhiger Nachbarschaft. Ideal für langfristige Firmenmieten.",
+      "location": "Lemberg, Ukraine",
+      "features": [
+        "Garten",
+        "Homeoffice",
+        "Garage",
+        "Ruhige Gegend"
+      ]
     },
     "hotel-suite-rent-odesa": {
       "title": "Hotel-Suite — Marina von Odesa",
-      "description": "Premium-Service-Suite in einem Fünf-Sterne-Hotel am Wasser mit täglicher Reinigung, Spa-Zugang und Blick auf die Marina."
+      "description": "Premium-Service-Suite in einem Fünf-Sterne-Hotel am Wasser mit täglicher Reinigung, Spa-Zugang und Blick auf die Marina.",
+      "location": "Odessa, Ukraine",
+      "features": [
+        "Housekeeping",
+        "Spa",
+        "Marina-Blick",
+        "Zimmerservice"
+      ]
+    },
+    "alanya-muhabbet-suites": {
+      "title": "Alanya Güzelyalı — Suite-Apartment-Projekt direkt am Meer",
+      "description": "Unser fertiggestelltes Suite-Apartment-Projekt mit 24 unabhängigen Einheiten befindet sich auf Parzelle 5, Block 2506 im Bezirk Alanya in Antalya, in der Güzelyalı Straße, Muhabbet Sokak, in direkter Strandlage. Es liegt in einer der beliebtesten Küstenregionen Alanyas, unmittelbar am Damlataş-Strand und in Gehweite zum Kleopatra-Strand. Ein Standortvorteil ist die Lage gegenüber der Seilbahn, die die Fahrt zur Burg von Alanya auf 5 Minuten verkürzt. Vollständige Restaurierung: alle Wohnungen, Gemeinschaftsbereiche und Fassaden wurden komplett renoviert. Alle Zimmer verfügen über neue Klimaanlagen.",
+      "note": "Entspricht den Vorschriften für Kurzzeitvermietung.",
+      "roomSpecs": [
+        "6 Einheiten — 1+0 / netto 25 m² / brutto 35 m² / 1 Balkon / 1 Bad",
+        "10 Einheiten — 1+1 / netto 45 m² / brutto 55 m² / 2 Balkone / 1 Bad",
+        "2 Einheiten — 1+1 Duplex / netto 50 m² / brutto 60 m² / 1 Balkon / 1 Bad",
+        "2 Einheiten — 2+1 Duplex / netto 85 m² / brutto 95 m² / 2 Balkone / 1 Bad",
+        "4 Gewerbeeinheiten — 16–29 m² in zwei Größen"
+      ],
+      "socialAmenities": [
+        "Außenpool",
+        "Sauna",
+        "Türkisches Bad (Hammam)",
+        "Dampfbad",
+        "Rezeption",
+        "Lobby"
+      ],
+      "location": "Alanya, Antalya, Türkei"
     }
   }
 }

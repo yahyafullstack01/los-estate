@@ -11,6 +11,7 @@
   },
   "nav": {
     "home": "Home",
+    "about": "About Us",
     "listings": "Properties",
     "contact": "Contact",
     "sale": "For Sale",
@@ -21,6 +22,54 @@
     "subtitle": "Premium apartments, hotels, and residences — curated for discerning buyers and tenants worldwide.",
     "ctaBrowse": "Browse Properties",
     "ctaContact": "Contact Us"
+  },
+  "about": {
+    "title": "About LosEstate",
+    "yearsLabel": "Years of experience",
+    "images": {
+      "hero": "Luxury property exterior",
+      "team": "Real estate professionals",
+      "renovation": "Boutique hotel interior",
+      "international": "Coastal resort destination",
+      "closing": "Luxury villa by the sea"
+    },
+    "lead": "For more than 15 years, we have been creating added value where others see only square meters.",
+    "body": "LosEstate is an international team of experts specializing in the full cycle of real estate investment. Over a decade and a half, we have grown from local transactions to delivering large-scale projects in Poland, Turkey, and Spain. Our experience allows us to work equally effectively with historic commercial properties requiring deep reconstruction and high-tech new developments.",
+    "specializationTitle": "Our specialization",
+    "specializations": [
+      {
+        "title": "Revitalization and reconstruction",
+        "text": "We take outdated commercial spaces and hotels and transform them into modern, high-yield assets."
+      },
+      {
+        "title": "Investment consulting",
+        "text": "We help investors find properties with the best growth potential and ensure legal transparency of transactions."
+      },
+      {
+        "title": "Rental management",
+        "text": "We handle operational management of apartments and hotel complexes, maximizing returns for owners."
+      },
+      {
+        "title": "New developments",
+        "text": "Deep market understanding allows us to be among the first to select the most promising modern projects."
+      }
+    ],
+    "whyTitle": "Why choose us",
+    "whyItems": [
+      {
+        "title": "International reach",
+        "text": "We are deeply integrated into the markets of Poland, Turkey, and Spain, understanding their specifics, tax legislation, and cultural nuances."
+      },
+      {
+        "title": "Full-cycle professionalism",
+        "text": "We don't just facilitate the transaction — we build an ownership and management strategy, from the initial property inspection to optimizing its profitability."
+      },
+      {
+        "title": "Security and experience",
+        "text": "15 years in the market means thousands of successfully completed cases and an impeccable reputation. We know how to minimize risks when working with any type of real estate."
+      }
+    ],
+    "closing": "At LosEstate, we believe: real estate is not just a building. It is a tool that, with proper management, becomes the foundation of your financial well-being."
   },
   "categories": {
     "title": "Explore by Category",
@@ -64,6 +113,11 @@
     "description": "Description",
     "features": "Features",
     "location": "Location",
+    "units": "{count} independent units",
+    "roomSpecs": "Room specifications",
+    "socialAmenities": "Social amenities",
+    "propertyNote": "Note",
+    "photosPlaceholder": "Photos coming soon — add images to the property folder",
     "inquire": "Inquire about this property"
   },
   "types": {
@@ -84,7 +138,12 @@
     "message": "Message",
     "submit": "Send message",
     "success": "Thank you! We'll be in touch soon.",
-    "error": "Please fill in all required fields."
+    "error": "Please fill in all required fields.",
+    "inquiryFor": "Inquiry for",
+    "propertyName": "Property name",
+    "propertyType": "Property type",
+    "transactionType": "Listing type",
+    "messagePrefill": "Inquiry about: {title} ({type}, {transaction})"
   },
   "footer": {
     "rights": "All rights reserved.",
@@ -97,29 +156,91 @@
     "dark": "Dark mode"
   },
   "properties": {
-    "luxury-penthouse-kyiv": {
-      "title": "Luxury Penthouse — Kyiv Center",
-      "description": "A stunning penthouse with panoramic city views, premium finishes, and private terrace. Located in the heart of Kyiv's most prestigious district."
-    },
-    "seaside-villa-odesa": {
-      "title": "Seaside Villa — Odesa Coast",
-      "description": "An elegant coastal villa with private garden, infinity pool, and direct sea access. Perfect for luxury family living or holiday retreat."
+    "alanya-guzelyali-suites": {
+      "title": "Alanya Güzelyalı — Beachfront Suite Apartment Project",
+      "location": "Alanya, Antalya, Turkey",
+      "description": "Our completed suite apartment project of 24 independent units is located on parcel 5, block 2506 in Alanya district of Antalya, on Güzelyalı Street, Muhabbet Sokak, in a beachfront position. It sits in one of Alanya's prime coastal areas, directly on Damlataş Beach and within walking distance of Kleopatra Beach. A key location advantage is its position opposite the cable car that reduces travel time to Alanya Castle to just 5 minutes. This is a full restoration project: all apartments, common areas, and exterior façades have been renovated from scratch. Every room is equipped with brand-new air conditioning.",
+      "note": "Compliant with short-term rental regulations.",
+      "roomSpecs": [
+        "6 units — 1+0 / net 25 m² / gross 35 m² / 1 balcony / 1 bathroom",
+        "10 units — 1+1 / net 45 m² / gross 55 m² / 2 balconies / 1 bathroom",
+        "2 units — 1+1 duplex / net 50 m² / gross 60 m² / 1 balcony / 1 bathroom",
+        "2 units — 2+1 duplex / net 85 m² / gross 95 m² / 2 balconies / 1 bathroom",
+        "4 retail units — 16–29 m² in two size options"
+      ],
+      "socialAmenities": [
+        "Outdoor pool",
+        "Sauna",
+        "Turkish bath (hammam)",
+        "Steam room",
+        "Reception",
+        "Lobby"
+      ]
     },
     "boutique-hotel-lviv": {
       "title": "Boutique Hotel — Lviv Old Town",
+      "location": "Lviv, Ukraine",
+      "features": [
+        "Restaurant",
+        "24 suites",
+        "Historic district",
+        "High yield"
+      ],
       "description": "A fully operating boutique hotel in UNESCO-listed Old Town. 24 suites, restaurant, and strong rental yield for investors."
     },
     "modern-apartment-rent-kyiv": {
       "title": "Modern Apartment — Pechersk",
+      "location": "Kyiv, Ukraine",
+      "features": [
+        "Furnished",
+        "Concierge",
+        "Parking",
+        "Gym"
+      ],
       "description": "Fully furnished designer apartment in Pechersk. Smart home features, concierge, and underground parking included."
     },
     "family-house-rent-lviv": {
       "title": "Family House — Lviv Suburbs",
+      "location": "Lviv, Ukraine",
+      "features": [
+        "Garden",
+        "Home office",
+        "Garage",
+        "Quiet area"
+      ],
       "description": "Spacious family home with large garden, home office, and quiet neighborhood. Ideal for long-term corporate rentals."
     },
     "hotel-suite-rent-odesa": {
       "title": "Hotel Suite — Odesa Marina",
+      "location": "Odesa, Ukraine",
+      "features": [
+        "Housekeeping",
+        "Spa",
+        "Marina view",
+        "Room service"
+      ],
       "description": "Premium serviced suite in a five-star waterfront hotel. Daily housekeeping, spa access, and marina views."
+    },
+    "alanya-muhabbet-suites": {
+      "title": "Alanya Güzelyalı — Beachfront Suite Apartment Project",
+      "location": "Alanya, Antalya, Turkey",
+      "description": "Our completed suite apartment project of 24 independent units is located on parcel 5, block 2506 in Alanya district of Antalya, on Güzelyalı Street, Muhabbet Sokak, in a beachfront position. It sits in one of Alanya's prime coastal areas, directly on Damlataş Beach and within walking distance of Kleopatra Beach. A key location advantage is its position opposite the cable car that reduces travel time to Alanya Castle to just 5 minutes. This is a full restoration project: all apartments, common areas, and exterior façades have been renovated from scratch. Every room is equipped with brand-new air conditioning.",
+      "note": "Compliant with short-term rental regulations.",
+      "roomSpecs": [
+        "6 units — 1+0 / net 25 m² / gross 35 m² / 1 balcony / 1 bathroom",
+        "10 units — 1+1 / net 45 m² / gross 55 m² / 2 balconies / 1 bathroom",
+        "2 units — 1+1 duplex / net 50 m² / gross 60 m² / 1 balcony / 1 bathroom",
+        "2 units — 2+1 duplex / net 85 m² / gross 95 m² / 2 balconies / 1 bathroom",
+        "4 retail units — 16–29 m² in two size options"
+      ],
+      "socialAmenities": [
+        "Outdoor pool",
+        "Sauna",
+        "Turkish bath (hammam)",
+        "Steam room",
+        "Reception",
+        "Lobby"
+      ]
     }
   }
 }

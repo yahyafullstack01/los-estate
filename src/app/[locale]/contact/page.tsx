@@ -1,10 +1,15 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/sections/ContactForm";
+import { getListingBySlug } from "@/data/listings";
+import { getListingInquiryContext } from "@/lib/property-i18n";
 import { getAlternateLanguages } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
-type Props = { params: Promise<{ locale: string }> };
+type Props = {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ property?: string }>;
+};
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -19,10 +24,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ContactPage({ params }: Props) {
+export default async function ContactPage({ params, searchParams }: Props) {
   const { locale } = await params;
+  const { property: propertySlug } = await searchParams;
   setRequestLocale(locale as Locale);
   const t = await getTranslations("contact");
+
+  const listingData = propertySlug ? getListingBySlug(propertySlug) : undefined;
+  const listingInquiry =
+    listingData && propertySlug
+      ? await getListingInquiryContext(propertySlug, listingData)
+      : undefined;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -37,7 +49,7 @@ export default async function ContactPage({ params }: Props) {
           </div>
         </div>
         <div className="rounded-xl border border-border bg-surface p-6 sm:p-8">
-          <ContactForm />
+          <ContactForm listing={listingInquiry} />
         </div>
       </div>
     </div>

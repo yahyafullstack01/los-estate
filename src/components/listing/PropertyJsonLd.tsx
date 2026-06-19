@@ -18,7 +18,7 @@ export async function PropertyJsonLd({ listing }: { listing: Listing }) {
     image: listing.images,
     address: {
       "@type": "PostalAddress",
-      addressLocality: listing.location,
+      addressLocality: t.has("location") ? t("location") : listing.location,
     },
     numberOfRooms: listing.beds,
     floorSize: {

@@ -2,6 +2,12 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/Hero";
 import { CategoryStrip } from "@/components/sections/CategoryStrip";
+import {
+  AboutIntro,
+  AboutSpecialization,
+  AboutWhyChoose,
+  AboutClosing,
+} from "@/components/sections/AboutUs";
 import { FeaturedListings } from "@/components/sections/FeaturedListings";
 import { Stats } from "@/components/sections/Stats";
 import { CTA } from "@/components/sections/CTA";
@@ -31,7 +37,11 @@ export default async function HomePage({ params }: Props) {
     <>
       <Hero />
       <CategoryStrip />
+      <AboutIntro />
       <FeaturedListings />
+      <AboutSpecialization />
+      <AboutWhyChoose />
+      <AboutClosing />
       <Stats />
       <CTA />
     </>

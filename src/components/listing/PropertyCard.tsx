@@ -3,6 +3,7 @@ import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { type Listing } from "@/data/listings";
 import { formatPrice } from "@/lib/utils";
+import { getListingLocation } from "@/lib/property-i18n";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { Bed, Bath, Maximize } from "lucide-react";
@@ -15,16 +16,18 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
   const t = await getTranslations();
   const locale = await getLocale();
   const title = t(`properties.${listing.slug}.title`);
+  const location = await getListingLocation(listing.slug, listing);
   const price = formatPrice(listing, locale);
   const priceLabel =
     listing.transaction === "rent" ? `${price}${t("listings.perMonth")}` : price;
+  const imageSrc = listing.images[0] ?? "/og-default.png";
 
   return (
     <Card className="group flex flex-col">
       <Link href={`/listings/${listing.slug}`} className="block">
-        <div className="relative aspect-[4/3] overflow-hidden">
+        <div className="relative aspect-[4/3] overflow-hidden bg-surface-muted">
           <Image
-            src={listing.images[0]}
+            src={imageSrc}
             alt={title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -39,7 +42,7 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
           <p className="font-serif text-lg leading-tight text-foreground group-hover:text-brand-gold transition-colors">
             {title}
           </p>
-          <p className="mt-1 text-sm text-muted">{listing.location}</p>
+          <p className="mt-1 text-sm text-muted">{location}</p>
           <p className="mt-3 text-xl font-semibold text-brand-gold">{priceLabel}</p>
           <ul className="mt-4 flex flex-wrap gap-4 text-xs text-muted">
             <li className="flex items-center gap-1">

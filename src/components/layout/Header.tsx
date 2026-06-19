@@ -2,17 +2,12 @@
 
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
+import { navLinks } from "@/config/nav";
 import { LangSwitcher } from "@/components/ui/LangSwitcher";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { Logo } from "@/components/layout/Logo";
 import { cn } from "@/lib/utils";
-
-const navLinks = [
-  { href: "/", key: "home" as const },
-  { href: "/listings", key: "listings" as const },
-  { href: "/contact", key: "contact" as const },
-];
 
 export function Header() {
   const t = useTranslations("nav");

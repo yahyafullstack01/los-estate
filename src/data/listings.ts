@@ -12,6 +12,9 @@ export interface Listing {
   beds: number;
   baths: number;
   areaSqm: number;
+  units?: number;
+  /** Public folder path for property photos, e.g. /listings/alanya-guzelyali-suites */
+  imageDir?: string;
   images: string[];
   featured: boolean;
   features: string[];
@@ -20,39 +23,51 @@ export interface Listing {
 export const listings: Listing[] = [
   {
     id: "1",
-    slug: "luxury-penthouse-kyiv",
+    slug: "alanya-guzelyali-suites",
     type: "apartment",
     transaction: "sale",
     price: 1250000,
     currency: "USD",
-    location: "Kyiv, Ukraine",
-    beds: 4,
-    baths: 3,
-    areaSqm: 285,
-    images: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
-    ],
+    location: "Alanya, Antalya, Turkey",
+    units: 24,
+    beds: 24,
+    baths: 24,
+    areaSqm: 95,
+    imageDir: "/listings/alanya-guzelyali-suites",
+    images: [],
     featured: true,
-    features: ["Terrace", "Smart home", "Concierge", "Parking"],
+    features: [
+      "Outdoor pool",
+      "Sauna",
+      "Turkish bath",
+      "Steam room",
+      "Reception",
+      "Lobby",
+    ],
   },
   {
     id: "2",
-    slug: "seaside-villa-odesa",
-    type: "house",
+    slug: "alanya-muhabbet-suites",
+    type: "hotel",
     transaction: "sale",
     price: 2100000,
     currency: "USD",
-    location: "Odesa, Ukraine",
-    beds: 6,
-    baths: 5,
-    areaSqm: 520,
-    images: [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-    ],
+    location: "Alanya, Antalya, Turkey",
+    units: 24,
+    beds: 24,
+    baths: 24,
+    areaSqm: 95,
+    imageDir: "/listings/alanya-muhabbet-suites",
+    images: [],
     featured: true,
-    features: ["Pool", "Sea view", "Garden", "Security"],
+    features: [
+      "Outdoor pool",
+      "Sauna",
+      "Turkish bath",
+      "Steam room",
+      "Reception",
+      "Lobby",
+    ],
   },
   {
     id: "3",

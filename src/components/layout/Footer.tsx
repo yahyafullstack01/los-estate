@@ -26,6 +26,11 @@ export async function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/#about" className="text-sm text-muted hover:text-foreground">
+                  {nav("about")}
+                </Link>
+              </li>
+              <li>
                 <Link
                   href="/listings"
                   className="text-sm text-muted hover:text-foreground"

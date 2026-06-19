@@ -11,6 +11,7 @@
   },
   "nav": {
     "home": "Ana sayfa",
+    "about": "Hakkımızda",
     "listings": "Gayrimenkuller",
     "contact": "İletişim",
     "sale": "Satılık",
@@ -21,6 +22,54 @@
     "subtitle": "Dünya çapındaki seçkin alıcılar ve kiracılar için özenle seçilmiş premium daireler, oteller ve rezidanslar.",
     "ctaBrowse": "Gayrimenkulleri incele",
     "ctaContact": "İletişime geç"
+  },
+  "about": {
+    "title": "LosEstate Hakkında",
+    "yearsLabel": "Yıllık deneyim",
+    "lead": "15 yılı aşkın süredir, başkalarının yalnızca metrekare gördüğü yerde katma değer yaratıyoruz.",
+    "body": "LosEstate, gayrimenkul yatırımlarının tam döngüsünde uzmanlaşmış uluslararası bir uzman ekibidir. On beş yılı aşkın sürede yerel işlemlerden Polonya, Türkiye ve İspanya'daki büyük ölçekli projelere uzanan bir yol kat ettik. Deneyimimiz, derin yenileme gerektiren tarihi ticari mülklerle yüksek teknolojili yeni yapılarla eşit derecede etkili çalışmamızı sağlar.",
+    "specializationTitle": "Uzmanlık alanlarımız",
+    "specializations": [
+      {
+        "title": "Yenileme ve rekonstrüksiyon",
+        "text": "Eski ticari alanları ve otelleri alıp modern, yüksek getirili varlıklara dönüştürüyoruz."
+      },
+      {
+        "title": "Yatırım danışmanlığı",
+        "text": "Yatırımcıların en iyi büyüme potansiyeline sahip mülkleri bulmasına yardımcı olur ve işlemlerin hukuki şeffaflığını sağlarız."
+      },
+      {
+        "title": "Kiralama yönetimi",
+        "text": "Apartman ve otel komplekslerinin operasyonel yönetimini üstlenerek sahipler için getiriyi maksimize ederiz."
+      },
+      {
+        "title": "Yeni projeler",
+        "text": "Piyasayı derinlemesine anlamamız, en umut verici modern projeleri ilk seçenler arasında olmamızı sağlar."
+      }
+    ],
+    "whyTitle": "Neden bizi seçmelisiniz",
+    "whyItems": [
+      {
+        "title": "Uluslararası erişim",
+        "text": "Polonya, Türkiye ve İspanya pazarlarına derinlemesine entegre olmuş durumdayız; özgünlüklerini, vergi mevzuatını ve kültürel farklılıklarını anlıyoruz."
+      },
+      {
+        "title": "Tam döngü profesyonelliği",
+        "text": "Yalnızca işlemi yürütmüyoruz — ilk mülk incelemesinden getiri optimizasyonuna kadar sahiplik ve yönetim stratejisi oluşturuyoruz."
+      },
+      {
+        "title": "Güvenlik ve deneyim",
+        "text": "Piyasada 15 yıl, binlerce başarılı vaka ve kusursuz bir itibar demektir. Her tür gayrimenkulle çalışırken riskleri nasıl minimize edeceğimizi biliyoruz."
+      }
+    ],
+    "closing": "LosEstate olarak inanıyoruz: gayrimenkul yalnızca bir bina değildir. Doğru yönetildiğinde finansal refahınızın temeli haline gelen bir araçtır.",
+    "images": {
+      "hero": "Lüks mülk dış cephesi",
+      "team": "Gayrimenkul uzmanları",
+      "renovation": "Butik otel iç mekanı",
+      "international": "Sahil tatil beldesi",
+      "closing": "Deniz kenarında lüks villa"
+    }
   },
   "categories": {
     "title": "Kategoriye göre keşfet",
@@ -64,6 +113,11 @@
     "description": "Açıklama",
     "features": "Özellikler",
     "location": "Konum",
+    "units": "{count} bağımsız bölüm",
+    "roomSpecs": "Oda nitelikleri",
+    "socialAmenities": "Sosyal alan nitelikleri",
+    "propertyNote": "Not",
+    "photosPlaceholder": "Fotoğraflar yakında — görselleri mülk klasörüne ekleyin",
     "inquire": "Bu gayrimenkul hakkında bilgi al"
   },
   "types": {
@@ -84,7 +138,12 @@
     "message": "Mesaj",
     "submit": "Mesaj gönder",
     "success": "Teşekkürler! Yakında sizinle iletişime geçeceğiz.",
-    "error": "Lütfen tüm zorunlu alanları doldurun."
+    "error": "Lütfen tüm zorunlu alanları doldurun.",
+    "inquiryFor": "İlan hakkında",
+    "propertyName": "İlan adı",
+    "propertyType": "Mülk tipi",
+    "transactionType": "İlan türü",
+    "messagePrefill": "İlan hakkında: {title} ({type}, {transaction})"
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
@@ -97,29 +156,91 @@
     "dark": "Karanlık mod"
   },
   "properties": {
-    "luxury-penthouse-kyiv": {
-      "title": "Lüks Penthouse — Kyiv merkezi",
-      "description": "Şehrin panoramik manzarasına, premium detaylara ve özel terasa sahip etkileyici bir penthouse. Kyiv'in en prestijli bölgesinin kalbinde yer alır."
-    },
-    "seaside-villa-odesa": {
-      "title": "Deniz kenarı villa — Odesa sahili",
-      "description": "Özel bahçesi, infinity havuzu ve doğrudan deniz erişimi olan zarif bir sahil villası. Lüks aile yaşamı veya tatil evi için idealdir."
+    "alanya-guzelyali-suites": {
+      "title": "Alanya Güzelyalı — Denize Sıfır Suite Apartman Projesi",
+      "description": "Antalya'nın Alanya ilçesinde 2506 ada 5 parselde bulunan, 24 bağımsız bölümden oluşan tamamlanmış suite apartman projemiz Güzelyalı Caddesi Muhabbet Sokak'ta denize sıfır konumda bulunmaktadır. Alanya'nın gözde sahil bölgelerinden Damlataş sahiline sıfır mesafede olup, Kleopatra Plajı'na yürüme mesafesindedir. Projemizin lokasyon özelliklerinden biri; otelimizin Alanya Kalesi'ne olan mesafesini 5 dakikaya kadar düşüren teleferiğin karşısında bulunmasıdır. Otel projemiz restorasyon olup, tüm daireler, genel alan ve bina dış cephelerde sıfırdan tadilat yapılmıştır. Binamızdaki tüm dairelerin odalarında sıfır klimalar bulunmaktadır.",
+      "note": "Kısa dönem kiralama yönetmeliğine uygundur.",
+      "roomSpecs": [
+        "6 adet 1+0 daire / net 25 m² / brüt 35 m² / 1 balkon / 1 WC",
+        "10 adet 1+1 daire / net 45 m² / brüt 55 m² / 2 balkon / 1 WC",
+        "2 adet 1+1 dubleks daire / net 50 m² / brüt 60 m² / 1 balkon / 1 WC",
+        "2 adet 2+1 dubleks daire / net 85 m² / brüt 95 m² / 2 balkon / 1 WC",
+        "4 adet dükkan / 16–29 m² olarak 2 farklı seçenek"
+      ],
+      "socialAmenities": [
+        "Açık havuz",
+        "Sauna",
+        "Hamam",
+        "Buhar odası",
+        "Resepsiyon",
+        "Lobi"
+      ],
+      "location": "Alanya, Antalya, Türkiye"
     },
     "boutique-hotel-lviv": {
       "title": "Butik otel — Lviv eski şehir",
-      "description": "UNESCO listesindeki eski şehirde faaliyet gösteren tam donanımlı butik otel. 24 süit, restoran ve yatırımcılar için güçlü kira getirisi."
+      "description": "UNESCO listesindeki eski şehirde faaliyet gösteren tam donanımlı butik otel. 24 süit, restoran ve yatırımcılar için güçlü kira getirisi.",
+      "location": "Lviv, Ukrayna",
+      "features": [
+        "Restoran",
+        "24 süit",
+        "Tarihi bölge",
+        "Yüksek getiri"
+      ]
     },
     "modern-apartment-rent-kyiv": {
       "title": "Modern daire — Pechersk",
-      "description": "Pechersk'te tamamen mobilyalı tasarım daire. Akıllı ev özellikleri, concierge hizmeti ve kapalı otopark dahildir."
+      "description": "Pechersk'te tamamen mobilyalı tasarım daire. Akıllı ev özellikleri, concierge hizmeti ve kapalı otopark dahildir.",
+      "location": "Kyiv, Ukrayna",
+      "features": [
+        "Mobilyalı",
+        "Concierge",
+        "Otopark",
+        "Spor salonu"
+      ]
     },
     "family-house-rent-lviv": {
       "title": "Aile evi — Lviv banliyöleri",
-      "description": "Geniş bahçesi, ev ofisi ve sakin mahallesi olan ferah aile evi. Uzun dönem kurumsal kiralamalar için idealdir."
+      "description": "Geniş bahçesi, ev ofisi ve sakin mahallesi olan ferah aile evi. Uzun dönem kurumsal kiralamalar için idealdir.",
+      "location": "Lviv, Ukrayna",
+      "features": [
+        "Bahçe",
+        "Ev ofisi",
+        "Garaj",
+        "Sakin bölge"
+      ]
     },
     "hotel-suite-rent-odesa": {
       "title": "Otel süiti — Odesa Marina",
-      "description": "Beş yıldızlı deniz kenarı otelde premium servisli süit. Günlük temizlik, spa erişimi ve marina manzarası sunar."
+      "description": "Beş yıldızlı deniz kenarı otelde premium servisli süit. Günlük temizlik, spa erişimi ve marina manzarası sunar.",
+      "location": "Odessa, Ukrayna",
+      "features": [
+        "Temizlik",
+        "Spa",
+        "Marina manzarası",
+        "Oda servisi"
+      ]
+    },
+    "alanya-muhabbet-suites": {
+      "title": "Alanya Güzelyalı — Denize Sıfır Suite Apartman Projesi",
+      "description": "Antalya'nın Alanya ilçesinde 2506 ada 5 parselde bulunan, 24 bağımsız bölümden oluşan tamamlanmış suite apartman projemiz Güzelyalı Caddesi Muhabbet Sokak'ta denize sıfır konumda bulunmaktadır. Alanya'nın gözde sahil bölgelerinden Damlataş sahiline sıfır mesafede olup, Kleopatra Plajı'na yürüme mesafesindedir. Projemizin lokasyon özelliklerinden biri; otelimizin Alanya Kalesi'ne olan mesafesini 5 dakikaya kadar düşüren teleferiğin karşısında bulunmasıdır. Otel projemiz restorasyon olup, tüm daireler, genel alan ve bina dış cephelerde sıfırdan tadilat yapılmıştır. Binamızdaki tüm dairelerin odalarında sıfır klimalar bulunmaktadır.",
+      "note": "Kısa dönem kiralama yönetmeliğine uygundur.",
+      "roomSpecs": [
+        "6 adet 1+0 daire / net 25 m² / brüt 35 m² / 1 balkon / 1 WC",
+        "10 adet 1+1 daire / net 45 m² / brüt 55 m² / 2 balkon / 1 WC",
+        "2 adet 1+1 dubleks daire / net 50 m² / brüt 60 m² / 1 balkon / 1 WC",
+        "2 adet 2+1 dubleks daire / net 85 m² / brüt 95 m² / 2 balkon / 1 WC",
+        "4 adet dükkan / 16–29 m² olarak 2 farklı seçenek"
+      ],
+      "socialAmenities": [
+        "Açık havuz",
+        "Sauna",
+        "Hamam",
+        "Buhar odası",
+        "Resepsiyon",
+        "Lobi"
+      ],
+      "location": "Alanya, Antalya, Türkiye"
     }
   }
 }
