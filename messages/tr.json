@@ -118,6 +118,12 @@
     "socialAmenities": "Sosyal alan nitelikleri",
     "propertyNote": "Not",
     "photosPlaceholder": "Fotoğraflar yakında — görselleri mülk klasörüne ekleyin",
+    "openPhoto": "Fotoğrafı aç",
+    "closeGallery": "Galeriyi kapat",
+    "previousPhoto": "Önceki fotoğraf",
+    "nextPhoto": "Sonraki fotoğraf",
+    "photoViewer": "Fotoğraf görüntüleyici",
+    "photoOf": "Fotoğraf {current} / {total}",
     "inquire": "Bu gayrimenkul hakkında bilgi al"
   },
   "types": {
@@ -157,25 +163,27 @@
   },
   "properties": {
     "alanya-guzelyali-suites": {
-      "title": "Alanya Güzelyalı — Denize Sıfır Suite Apartman Projesi",
-      "description": "Antalya'nın Alanya ilçesinde 2506 ada 5 parselde bulunan, 24 bağımsız bölümden oluşan tamamlanmış suite apartman projemiz Güzelyalı Caddesi Muhabbet Sokak'ta denize sıfır konumda bulunmaktadır. Alanya'nın gözde sahil bölgelerinden Damlataş sahiline sıfır mesafede olup, Kleopatra Plajı'na yürüme mesafesindedir. Projemizin lokasyon özelliklerinden biri; otelimizin Alanya Kalesi'ne olan mesafesini 5 dakikaya kadar düşüren teleferiğin karşısında bulunmasıdır. Otel projemiz restorasyon olup, tüm daireler, genel alan ve bina dış cephelerde sıfırdan tadilat yapılmıştır. Binamızdaki tüm dairelerin odalarında sıfır klimalar bulunmaktadır.",
-      "note": "Kısa dönem kiralama yönetmeliğine uygundur.",
+      "title": "Develi Hotel",
+      "location": "Alanya, Antalya, Türkiye",
+      "description": "Alanya bölgesinde, 2506 ada, 5 numaralı parselde yer alan tamamlanmış Suites apart otel projemiz 24 bağımsız daireden oluşmaktadır. Kompleks, Güzelyalı Caddesi, Muhabbet Sokak adresinde birinci sahil şeridindedir.\n\nProje, Alanya'nın en prestijli sahil bölgelerinden biri olan Damlataş Plajı'na doğrudan bitişiktir ve Kleopatra Plajı yürüme mesafesindedir.\n\nKonumun en önemli avantajlarından biri, otelin karşısında bulunan ve Alanya Castle'a ulaşım süresini 5 dakikaya indiren teleferik istasyonudur.\n\nProje tamamen yeniden inşa edilmiş bir yapıdır. Tüm dairelerde, ortak alanlarda ve bina cephesinde sıfırdan kapsamlı tadilat yapılmıştır.\n\nTüm odalarda yeni klimalar bulunmaktadır.",
+      "note": "Tesis, kısa dönem kiralama mevzuatına uygundur.",
+      "roomSpecsTitle": "Daire özellikleri",
       "roomSpecs": [
-        "6 adet 1+0 daire / net 25 m² / brüt 35 m² / 1 balkon / 1 WC",
-        "10 adet 1+1 daire / net 45 m² / brüt 55 m² / 2 balkon / 1 WC",
-        "2 adet 1+1 dubleks daire / net 50 m² / brüt 60 m² / 1 balkon / 1 WC",
-        "2 adet 2+1 dubleks daire / net 85 m² / brüt 95 m² / 2 balkon / 1 WC",
-        "4 adet dükkan / 16–29 m² olarak 2 farklı seçenek"
+        "6 stüdyo (1+0) — net 25 m², brüt 35 m², 1 balkon, 1 banyo",
+        "10 daire 1+1 — net 45 m², brüt 55 m², 2 balkon, 1 banyo",
+        "2 çift katlı 1+1 dubleks — net 50 m², brüt 60 m², 1 balkon, 1 banyo",
+        "2 çift katlı 2+1 dubleks — net 85 m², brüt 95 m², 2 balkon, 1 banyo",
+        "4 ticari ünite, 16–29 m² (iki farklı seçenek)"
       ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
       "socialAmenities": [
         "Açık havuz",
         "Sauna",
-        "Hamam",
+        "Türk hamamı",
         "Buhar odası",
         "Resepsiyon",
         "Lobi"
-      ],
-      "location": "Alanya, Antalya, Türkiye"
+      ]
     },
     "boutique-hotel-lviv": {
       "title": "Butik otel — Lviv eski şehir",
@@ -222,25 +230,27 @@
       ]
     },
     "alanya-muhabbet-suites": {
-      "title": "Alanya Güzelyalı — Denize Sıfır Suite Apartman Projesi",
-      "description": "Antalya'nın Alanya ilçesinde 2506 ada 5 parselde bulunan, 24 bağımsız bölümden oluşan tamamlanmış suite apartman projemiz Güzelyalı Caddesi Muhabbet Sokak'ta denize sıfır konumda bulunmaktadır. Alanya'nın gözde sahil bölgelerinden Damlataş sahiline sıfır mesafede olup, Kleopatra Plajı'na yürüme mesafesindedir. Projemizin lokasyon özelliklerinden biri; otelimizin Alanya Kalesi'ne olan mesafesini 5 dakikaya kadar düşüren teleferiğin karşısında bulunmasıdır. Otel projemiz restorasyon olup, tüm daireler, genel alan ve bina dış cephelerde sıfırdan tadilat yapılmıştır. Binamızdaki tüm dairelerin odalarında sıfır klimalar bulunmaktadır.",
-      "note": "Kısa dönem kiralama yönetmeliğine uygundur.",
+      "title": "Alanya — Suites Apart Otel",
+      "location": "Alanya, Antalya, Türkiye",
+      "description": "Alanya bölgesinde, 2506 ada, 5 numaralı parselde yer alan tamamlanmış Suites apart otel projemiz 24 bağımsız daireden oluşmaktadır. Kompleks, Güzelyalı Caddesi, Muhabbet Sokak adresinde birinci sahil şeridindedir.\n\nProje, Alanya'nın en prestijli sahil bölgelerinden biri olan Damlataş Plajı'na doğrudan bitişiktir ve Kleopatra Plajı yürüme mesafesindedir.\n\nKonumun en önemli avantajlarından biri, otelin karşısında bulunan ve Alanya Castle'a ulaşım süresini 5 dakikaya indiren teleferik istasyonudur.\n\nProje tamamen yeniden inşa edilmiş bir yapıdır. Tüm dairelerde, ortak alanlarda ve bina cephesinde sıfırdan kapsamlı tadilat yapılmıştır.\n\nTüm odalarda yeni klimalar bulunmaktadır.",
+      "note": "Tesis, kısa dönem kiralama mevzuatına uygundur.",
+      "roomSpecsTitle": "Daire özellikleri",
       "roomSpecs": [
-        "6 adet 1+0 daire / net 25 m² / brüt 35 m² / 1 balkon / 1 WC",
-        "10 adet 1+1 daire / net 45 m² / brüt 55 m² / 2 balkon / 1 WC",
-        "2 adet 1+1 dubleks daire / net 50 m² / brüt 60 m² / 1 balkon / 1 WC",
-        "2 adet 2+1 dubleks daire / net 85 m² / brüt 95 m² / 2 balkon / 1 WC",
-        "4 adet dükkan / 16–29 m² olarak 2 farklı seçenek"
+        "6 stüdyo (1+0) — net 25 m², brüt 35 m², 1 balkon, 1 banyo",
+        "10 daire 1+1 — net 45 m², brüt 55 m², 2 balkon, 1 banyo",
+        "2 çift katlı 1+1 dubleks — net 50 m², brüt 60 m², 1 balkon, 1 banyo",
+        "2 çift katlı 2+1 dubleks — net 85 m², brüt 95 m², 2 balkon, 1 banyo",
+        "4 ticari ünite, 16–29 m² (iki farklı seçenek)"
       ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
       "socialAmenities": [
         "Açık havuz",
         "Sauna",
-        "Hamam",
+        "Türk hamamı",
         "Buhar odası",
         "Resepsiyon",
         "Lobi"
-      ],
-      "location": "Alanya, Antalya, Türkiye"
+      ]
     }
   }
 }

@@ -118,6 +118,12 @@
     "socialAmenities": "Gemeinschaftsbereiche",
     "propertyNote": "Hinweis",
     "photosPlaceholder": "Fotos folgen — Bilder in den Immobilienordner legen",
+    "openPhoto": "Foto öffnen",
+    "closeGallery": "Galerie schließen",
+    "previousPhoto": "Vorheriges Foto",
+    "nextPhoto": "Nächstes Foto",
+    "photoViewer": "Fotobetrachter",
+    "photoOf": "Foto {current} von {total}",
     "inquire": "Anfrage zu dieser Immobilie"
   },
   "types": {
@@ -157,25 +163,27 @@
   },
   "properties": {
     "alanya-guzelyali-suites": {
-      "title": "Alanya Güzelyalı — Suite-Apartment-Projekt direkt am Meer",
-      "description": "Unser fertiggestelltes Suite-Apartment-Projekt mit 24 unabhängigen Einheiten befindet sich auf Parzelle 5, Block 2506 im Bezirk Alanya in Antalya, in der Güzelyalı Straße, Muhabbet Sokak, in direkter Strandlage. Es liegt in einer der beliebtesten Küstenregionen Alanyas, unmittelbar am Damlataş-Strand und in Gehweite zum Kleopatra-Strand. Ein Standortvorteil ist die Lage gegenüber der Seilbahn, die die Fahrt zur Burg von Alanya auf 5 Minuten verkürzt. Vollständige Restaurierung: alle Wohnungen, Gemeinschaftsbereiche und Fassaden wurden komplett renoviert. Alle Zimmer verfügen über neue Klimaanlagen.",
-      "note": "Entspricht den Vorschriften für Kurzzeitvermietung.",
+      "title": "Develi Hotel",
+      "location": "Alanya, Antalya, Türkei",
+      "description": "Unser fertiggestelltes Suites-Apart-Hotel-Projekt im Bezirk Alanya, Parzelle Nr. 5, Block 2506, umfasst 24 eigenständige Apartments. Der Komplex liegt in der ersten Meereslinie an der Güzelyalı Street, Muhabbet Sokak.\n\nDas Projekt befindet sich direkt am Damlataş-Strand, einem der prestigeträchtigsten Küstengebiete Alanyas, und der Kleopatra-Strand ist fußläufig erreichbar.\n\nEin wichtiger Standortvorteil ist die Seilbahnstation gegenüber dem Hotel, die die Fahrt zur Alanya Castle auf nur 5 Minuten verkürzt.\n\nDas Projekt ist ein vollständig rekonstruiertes Gebäude. Alle Apartments, Gemeinschaftsbereiche und die Fassade wurden umfassend von Grund auf renoviert.\n\nAlle Zimmer verfügen über neue Klimaanlagen.",
+      "note": "Das Objekt entspricht den Vorschriften für Kurzzeitvermietung.",
+      "roomSpecsTitle": "Apartmentausstattung",
       "roomSpecs": [
-        "6 Einheiten — 1+0 / netto 25 m² / brutto 35 m² / 1 Balkon / 1 Bad",
-        "10 Einheiten — 1+1 / netto 45 m² / brutto 55 m² / 2 Balkone / 1 Bad",
-        "2 Einheiten — 1+1 Duplex / netto 50 m² / brutto 60 m² / 1 Balkon / 1 Bad",
-        "2 Einheiten — 2+1 Duplex / netto 85 m² / brutto 95 m² / 2 Balkone / 1 Bad",
-        "4 Gewerbeeinheiten — 16–29 m² in zwei Größen"
+        "6 Studios (1+0) — Wohnfläche 25 m², Gesamtfläche 35 m², 1 Balkon, 1 Bad",
+        "10 Apartments 1+1 — Wohnfläche 45 m², Gesamtfläche 55 m², 2 Balkone, 1 Bad",
+        "2 Maisonette-Apartments 1+1 — Wohnfläche 50 m², Gesamtfläche 60 m², 1 Balkon, 1 Bad",
+        "2 Maisonette-Apartments 2+1 — Wohnfläche 85 m², Gesamtfläche 95 m², 2 Balkone, 1 Bad",
+        "4 Gewerbeeinheiten mit 16–29 m² (zwei Größenoptionen)"
       ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
       "socialAmenities": [
         "Außenpool",
         "Sauna",
-        "Türkisches Bad (Hammam)",
+        "Türkisches Hammam",
         "Dampfbad",
         "Rezeption",
         "Lobby"
-      ],
-      "location": "Alanya, Antalya, Türkei"
+      ]
     },
     "boutique-hotel-lviv": {
       "title": "Boutique-Hotel — Altstadt von Lviv",
@@ -222,25 +230,27 @@
       ]
     },
     "alanya-muhabbet-suites": {
-      "title": "Alanya Güzelyalı — Suite-Apartment-Projekt direkt am Meer",
-      "description": "Unser fertiggestelltes Suite-Apartment-Projekt mit 24 unabhängigen Einheiten befindet sich auf Parzelle 5, Block 2506 im Bezirk Alanya in Antalya, in der Güzelyalı Straße, Muhabbet Sokak, in direkter Strandlage. Es liegt in einer der beliebtesten Küstenregionen Alanyas, unmittelbar am Damlataş-Strand und in Gehweite zum Kleopatra-Strand. Ein Standortvorteil ist die Lage gegenüber der Seilbahn, die die Fahrt zur Burg von Alanya auf 5 Minuten verkürzt. Vollständige Restaurierung: alle Wohnungen, Gemeinschaftsbereiche und Fassaden wurden komplett renoviert. Alle Zimmer verfügen über neue Klimaanlagen.",
-      "note": "Entspricht den Vorschriften für Kurzzeitvermietung.",
+      "title": "Alanya — Suites Apart-Hotel",
+      "location": "Alanya, Antalya, Türkei",
+      "description": "Unser fertiggestelltes Suites-Apart-Hotel-Projekt im Bezirk Alanya, Parzelle Nr. 5, Block 2506, umfasst 24 eigenständige Apartments. Der Komplex liegt in der ersten Meereslinie an der Güzelyalı Street, Muhabbet Sokak.\n\nDas Projekt befindet sich direkt am Damlataş-Strand, einem der prestigeträchtigsten Küstengebiete Alanyas, und der Kleopatra-Strand ist fußläufig erreichbar.\n\nEin wichtiger Standortvorteil ist die Seilbahnstation gegenüber dem Hotel, die die Fahrt zur Alanya Castle auf nur 5 Minuten verkürzt.\n\nDas Projekt ist ein vollständig rekonstruiertes Gebäude. Alle Apartments, Gemeinschaftsbereiche und die Fassade wurden umfassend von Grund auf renoviert.\n\nAlle Zimmer verfügen über neue Klimaanlagen.",
+      "note": "Das Objekt entspricht den Vorschriften für Kurzzeitvermietung.",
+      "roomSpecsTitle": "Apartmentausstattung",
       "roomSpecs": [
-        "6 Einheiten — 1+0 / netto 25 m² / brutto 35 m² / 1 Balkon / 1 Bad",
-        "10 Einheiten — 1+1 / netto 45 m² / brutto 55 m² / 2 Balkone / 1 Bad",
-        "2 Einheiten — 1+1 Duplex / netto 50 m² / brutto 60 m² / 1 Balkon / 1 Bad",
-        "2 Einheiten — 2+1 Duplex / netto 85 m² / brutto 95 m² / 2 Balkone / 1 Bad",
-        "4 Gewerbeeinheiten — 16–29 m² in zwei Größen"
+        "6 Studios (1+0) — Wohnfläche 25 m², Gesamtfläche 35 m², 1 Balkon, 1 Bad",
+        "10 Apartments 1+1 — Wohnfläche 45 m², Gesamtfläche 55 m², 2 Balkone, 1 Bad",
+        "2 Maisonette-Apartments 1+1 — Wohnfläche 50 m², Gesamtfläche 60 m², 1 Balkon, 1 Bad",
+        "2 Maisonette-Apartments 2+1 — Wohnfläche 85 m², Gesamtfläche 95 m², 2 Balkone, 1 Bad",
+        "4 Gewerbeeinheiten mit 16–29 m² (zwei Größenoptionen)"
       ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
       "socialAmenities": [
         "Außenpool",
         "Sauna",
-        "Türkisches Bad (Hammam)",
+        "Türkisches Hammam",
         "Dampfbad",
         "Rezeption",
         "Lobby"
-      ],
-      "location": "Alanya, Antalya, Türkei"
+      ]
     }
   }
 }

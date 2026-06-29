@@ -13,9 +13,13 @@ export async function getPropertyTranslations(slug: string) {
         ? (pt.raw("socialAmenities") as string[])
         : null,
     roomSpecs: pt.has("roomSpecs") ? (pt.raw("roomSpecs") as string[]) : [],
+    roomSpecsTitle: pt.has("roomSpecsTitle") ? pt("roomSpecsTitle") : null,
     socialAmenities: pt.has("socialAmenities")
       ? (pt.raw("socialAmenities") as string[])
       : [],
+    socialAmenitiesTitle: pt.has("socialAmenitiesTitle")
+      ? pt("socialAmenitiesTitle")
+      : null,
     note: pt.has("note") ? pt("note") : null,
   };
 }

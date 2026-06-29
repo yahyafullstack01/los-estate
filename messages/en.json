@@ -118,6 +118,12 @@
     "socialAmenities": "Social amenities",
     "propertyNote": "Note",
     "photosPlaceholder": "Photos coming soon — add images to the property folder",
+    "openPhoto": "Open photo",
+    "closeGallery": "Close gallery",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "photoViewer": "Photo viewer",
+    "photoOf": "Photo {current} of {total}",
     "inquire": "Inquire about this property"
   },
   "types": {
@@ -157,21 +163,23 @@
   },
   "properties": {
     "alanya-guzelyali-suites": {
-      "title": "Alanya Güzelyalı — Beachfront Suite Apartment Project",
+      "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turkey",
-      "description": "Our completed suite apartment project of 24 independent units is located on parcel 5, block 2506 in Alanya district of Antalya, on Güzelyalı Street, Muhabbet Sokak, in a beachfront position. It sits in one of Alanya's prime coastal areas, directly on Damlataş Beach and within walking distance of Kleopatra Beach. A key location advantage is its position opposite the cable car that reduces travel time to Alanya Castle to just 5 minutes. This is a full restoration project: all apartments, common areas, and exterior façades have been renovated from scratch. Every room is equipped with brand-new air conditioning.",
-      "note": "Compliant with short-term rental regulations.",
+      "description": "Our completed Suites apart-hotel project in Alanya district, on parcel No. 5, block 2506, comprises 24 independent apartments. The complex is on the first coastline at Güzelyalı Street, Muhabbet Sokak.\n\nThe project is located directly at Damlataş Beach, one of Alanya's most prestigious coastal areas, and Kleopatra Beach is within walking distance.\n\nA key location advantage is the cable car station opposite the hotel, reducing travel time to Alanya Castle to just 5 minutes.\n\nThe project is a fully reconstructed building. All apartments, common areas, and the building façade have been comprehensively renovated from scratch.\n\nAll rooms are equipped with new air conditioning units.",
+      "note": "The property complies with legislation for short-term rental.",
+      "roomSpecsTitle": "Apartment specifications",
       "roomSpecs": [
-        "6 units — 1+0 / net 25 m² / gross 35 m² / 1 balcony / 1 bathroom",
-        "10 units — 1+1 / net 45 m² / gross 55 m² / 2 balconies / 1 bathroom",
-        "2 units — 1+1 duplex / net 50 m² / gross 60 m² / 1 balcony / 1 bathroom",
-        "2 units — 2+1 duplex / net 85 m² / gross 95 m² / 2 balconies / 1 bathroom",
-        "4 retail units — 16–29 m² in two size options"
+        "6 studios (1+0) — living area 25 m², total area 35 m², 1 balcony, 1 bathroom",
+        "10 apartments 1+1 — living area 45 m², total area 55 m², 2 balconies, 1 bathroom",
+        "2 two-level 1+1 duplex apartments — living area 50 m², total area 60 m², 1 balcony, 1 bathroom",
+        "2 two-level 2+1 duplex apartments — living area 85 m², total area 95 m², 2 balconies, 1 bathroom",
+        "4 commercial units of 16–29 m² (available in two size options)"
       ],
+      "socialAmenitiesTitle": "Complex amenities",
       "socialAmenities": [
         "Outdoor pool",
         "Sauna",
-        "Turkish bath (hammam)",
+        "Turkish hammam",
         "Steam room",
         "Reception",
         "Lobby"
@@ -222,21 +230,23 @@
       "description": "Premium serviced suite in a five-star waterfront hotel. Daily housekeeping, spa access, and marina views."
     },
     "alanya-muhabbet-suites": {
-      "title": "Alanya Güzelyalı — Beachfront Suite Apartment Project",
+      "title": "Alanya — Suites Apart-Hotel",
       "location": "Alanya, Antalya, Turkey",
-      "description": "Our completed suite apartment project of 24 independent units is located on parcel 5, block 2506 in Alanya district of Antalya, on Güzelyalı Street, Muhabbet Sokak, in a beachfront position. It sits in one of Alanya's prime coastal areas, directly on Damlataş Beach and within walking distance of Kleopatra Beach. A key location advantage is its position opposite the cable car that reduces travel time to Alanya Castle to just 5 minutes. This is a full restoration project: all apartments, common areas, and exterior façades have been renovated from scratch. Every room is equipped with brand-new air conditioning.",
-      "note": "Compliant with short-term rental regulations.",
+      "description": "Our completed Suites apart-hotel project in Alanya district, on parcel No. 5, block 2506, comprises 24 independent apartments. The complex is on the first coastline at Güzelyalı Street, Muhabbet Sokak.\n\nThe project is located directly at Damlataş Beach, one of Alanya's most prestigious coastal areas, and Kleopatra Beach is within walking distance.\n\nA key location advantage is the cable car station opposite the hotel, reducing travel time to Alanya Castle to just 5 minutes.\n\nThe project is a fully reconstructed building. All apartments, common areas, and the building façade have been comprehensively renovated from scratch.\n\nAll rooms are equipped with new air conditioning units.",
+      "note": "The property complies with legislation for short-term rental.",
+      "roomSpecsTitle": "Apartment specifications",
       "roomSpecs": [
-        "6 units — 1+0 / net 25 m² / gross 35 m² / 1 balcony / 1 bathroom",
-        "10 units — 1+1 / net 45 m² / gross 55 m² / 2 balconies / 1 bathroom",
-        "2 units — 1+1 duplex / net 50 m² / gross 60 m² / 1 balcony / 1 bathroom",
-        "2 units — 2+1 duplex / net 85 m² / gross 95 m² / 2 balconies / 1 bathroom",
-        "4 retail units — 16–29 m² in two size options"
+        "6 studios (1+0) — living area 25 m², total area 35 m², 1 balcony, 1 bathroom",
+        "10 apartments 1+1 — living area 45 m², total area 55 m², 2 balconies, 1 bathroom",
+        "2 two-level 1+1 duplex apartments — living area 50 m², total area 60 m², 1 balcony, 1 bathroom",
+        "2 two-level 2+1 duplex apartments — living area 85 m², total area 95 m², 2 balconies, 1 bathroom",
+        "4 commercial units of 16–29 m² (available in two size options)"
       ],
+      "socialAmenitiesTitle": "Complex amenities",
       "socialAmenities": [
         "Outdoor pool",
         "Sauna",
-        "Turkish bath (hammam)",
+        "Turkish hammam",
         "Steam room",
         "Reception",
         "Lobby"

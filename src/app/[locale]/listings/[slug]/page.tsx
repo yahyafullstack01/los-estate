@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -6,12 +5,12 @@ import { Bed, Bath, MapPin, Maximize } from "lucide-react";
 import {
   getListingBySlug,
   getListingSlugs,
-  type Listing,
 } from "@/data/listings";
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { ContactForm } from "@/components/sections/ContactForm";
+import { PropertyGallery } from "@/components/listing/PropertyGallery";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
 import { formatPrice } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations, getListingInquiryContext } from "@/lib/property-i18n";
@@ -68,10 +67,17 @@ export default async function PropertyDetailPage({ params }: Props) {
       : price;
 
   const roomSpecs = property.roomSpecs;
+  const roomSpecsTitle =
+    property.roomSpecsTitle ?? t("listings.roomSpecs");
   const socialAmenities =
     property.socialAmenities.length > 0
       ? property.socialAmenities
       : property.features ?? listing.features;
+  const socialAmenitiesTitle =
+    property.socialAmenitiesTitle ??
+    (roomSpecs.length > 0
+      ? t("listings.socialAmenities")
+      : t("listings.features"));
   const propertyNote = property.note;
   const listingInquiry = await getListingInquiryContext(slug, listing);
 
@@ -144,7 +150,7 @@ export default async function PropertyDetailPage({ params }: Props) {
 
             {roomSpecs.length > 0 && (
               <section className="mt-8">
-                <h2 className="text-lg font-semibold">{t("listings.roomSpecs")}</h2>
+                <h2 className="text-lg font-semibold">{roomSpecsTitle}</h2>
                 <ul className="mt-3 space-y-2">
                   {roomSpecs.map((spec) => (
                     <li
@@ -159,11 +165,7 @@ export default async function PropertyDetailPage({ params }: Props) {
             )}
 
             <section className="mt-8">
-              <h2 className="text-lg font-semibold">
-                {roomSpecs.length > 0
-                  ? t("listings.socialAmenities")
-                  : t("listings.features")}
-              </h2>
+              <h2 className="text-lg font-semibold">{socialAmenitiesTitle}</h2>
               <ul className="mt-3 flex flex-wrap gap-2">
                 {socialAmenities.map((feature) => (
                   <li
@@ -177,81 +179,28 @@ export default async function PropertyDetailPage({ params }: Props) {
             </section>
 
             <div className="mt-8 hidden lg:block">
-              <Button href={`/contact?property=${slug}`} size="lg">
+              <Button href="#inquire" size="lg">
                 {t("listings.inquire")}
               </Button>
             </div>
           </div>
         </div>
 
-        <section className="mt-16 lg:hidden">
-          <h2 className="font-serif text-2xl">{t("listings.inquire")}</h2>
-          <div className="mt-6 rounded-xl border border-border bg-surface p-6">
-            <ContactForm listing={listingInquiry} />
+        <section
+          id="inquire"
+          className="mt-16 scroll-mt-24 border-t border-border pt-12 sm:pt-16"
+        >
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="font-serif text-2xl sm:text-3xl">
+              {t("listings.inquire")}
+            </h2>
+            <p className="mt-3 text-muted">{t("contact.subtitle")}</p>
           </div>
-        </section>
-
-        <section className="mt-16 hidden lg:block">
-          <h2 className="font-serif text-2xl">{t("listings.inquire")}</h2>
-          <div className="mt-6 max-w-xl rounded-xl border border-border bg-surface p-6">
+          <div className="mx-auto mt-8 max-w-2xl rounded-xl border border-border bg-surface p-6 sm:p-8">
             <ContactForm listing={listingInquiry} />
           </div>
         </section>
       </div>
     </>
-  );
-}
-
-function PropertyGallery({
-  listing,
-  title,
-  placeholder,
-}: {
-  listing: Listing;
-  title: string;
-  placeholder: string;
-}) {
-  if (listing.images.length === 0) {
-    return (
-      <div className="flex aspect-[4/3] flex-col items-center justify-center gap-3 rounded-xl border border-dashed border-border bg-surface-muted px-6 text-center">
-        <p className="text-sm text-muted">{placeholder}</p>
-        {listing.imageDir && (
-          <p className="font-mono text-xs text-brand-gold">{listing.imageDir}/</p>
-        )}
-      </div>
-    );
-  }
-
-  return (
-    <div className="space-y-3">
-      <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
-        <Image
-          src={listing.images[0]}
-          alt={title}
-          fill
-          className="object-cover"
-          priority
-          sizes="(max-width: 1024px) 100vw, 50vw"
-        />
-      </div>
-      {listing.images.length > 1 && (
-        <div className="grid grid-cols-2 gap-3">
-          {listing.images.slice(1).map((src, i) => (
-            <div
-              key={src}
-              className="relative aspect-video overflow-hidden rounded-lg"
-            >
-              <Image
-                src={src}
-                alt={`${title} ${i + 2}`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 50vw, 25vw"
-              />
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
   );
 }

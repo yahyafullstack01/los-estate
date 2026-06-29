@@ -118,6 +118,12 @@
     "socialAmenities": "Strefy socjalne",
     "propertyNote": "Uwaga",
     "photosPlaceholder": "Zdjęcia wkrótce — dodaj obrazy do folderu nieruchomości",
+    "openPhoto": "Otwórz zdjęcie",
+    "closeGallery": "Zamknij galerię",
+    "previousPhoto": "Poprzednie zdjęcie",
+    "nextPhoto": "Następne zdjęcie",
+    "photoViewer": "Podgląd zdjęć",
+    "photoOf": "Zdjęcie {current} z {total}",
     "inquire": "Zapytaj o tę nieruchomość"
   },
   "types": {
@@ -157,25 +163,27 @@
   },
   "properties": {
     "alanya-guzelyali-suites": {
-      "title": "Alanya Güzelyalı — Projekt apartamentów suite przy plaży",
-      "description": "Nasz ukończony projekt apartamentów suite składający się z 24 niezależnych lokali znajduje się na działce 5, obręb 2506 w dystrykcie Alanya w Antalyi, przy ulicy Güzelyalı, Muhabbet Sokak, bezpośrednio przy morzu. Obiekt leży w jednej z najpopularniejszych stref nadmorskich Alanyi, przy plaży Damlataş i w odległości spaceru od plaży Kleopatra. Kluczową zaletą lokalizacji jest położenie naprzeciwko kolejki linowej skracającej dojazd do zamku w Alanyi do 5 minut. Pełna renowacja: wszystkie apartamenty, części wspólne i elewacje odnowione od podstaw. W każdym pokoju nowe klimatyzatory.",
-      "note": "Zgodny z przepisami dotyczącymi krótkoterminowego wynajmu.",
+      "title": "Develi Hotel",
+      "location": "Alanya, Antalya, Turcja",
+      "description": "Nasz ukończony projekt apart-hotelu Suites, położony w dzielnicy Alanya, na działce nr 5, obręb 2506, składa się z 24 niezależnych apartamentów. Kompleks znajduje się w pierwszej linii brzegowej przy ulicy Güzelyalı Caddesi, Muhabbet Sokak.\n\nProjekt leży bezpośrednio przy plaży Damlataş, jednym z najbardziej prestiżowych nadmorskich rejonów Alanyi, a plaża Kleopatry jest w odległości spaceru.\n\nKluczową zaletą lokalizacji jest stacja kolejki linowej naprzeciwko hotelu, skracająca dojazd do Alanya Castle do 5 minut.\n\nProjekt to w pełni zrekonstruowany budynek. We wszystkich apartamentach, częściach wspólnych i na elewacji wykonano generalny remont od podstaw.\n\nWe wszystkich pokojach zamontowano nowe klimatyzatory.",
+      "note": "Obiekt spełnia wymogi przepisów dotyczących krótkoterminowego wynajmu.",
+      "roomSpecsTitle": "Charakterystyka apartamentów",
       "roomSpecs": [
-        "6 lokali — 1+0 / netto 25 m² / brutto 35 m² / 1 balkon / 1 łazienka",
-        "10 lokali — 1+1 / netto 45 m² / brutto 55 m² / 2 balkony / 1 łazienka",
-        "2 lokale — 1+1 duplex / netto 50 m² / brutto 60 m² / 1 balkon / 1 łazienka",
-        "2 lokale — 2+1 duplex / netto 85 m² / brutto 95 m² / 2 balkony / 1 łazienka",
-        "4 lokale handlowe — 16–29 m² w dwóch wariantach"
+        "6 kawalerek (1+0) — powierzchnia użytkowa 25 m², powierzchnia całkowita 35 m², 1 balkon, 1 łazienka",
+        "10 apartamentów 1+1 — powierzchnia użytkowa 45 m², powierzchnia całkowita 55 m², 2 balkony, 1 łazienka",
+        "2 apartamenty dwupoziomowe 1+1 (duplex) — pow. użytkowa 50 m², całkowita 60 m², 1 balkon, 1 łazienka",
+        "2 apartamenty dwupoziomowe 2+1 (duplex) — pow. użytkowa 85 m², całkowita 95 m², 2 balkony, 1 łazienka",
+        "4 lokale handlowe o powierzchni 16–29 m² (dwa warianty)"
       ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
       "socialAmenities": [
         "Basen odkryty",
         "Sauna",
-        "Łaźnia turecka (hamam)",
+        "Turecki hammam",
         "Łaźnia parowa",
         "Recepcja",
         "Lobby"
-      ],
-      "location": "Alanya, Antalya, Turcja"
+      ]
     },
     "boutique-hotel-lviv": {
       "title": "Hotel butikowy — Stare Miasto we Lwowie",
@@ -222,25 +230,27 @@
       ]
     },
     "alanya-muhabbet-suites": {
-      "title": "Alanya Güzelyalı — Projekt apartamentów suite przy plaży",
-      "description": "Nasz ukończony projekt apartamentów suite składający się z 24 niezależnych lokali znajduje się na działce 5, obręb 2506 w dystrykcie Alanya w Antalyi, przy ulicy Güzelyalı, Muhabbet Sokak, bezpośrednio przy morzu. Obiekt leży w jednej z najpopularniejszych stref nadmorskich Alanyi, przy plaży Damlataş i w odległości spaceru od plaży Kleopatra. Kluczową zaletą lokalizacji jest położenie naprzeciwko kolejki linowej skracającej dojazd do zamku w Alanyi do 5 minut. Pełna renowacja: wszystkie apartamenty, części wspólne i elewacje odnowione od podstaw. W każdym pokoju nowe klimatyzatory.",
-      "note": "Zgodny z przepisami dotyczącymi krótkoterminowego wynajmu.",
+      "title": "Alanya — Apart-hotel Suites",
+      "location": "Alanya, Antalya, Turcja",
+      "description": "Nasz ukończony projekt apart-hotelu Suites, położony w dzielnicy Alanya, na działce nr 5, obręb 2506, składa się z 24 niezależnych apartamentów. Kompleks znajduje się w pierwszej linii brzegowej przy ulicy Güzelyalı Caddesi, Muhabbet Sokak.\n\nProjekt leży bezpośrednio przy plaży Damlataş, jednym z najbardziej prestiżowych nadmorskich rejonów Alanyi, a plaża Kleopatry jest w odległości spaceru.\n\nKluczową zaletą lokalizacji jest stacja kolejki linowej naprzeciwko hotelu, skracająca dojazd do Alanya Castle do 5 minut.\n\nProjekt to w pełni zrekonstruowany budynek. We wszystkich apartamentach, częściach wspólnych i na elewacji wykonano generalny remont od podstaw.\n\nWe wszystkich pokojach zamontowano nowe klimatyzatory.",
+      "note": "Obiekt spełnia wymogi przepisów dotyczących krótkoterminowego wynajmu.",
+      "roomSpecsTitle": "Charakterystyka apartamentów",
       "roomSpecs": [
-        "6 lokali — 1+0 / netto 25 m² / brutto 35 m² / 1 balkon / 1 łazienka",
-        "10 lokali — 1+1 / netto 45 m² / brutto 55 m² / 2 balkony / 1 łazienka",
-        "2 lokale — 1+1 duplex / netto 50 m² / brutto 60 m² / 1 balkon / 1 łazienka",
-        "2 lokale — 2+1 duplex / netto 85 m² / brutto 95 m² / 2 balkony / 1 łazienka",
-        "4 lokale handlowe — 16–29 m² w dwóch wariantach"
+        "6 kawalerek (1+0) — powierzchnia użytkowa 25 m², powierzchnia całkowita 35 m², 1 balkon, 1 łazienka",
+        "10 apartamentów 1+1 — powierzchnia użytkowa 45 m², powierzchnia całkowita 55 m², 2 balkony, 1 łazienka",
+        "2 apartamenty dwupoziomowe 1+1 (duplex) — pow. użytkowa 50 m², całkowita 60 m², 1 balkon, 1 łazienka",
+        "2 apartamenty dwupoziomowe 2+1 (duplex) — pow. użytkowa 85 m², całkowita 95 m², 2 balkony, 1 łazienka",
+        "4 lokale handlowe o powierzchni 16–29 m² (dwa warianty)"
       ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
       "socialAmenities": [
         "Basen odkryty",
         "Sauna",
-        "Łaźnia turecka (hamam)",
+        "Turecki hammam",
         "Łaźnia parowa",
         "Recepcja",
         "Lobby"
-      ],
-      "location": "Alanya, Antalya, Turcja"
+      ]
     }
   }
 }
