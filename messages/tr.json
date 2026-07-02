@@ -162,7 +162,7 @@
     "dark": "Karanlık mod"
   },
   "properties": {
-    "alanya-guzelyali-suites": {
+    "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Türkiye",
       "description": "Alanya bölgesinde, 2506 ada, 5 numaralı parselde yer alan tamamlanmış Suites apart otel projemiz 24 bağımsız daireden oluşmaktadır. Kompleks, Güzelyalı Caddesi, Muhabbet Sokak adresinde birinci sahil şeridindedir.\n\nProje, Alanya'nın en prestijli sahil bölgelerinden biri olan Damlataş Plajı'na doğrudan bitişiktir ve Kleopatra Plajı yürüme mesafesindedir.\n\nKonumun en önemli avantajlarından biri, otelin karşısında bulunan ve Alanya Castle'a ulaşım süresini 5 dakikaya indiren teleferik istasyonudur.\n\nProje tamamen yeniden inşa edilmiş bir yapıdır. Tüm dairelerde, ortak alanlarda ve bina cephesinde sıfırdan kapsamlı tadilat yapılmıştır.\n\nTüm odalarda yeni klimalar bulunmaktadır.",
@@ -185,15 +185,40 @@
         "Lobi"
       ]
     },
-    "boutique-hotel-lviv": {
-      "title": "Butik otel — Lviv eski şehir",
-      "description": "UNESCO listesindeki eski şehirde faaliyet gösteren tam donanımlı butik otel. 24 süit, restoran ve yatırımcılar için güçlü kira getirisi.",
-      "location": "Lviv, Ukrayna",
-      "features": [
-        "Restoran",
-        "24 süit",
-        "Tarihi bölge",
-        "Yüksek getiri"
+    "besthome-44-gardenia": {
+      "title": "BestHome 44 Gardenia",
+      "location": "Alanya, Demirtaş, Türkiye",
+      "description": "Alanya Demirtaş bölgesinde BestHome 44 Gardenia konut kompleksi — plaja 1.200 m mesafede.\n\nArsa alanı: 5.678 m². Avlu alanı: 5.000 m². Blok sayısı: 2. Daire sayısı: 108. Kat sayısı: 9.\n\nİnşaat başlangıcı: 15 Kasım 2022. Teslim: 30 Haziran 2024.\n\nDaire tipleri: 1+1 ve 2+1 penthouse. Daire alanı: 52–111 m².",
+      "roomSpecsTitle": "Daire donanımı",
+      "roomSpecs": [
+        "1+1 daireler ve 2+1 penthouse — 52–111 m²",
+        "Çelik giriş kapısı, görüntülü interkom",
+        "Mutfak ve banyolarda gömme mobilya",
+        "Tam beyaz eşya paketi: buzdolabı, bulaşık makinesi, ocak, fırın, davlumbaz, çamaşır makinesi",
+        "Her odada klima",
+        "Banyoda yerden ısıtma, duş kabinleri",
+        "Armatürler, Veito elektrikli su ısıtıcısı"
+      ],
+      "socialAmenitiesTitle": "Altyapı ve kompleks özellikleri",
+      "socialAmenities": [
+        "Açık havuz (400 m²)",
+        "Isıtmalı kapalı havuz",
+        "Jakuzi ve ısıtmalı jakuzi",
+        "Çocuk havuzu",
+        "Sauna ve buhar odası",
+        "Dinlenme alanı",
+        "Spor salonu",
+        "Çocuk oyun odası",
+        "Lobi",
+        "Açık otopark",
+        "Çitle çevrili alan",
+        "Bisiklet parkı",
+        "Site yöneticisi",
+        "Wi-Fi",
+        "Uydu TV",
+        "Alan ve cephe aydınlatması",
+        "7/24 güvenlik",
+        "Jeneratör"
       ]
     },
     "modern-apartment-rent-kyiv": {
@@ -229,27 +254,37 @@
         "Oda servisi"
       ]
     },
-    "alanya-muhabbet-suites": {
-      "title": "Alanya — Suites Apart Otel",
-      "location": "Alanya, Antalya, Türkiye",
-      "description": "Alanya bölgesinde, 2506 ada, 5 numaralı parselde yer alan tamamlanmış Suites apart otel projemiz 24 bağımsız daireden oluşmaktadır. Kompleks, Güzelyalı Caddesi, Muhabbet Sokak adresinde birinci sahil şeridindedir.\n\nProje, Alanya'nın en prestijli sahil bölgelerinden biri olan Damlataş Plajı'na doğrudan bitişiktir ve Kleopatra Plajı yürüme mesafesindedir.\n\nKonumun en önemli avantajlarından biri, otelin karşısında bulunan ve Alanya Castle'a ulaşım süresini 5 dakikaya indiren teleferik istasyonudur.\n\nProje tamamen yeniden inşa edilmiş bir yapıdır. Tüm dairelerde, ortak alanlarda ve bina cephesinde sıfırdan kapsamlı tadilat yapılmıştır.\n\nTüm odalarda yeni klimalar bulunmaktadır.",
-      "note": "Tesis, kısa dönem kiralama mevzuatına uygundur.",
-      "roomSpecsTitle": "Daire özellikleri",
+    "besthome-52-cleopatra-costana": {
+      "title": "BESTHOME 52 CLEOPATRA COSTANA",
+      "location": "Alanya, Kleopatra, Türkiye",
+      "description": "Alanya Kleopatra bölgesinde, plaja yalnızca 50 m mesafede yeni konut projesi BESTHOME 52 CLEOPATRA COSTANA.\n\nArsa alanı: 486 m². Blok sayısı: 1. Daire sayısı: 14 (1+1 — 1, 2+1 — 10, 3+1 — 3). Kat sayısı: 4.\n\nİnşaat başlangıcı: 15.02.2026. Teslim tarihi: 30.10.2027.\n\nDaire tipleri: 1+1, 2+1 ve 3+1 penthouse.",
+      "note": "Avantajlar: 3+1 planlı dairelerde ikamet izni alma imkânı.\nTapu tescili: yaklaşık Haziran 2027.\nÖdeme planı: %20 peşinat, 30.06.2027'ye kadar taksit.\nİndirimler: %50 ödemede %3,5, %100 ödemede %4.",
+      "roomSpecsTitle": "Daire tipleri ve donanım",
       "roomSpecs": [
-        "6 stüdyo (1+0) — net 25 m², brüt 35 m², 1 balkon, 1 banyo",
-        "10 daire 1+1 — net 45 m², brüt 55 m², 2 balkon, 1 banyo",
-        "2 çift katlı 1+1 dubleks — net 50 m², brüt 60 m², 1 balkon, 1 banyo",
-        "2 çift katlı 2+1 dubleks — net 85 m², brüt 95 m², 2 balkon, 1 banyo",
-        "4 ticari ünite, 16–29 m² (iki farklı seçenek)"
+        "1+1 (1 daire) — 56 m²",
+        "2+1 (10 daire) — 65–71 m²",
+        "3+1 penthouse (3 daire) — 118–135 m²",
+        "Çelik giriş kapısı, görüntülü interkom",
+        "Mutfak ve banyolarda gömme mobilya",
+        "Tam beyaz eşya paketi: buzdolabı, bulaşık makinesi, ocak, fırın, davlumbaz, çamaşır makinesi",
+        "Her odada klima",
+        "Banyoda yerden ısıtma, duş kabinleri",
+        "Grohe armatürler, elektrikli su ısıtıcısı"
       ],
-      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenitiesTitle": "Altyapı ve kompleks özellikleri",
       "socialAmenities": [
-        "Açık havuz",
+        "Isıtmalı açık havuz (25 m²)",
+        "Dinlenme alanı",
         "Sauna",
-        "Türk hamamı",
-        "Buhar odası",
-        "Resepsiyon",
-        "Lobi"
+        "Spor salonu",
+        "Çocuk oyun alanı",
+        "Çitle çevrili alan",
+        "Bisiklet parkı",
+        "Site yöneticisi",
+        "Wi-Fi",
+        "Uydu TV",
+        "Alan ve cephe aydınlatması",
+        "Jeneratör"
       ]
     }
   }

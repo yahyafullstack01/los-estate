@@ -162,7 +162,7 @@
     "dark": "Dark mode"
   },
   "properties": {
-    "alanya-guzelyali-suites": {
+    "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turkey",
       "description": "Our completed Suites apart-hotel project in Alanya district, on parcel No. 5, block 2506, comprises 24 independent apartments. The complex is on the first coastline at Güzelyalı Street, Muhabbet Sokak.\n\nThe project is located directly at Damlataş Beach, one of Alanya's most prestigious coastal areas, and Kleopatra Beach is within walking distance.\n\nA key location advantage is the cable car station opposite the hotel, reducing travel time to Alanya Castle to just 5 minutes.\n\nThe project is a fully reconstructed building. All apartments, common areas, and the building façade have been comprehensively renovated from scratch.\n\nAll rooms are equipped with new air conditioning units.",
@@ -185,16 +185,41 @@
         "Lobby"
       ]
     },
-    "boutique-hotel-lviv": {
-      "title": "Boutique Hotel — Lviv Old Town",
-      "location": "Lviv, Ukraine",
-      "features": [
-        "Restaurant",
-        "24 suites",
-        "Historic district",
-        "High yield"
+    "besthome-44-gardenia": {
+      "title": "BestHome 44 Gardenia",
+      "location": "Alanya, Demirtaş, Turkey",
+      "description": "Residential complex BestHome 44 Gardenia in Alanya, Demirtaş district — 1,200 m from the beach.\n\nLand area: 5,678 m². Courtyard territory: 5,000 m². Buildings: 2. Apartments: 108. Floors: 9.\n\nConstruction start: 15 November 2022. Handover: 30 June 2024.\n\nApartment types: 1+1 and 2+1 penthouses. Apartment area: 52–111 m².",
+      "roomSpecsTitle": "Apartment finishing",
+      "roomSpecs": [
+        "1+1 apartments and 2+1 penthouses — 52–111 m²",
+        "Steel entrance door, video intercom",
+        "Built-in kitchen and bathroom furniture",
+        "Full appliance package: refrigerator, dishwasher, cooktop, oven, hood, washing machine",
+        "Air conditioning in every room",
+        "Underfloor heating in bathroom, shower cabins",
+        "Sanitary ware, Veito electric water heater"
       ],
-      "description": "A fully operating boutique hotel in UNESCO-listed Old Town. 24 suites, restaurant, and strong rental yield for investors."
+      "socialAmenitiesTitle": "Infrastructure and complex features",
+      "socialAmenities": [
+        "Outdoor pool (400 m²)",
+        "Heated indoor pool",
+        "Jacuzzi and heated jacuzzi",
+        "Children's pool",
+        "Sauna and steam room",
+        "Relaxation zone",
+        "Gym",
+        "Children's playroom",
+        "Lobby",
+        "Open parking",
+        "Fenced territory",
+        "Bicycle parking",
+        "Property manager",
+        "Wi-Fi",
+        "Satellite TV",
+        "Territory and façade lighting",
+        "24/7 security",
+        "Backup generator"
+      ]
     },
     "modern-apartment-rent-kyiv": {
       "title": "Modern Apartment — Pechersk",
@@ -229,27 +254,37 @@
       ],
       "description": "Premium serviced suite in a five-star waterfront hotel. Daily housekeeping, spa access, and marina views."
     },
-    "alanya-muhabbet-suites": {
-      "title": "Alanya — Suites Apart-Hotel",
-      "location": "Alanya, Antalya, Turkey",
-      "description": "Our completed Suites apart-hotel project in Alanya district, on parcel No. 5, block 2506, comprises 24 independent apartments. The complex is on the first coastline at Güzelyalı Street, Muhabbet Sokak.\n\nThe project is located directly at Damlataş Beach, one of Alanya's most prestigious coastal areas, and Kleopatra Beach is within walking distance.\n\nA key location advantage is the cable car station opposite the hotel, reducing travel time to Alanya Castle to just 5 minutes.\n\nThe project is a fully reconstructed building. All apartments, common areas, and the building façade have been comprehensively renovated from scratch.\n\nAll rooms are equipped with new air conditioning units.",
-      "note": "The property complies with legislation for short-term rental.",
-      "roomSpecsTitle": "Apartment specifications",
+    "besthome-52-cleopatra-costana": {
+      "title": "BESTHOME 52 CLEOPATRA COSTANA",
+      "location": "Alanya, Cleopatra, Turkey",
+      "description": "New residential complex BESTHOME 52 CLEOPATRA COSTANA in Alanya, Cleopatra district — just 50 m from the beach.\n\nLand area: 486 m². Buildings: 1. Apartments: 14 (1+1 — 1, 2+1 — 10, 3+1 — 3). Floors: 4.\n\nConstruction start: 15 February 2026. Handover: 30 October 2027.\n\nApartment types: 1+1, 2+1, and 3+1 penthouses.",
+      "note": "Benefits: eligibility for residence permit when purchasing a 3+1 layout.\nTitle deed (TAPU) registration: approximately June 2027.\nPayment plan: 20% down payment, installment payments until 30 June 2027.\nDiscounts: 3.5% when paying 50%, 4% when paying 100%.",
+      "roomSpecsTitle": "Apartment types and finishing",
       "roomSpecs": [
-        "6 studios (1+0) — living area 25 m², total area 35 m², 1 balcony, 1 bathroom",
-        "10 apartments 1+1 — living area 45 m², total area 55 m², 2 balconies, 1 bathroom",
-        "2 two-level 1+1 duplex apartments — living area 50 m², total area 60 m², 1 balcony, 1 bathroom",
-        "2 two-level 2+1 duplex apartments — living area 85 m², total area 95 m², 2 balconies, 1 bathroom",
-        "4 commercial units of 16–29 m² (available in two size options)"
+        "1+1 (1 apartment) — 56 m²",
+        "2+1 (10 apartments) — 65–71 m²",
+        "3+1 penthouse (3 apartments) — 118–135 m²",
+        "Steel entrance door, video intercom",
+        "Built-in kitchen and bathroom furniture",
+        "Full appliance package: refrigerator, dishwasher, cooktop, oven, hood, washing machine",
+        "Air conditioning in every room",
+        "Underfloor heating in bathroom, shower cabins",
+        "Grohe sanitary ware, electric water heater"
       ],
-      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenitiesTitle": "Infrastructure and complex features",
       "socialAmenities": [
-        "Outdoor pool",
+        "Heated outdoor pool (25 m²)",
+        "Relaxation zone",
         "Sauna",
-        "Turkish hammam",
-        "Steam room",
-        "Reception",
-        "Lobby"
+        "Gym",
+        "Children's playground",
+        "Fenced territory",
+        "Bicycle parking",
+        "Property manager",
+        "Wi-Fi",
+        "Satellite TV",
+        "Territory and façade lighting",
+        "Backup generator"
       ]
     }
   }

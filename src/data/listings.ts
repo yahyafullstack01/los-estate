@@ -7,13 +7,14 @@ export interface Listing {
   type: PropertyType;
   transaction: TransactionType;
   price: number;
+  priceMax?: number;
   currency: string;
   location: string;
   beds: number;
   baths: number;
   areaSqm: number;
   units?: number;
-  /** Public folder path for property photos, e.g. /listings/alanya-guzelyali-suites */
+  /** Public folder path for property photos, e.g. /listings/develi-hotel-alanya */
   imageDir?: string;
   images: string[];
   featured: boolean;
@@ -23,7 +24,7 @@ export interface Listing {
 export const listings: Listing[] = [
   {
     id: "1",
-    slug: "alanya-guzelyali-suites",
+    slug: "develi-hotel-alanya",
     type: "hotel",
     transaction: "sale",
     price: 4500000,
@@ -33,16 +34,16 @@ export const listings: Listing[] = [
     beds: 24,
     baths: 24,
     areaSqm: 95,
-    imageDir: "/listings/alanya-guzelyali-suites",
+    imageDir: "/listings/develi-hotel-alanya",
     images: [
-      "/listings/alanya-guzelyali-suites/01-exterior.png",
-      "/listings/alanya-guzelyali-suites/02-pool.png",
-      "/listings/alanya-guzelyali-suites/03-room.png",
-      "/listings/alanya-guzelyali-suites/04-studio.png",
-      "/listings/alanya-guzelyali-suites/05-bathroom.png",
-      "/listings/alanya-guzelyali-suites/06-muhabbet-street.png",
-      "/listings/alanya-guzelyali-suites/07-location-map.png",
-      "/listings/alanya-guzelyali-suites/08-floor-plan.png",
+      "/listings/develi-hotel-alanya/01-exterior.png",
+      "/listings/develi-hotel-alanya/02-pool.png",
+      "/listings/develi-hotel-alanya/03-room.png",
+      "/listings/develi-hotel-alanya/04-studio.png",
+      "/listings/develi-hotel-alanya/05-bathroom.png",
+      "/listings/develi-hotel-alanya/06-muhabbet-street.png",
+      "/listings/develi-hotel-alanya/07-location-map.png",
+      "/listings/develi-hotel-alanya/08-floor-plan.png",
     ],
     featured: true,
     features: [
@@ -56,45 +57,67 @@ export const listings: Listing[] = [
   },
   {
     id: "2",
-    slug: "alanya-muhabbet-suites",
-    type: "hotel",
+    slug: "besthome-52-cleopatra-costana",
+    type: "apartment",
     transaction: "sale",
-    price: 2100000,
-    currency: "USD",
-    location: "Alanya, Antalya, Turkey",
-    units: 24,
-    beds: 24,
-    baths: 24,
-    areaSqm: 95,
-    imageDir: "/listings/alanya-muhabbet-suites",
-    images: [],
+    price: 235000,
+    priceMax: 420000,
+    currency: "EUR",
+    location: "Alanya, Cleopatra, Turkey",
+    units: 14,
+    beds: 3,
+    baths: 2,
+    areaSqm: 56,
+    imageDir: "/listings/besthome-52-cleopatra-costana",
+    images: [
+      "/listings/besthome-52-cleopatra-costana/01-exterior.png",
+      "/listings/besthome-52-cleopatra-costana/02-exterior-angle.png",
+      "/listings/besthome-52-cleopatra-costana/03-pool-aerial.png",
+      "/listings/besthome-52-cleopatra-costana/04-living-room.png",
+      "/listings/besthome-52-cleopatra-costana/05-kitchen.png",
+      "/listings/besthome-52-cleopatra-costana/06-spa.png",
+      "/listings/besthome-52-cleopatra-costana/07-location-map.png",
+      "/listings/besthome-52-cleopatra-costana/08-site-plan.png",
+    ],
     featured: true,
     features: [
-      "Outdoor pool",
-      "Sauna",
-      "Turkish bath",
-      "Steam room",
-      "Reception",
-      "Lobby",
+      "50 m to beach",
+      "Heated pool",
+      "Sauna & gym",
+      "Residence permit eligible (3+1)",
     ],
   },
   {
     id: "3",
-    slug: "boutique-hotel-lviv",
-    type: "hotel",
+    slug: "besthome-44-gardenia",
+    type: "apartment",
     transaction: "sale",
-    price: 4800000,
-    currency: "USD",
-    location: "Lviv, Ukraine",
-    beds: 24,
-    baths: 24,
-    areaSqm: 1850,
+    price: 80000,
+    priceMax: 150000,
+    currency: "EUR",
+    location: "Alanya, Demirtaş, Turkey",
+    units: 108,
+    beds: 2,
+    baths: 2,
+    areaSqm: 52,
+    imageDir: "/listings/besthome-44-gardenia",
     images: [
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80",
+      "/listings/besthome-44-gardenia/01-exterior.png",
+      "/listings/besthome-44-gardenia/02-aerial.png",
+      "/listings/besthome-44-gardenia/03-pool.png",
+      "/listings/besthome-44-gardenia/04-pool-cabanas.png",
+      "/listings/besthome-44-gardenia/05-lounge-patio.png",
+      "/listings/besthome-44-gardenia/06-lobby-billiards.png",
+      "/listings/besthome-44-gardenia/07-location-map.png",
+      "/listings/besthome-44-gardenia/08-floor-plan.png",
     ],
     featured: true,
-    features: ["Restaurant", "24 suites", "Historic district", "High yield"],
+    features: [
+      "1.2 km to beach",
+      "400 m² outdoor pool",
+      "Spa & gym",
+      "24/7 security",
+    ],
   },
   {
     id: "4",

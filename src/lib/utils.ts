@@ -1,13 +1,18 @@
 import { type Listing } from "@/data/listings";
 
 export function formatPrice(listing: Listing, locale: string): string {
-  const formatted = new Intl.NumberFormat(locale, {
-    style: "currency",
-    currency: listing.currency,
-    maximumFractionDigits: 0,
-  }).format(listing.price);
+  const formatAmount = (amount: number) =>
+    new Intl.NumberFormat(locale, {
+      style: "currency",
+      currency: listing.currency,
+      maximumFractionDigits: 0,
+    }).format(amount);
 
-  return formatted;
+  if (listing.priceMax != null && listing.priceMax > listing.price) {
+    return `${formatAmount(listing.price)} – ${formatAmount(listing.priceMax)}`;
+  }
+
+  return formatAmount(listing.price);
 }
 
 export function cn(...classes: (string | false | undefined | null)[]): string {

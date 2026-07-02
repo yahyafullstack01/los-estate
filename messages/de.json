@@ -162,7 +162,7 @@
     "dark": "Dunkler Modus"
   },
   "properties": {
-    "alanya-guzelyali-suites": {
+    "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Türkei",
       "description": "Unser fertiggestelltes Suites-Apart-Hotel-Projekt im Bezirk Alanya, Parzelle Nr. 5, Block 2506, umfasst 24 eigenständige Apartments. Der Komplex liegt in der ersten Meereslinie an der Güzelyalı Street, Muhabbet Sokak.\n\nDas Projekt befindet sich direkt am Damlataş-Strand, einem der prestigeträchtigsten Küstengebiete Alanyas, und der Kleopatra-Strand ist fußläufig erreichbar.\n\nEin wichtiger Standortvorteil ist die Seilbahnstation gegenüber dem Hotel, die die Fahrt zur Alanya Castle auf nur 5 Minuten verkürzt.\n\nDas Projekt ist ein vollständig rekonstruiertes Gebäude. Alle Apartments, Gemeinschaftsbereiche und die Fassade wurden umfassend von Grund auf renoviert.\n\nAlle Zimmer verfügen über neue Klimaanlagen.",
@@ -185,15 +185,40 @@
         "Lobby"
       ]
     },
-    "boutique-hotel-lviv": {
-      "title": "Boutique-Hotel — Altstadt von Lviv",
-      "description": "Ein vollständig betriebenes Boutique-Hotel in der UNESCO-geschützten Altstadt. 24 Suiten, Restaurant und starke Mietrendite für Investoren.",
-      "location": "Lemberg, Ukraine",
-      "features": [
-        "Restaurant",
-        "24 Suiten",
-        "Historische Altstadt",
-        "Hohe Rendite"
+    "besthome-44-gardenia": {
+      "title": "BestHome 44 Gardenia",
+      "location": "Alanya, Demirtaş, Türkei",
+      "description": "Wohnkomplex BestHome 44 Gardenia in Alanya, Stadtteil Demirtaş — 1.200 m zum Strand.\n\nGrundstücksfläche: 5.678 m². Hofterritorium: 5.000 m². Gebäude: 2. Apartments: 108. Etagen: 9.\n\nBaubeginn: 15. November 2022. Fertigstellung: 30. Juni 2024.\n\nWohnungstypen: 1+1 und 2+1-Penthouses. Wohnfläche: 52–111 m².",
+      "roomSpecsTitle": "Apartmentausstattung",
+      "roomSpecs": [
+        "1+1-Apartments und 2+1-Penthouses — 52–111 m²",
+        "Stahl-Eingangstür, Video-Gegensprechanlage",
+        "Einbauküche und eingebaute Badezimmermöbel",
+        "Vollständiges Gerätepaket: Kühlschrank, Geschirrspüler, Kochfeld, Backofen, Dunstabzug, Waschmaschine",
+        "Klimaanlage in jedem Zimmer",
+        "Fußbodenheizung im Bad, Duschkabinen",
+        "Sanitär, Veito elektrischer Wassererhitzer"
+      ],
+      "socialAmenitiesTitle": "Infrastruktur und Komplexmerkmale",
+      "socialAmenities": [
+        "Außenpool (400 m²)",
+        "Beheizter Hallenbad",
+        "Whirlpool und beheizter Whirlpool",
+        "Kinderbecken",
+        "Sauna und Dampfbad",
+        "Entspannungszone",
+        "Fitnessraum",
+        "Kinderspielzimmer",
+        "Lobby",
+        "Freiluftparkplatz",
+        "Eingezäuntes Gelände",
+        "Fahrradparkplatz",
+        "Hausverwaltung",
+        "Wi-Fi",
+        "Satelliten-TV",
+        "Beleuchtung des Geländes und der Fassaden",
+        "24/7-Sicherheit",
+        "Notstromaggregat"
       ]
     },
     "modern-apartment-rent-kyiv": {
@@ -229,27 +254,37 @@
         "Zimmerservice"
       ]
     },
-    "alanya-muhabbet-suites": {
-      "title": "Alanya — Suites Apart-Hotel",
-      "location": "Alanya, Antalya, Türkei",
-      "description": "Unser fertiggestelltes Suites-Apart-Hotel-Projekt im Bezirk Alanya, Parzelle Nr. 5, Block 2506, umfasst 24 eigenständige Apartments. Der Komplex liegt in der ersten Meereslinie an der Güzelyalı Street, Muhabbet Sokak.\n\nDas Projekt befindet sich direkt am Damlataş-Strand, einem der prestigeträchtigsten Küstengebiete Alanyas, und der Kleopatra-Strand ist fußläufig erreichbar.\n\nEin wichtiger Standortvorteil ist die Seilbahnstation gegenüber dem Hotel, die die Fahrt zur Alanya Castle auf nur 5 Minuten verkürzt.\n\nDas Projekt ist ein vollständig rekonstruiertes Gebäude. Alle Apartments, Gemeinschaftsbereiche und die Fassade wurden umfassend von Grund auf renoviert.\n\nAlle Zimmer verfügen über neue Klimaanlagen.",
-      "note": "Das Objekt entspricht den Vorschriften für Kurzzeitvermietung.",
-      "roomSpecsTitle": "Apartmentausstattung",
+    "besthome-52-cleopatra-costana": {
+      "title": "BESTHOME 52 CLEOPATRA COSTANA",
+      "location": "Alanya, Kleopatra, Türkei",
+      "description": "Neues Wohnprojekt BESTHOME 52 CLEOPATRA COSTANA in Alanya, Stadtteil Kleopatra — nur 50 m zum Strand.\n\nGrundstücksfläche: 486 m². Gebäude: 1. Apartments: 14 (1+1 — 1, 2+1 — 10, 3+1 — 3). Etagen: 4.\n\nBaubeginn: 15.02.2026. Fertigstellung: 30.10.2027.\n\nWohnungstypen: 1+1, 2+1 und 3+1-Penthouses.",
+      "note": "Vorteile: Möglichkeit zur Beantragung einer Aufenthaltserlaubnis beim Kauf einer 3+1-Wohnung.\nTAPU-Registrierung: ca. Juni 2027.\nZahlungsplan: 20 % Anzahlung, Ratenzahlung bis 30.06.2027.\nRabatte: 3,5 % bei 50 % Zahlung, 4 % bei 100 % Zahlung.",
+      "roomSpecsTitle": "Wohnungstypen und Ausstattung",
       "roomSpecs": [
-        "6 Studios (1+0) — Wohnfläche 25 m², Gesamtfläche 35 m², 1 Balkon, 1 Bad",
-        "10 Apartments 1+1 — Wohnfläche 45 m², Gesamtfläche 55 m², 2 Balkone, 1 Bad",
-        "2 Maisonette-Apartments 1+1 — Wohnfläche 50 m², Gesamtfläche 60 m², 1 Balkon, 1 Bad",
-        "2 Maisonette-Apartments 2+1 — Wohnfläche 85 m², Gesamtfläche 95 m², 2 Balkone, 1 Bad",
-        "4 Gewerbeeinheiten mit 16–29 m² (zwei Größenoptionen)"
+        "1+1 (1 Apartment) — 56 m²",
+        "2+1 (10 Apartments) — 65–71 m²",
+        "3+1 Penthouse (3 Apartments) — 118–135 m²",
+        "Stahl-Eingangstür, Video-Gegensprechanlage",
+        "Einbauküche und eingebaute Badezimmermöbel",
+        "Vollständiges Gerätepaket: Kühlschrank, Geschirrspüler, Kochfeld, Backofen, Dunstabzug, Waschmaschine",
+        "Klimaanlage in jedem Zimmer",
+        "Fußbodenheizung im Bad, Duschkabinen",
+        "Grohe Sanitär, elektrischer Wassererhitzer"
       ],
-      "socialAmenitiesTitle": "Komplexinfrastruktur",
+      "socialAmenitiesTitle": "Infrastruktur und Komplexmerkmale",
       "socialAmenities": [
-        "Außenpool",
+        "Beheizter Außenpool (25 m²)",
+        "Entspannungszone",
         "Sauna",
-        "Türkisches Hammam",
-        "Dampfbad",
-        "Rezeption",
-        "Lobby"
+        "Fitnessraum",
+        "Kinderspielplatz",
+        "Eingezäuntes Gelände",
+        "Fahrradparkplatz",
+        "Hausverwaltung",
+        "Wi-Fi",
+        "Satelliten-TV",
+        "Beleuchtung des Geländes und der Fassaden",
+        "Notstromaggregat"
       ]
     }
   }
