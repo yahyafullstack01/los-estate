@@ -293,15 +293,46 @@
         "1 basen kryty"
       ]
     },
-    "besthome-36-rent-1-1": {
-      "title": "BestHome 36 — 1+1 Wynajem",
+    "besthome-37-rent-1-1": {
+      "title": "BestHome 37 — 1+1 Wynajem",
       "location": "Centrum Alanyi, Turcja",
       "priceLabel": "od 50€ / dzień · 700–1500€ / miesiąc",
-      "description": "Umeblowany apartament 1+1 na wynajem w BestHome 36, centrum Alanyi, Turcja.\n\nPowierzchnia: 38 m². Odległość do morza: 120 m. Prywatna piaszczysta plaża z bezpłatnymi leżakami i parasolami.\n\nKlimatyzacja. Przestronny balkon.\n\nW odległości spaceru: supermarkety, restauracje, kawiarnie, apteki, banki i przystanki komunikacji miejskiej.",
+      "description": "Umeblowany apartament 1+1 na wynajem w BestHome 37, centrum Alanyi, Turcja.\n\nPowierzchnia: 50 m². Odległość do morza: 120 m. Prywatna piaszczysta plaża z bezpłatnymi leżakami i parasolami.\n\nKlimatyzacja. Przestronny balkon.\n\nW odległości spaceru: supermarkety, restauracje, kawiarnie, apteki, banki i przystanki komunikacji miejskiej.",
       "note": "Ceny: od 50€ za dobę. Od 700€ miesięcznie poza sezonem. Od 1500€ miesięcznie w sezonie.",
       "roomSpecsTitle": "Szczegóły apartamentu",
       "roomSpecs": [
-        "1+1 — 38 m²",
+        "1+1 — 50 m²",
+        "Klimatyzacja",
+        "Przestronny balkon",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "120 m do prywatnej piaszczystej plaży — leżaki i parasole gratis",
+        "3 baseny odkryte",
+        "Basen kryty",
+        "Jacuzzi",
+        "Turecki hammam",
+        "Sauna",
+        "Siłownia",
+        "Plac zabaw dla dzieci",
+        "Strefa relaksu",
+        "Parking samochodowy",
+        "Winda",
+        "Agregat",
+        "Monitoring i ochrona",
+        "Zamknięty zadbany teren"
+      ]
+    },
+    "besthome-37-legend-rent-1-1": {
+      "title": "BestHome 37 Legend — 1+1 Wynajem",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "od 50€ / dzień · 700–1500€ / miesiąc",
+      "description": "Umeblowany apartament 1+1 na wynajem w BestHome 37 Legend, centrum Alanyi, Turcja.\n\nPowierzchnia: 50 m². Odległość do morza: 120 m. Prywatna piaszczysta plaża z bezpłatnymi leżakami i parasolami.\n\nKlimatyzacja. Przestronny balkon.\n\nW odległości spaceru: supermarkety, restauracje, kawiarnie, apteki, banki i przystanki komunikacji miejskiej.",
+      "note": "Ceny: od 50€ za dobę. Od 700€ miesięcznie poza sezonem. Od 1500€ miesięcznie w sezonie.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "1+1 — 50 m²",
         "Klimatyzacja",
         "Przestronny balkon",
         "Nowoczesne umeblowane wnętrze"
