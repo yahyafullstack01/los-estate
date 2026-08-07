@@ -293,6 +293,37 @@
         "1 Hallenbad"
       ]
     },
+    "besthome-36-rent-1-1": {
+      "title": "BestHome 36 — 1+1 Miete",
+      "location": "Alanya Zentrum, Türkei",
+      "priceLabel": "ab 50€ / Tag · 700–1500€ / Monat",
+      "description": "Möbliertes 1+1-Apartment zur Miete in BestHome 36, Alanya Zentrum, Türkei.\n\nFläche: 38 m². Entfernung zum Meer: 120 m. Privater Sandstrand mit kostenlosen Liegen und Sonnenschirmen.\n\nKlimaanlagen. Geräumiger Balkon.\n\nSupermärkte, Restaurants, Cafés, Apotheken, Banken und öffentliche Verkehrsmittel sind fußläufig erreichbar.",
+      "note": "Preise: ab 50€ pro Tag. Ab 700€ pro Monat in der Nebensaison. Ab 1500€ pro Monat in der Hochsaison.",
+      "roomSpecsTitle": "Apartmentdetails",
+      "roomSpecs": [
+        "1+1 — 38 m²",
+        "Klimaanlagen",
+        "Geräumiger Balkon",
+        "Modern möblierter Innenraum"
+      ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
+      "socialAmenities": [
+        "120 m zum privaten Sandstrand — Liegen und Sonnenschirme kostenlos",
+        "3 Außenpools",
+        "Hallenbad",
+        "Whirlpool",
+        "Türkisches Hammam",
+        "Sauna",
+        "Fitnessstudio",
+        "Kinderspielplatz",
+        "Entspannungszone",
+        "Parkplätze",
+        "Aufzug",
+        "Generator",
+        "Videoüberwachung und Sicherheit",
+        "Eingezäuntes gepflegtes Gelände"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Kleopatra, Türkei",

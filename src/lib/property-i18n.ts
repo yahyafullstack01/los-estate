@@ -21,6 +21,7 @@ export async function getPropertyTranslations(slug: string) {
       ? pt("socialAmenitiesTitle")
       : null,
     note: pt.has("note") ? pt("note") : null,
+    priceLabel: pt.has("priceLabel") ? pt("priceLabel") : null,
   };
 }
 

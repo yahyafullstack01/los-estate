@@ -210,6 +210,37 @@ export const listings: Listing[] = [
       "Fitness & spa",
     ],
   },
+  {
+    id: "7",
+    slug: "besthome-36-rent-1-1",
+    type: "apartment",
+    transaction: "rent",
+    price: 700,
+    priceMax: 1500,
+    currency: "EUR",
+    location: "Alanya Center, Turkey",
+    beds: 1,
+    baths: 1,
+    areaSqm: 38,
+    imageDir: "/listings/besthome-36-rent-1-1",
+    images: [
+      "/listings/besthome-36-rent-1-1/01-living.png",
+      "/listings/besthome-36-rent-1-1/02-living-dining.png",
+      "/listings/besthome-36-rent-1-1/03-dining.png",
+      "/listings/besthome-36-rent-1-1/04-kitchen.png",
+      "/listings/besthome-36-rent-1-1/05-appliances.png",
+      "/listings/besthome-36-rent-1-1/06-bedroom.png",
+      "/listings/besthome-36-rent-1-1/07-bathroom.png",
+      "/listings/besthome-36-rent-1-1/08-balcony-pool.png",
+    ],
+    featured: true,
+    features: [
+      "120 m to beach",
+      "Spacious balcony",
+      "Air conditioning",
+      "Private sandy beach",
+    ],
+  },
 ];
 
 export function getListingBySlug(slug: string): Listing | undefined {

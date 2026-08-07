@@ -3,7 +3,7 @@ import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { type Listing } from "@/data/listings";
 import { formatPrice } from "@/lib/utils";
-import { getListingLocation } from "@/lib/property-i18n";
+import { getListingLocation, getPropertyTranslations } from "@/lib/property-i18n";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { Bed, Bath, Maximize } from "lucide-react";
@@ -15,11 +15,15 @@ interface PropertyCardProps {
 export async function PropertyCard({ listing }: PropertyCardProps) {
   const t = await getTranslations();
   const locale = await getLocale();
-  const title = t(`properties.${listing.slug}.title`);
+  const property = await getPropertyTranslations(listing.slug);
+  const title = property.title;
   const location = await getListingLocation(listing.slug, listing);
   const price = formatPrice(listing, locale);
   const priceLabel =
-    listing.transaction === "rent" ? `${price}${t("listings.perMonth")}` : price;
+    property.priceLabel ??
+    (listing.transaction === "rent"
+      ? `${price}${t("listings.perMonth")}`
+      : price);
   const imageSrc = listing.images[0] ?? "/og-default.png";
 
   return (

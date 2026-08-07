@@ -293,6 +293,37 @@
         "1 piscine intérieure"
       ]
     },
+    "besthome-36-rent-1-1": {
+      "title": "BestHome 36 — 1+1 Location",
+      "location": "Centre d'Alanya, Turquie",
+      "priceLabel": "dès 50€ / jour · 700–1500€ / mois",
+      "description": "Appartement meublé 1+1 à louer dans BestHome 36, centre d'Alanya, Turquie.\n\nSurface : 38 m². Distance à la mer : 120 m. Plage de sable privée avec transats et parasols gratuits.\n\nClimatisation. Balcon spacieux.\n\nSupermarchés, restaurants, cafés, pharmacies, banques et transports en commun à pied.",
+      "note": "Tarifs : dès 50€ par jour. Dès 700€ par mois hors saison. Dès 1500€ par mois en haute saison.",
+      "roomSpecsTitle": "Détails de l'appartement",
+      "roomSpecs": [
+        "1+1 — 38 m²",
+        "Climatisation",
+        "Balcon spacieux",
+        "Intérieur moderne meublé"
+      ],
+      "socialAmenitiesTitle": "Infrastructures du complexe",
+      "socialAmenities": [
+        "120 m de la plage de sable privée — transats et parasols gratuits",
+        "3 piscines extérieures",
+        "Piscine intérieure",
+        "Jacuzzi",
+        "Hammam turc",
+        "Sauna",
+        "Salle de fitness",
+        "Aire de jeux pour enfants",
+        "Espace détente",
+        "Parking",
+        "Ascenseur",
+        "Générateur",
+        "Vidéosurveillance et sécurité",
+        "Terrain clos et entretenu"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Cléopâtre, Turquie",

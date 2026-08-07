@@ -293,6 +293,37 @@
         "1 piscina cubierta"
       ]
     },
+    "besthome-36-rent-1-1": {
+      "title": "BestHome 36 — 1+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 36, centro de Alanya, Turquía.\n\nSuperficie: 38 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 38 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Cleopatra, Turquía",

@@ -62,9 +62,10 @@ export default async function PropertyDetailPage({ params }: Props) {
   const location = await getListingLocation(slug, listing);
   const price = formatPrice(listing, locale);
   const priceLabel =
-    listing.transaction === "rent"
+    property.priceLabel ??
+    (listing.transaction === "rent"
       ? `${price}${t("listings.perMonth")}`
-      : price;
+      : price);
 
   const roomSpecs = property.roomSpecs;
   const roomSpecsTitle =
