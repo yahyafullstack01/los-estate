@@ -448,6 +448,31 @@
         "Zamknięty, zadbany teren"
       ]
     },
+    "alanya-sugozu-villa": {
+      "title": "Alanya / Sugözü — Wolnostojąca willa",
+      "location": "Alanya, Sugözü, Turcja",
+      "description": "Wolnostojąca willa w Alanyi Sugözü oferująca wyjątkowy komfort i widoki.\n\nWilla 4+1, 2-kondygnacyjna. Przestronna powierzchnia mieszkalna 433 m². Wysoki komfort: 5 łazienek i 1 jacuzzi. Zapierający dech widok na morze, zamek i miasto z 2 balkonów. Nowoczesna architektura, zbudowana w 2016 roku. W pełni umeblowana, gotowa do zamieszkania.",
+      "note": "Lokalizacja: lotnisko Gazipaşa 41 km. Odległość do morza: 2400 m.",
+      "roomSpecsTitle": "Główne cechy",
+      "roomSpecs": [
+        "4+1 — willa 2-kondygnacyjna, 433 m²",
+        "5 łazienek i 1 jacuzzi",
+        "Widok na morze, zamek i miasto z 2 balkonów",
+        "Zbudowana w 2016 — nowoczesna architektura",
+        "W pełni umeblowana, gotowa do zamieszkania",
+        "Winda w willi"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia",
+      "socialAmenities": [
+        "Basen zewnętrzny",
+        "Turecka łaźnia i sauna",
+        "Parking otwarty i zadaszony",
+        "Prywatne strefy mieszkalne",
+        "Winda",
+        "Lotnisko Gazipaşa — 41 km",
+        "2400 m do morza"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Kleopatra, Turcja",

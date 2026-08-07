@@ -448,6 +448,31 @@
         "Terreno cerrado y cuidado"
       ]
     },
+    "alanya-sugozu-villa": {
+      "title": "Alanya / Sugözü — Villa independiente",
+      "location": "Alanya, Sugözü, Turquía",
+      "description": "Villa independiente en Alanya Sugözü con un confort y unas vistas excepcionales.\n\nVilla 4+1 de 2 plantas. Amplia superficie habitable de 433 m². Alto nivel de confort: 5 baños y 1 jacuzzi. Vistas impresionantes al mar, el castillo y la ciudad desde 2 balcones. Arquitectura moderna, construida en 2016. Totalmente amueblada y lista para entrar a vivir.",
+      "note": "Ubicación: aeropuerto de Gazipaşa a 41 km. Distancia al mar: 2.400 m.",
+      "roomSpecsTitle": "Características principales",
+      "roomSpecs": [
+        "4+1 — villa de 2 plantas, 433 m²",
+        "5 baños y 1 jacuzzi",
+        "Vistas al mar, castillo y ciudad desde 2 balcones",
+        "Construida en 2016 — arquitectura moderna",
+        "Totalmente amueblada, lista para entrar a vivir",
+        "Ascensor en la villa"
+      ],
+      "socialAmenitiesTitle": "Servicios",
+      "socialAmenities": [
+        "Piscina exterior",
+        "Hammam turco y sauna",
+        "Aparcamiento abierto y cubierto",
+        "Zonas residenciales privadas",
+        "Ascensor",
+        "Aeropuerto de Gazipaşa — 41 km",
+        "2.400 m al mar"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Cleopatra, Turquía",

@@ -448,6 +448,31 @@
         "Kapalı bakımlı site"
       ]
     },
+    "alanya-sugozu-villa": {
+      "title": "Alanya / Sugözü — Müstakil Villa",
+      "location": "Alanya, Sugözü, Türkiye",
+      "description": "Alanya Sugözü'nde eşsiz konfor ve manzaralar sunan müstakil villa.\n\n4+1, 2 katlı villa. Geniş yaşam alanı 433 m². Yüksek konfor: 5 banyo ve 1 jakuzi. 2 balkondan deniz, kale ve şehir manzarası. Modern mimari, 2016 yapımı. Tamamen mobilyalı, taşınmaya hazır.",
+      "note": "Konum: Gazipaşa Havalimanı 41 km. Denize mesafe: 2400 m.",
+      "roomSpecsTitle": "Temel özellikler",
+      "roomSpecs": [
+        "4+1 — 2 katlı villa, 433 m²",
+        "5 banyo ve 1 jakuzi",
+        "2 balkondan deniz, kale ve şehir manzarası",
+        "2016 yapımı — modern mimari",
+        "Tamamen mobilyalı, taşınmaya hazır",
+        "Villada asansör"
+      ],
+      "socialAmenitiesTitle": "Olanaklar",
+      "socialAmenities": [
+        "Açık yüzme havuzu",
+        "Türk hamamı ve sauna",
+        "Açık ve kapalı otopark",
+        "Özel yaşam alanları",
+        "Asansör",
+        "Gazipaşa Havalimanı — 41 km",
+        "Denize 2400 m"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Kleopatra, Türkiye",

@@ -362,6 +362,38 @@ export const listings: Listing[] = [
       "Air conditioning",
     ],
   },
+  {
+    id: "12",
+    slug: "alanya-sugozu-villa",
+    type: "house",
+    transaction: "sale",
+    price: 825000,
+    currency: "EUR",
+    location: "Alanya, Sugözü, Turkey",
+    beds: 4,
+    baths: 5,
+    areaSqm: 433,
+    imageDir: "/listings/alanya-sugozu-villa",
+    images: [
+      "/listings/alanya-sugozu-villa/01-exterior-pool.png",
+      "/listings/alanya-sugozu-villa/02-exterior-sunny.png",
+      "/listings/alanya-sugozu-villa/03-exterior-front.png",
+      "/listings/alanya-sugozu-villa/04-pool-terrace.png",
+      "/listings/alanya-sugozu-villa/05-living.png",
+      "/listings/alanya-sugozu-villa/06-bedroom-sea.png",
+      "/listings/alanya-sugozu-villa/07-bedroom-master.png",
+      "/listings/alanya-sugozu-villa/08-bedroom-castle.png",
+      "/listings/alanya-sugozu-villa/09-entrance.png",
+      "/listings/alanya-sugozu-villa/10-view-castle.png",
+    ],
+    featured: true,
+    features: [
+      "Sea & castle views",
+      "Private outdoor pool",
+      "Elevator",
+      "Sauna & hammam",
+    ],
+  },
 ];
 
 export function getListingBySlug(slug: string): Listing | undefined {
