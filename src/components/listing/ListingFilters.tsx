@@ -48,7 +48,7 @@ export function ListingFilters() {
       </p>
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
         <div>
-          <p className="mb-2 text-xs text-muted">Transaction</p>
+          <p className="mb-2 text-xs text-muted">{t("filterTransaction")}</p>
           <div className="flex flex-wrap gap-2">
             {transactions.map((item) => (
               <FilterChip
@@ -61,7 +61,7 @@ export function ListingFilters() {
           </div>
         </div>
         <div>
-          <p className="mb-2 text-xs text-muted">Type</p>
+          <p className="mb-2 text-xs text-muted">{t("filterType")}</p>
           <div className="flex flex-wrap gap-2">
             {types.map((item) => (
               <FilterChip

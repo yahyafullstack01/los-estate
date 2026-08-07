@@ -101,6 +101,8 @@
     "title": "All Properties",
     "subtitle": "Filter by transaction type and property category",
     "filters": "Filters",
+    "filterTransaction": "Transaction",
+    "filterType": "Type",
     "allTypes": "All types",
     "allTransactions": "All",
     "noResults": "No properties match your filters.",
@@ -221,38 +223,75 @@
         "Backup generator"
       ]
     },
-    "modern-apartment-rent-kyiv": {
-      "title": "Modern Apartment — Pechersk",
-      "location": "Kyiv, Ukraine",
-      "features": [
-        "Furnished",
-        "Concierge",
-        "Parking",
-        "Gym"
+    "besthome-36-37-the-legend": {
+      "title": "BestHome 36/37 the Legend — 2+1",
+      "location": "Alanya Center, Turkey",
+      "description": "Furnished 2-bedroom apartment in BestHome 36/37 the Legend, Alanya Center, Turkey.\n\nFloor: −1. Bedrooms: 2. Bathrooms: 2. Area: 84 m². Building floors: 5.\n\nHeating: split-system air conditioning. Distance to the sea: 150 m.\n\nPrivate beach with free sunbeds and umbrellas.",
+      "note": "Complex amenities: fitness, sauna, hammam, three outdoor pools, and one indoor pool.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Floor −1, 84 m²",
+        "2 bedrooms, 2 bathrooms",
+        "Split-system heating and cooling",
+        "Furnished modern interior"
       ],
-      "description": "Fully furnished designer apartment in Pechersk. Smart home features, concierge, and underground parking included."
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "Private beach — free sunbeds and umbrellas",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 outdoor pools",
+        "1 indoor pool"
+      ]
     },
-    "family-house-rent-lviv": {
-      "title": "Family House — Lviv Suburbs",
-      "location": "Lviv, Ukraine",
-      "features": [
-        "Garden",
-        "Home office",
-        "Garage",
-        "Quiet area"
+    "besthome-36-37-the-legend-1-1": {
+      "title": "BestHome 36/37 the Legend — 1+1",
+      "location": "Alanya Center, Turkey",
+      "description": "Furnished 1+1 apartment in BestHome 36/37 the Legend, Alanya Center, Turkey.\n\nFloor: −1. Bedrooms: 1. Bathrooms: 1. Area: 50 m². Building floors: 5.\n\nHeating: split-system air conditioning. Distance to the sea: 150 m.\n\nPrivate beach with free sunbeds and umbrellas.",
+      "note": "Complex amenities: fitness, sauna, hammam, three outdoor pools, and one indoor pool.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Floor −1, 50 m²",
+        "1 bedroom, 1 bathroom",
+        "Split-system heating and cooling",
+        "Furnished modern interior"
       ],
-      "description": "Spacious family home with large garden, home office, and quiet neighborhood. Ideal for long-term corporate rentals."
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "Private beach — free sunbeds and umbrellas",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 outdoor pools",
+        "1 indoor pool"
+      ]
     },
-    "hotel-suite-rent-odesa": {
-      "title": "Hotel Suite — Odesa Marina",
-      "location": "Odesa, Ukraine",
-      "features": [
-        "Housekeeping",
-        "Spa",
-        "Marina view",
-        "Room service"
+    "besthome-36-37-the-legend-duplex": {
+      "title": "BestHome 36/37 the Legend — Duplex 2+1 Sea View",
+      "location": "Alanya Center, Turkey",
+      "description": "Unfurnished duplex 2+1 with sea view in BestHome 36/37 the Legend, Alanya Center, Turkey.\n\nFloor: 5. Bedrooms: 2. Bathrooms: 2. Area: 119 m². Building floors: 5.\n\nHeating: split-system air conditioning. Distance to the sea: 150 m. Unfurnished.\n\nPrivate beach with free sunbeds and umbrellas.",
+      "note": "Complex amenities: fitness, sauna, hammam, three outdoor pools, and one indoor pool.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Duplex on floor 5, 119 m²",
+        "2 bedrooms, 2 bathrooms",
+        "Sea view",
+        "Unfurnished",
+        "Split-system heating and cooling"
       ],
-      "description": "Premium serviced suite in a five-star waterfront hotel. Daily housekeeping, spa access, and marina views."
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "Private beach — free sunbeds and umbrellas",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 outdoor pools",
+        "1 indoor pool"
+      ]
     },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",

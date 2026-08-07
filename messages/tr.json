@@ -101,6 +101,8 @@
     "title": "Tüm gayrimenkuller",
     "subtitle": "İşlem türüne ve gayrimenkul kategorisine göre filtreleyin",
     "filters": "Filtreler",
+    "filterTransaction": "İşlem",
+    "filterType": "Tür",
     "allTypes": "Tüm türler",
     "allTransactions": "Tümü",
     "noResults": "Filtrelerinize uygun gayrimenkul bulunamadı.",
@@ -221,37 +223,74 @@
         "Jeneratör"
       ]
     },
-    "modern-apartment-rent-kyiv": {
-      "title": "Modern daire — Pechersk",
-      "description": "Pechersk'te tamamen mobilyalı tasarım daire. Akıllı ev özellikleri, concierge hizmeti ve kapalı otopark dahildir.",
-      "location": "Kyiv, Ukrayna",
-      "features": [
-        "Mobilyalı",
-        "Concierge",
-        "Otopark",
-        "Spor salonu"
+    "besthome-36-37-the-legend": {
+      "title": "BestHome 36/37 the Legend — 2+1",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 36/37 the Legend kompleksinde, Alanya merkezde mobilyalı 2 yatak odalı daire.\n\nKat: −1. Yatak odası: 2. Banyo: 2. Alan: 84 m². Bina kat sayısı: 5.\n\nIsıtma: split klima. Denize mesafe: 150 m.\n\nÖzel plaj, şezlong ve şemsiyeler ücretsiz.",
+      "note": "Kompleks olanakları: fitness, sauna, hamam, üç açık havuz ve bir kapalı havuz.",
+      "roomSpecsTitle": "Daire özellikleri",
+      "roomSpecs": [
+        "Kat −1, 84 m²",
+        "2 yatak odası, 2 banyo",
+        "Isıtma — split sistem",
+        "Modern mobilyalı iç mekan"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "Özel plaj — şezlong ve şemsiye ücretsiz",
+        "Fitness",
+        "Sauna",
+        "Hamam",
+        "3 açık havuz",
+        "1 kapalı havuz"
       ]
     },
-    "family-house-rent-lviv": {
-      "title": "Aile evi — Lviv banliyöleri",
-      "description": "Geniş bahçesi, ev ofisi ve sakin mahallesi olan ferah aile evi. Uzun dönem kurumsal kiralamalar için idealdir.",
-      "location": "Lviv, Ukrayna",
-      "features": [
-        "Bahçe",
-        "Ev ofisi",
-        "Garaj",
-        "Sakin bölge"
+    "besthome-36-37-the-legend-1-1": {
+      "title": "BestHome 36/37 the Legend — 1+1",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 36/37 the Legend kompleksinde, Alanya merkezde mobilyalı 1+1 daire.\n\nKat: −1. Yatak odası: 1. Banyo: 1. Alan: 50 m². Bina kat sayısı: 5.\n\nIsıtma: split klima. Denize mesafe: 150 m.\n\nÖzel plaj, şezlong ve şemsiyeler ücretsiz.",
+      "note": "Kompleks olanakları: fitness, sauna, hamam, üç açık havuz ve bir kapalı havuz.",
+      "roomSpecsTitle": "Daire özellikleri",
+      "roomSpecs": [
+        "Kat −1, 50 m²",
+        "1 yatak odası, 1 banyo",
+        "Isıtma — split sistem",
+        "Modern mobilyalı iç mekan"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "Özel plaj — şezlong ve şemsiye ücretsiz",
+        "Fitness",
+        "Sauna",
+        "Hamam",
+        "3 açık havuz",
+        "1 kapalı havuz"
       ]
     },
-    "hotel-suite-rent-odesa": {
-      "title": "Otel süiti — Odesa Marina",
-      "description": "Beş yıldızlı deniz kenarı otelde premium servisli süit. Günlük temizlik, spa erişimi ve marina manzarası sunar.",
-      "location": "Odessa, Ukrayna",
-      "features": [
-        "Temizlik",
-        "Spa",
-        "Marina manzarası",
-        "Oda servisi"
+    "besthome-36-37-the-legend-duplex": {
+      "title": "BestHome 36/37 the Legend — Dubleks 2+1 Deniz Manzaralı",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 36/37 the Legend kompleksinde, Alanya merkezde mobilyasız deniz manzaralı 2+1 dubleks.\n\nKat: 5. Yatak odası: 2. Banyo: 2. Alan: 119 m². Bina kat sayısı: 5.\n\nIsıtma: split klima. Denize mesafe: 150 m. Mobilyasız.\n\nÖzel plaj, şezlong ve şemsiyeler ücretsiz.",
+      "note": "Kompleks olanakları: fitness, sauna, hamam, üç açık havuz ve bir kapalı havuz.",
+      "roomSpecsTitle": "Daire özellikleri",
+      "roomSpecs": [
+        "5. kat dubleks, 119 m²",
+        "2 yatak odası, 2 banyo",
+        "Deniz manzarası",
+        "Mobilyasız",
+        "Isıtma — split sistem"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "Özel plaj — şezlong ve şemsiye ücretsiz",
+        "Fitness",
+        "Sauna",
+        "Hamam",
+        "3 açık havuz",
+        "1 kapalı havuz"
       ]
     },
     "besthome-52-cleopatra-costana": {

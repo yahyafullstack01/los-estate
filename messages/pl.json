@@ -101,6 +101,8 @@
     "title": "Wszystkie oferty",
     "subtitle": "Filtruj według typu transakcji i kategorii",
     "filters": "Filtry",
+    "filterTransaction": "Transakcja",
+    "filterType": "Typ",
     "allTypes": "Wszystkie typy",
     "allTransactions": "Wszystkie",
     "noResults": "Brak ofert pasujących do filtrów.",
@@ -221,37 +223,74 @@
         "Agregat prądotwórczy"
       ]
     },
-    "modern-apartment-rent-kyiv": {
-      "title": "Nowoczesny apartament — Peczersk",
-      "description": "W pełni umeblowany apartament z inteligentnym domem, concierge i parkingiem podziemnym.",
-      "location": "Kijów, Ukraina",
-      "features": [
-        "Umeblowane",
-        "Concierge",
-        "Parking",
-        "Siłownia"
+    "besthome-36-37-the-legend": {
+      "title": "BestHome 36/37 the Legend — 2+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 2-sypialniany w BestHome 36/37 the Legend, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 2. Łazienki: 2. Powierzchnia: 84 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 84 m²",
+        "2 sypialnie, 2 łazienki",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
       ]
     },
-    "family-house-rent-lviv": {
-      "title": "Dom rodzinny — przedmieścia Lwowa",
-      "description": "Przestronny dom z dużym ogrodem i domowym biurem w spokojnej okolicy.",
-      "location": "Lwów, Ukraina",
-      "features": [
-        "Ogród",
-        "Biuro domowe",
-        "Garaż",
-        "Spokojna okolica"
+    "besthome-36-37-the-legend-1-1": {
+      "title": "BestHome 36/37 the Legend — 1+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 1+1 w BestHome 36/37 the Legend, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 1. Łazienki: 1. Powierzchnia: 50 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 50 m²",
+        "1 sypialnia, 1 łazienka",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
       ]
     },
-    "hotel-suite-rent-odesa": {
-      "title": "Apartament hotelowy — Marina w Odessie",
-      "description": "Apartament serwisowany w pięciogwiazdkowym hotelu nad morzem ze spa i widokiem na marinę.",
-      "location": "Odessa, Ukraina",
-      "features": [
-        "Sprzątanie",
-        "Spa",
-        "Widok na marinę",
-        "Obsługa pokoju"
+    "besthome-36-37-the-legend-duplex": {
+      "title": "BestHome 36/37 the Legend — Duplex 2+1 z Widokiem na Morze",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Nieumeblowany duplex 2+1 z widokiem na morze w BestHome 36/37 the Legend, centrum Alanyi, Turcja.\n\nPiętro: 5. Sypialnie: 2. Łazienki: 2. Powierzchnia: 119 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m. Bez mebli.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Duplex na 5. piętrze, 119 m²",
+        "2 sypialnie, 2 łazienki",
+        "Widok na morze",
+        "Bez mebli",
+        "Ogrzewanie — system split"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
       ]
     },
     "besthome-52-cleopatra-costana": {
