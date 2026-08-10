@@ -36,7 +36,6 @@ type ContactBody = {
   propertyType?: string;
   propertyTransaction?: string;
   propertySlug?: string;
-  website?: string;
 };
 
 function escapeHtml(value: string) {
@@ -86,16 +85,14 @@ export async function POST(request: Request) {
 
     const body = (await request.json()) as ContactBody;
 
-    // Honeypot
-    if (body.website) {
-      return NextResponse.json({ ok: true });
-    }
-
     const name = body.name?.trim() ?? "";
     const email = body.email?.trim() ?? "";
     const message = body.message?.trim() ?? "";
     const phone = body.phone?.trim() ?? "";
     const interest = body.interest?.trim() ?? "";
+
+    // Ignore legacy honeypot field if present — never fake a success response
+    // (browsers/password managers often autofill hidden "website" inputs).
 
     if (!name || !email || !phone || !message || !interest) {
       return NextResponse.json(

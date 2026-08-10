@@ -63,7 +63,6 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
     const email = data.get("email")?.toString().trim();
     const phone = data.get("phone")?.toString().trim() ?? "";
     const message = data.get("message")?.toString().trim();
-    const website = data.get("website")?.toString() ?? "";
     const interest = data.get("interest")?.toString() ?? "";
     const market = data.get("market")?.toString() ?? "";
     const propertyPreference = data.get("propertyPreference")?.toString() ?? "";
@@ -89,7 +88,6 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
           email,
           phone,
           message,
-          website,
           interest,
           market,
           propertyPreference,
@@ -208,15 +206,6 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
           </div>
         </>
       )}
-
-      <input
-        type="text"
-        name="website"
-        tabIndex={-1}
-        autoComplete="off"
-        className="absolute left-[-9999px] h-0 w-0 opacity-0"
-        aria-hidden="true"
-      />
 
       <div>
         <label htmlFor="interest" className="mb-1.5 block text-sm font-medium">
