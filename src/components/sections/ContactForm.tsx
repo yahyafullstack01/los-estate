@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -36,6 +36,23 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error" | "not_configured"
   >("idle");
+
+  // Clear stale PWA/service-worker caches that could fake form success
+  useEffect(() => {
+    if (typeof window === "undefined" || !("serviceWorker" in navigator)) return;
+    void navigator.serviceWorker.getRegistrations().then((regs) => {
+      regs.forEach((reg) => {
+        void reg.unregister();
+      });
+    });
+    if ("caches" in window) {
+      void caches.keys().then((keys) => {
+        keys.forEach((key) => {
+          void caches.delete(key);
+        });
+      });
+    }
+  }, []);
 
   const initialInterest =
     defaultInterest &&
@@ -76,7 +93,7 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
     setStatus("sending");
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch(`/api/contact?ts=${Date.now()}`, {
         method: "POST",
         cache: "no-store",
         headers: {
@@ -102,9 +119,11 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
       const payload = (await res.json().catch(() => null)) as {
         ok?: boolean;
         error?: string;
+        id?: string;
       } | null;
 
-      if (!res.ok || !payload?.ok) {
+      // Require Gmail message id so we never show fake success
+      if (!res.ok || !payload?.ok || !payload.id) {
         if (payload?.error === "email_not_configured") {
           setStatus("not_configured");
         } else {
