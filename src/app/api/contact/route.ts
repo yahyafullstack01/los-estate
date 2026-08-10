@@ -64,6 +64,11 @@ export async function POST(request: Request) {
       payload.propertySlug = body.propertySlug?.trim() || "—";
     }
 
+    const origin =
+      request.headers.get("origin") ||
+      request.headers.get("referer") ||
+      "http://localhost:3000";
+
     const response = await fetch(
       `https://formsubmit.co/ajax/${encodeURIComponent(TO_EMAIL)}`,
       {
@@ -71,16 +76,53 @@ export async function POST(request: Request) {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
+          Origin: origin,
+          Referer: origin,
         },
         body: JSON.stringify(payload),
       }
     );
 
-    if (!response.ok) {
-      const text = await response.text();
-      console.error("Contact form email failed:", response.status, text);
+    const result = (await response.json().catch(() => null)) as {
+      success?: string | boolean;
+      message?: string;
+    } | null;
+
+    const success =
+      result?.success === true ||
+      result?.success === "true" ||
+      (response.ok && !result?.message?.toLowerCase().includes("activation"));
+
+    // FormSubmit requires a one-time “Activate Form” click in Gmail
+    if (
+      result?.message?.toLowerCase().includes("activation") ||
+      result?.message?.toLowerCase().includes("activate")
+    ) {
       return NextResponse.json(
-        { ok: false, error: "send_failed" },
+        {
+          ok: false,
+          error: "needs_activation",
+          message: result.message,
+        },
+        { status: 403 }
+      );
+    }
+
+    if (!response.ok || result?.success === "false" || result?.success === false) {
+      console.error("Contact form email failed:", response.status, result);
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "send_failed",
+          message: result?.message,
+        },
+        { status: 502 }
+      );
+    }
+
+    if (!success) {
+      return NextResponse.json(
+        { ok: false, error: "send_failed", message: result?.message },
         { status: 502 }
       );
     }

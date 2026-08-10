@@ -221,7 +221,8 @@
     "transactionType": "Тип оголошення",
     "messagePrefill": "Запит щодо об'єкта: {title} ({type}, {transaction})",
     "directFallback": "Зручніше email? Пишіть на losestate2025@gmail.com — відповідаємо в робочі дні.",
-    "whatsappPrefill": "Вітаю, LOS ESTATE! Хочу дізнатися про об'єкт нерухомості."
+    "whatsappPrefill": "Вітаю, LOS ESTATE! Хочу дізнатися про об'єкт нерухомості.",
+    "needsActivation": "Майже готово: перевірте losestate2025@gmail.com (і Спам) — лист від FormSubmit з посиланням «Activate Form». Після активації запити надходитимуть на пошту."
   },
   "footer": {
     "rights": "Усі права захищені.",

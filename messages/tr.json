@@ -221,7 +221,8 @@
     "transactionType": "İlan tipi",
     "messagePrefill": "Talep: {title} ({type}, {transaction})",
     "directFallback": "E-posta mı tercih edersiniz? losestate2025@gmail.com — iş günlerinde yanıtlıyoruz.",
-    "whatsappPrefill": "Merhaba LOS ESTATE, bir mülk hakkında bilgi almak istiyorum."
+    "whatsappPrefill": "Merhaba LOS ESTATE, bir mülk hakkında bilgi almak istiyorum.",
+    "needsActivation": "Neredeyse hazır: losestate2025@gmail.com (ve Spam) kutusunda FormSubmit’ten “Activate Form” e-postasını açıp bağlantıya tıklayın. Sonrasında talepler gelen kutunuza düşer."
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",

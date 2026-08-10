@@ -221,7 +221,8 @@
     "transactionType": "Anzeigentyp",
     "messagePrefill": "Anfrage zu: {title} ({type}, {transaction})",
     "directFallback": "Lieber E-Mail? Schreiben Sie an losestate2025@gmail.com — Antwort an Werktagen.",
-    "whatsappPrefill": "Hallo LOS ESTATE, ich möchte mich nach einer Immobilie erkundigen."
+    "whatsappPrefill": "Hallo LOS ESTATE, ich möchte mich nach einer Immobilie erkundigen.",
+    "needsActivation": "Fast fertig: Prüfen Sie losestate2025@gmail.com (und Spam) auf eine E-Mail von FormSubmit und klicken Sie „Activate Form“. Danach landen Anfragen in Ihrem Posteingang."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",

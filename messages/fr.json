@@ -221,7 +221,8 @@
     "transactionType": "Type d'annonce",
     "messagePrefill": "Demande concernant : {title} ({type}, {transaction})",
     "directFallback": "Préférez l'e-mail ? Écrivez à losestate2025@gmail.com — réponse les jours ouvrés.",
-    "whatsappPrefill": "Bonjour LOS ESTATE, je souhaite des informations sur un bien."
+    "whatsappPrefill": "Bonjour LOS ESTATE, je souhaite des informations sur un bien.",
+    "needsActivation": "Presque prêt : vérifiez losestate2025@gmail.com (et les spams) pour un e-mail FormSubmit, puis cliquez sur « Activate Form ». Ensuite, les demandes arriveront dans votre boîte."
   },
   "footer": {
     "rights": "Tous droits réservés.",

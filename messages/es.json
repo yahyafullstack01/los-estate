@@ -221,7 +221,8 @@
     "transactionType": "Tipo de anuncio",
     "messagePrefill": "Consulta sobre: {title} ({type}, {transaction})",
     "directFallback": "¿Prefiere correo? Escríbanos a losestate2025@gmail.com — respondemos en días laborables.",
-    "whatsappPrefill": "Hola LOS ESTATE, me gustaría consultar sobre una propiedad."
+    "whatsappPrefill": "Hola LOS ESTATE, me gustaría consultar sobre una propiedad.",
+    "needsActivation": "Casi listo: revise losestate2025@gmail.com (y Spam) el correo de FormSubmit y pulse “Activate Form”. Después, las consultas llegarán a su bandeja."
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

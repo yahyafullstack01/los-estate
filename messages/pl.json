@@ -221,7 +221,8 @@
     "transactionType": "Typ ogłoszenia",
     "messagePrefill": "Zapytanie o: {title} ({type}, {transaction})",
     "directFallback": "Wolisz e-mail? Napisz na losestate2025@gmail.com — odpowiadamy w dni robocze.",
-    "whatsappPrefill": "Dzień dobry LOS ESTATE, chciałbym zapytać o nieruchomość."
+    "whatsappPrefill": "Dzień dobry LOS ESTATE, chciałbym zapytać o nieruchomość.",
+    "needsActivation": "Prawie gotowe: sprawdź losestate2025@gmail.com (i Spam) — e-mail od FormSubmit z linkiem „Activate Form”. Potem zapytania będą trafiać na skrzynkę."
   },
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone.",

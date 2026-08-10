@@ -33,9 +33,9 @@ const BUDGET_VALUES = [
 
 export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
   const t = useTranslations("contact");
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">(
-    "idle"
-  );
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error" | "needs_activation"
+  >("idle");
 
   const initialInterest =
     defaultInterest &&
@@ -97,8 +97,17 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
         }),
       });
 
-      if (!res.ok) {
-        setStatus("error");
+      const payload = (await res.json().catch(() => null)) as {
+        ok?: boolean;
+        error?: string;
+      } | null;
+
+      if (!res.ok || !payload?.ok) {
+        if (payload?.error === "needs_activation") {
+          setStatus("needs_activation");
+        } else {
+          setStatus("error");
+        }
         return;
       }
 
@@ -335,6 +344,11 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
 
       {status === "success" && (
         <p className="text-sm text-green-600 dark:text-green-400">{t("success")}</p>
+      )}
+      {status === "needs_activation" && (
+        <p className="text-sm text-amber-700 dark:text-amber-400">
+          {t("needsActivation")}
+        </p>
       )}
       {status === "error" && (
         <p className="text-sm text-red-600 dark:text-red-400">{t("error")}</p>

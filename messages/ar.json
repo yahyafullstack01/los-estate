@@ -221,7 +221,8 @@
     "transactionType": "نوع الإعلان",
     "messagePrefill": "استفسار عن: {title} ({type}, {transaction})",
     "directFallback": "تفضّل البريد؟ راسلنا على losestate2025@gmail.com — نرد في أيام العمل.",
-    "whatsappPrefill": "مرحباً LOS ESTATE، أود الاستفسار عن عقار."
+    "whatsappPrefill": "مرحباً LOS ESTATE، أود الاستفسار عن عقار.",
+    "needsActivation": "أوشكنا على الانتهاء: تحقق من losestate2025@gmail.com (والبريد غير الهام) من رسالة FormSubmit واضغط “Activate Form”. بعدها ستصل الاستفسارات إلى صندوق الوارد."
   },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",
