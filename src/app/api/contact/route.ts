@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 
 const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "losestate2025@gmail.com";
-const FROM_EMAIL =
-  process.env.CONTACT_FROM_EMAIL || "LOS ESTATE <onboarding@resend.dev>";
+const GMAIL_USER = process.env.GMAIL_USER || "losestate2025@gmail.com";
+const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
 
 type ContactBody = {
   name?: string;
@@ -33,73 +33,42 @@ function buildEmailHtml(fields: Record<string, string>) {
   const rows = Object.entries(fields)
     .map(
       ([key, value]) =>
-        `<tr><td style="padding:8px 12px;border:1px solid #ddd;font-weight:600;">${escapeHtml(key)}</td><td style="padding:8px 12px;border:1px solid #ddd;white-space:pre-wrap;">${escapeHtml(value)}</td></tr>`
+        `<tr>
+          <td style="padding:8px 12px;border:1px solid #ddd;font-weight:600;vertical-align:top;">${escapeHtml(key)}</td>
+          <td style="padding:8px 12px;border:1px solid #ddd;white-space:pre-wrap;">${escapeHtml(value)}</td>
+        </tr>`
     )
     .join("");
 
   return `
-    <div style="font-family:Arial,sans-serif;font-size:14px;color:#111;">
-      <p>New inquiry from the LOS ESTATE website.</p>
+    <div style="font-family:Arial,sans-serif;font-size:14px;color:#111;line-height:1.5;">
+      <p><strong>New inquiry from the LOS ESTATE website</strong></p>
       <table style="border-collapse:collapse;width:100%;max-width:640px;">${rows}</table>
     </div>
   `;
 }
 
-async function sendWithResend(payload: {
-  subject: string;
-  replyTo: string;
-  fields: Record<string, string>;
-}) {
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return null;
-
-  const resend = new Resend(apiKey);
-  const { data, error } = await resend.emails.send({
-    from: FROM_EMAIL,
-    to: [TO_EMAIL],
-    replyTo: payload.replyTo,
-    subject: payload.subject,
-    html: buildEmailHtml(payload.fields),
-  });
-
-  if (error) {
-    console.error("Resend error:", error);
-    return { ok: false as const, error };
-  }
-
-  return { ok: true as const, id: data?.id };
-}
-
-async function sendWithFormSubmit(
-  payload: Record<string, string>,
-  origin: string
-) {
-  const response = await fetch(
-    `https://formsubmit.co/ajax/${encodeURIComponent(TO_EMAIL)}`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        Origin: origin,
-        Referer: origin,
-      },
-      body: JSON.stringify(payload),
-    }
-  );
-
-  const result = (await response.json().catch(() => null)) as {
-    success?: string | boolean;
-    message?: string;
-  } | null;
-
-  return { response, result };
+function buildEmailText(fields: Record<string, string>) {
+  return [
+    "New inquiry from the LOS ESTATE website",
+    "",
+    ...Object.entries(fields).map(([key, value]) => `${key}: ${value}`),
+  ].join("\n");
 }
 
 export async function POST(request: Request) {
   try {
+    if (!GMAIL_APP_PASSWORD) {
+      console.error("Missing GMAIL_APP_PASSWORD env var");
+      return NextResponse.json(
+        { ok: false, error: "email_not_configured" },
+        { status: 500 }
+      );
+    }
+
     const body = (await request.json()) as ContactBody;
 
+    // Honeypot
     if (body.website) {
       return NextResponse.json({ ok: true });
     }
@@ -140,83 +109,28 @@ export async function POST(request: Request) {
       fields.Slug = body.propertySlug?.trim() || "—";
     }
 
-    // Preferred path for Vercel / production
-    const resendResult = await sendWithResend({
-      subject,
-      replyTo: email,
-      fields,
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: GMAIL_USER,
+        pass: GMAIL_APP_PASSWORD,
+      },
     });
 
-    if (resendResult?.ok) {
-      return NextResponse.json({ ok: true, provider: "resend" });
-    }
+    await transporter.sendMail({
+      from: `"LOS ESTATE" <${GMAIL_USER}>`,
+      to: TO_EMAIL,
+      replyTo: email,
+      subject,
+      text: buildEmailText(fields),
+      html: buildEmailHtml(fields),
+    });
 
-    if (resendResult && !resendResult.ok && process.env.RESEND_API_KEY) {
-      return NextResponse.json(
-        { ok: false, error: "send_failed" },
-        { status: 502 }
-      );
-    }
-
-    // Fallback: FormSubmit (requires one-time Activate Form email)
-    const origin =
-      request.headers.get("origin") ||
-      request.headers.get("referer") ||
-      "https://los-estate.vercel.app";
-
-    const formPayload: Record<string, string> = {
-      name,
-      email,
-      phone,
-      interest,
-      market: body.market?.trim() || "—",
-      propertyPreference: body.propertyPreference?.trim() || "—",
-      budget: body.budget?.trim() || "—",
-      message,
-      _subject: subject,
-      _replyto: email,
-      _template: "table",
-      _captcha: "false",
-    };
-
-    if (propertyTitle) {
-      formPayload.property = propertyTitle;
-      formPayload.propertyType = body.propertyType?.trim() || "—";
-      formPayload.propertyTransaction = body.propertyTransaction?.trim() || "—";
-      formPayload.propertySlug = body.propertySlug?.trim() || "—";
-    }
-
-    const { response, result } = await sendWithFormSubmit(formPayload, origin);
-
-    if (
-      result?.message?.toLowerCase().includes("activation") ||
-      result?.message?.toLowerCase().includes("activate")
-    ) {
-      return NextResponse.json(
-        {
-          ok: false,
-          error: "needs_activation",
-          message: result.message,
-        },
-        { status: 403 }
-      );
-    }
-
-    if (
-      !response.ok ||
-      result?.success === "false" ||
-      result?.success === false
-    ) {
-      console.error("FormSubmit failed:", response.status, result);
-      return NextResponse.json(
-        { ok: false, error: "send_failed", message: result?.message },
-        { status: 502 }
-      );
-    }
-
-    return NextResponse.json({ ok: true, provider: "formsubmit" });
+    return NextResponse.json({ ok: true });
   } catch (error) {
-    console.error("Contact form error:", error);
+    console.error("Contact form email error:", error);
     return NextResponse.json(
       { ok: false, error: "send_failed" },
       { status: 500 }

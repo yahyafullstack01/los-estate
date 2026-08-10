@@ -34,7 +34,7 @@ const BUDGET_VALUES = [
 export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
   const t = useTranslations("contact");
   const [status, setStatus] = useState<
-    "idle" | "sending" | "success" | "error" | "needs_activation"
+    "idle" | "sending" | "success" | "error" | "not_configured"
   >("idle");
 
   const initialInterest =
@@ -103,8 +103,8 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
       } | null;
 
       if (!res.ok || !payload?.ok) {
-        if (payload?.error === "needs_activation") {
-          setStatus("needs_activation");
+        if (payload?.error === "email_not_configured") {
+          setStatus("not_configured");
         } else {
           setStatus("error");
         }
@@ -345,9 +345,9 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
       {status === "success" && (
         <p className="text-sm text-green-600 dark:text-green-400">{t("success")}</p>
       )}
-      {status === "needs_activation" && (
+      {status === "not_configured" && (
         <p className="text-sm text-amber-700 dark:text-amber-400">
-          {t("needsActivation")}
+          {t("notConfigured")}
         </p>
       )}
       {status === "error" && (

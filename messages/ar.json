@@ -222,7 +222,7 @@
     "messagePrefill": "استفسار عن: {title} ({type}, {transaction})",
     "directFallback": "تفضّل البريد؟ راسلنا على losestate2025@gmail.com — نرد في أيام العمل.",
     "whatsappPrefill": "مرحباً LOS ESTATE، أود الاستفسار عن عقار.",
-    "needsActivation": "توصيل البريد غير مفعّل بعد. افتح losestate2025@gmail.com (تحقق من غير الهام)، وابحث عن رسالة FormSubmit واضغط “Activate Form”. أو أضف مفتاح Resend API في Vercel (انظر .env.example). بعدها سيعمل على https://los-estate.vercel.app."
+    "notConfigured": "البريد غير مضبوط على الخادم بعد. راسلنا عبر WhatsApp أو مباشرة على losestate2025@gmail.com."
   },
   "footer": {
     "rights": "جميع الحقوق محفوظة.",

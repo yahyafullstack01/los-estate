@@ -222,7 +222,7 @@
     "messagePrefill": "Anfrage zu: {title} ({type}, {transaction})",
     "directFallback": "Lieber E-Mail? Schreiben Sie an losestate2025@gmail.com — Antwort an Werktagen.",
     "whatsappPrefill": "Hallo LOS ESTATE, ich möchte mich nach einer Immobilie erkundigen.",
-    "needsActivation": "E-Mail-Zustellung ist noch nicht aktiviert. Öffnen Sie losestate2025@gmail.com (auch Spam), finden Sie die FormSubmit-Mail und klicken Sie „Activate Form“. Oder fügen Sie einen Resend-API-Schlüssel in Vercel hinzu (siehe .env.example). Danach funktioniert es auf https://los-estate.vercel.app."
+    "notConfigured": "E-Mail ist auf dem Server noch nicht konfiguriert. Bitte schreiben Sie uns per WhatsApp oder direkt an losestate2025@gmail.com."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
