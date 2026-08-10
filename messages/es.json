@@ -138,20 +138,90 @@
     "rent": "En alquiler"
   },
   "contact": {
-    "title": "Contáctenos",
-    "subtitle": "Cuéntenos qué busca — responderemos en un día laborable.",
+    "title": "Encontremos su próxima propiedad",
+    "subtitle": "Compra, alquiler, venta o visita — nuestros asesores responden en un día laborable.",
+    "responseTime": "Respuesta habitual en 24 horas en días laborables",
+    "channelsTitle": "Háblenos directamente",
+    "callUs": "Llamar",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Pulse para escribirnos directamente — respuestas rápidas sobre visitas y disponibilidad",
+    "emailUs": "Correo",
+    "office": "Oficina",
+    "officeAddress": "Varsovia, Polonia",
+    "officeHours": "Lun–Vie, 10:00–18:00 (CET)",
+    "servicesTitle": "Cómo podemos ayudar",
+    "servicesSubtitle": "Elija lo que necesita — el formulario se rellena solo.",
+    "services": {
+      "buy": {
+        "title": "Comprar una propiedad",
+        "text": "Apartamentos, villas y oportunidades de inversión en nuestros mercados."
+      },
+      "rent": {
+        "title": "Alquilar una vivienda",
+        "text": "Alquiler corto y largo plazo, vacaciones y unidades amuebladas."
+      },
+      "sell": {
+        "title": "Vender o publicar su propiedad",
+        "text": "Valoración y marketing a compradores e inquilinos cualificados."
+      },
+      "viewing": {
+        "title": "Reservar una visita",
+        "text": "Visita presencial u online a un anuncio que le interese."
+      }
+    },
+    "marketsTitle": "Mercados que cubrimos",
+    "marketsText": "Polonia, Turquía y España — experiencia local en residencias, hoteles e inversiones.",
+    "formTitle": "Enviar consulta",
+    "formSubtitle": "Cuéntenos unos detalles para emparejarle con las propiedades y el asesor adecuados.",
+    "interest": "Estoy interesado en",
+    "interests": {
+      "buy": "Comprar una propiedad",
+      "rent": "Alquilar una propiedad",
+      "sell": "Vender / publicar mi propiedad",
+      "viewing": "Reservar una visita",
+      "investment": "Asesoramiento de inversión",
+      "other": "Otra cosa"
+    },
     "name": "Nombre completo",
     "email": "Correo electrónico",
-    "phone": "Teléfono (opcional)",
+    "phone": "Teléfono / WhatsApp",
+    "market": "Mercado preferido",
+    "markets": {
+      "turkey": "Turquía (Alanya y costa)",
+      "poland": "Polonia",
+      "spain": "España",
+      "other": "Otro / aún no lo sé"
+    },
+    "propertyPreference": "Tipo de propiedad",
+    "propertyPreferences": {
+      "apartment": "Apartamento",
+      "house": "Casa / villa",
+      "hotel": "Hotel / hospitality",
+      "any": "Abierto a opciones"
+    },
+    "budget": "Presupuesto",
+    "budgets": {
+      "under100k": "Menos de €100.000",
+      "100to250k": "€100.000 – €250.000",
+      "250to500k": "€250.000 – €500.000",
+      "500kPlus": "€500.000+",
+      "rentBudget": "Alquiler — indíquelo en el mensaje",
+      "flexible": "Flexible / hablar con un asesor"
+    },
     "message": "Mensaje",
-    "submit": "Enviar mensaje",
+    "messagePlaceholder": "Fechas, dormitorios, vistas al mar, amueblado y requisitos imprescindibles…",
+    "privacyNote": "Al enviar este formulario acepta que LOS ESTATE le contacte sobre su consulta.",
+    "submit": "Enviar consulta",
+    "sending": "Enviando…",
     "success": "¡Gracias! Nos pondremos en contacto pronto.",
-    "error": "Por favor complete los campos obligatorios.",
+    "error": "Algo salió mal. Inténtelo de nuevo o escríbanos directamente.",
     "inquiryFor": "Consulta sobre",
     "propertyName": "Nombre de la propiedad",
     "propertyType": "Tipo de propiedad",
     "transactionType": "Tipo de anuncio",
-    "messagePrefill": "Consulta sobre: {title} ({type}, {transaction})"
+    "messagePrefill": "Consulta sobre: {title} ({type}, {transaction})",
+    "directFallback": "¿Prefiere correo? Escríbanos a losestate2025@gmail.com — respondemos en días laborables.",
+    "whatsappPrefill": "Hola LOS ESTATE, me gustaría consultar sobre una propiedad."
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

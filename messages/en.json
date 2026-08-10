@@ -138,20 +138,90 @@
     "rent": "For Rent"
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Tell us what you're looking for — we'll respond within one business day.",
+    "title": "Let's find your next property",
+    "subtitle": "Whether you want to buy, rent, sell, or book a viewing — our advisors reply within one business day.",
+    "responseTime": "Typical reply within 24 hours on business days",
+    "channelsTitle": "Talk to us directly",
+    "callUs": "Call",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Tap to message us directly — fast replies for viewings and availability",
+    "emailUs": "Email",
+    "office": "Office",
+    "officeAddress": "Warsaw, Poland",
+    "officeHours": "Mon–Fri, 10:00–18:00 (CET)",
+    "servicesTitle": "How we can help",
+    "servicesSubtitle": "Choose what you need — it pre-fills your inquiry.",
+    "services": {
+      "buy": {
+        "title": "Buy a property",
+        "text": "Apartments, villas, and investment opportunities in our markets."
+      },
+      "rent": {
+        "title": "Rent a home",
+        "text": "Short- and long-term rentals, holiday stays, and furnished units."
+      },
+      "sell": {
+        "title": "Sell or list your property",
+        "text": "Valuation support and marketing to qualified buyers and tenants."
+      },
+      "viewing": {
+        "title": "Book a viewing",
+        "text": "Schedule a visit to a listing you like — in person or online."
+      }
+    },
+    "marketsTitle": "Markets we cover",
+    "marketsText": "Poland, Turkey, and Spain — with local expertise for residences, hotels, and investment assets.",
+    "formTitle": "Send an inquiry",
+    "formSubtitle": "Share a few details so we can match you with the right properties and advisor.",
+    "interest": "I am interested in",
+    "interests": {
+      "buy": "Buying a property",
+      "rent": "Renting a property",
+      "sell": "Selling / listing my property",
+      "viewing": "Booking a viewing",
+      "investment": "Investment advice",
+      "other": "Something else"
+    },
     "name": "Full name",
     "email": "Email address",
-    "phone": "Phone (optional)",
+    "phone": "Phone / WhatsApp",
+    "market": "Preferred market",
+    "markets": {
+      "turkey": "Turkey (Alanya & coast)",
+      "poland": "Poland",
+      "spain": "Spain",
+      "other": "Other / not sure yet"
+    },
+    "propertyPreference": "Property type",
+    "propertyPreferences": {
+      "apartment": "Apartment",
+      "house": "House / villa",
+      "hotel": "Hotel / hospitality",
+      "any": "Open to options"
+    },
+    "budget": "Budget",
+    "budgets": {
+      "under100k": "Under €100,000",
+      "100to250k": "€100,000 – €250,000",
+      "250to500k": "€250,000 – €500,000",
+      "500kPlus": "€500,000+",
+      "rentBudget": "Rental — tell us in the message",
+      "flexible": "Flexible / discuss with advisor"
+    },
     "message": "Message",
-    "submit": "Send message",
+    "messagePlaceholder": "Tell us preferred dates, number of bedrooms, sea view, furnished or not, and any must-haves…",
+    "privacyNote": "By sending this form you agree that LOS ESTATE may contact you about your inquiry.",
+    "submit": "Send inquiry",
+    "sending": "Sending…",
     "success": "Thank you! We'll be in touch soon.",
-    "error": "Please fill in all required fields.",
+    "error": "Something went wrong. Please try again or email us directly.",
     "inquiryFor": "Inquiry for",
     "propertyName": "Property name",
     "propertyType": "Property type",
     "transactionType": "Listing type",
-    "messagePrefill": "Inquiry about: {title} ({type}, {transaction})"
+    "messagePrefill": "Inquiry about: {title} ({type}, {transaction})",
+    "directFallback": "Prefer email? Write us at losestate2025@gmail.com — we reply on business days.",
+    "whatsappPrefill": "Hello LOS ESTATE, I would like to ask about a property."
   },
   "footer": {
     "rights": "All rights reserved.",

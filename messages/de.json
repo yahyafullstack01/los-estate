@@ -138,20 +138,90 @@
     "rent": "Zur Miete"
   },
   "contact": {
-    "title": "Kontakt",
-    "subtitle": "Sagen Sie uns, wonach Sie suchen — wir antworten innerhalb eines Werktags.",
+    "title": "Finden wir Ihre nächste Immobilie",
+    "subtitle": "Kauf, Miete, Verkauf oder Besichtigung — unsere Berater antworten innerhalb eines Werktags.",
+    "responseTime": "Antwort in der Regel innerhalb von 24 Stunden an Werktagen",
+    "channelsTitle": "Direkt kontaktieren",
+    "callUs": "Anrufen",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Tippen Sie, um uns direkt zu schreiben — schnelle Antworten zu Besichtigungen und Verfügbarkeit",
+    "emailUs": "E-Mail",
+    "office": "Büro",
+    "officeAddress": "Warschau, Polen",
+    "officeHours": "Mo–Fr, 10:00–18:00 (CET)",
+    "servicesTitle": "Wobei wir helfen",
+    "servicesSubtitle": "Wählen Sie Ihr Anliegen — das Formular wird vorausgefüllt.",
+    "services": {
+      "buy": {
+        "title": "Immobilie kaufen",
+        "text": "Wohnungen, Villen und Investments in unseren Märkten."
+      },
+      "rent": {
+        "title": "Wohnung mieten",
+        "text": "Kurz- und Langzeitmiete, Ferien und möblierte Objekte."
+      },
+      "sell": {
+        "title": "Immobilie verkaufen / inserieren",
+        "text": "Bewertung und Vermarktung an qualifizierte Käufer und Mieter."
+      },
+      "viewing": {
+        "title": "Besichtigung buchen",
+        "text": "Vor-Ort- oder Online-Besichtigung für ein Angebot Ihrer Wahl."
+      }
+    },
+    "marketsTitle": "Unsere Märkte",
+    "marketsText": "Polen, Türkei und Spanien — lokale Expertise für Wohnen, Hotels und Investments.",
+    "formTitle": "Anfrage senden",
+    "formSubtitle": "Teilen Sie ein paar Details — wir finden passende Objekte und den richtigen Berater.",
+    "interest": "Ich interessiere mich für",
+    "interests": {
+      "buy": "Immobilie kaufen",
+      "rent": "Immobilie mieten",
+      "sell": "Meine Immobilie verkaufen / inserieren",
+      "viewing": "Besichtigung buchen",
+      "investment": "Investmentberatung",
+      "other": "Sonstiges"
+    },
     "name": "Vollständiger Name",
     "email": "E-Mail-Adresse",
-    "phone": "Telefon (optional)",
+    "phone": "Telefon / WhatsApp",
+    "market": "Bevorzugter Markt",
+    "markets": {
+      "turkey": "Türkei (Alanya & Küste)",
+      "poland": "Polen",
+      "spain": "Spanien",
+      "other": "Andere / noch unsicher"
+    },
+    "propertyPreference": "Immobilientyp",
+    "propertyPreferences": {
+      "apartment": "Wohnung",
+      "house": "Haus / Villa",
+      "hotel": "Hotel / Hospitality",
+      "any": "Offen für Optionen"
+    },
+    "budget": "Budget",
+    "budgets": {
+      "under100k": "Unter €100.000",
+      "100to250k": "€100.000 – €250.000",
+      "250to500k": "€250.000 – €500.000",
+      "500kPlus": "€500.000+",
+      "rentBudget": "Miete — bitte in der Nachricht angeben",
+      "flexible": "Flexibel / mit Berater besprechen"
+    },
     "message": "Nachricht",
-    "submit": "Nachricht senden",
-    "success": "Vielen Dank! Wir melden uns bald bei Ihnen.",
-    "error": "Bitte füllen Sie alle Pflichtfelder aus.",
+    "messagePlaceholder": "Termine, Schlafzimmer, Meerblick, Möblierung und Must-haves…",
+    "privacyNote": "Mit dem Absenden stimmen Sie zu, dass LOS ESTATE Sie zu Ihrer Anfrage kontaktieren darf.",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet…",
+    "success": "Danke! Wir melden uns bald.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt.",
     "inquiryFor": "Anfrage zu",
     "propertyName": "Objektname",
     "propertyType": "Immobilientyp",
     "transactionType": "Anzeigentyp",
-    "messagePrefill": "Anfrage zu: {title} ({type}, {transaction})"
+    "messagePrefill": "Anfrage zu: {title} ({type}, {transaction})",
+    "directFallback": "Lieber E-Mail? Schreiben Sie an losestate2025@gmail.com — Antwort an Werktagen.",
+    "whatsappPrefill": "Hallo LOS ESTATE, ich möchte mich nach einer Immobilie erkundigen."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",

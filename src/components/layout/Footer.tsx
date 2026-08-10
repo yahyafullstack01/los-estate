@@ -56,15 +56,22 @@ export async function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-muted">
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-gold" />
-                Kyiv, Ukraine
+                Warsaw, Poland
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-brand-gold" />
-                +380 44 000 0000
+                <a href="tel:+48575656702" className="hover:text-foreground">
+                  +48 575 656 702
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-brand-gold" />
-                info@los-estate.com
+                <a
+                  href="mailto:losestate2025@gmail.com"
+                  className="hover:text-foreground"
+                >
+                  losestate2025@gmail.com
+                </a>
               </li>
             </ul>
           </div>

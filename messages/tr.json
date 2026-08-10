@@ -138,20 +138,90 @@
     "rent": "Kiralık"
   },
   "contact": {
-    "title": "İletişim",
-    "subtitle": "Ne aradığınızı bize söyleyin — bir iş günü içinde yanıt vereceğiz.",
+    "title": "Bir sonraki mülkünüzü birlikte bulalım",
+    "subtitle": "Satın alma, kiralama, satış veya gezme talepleriniz için danışmanlarımız bir iş günü içinde dönüş yapar.",
+    "responseTime": "İş günlerinde genellikle 24 saat içinde yanıt",
+    "channelsTitle": "Doğrudan iletişim",
+    "callUs": "Ara",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Doğrudan mesaj için dokunun — gezme ve müsaitlik için hızlı yanıt",
+    "emailUs": "E-posta",
+    "office": "Ofis",
+    "officeAddress": "Varşova, Polonya",
+    "officeHours": "Pzt–Cum, 10:00–18:00 (CET)",
+    "servicesTitle": "Nasıl yardımcı olabiliriz",
+    "servicesSubtitle": "İhtiyacınızı seçin — form otomatik doldurulur.",
+    "services": {
+      "buy": {
+        "title": "Mülk satın al",
+        "text": "Pazarlarımızdaki daireler, villalar ve yatırım fırsatları."
+      },
+      "rent": {
+        "title": "Ev kirala",
+        "text": "Kısa ve uzun dönem kiralama, tatil ve mobilyalı daireler."
+      },
+      "sell": {
+        "title": "Mülkünü sat veya listele",
+        "text": "Değerleme desteği ve nitelikli alıcı/kiracılara pazarlama."
+      },
+      "viewing": {
+        "title": "Gezme randevusu",
+        "text": "Beğendiğiniz ilan için yüz yüze veya online gezme."
+      }
+    },
+    "marketsTitle": "Hizmet verdiğimiz pazarlar",
+    "marketsText": "Polonya, Türkiye ve İspanya — konut, otel ve yatırım varlıklarında yerel uzmanlık.",
+    "formTitle": "Talep gönder",
+    "formSubtitle": "Birkaç detay paylaşın; size uygun mülkleri ve danışmanı eşleştirelim.",
+    "interest": "İlgilendiğim konu",
+    "interests": {
+      "buy": "Mülk satın almak",
+      "rent": "Mülk kiralamak",
+      "sell": "Mülkümü satmak / listelemek",
+      "viewing": "Gezme randevusu",
+      "investment": "Yatırım danışmanlığı",
+      "other": "Diğer"
+    },
     "name": "Ad soyad",
     "email": "E-posta adresi",
-    "phone": "Telefon (isteğe bağlı)",
+    "phone": "Telefon / WhatsApp",
+    "market": "Tercih edilen pazar",
+    "markets": {
+      "turkey": "Türkiye (Alanya ve sahil)",
+      "poland": "Polonya",
+      "spain": "İspanya",
+      "other": "Diğer / henüz emin değilim"
+    },
+    "propertyPreference": "Mülk tipi",
+    "propertyPreferences": {
+      "apartment": "Daire",
+      "house": "Ev / villa",
+      "hotel": "Otel / hospitality",
+      "any": "Seçeneklere açığım"
+    },
+    "budget": "Bütçe",
+    "budgets": {
+      "under100k": "€100.000 altı",
+      "100to250k": "€100.000 – €250.000",
+      "250to500k": "€250.000 – €500.000",
+      "500kPlus": "€500.000+",
+      "rentBudget": "Kiralık — mesajda belirtin",
+      "flexible": "Esnek / danışmanla konuşalım"
+    },
     "message": "Mesaj",
-    "submit": "Mesaj gönder",
-    "success": "Teşekkürler! Yakında sizinle iletişime geçeceğiz.",
-    "error": "Lütfen tüm zorunlu alanları doldurun.",
-    "inquiryFor": "İlan hakkında",
-    "propertyName": "İlan adı",
+    "messagePlaceholder": "Tarihler, yatak odası sayısı, deniz manzarası, mobilya ve olmazsa olmazlar…",
+    "privacyNote": "Bu formu göndererek LOS ESTATE'in talebiniz hakkında sizinle iletişime geçmesine izin vermiş olursunuz.",
+    "submit": "Talebi gönder",
+    "sending": "Gönderiliyor…",
+    "success": "Teşekkürler! En kısa sürede dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin.",
+    "inquiryFor": "Talep konusu",
+    "propertyName": "Mülk adı",
     "propertyType": "Mülk tipi",
-    "transactionType": "İlan türü",
-    "messagePrefill": "İlan hakkında: {title} ({type}, {transaction})"
+    "transactionType": "İlan tipi",
+    "messagePrefill": "Talep: {title} ({type}, {transaction})",
+    "directFallback": "E-posta mı tercih edersiniz? losestate2025@gmail.com — iş günlerinde yanıtlıyoruz.",
+    "whatsappPrefill": "Merhaba LOS ESTATE, bir mülk hakkında bilgi almak istiyorum."
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",

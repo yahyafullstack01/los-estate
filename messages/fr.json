@@ -138,20 +138,90 @@
     "rent": "À louer"
   },
   "contact": {
-    "title": "Nous contacter",
-    "subtitle": "Dites-nous ce que vous recherchez — nous répondrons sous un jour ouvré.",
+    "title": "Trouvons votre prochain bien",
+    "subtitle": "Achat, location, vente ou visite — nos conseillers répondent sous un jour ouvré.",
+    "responseTime": "Réponse typique sous 24 h les jours ouvrés",
+    "channelsTitle": "Nous joindre directement",
+    "callUs": "Appeler",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Appuyez pour nous écrire directement — réponses rapides pour visites et disponibilités",
+    "emailUs": "E-mail",
+    "office": "Bureau",
+    "officeAddress": "Varsovie, Pologne",
+    "officeHours": "Lun–Ven, 10:00–18:00 (CET)",
+    "servicesTitle": "Comment nous pouvons vous aider",
+    "servicesSubtitle": "Choisissez votre besoin — le formulaire se préremplit.",
+    "services": {
+      "buy": {
+        "title": "Acheter un bien",
+        "text": "Appartements, villas et opportunités d'investissement sur nos marchés."
+      },
+      "rent": {
+        "title": "Louer un logement",
+        "text": "Courte et longue durée, séjours vacances et biens meublés."
+      },
+      "sell": {
+        "title": "Vendre ou publier votre bien",
+        "text": "Estimation et diffusion auprès d'acheteurs et locataires qualifiés."
+      },
+      "viewing": {
+        "title": "Réserver une visite",
+        "text": "Visite sur place ou en ligne pour une annonce qui vous plaît."
+      }
+    },
+    "marketsTitle": "Nos marchés",
+    "marketsText": "Pologne, Turquie et Espagne — expertise locale pour résidences, hôtels et investissements.",
+    "formTitle": "Envoyer une demande",
+    "formSubtitle": "Quelques détails suffisent pour vous proposer les bons biens et le bon conseiller.",
+    "interest": "Je suis intéressé(e) par",
+    "interests": {
+      "buy": "Acheter un bien",
+      "rent": "Louer un bien",
+      "sell": "Vendre / publier mon bien",
+      "viewing": "Réserver une visite",
+      "investment": "Conseil en investissement",
+      "other": "Autre"
+    },
     "name": "Nom complet",
     "email": "Adresse e-mail",
-    "phone": "Téléphone (optionnel)",
+    "phone": "Téléphone / WhatsApp",
+    "market": "Marché préféré",
+    "markets": {
+      "turkey": "Turquie (Alanya & côte)",
+      "poland": "Pologne",
+      "spain": "Espagne",
+      "other": "Autre / pas encore sûr"
+    },
+    "propertyPreference": "Type de bien",
+    "propertyPreferences": {
+      "apartment": "Appartement",
+      "house": "Maison / villa",
+      "hotel": "Hôtel / hospitality",
+      "any": "Ouvert aux options"
+    },
+    "budget": "Budget",
+    "budgets": {
+      "under100k": "Moins de 100 000 €",
+      "100to250k": "100 000 € – 250 000 €",
+      "250to500k": "250 000 € – 500 000 €",
+      "500kPlus": "500 000 €+",
+      "rentBudget": "Location — précisez dans le message",
+      "flexible": "Flexible / à discuter avec un conseiller"
+    },
     "message": "Message",
-    "submit": "Envoyer",
+    "messagePlaceholder": "Dates, chambres, vue mer, meublé ou non, et critères indispensables…",
+    "privacyNote": "En envoyant ce formulaire, vous acceptez d'être contacté par LOS ESTATE au sujet de votre demande.",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
     "success": "Merci ! Nous vous contacterons bientôt.",
-    "error": "Veuillez remplir les champs obligatoires.",
-    "inquiryFor": "Demande concernant",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
+    "inquiryFor": "Demande pour",
     "propertyName": "Nom du bien",
     "propertyType": "Type de bien",
     "transactionType": "Type d'annonce",
-    "messagePrefill": "Demande concernant : {title} ({type}, {transaction})"
+    "messagePrefill": "Demande concernant : {title} ({type}, {transaction})",
+    "directFallback": "Préférez l'e-mail ? Écrivez à losestate2025@gmail.com — réponse les jours ouvrés.",
+    "whatsappPrefill": "Bonjour LOS ESTATE, je souhaite des informations sur un bien."
   },
   "footer": {
     "rights": "Tous droits réservés.",

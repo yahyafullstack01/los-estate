@@ -8,11 +8,44 @@ import type { ListingInquiryContext } from "@/lib/property-i18n";
 
 interface ContactFormProps {
   listing?: ListingInquiryContext;
+  defaultInterest?: string;
 }
 
-export function ContactForm({ listing }: ContactFormProps) {
+const INTEREST_VALUES = [
+  "buy",
+  "rent",
+  "sell",
+  "viewing",
+  "investment",
+  "other",
+] as const;
+
+const MARKET_VALUES = ["turkey", "poland", "spain", "other"] as const;
+const PROPERTY_VALUES = ["apartment", "house", "hotel", "any"] as const;
+const BUDGET_VALUES = [
+  "under100k",
+  "100to250k",
+  "250to500k",
+  "500kPlus",
+  "rentBudget",
+  "flexible",
+] as const;
+
+export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
   const t = useTranslations("contact");
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">(
+    "idle"
+  );
+
+  const initialInterest =
+    defaultInterest &&
+    INTEREST_VALUES.includes(defaultInterest as (typeof INTEREST_VALUES)[number])
+      ? defaultInterest
+      : listing
+        ? listing.transaction === "rent"
+          ? "rent"
+          : "buy"
+        : "buy";
 
   const messageDefault = listing
     ? `${t("messagePrefill", {
@@ -22,21 +55,58 @@ export function ContactForm({ listing }: ContactFormProps) {
       })}\n\n`
     : undefined;
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     const data = new FormData(form);
     const name = data.get("name")?.toString().trim();
     const email = data.get("email")?.toString().trim();
+    const phone = data.get("phone")?.toString().trim() ?? "";
     const message = data.get("message")?.toString().trim();
+    const website = data.get("website")?.toString() ?? "";
+    const interest = data.get("interest")?.toString() ?? "";
+    const market = data.get("market")?.toString() ?? "";
+    const propertyPreference = data.get("propertyPreference")?.toString() ?? "";
+    const budget = data.get("budget")?.toString() ?? "";
 
-    if (!name || !email || !message) {
+    if (!name || !email || !phone || !message || !interest) {
       setStatus("error");
       return;
     }
 
-    setStatus("success");
-    form.reset();
+    setStatus("sending");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          message,
+          website,
+          interest,
+          market,
+          propertyPreference,
+          budget,
+          propertyTitle: listing?.title,
+          propertyType: listing?.typeLabel,
+          propertyTransaction: listing?.transactionLabel,
+          propertySlug: listing?.slug,
+        }),
+      });
+
+      if (!res.ok) {
+        setStatus("error");
+        return;
+      }
+
+      setStatus("success");
+      form.reset();
+    } catch {
+      setStatus("error");
+    }
   }
 
   const inputClass = cn(
@@ -51,6 +121,11 @@ export function ContactForm({ listing }: ContactFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      <div>
+        <h2 className="font-serif text-2xl sm:text-3xl">{t("formTitle")}</h2>
+        <p className="mt-2 text-sm text-muted">{t("formSubtitle")}</p>
+      </div>
+
       {listing && (
         <>
           <input type="hidden" name="propertySlug" value={listing.slug} />
@@ -121,24 +196,125 @@ export function ContactForm({ listing }: ContactFormProps) {
         </>
       )}
 
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        className="absolute left-[-9999px] h-0 w-0 opacity-0"
+        aria-hidden="true"
+      />
+
       <div>
-        <label htmlFor="name" className="mb-1.5 block text-sm font-medium">
-          {t("name")} *
+        <label htmlFor="interest" className="mb-1.5 block text-sm font-medium">
+          {t("interest")} *
         </label>
-        <input id="name" name="name" type="text" required className={inputClass} />
+        <select
+          id="interest"
+          name="interest"
+          required
+          defaultValue={initialInterest}
+          className={inputClass}
+        >
+          {INTEREST_VALUES.map((value) => (
+            <option key={value} value={value}>
+              {t(`interests.${value}`)}
+            </option>
+          ))}
+        </select>
       </div>
+
+      <div className="grid gap-5 sm:grid-cols-2">
+        <div>
+          <label htmlFor="name" className="mb-1.5 block text-sm font-medium">
+            {t("name")} *
+          </label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            autoComplete="name"
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label htmlFor="phone" className="mb-1.5 block text-sm font-medium">
+            {t("phone")} *
+          </label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            required
+            autoComplete="tel"
+            className={inputClass}
+          />
+        </div>
+      </div>
+
       <div>
         <label htmlFor="email" className="mb-1.5 block text-sm font-medium">
           {t("email")} *
         </label>
-        <input id="email" name="email" type="email" required className={inputClass} />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          autoComplete="email"
+          className={inputClass}
+        />
       </div>
+
+      <div className="grid gap-5 sm:grid-cols-2">
+        <div>
+          <label htmlFor="market" className="mb-1.5 block text-sm font-medium">
+            {t("market")}
+          </label>
+          <select id="market" name="market" defaultValue="turkey" className={inputClass}>
+            {MARKET_VALUES.map((value) => (
+              <option key={value} value={value}>
+                {t(`markets.${value}`)}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label
+            htmlFor="propertyPreference"
+            className="mb-1.5 block text-sm font-medium"
+          >
+            {t("propertyPreference")}
+          </label>
+          <select
+            id="propertyPreference"
+            name="propertyPreference"
+            defaultValue="apartment"
+            className={inputClass}
+          >
+            {PROPERTY_VALUES.map((value) => (
+              <option key={value} value={value}>
+                {t(`propertyPreferences.${value}`)}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
       <div>
-        <label htmlFor="phone" className="mb-1.5 block text-sm font-medium">
-          {t("phone")}
+        <label htmlFor="budget" className="mb-1.5 block text-sm font-medium">
+          {t("budget")}
         </label>
-        <input id="phone" name="phone" type="tel" className={inputClass} />
+        <select id="budget" name="budget" defaultValue="flexible" className={inputClass}>
+          {BUDGET_VALUES.map((value) => (
+            <option key={value} value={value}>
+              {t(`budgets.${value}`)}
+            </option>
+          ))}
+        </select>
       </div>
+
       <div>
         <label htmlFor="message" className="mb-1.5 block text-sm font-medium">
           {t("message")} *
@@ -149,18 +325,22 @@ export function ContactForm({ listing }: ContactFormProps) {
           rows={5}
           required
           defaultValue={messageDefault}
-          key={listing?.slug ?? "general"}
+          key={listing?.slug ?? defaultInterest ?? "general"}
+          placeholder={t("messagePlaceholder")}
           className={inputClass}
         />
       </div>
+
+      <p className="text-xs text-muted">{t("privacyNote")}</p>
+
       {status === "success" && (
         <p className="text-sm text-green-600 dark:text-green-400">{t("success")}</p>
       )}
       {status === "error" && (
         <p className="text-sm text-red-600 dark:text-red-400">{t("error")}</p>
       )}
-      <Button type="submit" size="lg">
-        {t("submit")}
+      <Button type="submit" size="lg" disabled={status === "sending"}>
+        {status === "sending" ? t("sending") : t("submit")}
       </Button>
     </form>
   );

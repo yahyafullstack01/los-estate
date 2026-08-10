@@ -138,20 +138,90 @@
     "rent": "Do wynajęcia"
   },
   "contact": {
-    "title": "Kontakt",
-    "subtitle": "Powiedz, czego szukasz — odpowiemy w ciągu jednego dnia roboczego.",
+    "title": "Znajdźmy Twoją kolejną nieruchomość",
+    "subtitle": "Zakup, wynajem, sprzedaż lub oglądanie — doradcy odpowiadają w ciągu jednego dnia roboczego.",
+    "responseTime": "Zazwyczaj odpowiadamy w ciągu 24 godzin w dni robocze",
+    "channelsTitle": "Skontaktuj się bezpośrednio",
+    "callUs": "Zadzwoń",
+    "whatsapp": "WhatsApp",
+    "whatsappHint": "Kliknij, aby napisać do nas bezpośrednio — szybkie odpowiedzi o oglądaniach i dostępności",
+    "emailUs": "E-mail",
+    "office": "Biuro",
+    "officeAddress": "Warszawa, Polska",
+    "officeHours": "Pon–Pt, 10:00–18:00 (CET)",
+    "servicesTitle": "W czym możemy pomóc",
+    "servicesSubtitle": "Wybierz potrzebę — formularz wypełni się automatycznie.",
+    "services": {
+      "buy": {
+        "title": "Kupić nieruchomość",
+        "text": "Apartamenty, wille i inwestycje na naszych rynkach."
+      },
+      "rent": {
+        "title": "Wynająć mieszkanie",
+        "text": "Krótki i długi wynajem, wakacje oraz lokale umeblowane."
+      },
+      "sell": {
+        "title": "Sprzedać lub wystawić nieruchomość",
+        "text": "Wycena i marketing do sprawdzonych kupujących i najemców."
+      },
+      "viewing": {
+        "title": "Umów oglądanie",
+        "text": "Oglądanie na miejscu lub online wybranej oferty."
+      }
+    },
+    "marketsTitle": "Rynki, na których działamy",
+    "marketsText": "Polska, Turcja i Hiszpania — lokalna wiedza o mieszkaniach, hotelach i inwestycjach.",
+    "formTitle": "Wyślij zapytanie",
+    "formSubtitle": "Podaj kilka szczegółów — dopasujemy oferty i odpowiedniego doradcę.",
+    "interest": "Interesuje mnie",
+    "interests": {
+      "buy": "Zakup nieruchomości",
+      "rent": "Wynajem nieruchomości",
+      "sell": "Sprzedaż / wystawienie mojej nieruchomości",
+      "viewing": "Umówienie oglądania",
+      "investment": "Doradztwo inwestycyjne",
+      "other": "Coś innego"
+    },
     "name": "Imię i nazwisko",
     "email": "Adres e-mail",
-    "phone": "Telefon (opcjonalnie)",
+    "phone": "Telefon / WhatsApp",
+    "market": "Preferowany rynek",
+    "markets": {
+      "turkey": "Turcja (Alanya i wybrzeże)",
+      "poland": "Polska",
+      "spain": "Hiszpania",
+      "other": "Inny / jeszcze nie wiem"
+    },
+    "propertyPreference": "Typ nieruchomości",
+    "propertyPreferences": {
+      "apartment": "Apartament",
+      "house": "Dom / willa",
+      "hotel": "Hotel / hospitality",
+      "any": "Otwarty(a) na opcje"
+    },
+    "budget": "Budżet",
+    "budgets": {
+      "under100k": "Poniżej 100 000 €",
+      "100to250k": "100 000 € – 250 000 €",
+      "250to500k": "250 000 € – 500 000 €",
+      "500kPlus": "500 000 €+",
+      "rentBudget": "Wynajem — podaj w wiadomości",
+      "flexible": "Elastycznie / omówić z doradcą"
+    },
     "message": "Wiadomość",
-    "submit": "Wyślij",
+    "messagePlaceholder": "Terminy, liczba sypialni, widok na morze, umeblowanie i must-have…",
+    "privacyNote": "Wysyłając formularz, zgadzasz się na kontakt LOS ESTATE w sprawie zapytania.",
+    "submit": "Wyślij zapytanie",
+    "sending": "Wysyłanie…",
     "success": "Dziękujemy! Wkrótce się odezwiemy.",
-    "error": "Proszę wypełnić wymagane pola.",
-    "inquiryFor": "Zapytanie dotyczące",
+    "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas bezpośrednio.",
+    "inquiryFor": "Zapytanie o",
     "propertyName": "Nazwa nieruchomości",
     "propertyType": "Typ nieruchomości",
     "transactionType": "Typ ogłoszenia",
-    "messagePrefill": "Zapytanie dotyczące: {title} ({type}, {transaction})"
+    "messagePrefill": "Zapytanie o: {title} ({type}, {transaction})",
+    "directFallback": "Wolisz e-mail? Napisz na losestate2025@gmail.com — odpowiadamy w dni robocze.",
+    "whatsappPrefill": "Dzień dobry LOS ESTATE, chciałbym zapytać o nieruchomość."
   },
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone.",
