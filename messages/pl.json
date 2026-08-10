@@ -222,7 +222,7 @@
     "messagePrefill": "Zapytanie o: {title} ({type}, {transaction})",
     "directFallback": "Wolisz e-mail? Napisz na losestate2025@gmail.com — odpowiadamy w dni robocze.",
     "whatsappPrefill": "Dzień dobry LOS ESTATE, chciałbym zapytać o nieruchomość.",
-    "needsActivation": "Prawie gotowe: sprawdź losestate2025@gmail.com (i Spam) — e-mail od FormSubmit z linkiem „Activate Form”. Potem zapytania będą trafiać na skrzynkę."
+    "needsActivation": "Dostarczanie e-maili nie jest jeszcze aktywne. Otwórz losestate2025@gmail.com (sprawdź Spam), znajdź mail FormSubmit i kliknij „Activate Form”. Albo dodaj klucz API Resend w Vercel (patrz .env.example). Potem zadziała na https://los-estate.vercel.app."
   },
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone.",

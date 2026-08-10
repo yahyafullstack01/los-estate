@@ -222,7 +222,7 @@
     "messagePrefill": "Запит щодо об'єкта: {title} ({type}, {transaction})",
     "directFallback": "Зручніше email? Пишіть на losestate2025@gmail.com — відповідаємо в робочі дні.",
     "whatsappPrefill": "Вітаю, LOS ESTATE! Хочу дізнатися про об'єкт нерухомості.",
-    "needsActivation": "Майже готово: перевірте losestate2025@gmail.com (і Спам) — лист від FormSubmit з посиланням «Activate Form». Після активації запити надходитимуть на пошту."
+    "needsActivation": "Доставка пошти ще не активована. Відкрийте losestate2025@gmail.com (перевірте Спам), знайдіть лист FormSubmit і натисніть «Activate Form». Або додайте ключ Resend у Vercel (див. .env.example). Потім спробуйте знову — працюватиме на https://los-estate.vercel.app."
   },
   "footer": {
     "rights": "Усі права захищені.",

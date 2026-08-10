@@ -222,7 +222,7 @@
     "messagePrefill": "Talep: {title} ({type}, {transaction})",
     "directFallback": "E-posta mı tercih edersiniz? losestate2025@gmail.com — iş günlerinde yanıtlıyoruz.",
     "whatsappPrefill": "Merhaba LOS ESTATE, bir mülk hakkında bilgi almak istiyorum.",
-    "needsActivation": "Neredeyse hazır: losestate2025@gmail.com (ve Spam) kutusunda FormSubmit’ten “Activate Form” e-postasını açıp bağlantıya tıklayın. Sonrasında talepler gelen kutunuza düşer."
+    "needsActivation": "E-posta teslimatı henüz etkin değil. losestate2025@gmail.com kutusunu açın (Spam’i kontrol edin), FormSubmit e-postasındaki “Activate Form” bağlantısına tıklayın. Ya da Vercel’de Resend API anahtarı ekleyin (.env.example). Sonra tekrar deneyin — https://los-estate.vercel.app üzerinde çalışır."
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
