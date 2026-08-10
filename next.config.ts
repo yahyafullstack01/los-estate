@@ -15,6 +15,18 @@ const withPWA = withPWAInit({
     disableDevLogs: true,
     // Listing photos are large — skip precaching them
     exclude: [/listings\/.+\.(?:png|jpg|jpeg|webp|gif)$/i],
+    runtimeCaching: [
+      {
+        urlPattern: /\/api\/.*/i,
+        handler: "NetworkOnly",
+        method: "POST",
+      },
+      {
+        urlPattern: /\/api\/.*/i,
+        handler: "NetworkOnly",
+        method: "GET",
+      },
+    ],
   },
 });
 

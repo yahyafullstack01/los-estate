@@ -1,9 +1,27 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "losestate2025@gmail.com";
 const GMAIL_USER = process.env.GMAIL_USER || "losestate2025@gmail.com";
 const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
+
+/** Prefer CONTACT_TO_EMAIL; never send plain self→self (Gmail hides those in Sent). */
+function resolveToAddress() {
+  const configured = (process.env.CONTACT_TO_EMAIL || "").trim();
+  const user = GMAIL_USER.trim().toLowerCase();
+
+  if (configured) {
+    const configuredLower = configured.toLowerCase();
+    // Same mailbox without +tag → force +inquiries so it lands in Inbox
+    if (configuredLower === user) {
+      const [local, domain] = configured.split("@");
+      return `${local}+inquiries@${domain}`;
+    }
+    return configured;
+  }
+
+  const [local, domain] = GMAIL_USER.split("@");
+  return `${local}+inquiries@${domain}`;
+}
 
 type ContactBody = {
   name?: string;
@@ -86,10 +104,11 @@ export async function POST(request: Request) {
       );
     }
 
+    const toAddress = resolveToAddress();
     const propertyTitle = body.propertyTitle?.trim() ?? "";
     const subject = propertyTitle
-      ? `LOS ESTATE inquiry: ${propertyTitle}`
-      : `LOS ESTATE — ${interest} inquiry from ${name}`;
+      ? `[LOS ESTATE] Inquiry: ${propertyTitle}`
+      : `[LOS ESTATE] ${interest} — ${name}`;
 
     const fields: Record<string, string> = {
       Name: name,
@@ -100,6 +119,7 @@ export async function POST(request: Request) {
       "Property preference": body.propertyPreference?.trim() || "—",
       Budget: body.budget?.trim() || "—",
       Message: message,
+      "Submitted at": new Date().toISOString(),
     };
 
     if (propertyTitle) {
@@ -119,16 +139,32 @@ export async function POST(request: Request) {
       },
     });
 
-    await transporter.sendMail({
-      from: `"LOS ESTATE" <${GMAIL_USER}>`,
-      to: TO_EMAIL,
-      replyTo: email,
+    const info = await transporter.sendMail({
+      from: `"LOS ESTATE Website" <${GMAIL_USER}>`,
+      to: toAddress,
+      replyTo: `"${name}" <${email}>`,
       subject,
       text: buildEmailText(fields),
       html: buildEmailHtml(fields),
+      headers: {
+        "X-LOS-Estate-Form": "contact",
+        "X-Entity-Ref-ID": `${Date.now()}`,
+      },
     });
 
-    return NextResponse.json({ ok: true });
+    console.log("Contact email accepted by Gmail:", {
+      messageId: info.messageId,
+      response: info.response,
+      accepted: info.accepted,
+      rejected: info.rejected,
+      to: toAddress,
+    });
+
+    return NextResponse.json({
+      ok: true,
+      id: info.messageId,
+      accepted: info.accepted,
+    });
   } catch (error) {
     console.error("Contact form email error:", error);
     return NextResponse.json(

@@ -79,7 +79,11 @@ export function ContactForm({ listing, defaultInterest }: ContactFormProps) {
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        cache: "no-store",
+        headers: {
+          "Content-Type": "application/json",
+          "Cache-Control": "no-store",
+        },
         body: JSON.stringify({
           name,
           email,
