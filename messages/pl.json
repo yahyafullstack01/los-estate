@@ -813,6 +813,52 @@
         "Zamknięty zadbany teren"
       ]
     },
+    "besthome-36-37-the-legend-2-1": {
+      "title": "BestHome 36/37 the Legend — 2+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 2-sypialniany w BestHome 36/37 the Legend, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 2. Łazienki: 2. Powierzchnia: 84 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 84 m²",
+        "2 sypialnie, 2 łazienki",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
+      ]
+    },
+    "besthome-36-37-the-legend-1-1-b": {
+      "title": "BestHome 36/37 the Legend — 1+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 1+1 w BestHome 36/37 the Legend, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 1. Łazienki: 1. Powierzchnia: 50 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 50 m²",
+        "1 sypialnia, 1 łazienka",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Kleopatra, Turcja",

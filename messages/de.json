@@ -813,6 +813,52 @@
         "Eingezäuntes gepflegtes Gelände"
       ]
     },
+    "besthome-36-37-the-legend-2-1": {
+      "title": "BestHome 36/37 the Legend — 2+1",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Möbliertes 2-Schlafzimmer-Apartment in BestHome 36/37 the Legend, Alanya Zentrum, Türkei.\n\nEtage: −1. Schlafzimmer: 2. Bäder: 2. Fläche: 84 m². Gebäudehöhe: 5 Etagen.\n\nHeizung: Split-Klimaanlage. Entfernung zum Meer: 150 m.\n\nPrivater Strand mit kostenlosen Liegen und Sonnenschirmen.",
+      "note": "Komplexinfrastruktur: Fitness, Sauna, Hammam, drei Außenpools und ein Hallenbad.",
+      "roomSpecsTitle": "Apartmentdetails",
+      "roomSpecs": [
+        "Etage −1, 84 m²",
+        "2 Schlafzimmer, 2 Bäder",
+        "Heizung — Split-System",
+        "Modern möblierter Innenraum"
+      ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "Privater Strand — Liegen und Sonnenschirme kostenlos",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 Außenpools",
+        "1 Hallenbad"
+      ]
+    },
+    "besthome-36-37-the-legend-1-1-b": {
+      "title": "BestHome 36/37 the Legend — 1+1",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Möbliertes 1+1-Apartment in BestHome 36/37 the Legend, Alanya Zentrum, Türkei.\n\nEtage: −1. Schlafzimmer: 1. Bäder: 1. Fläche: 50 m². Gebäudehöhe: 5 Etagen.\n\nHeizung: Split-Klimaanlage. Entfernung zum Meer: 150 m.\n\nPrivater Strand mit kostenlosen Liegen und Sonnenschirmen.",
+      "note": "Komplexinfrastruktur: Fitness, Sauna, Hammam, drei Außenpools und ein Hallenbad.",
+      "roomSpecsTitle": "Apartmentdetails",
+      "roomSpecs": [
+        "Etage −1, 50 m²",
+        "1 Schlafzimmer, 1 Bad",
+        "Heizung — Split-System",
+        "Modern möblierter Innenraum"
+      ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "Privater Strand — Liegen und Sonnenschirme kostenlos",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 Außenpools",
+        "1 Hallenbad"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Kleopatra, Türkei",
