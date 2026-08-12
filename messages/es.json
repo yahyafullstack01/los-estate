@@ -544,6 +544,275 @@
         "2.400 m al mar"
       ]
     },
+    "alanya-villa-3-2-380": {
+      "title": "Villa 3+2 — 3 dormitorios y 2 estudios",
+      "location": "Alanya, Turquía",
+      "description": "Amplia villa de 3 plantas en venta en Alanya, Turquía.\n\nDistribución: 3+2 (3 dormitorios y 2 estudios). Superficie: 380 m². Tres plantas.\n\nPiscina compartida en un complejo de 3 villas. Distancia al mar: 3 km.\n\nInteriores luminosos, amplias terrazas y vistas a las colinas.",
+      "note": "Precio: 375.000 €.",
+      "roomSpecsTitle": "Características principales",
+      "roomSpecs": [
+        "3+2 — 3 dormitorios y 2 estudios",
+        "Superficie 380 m²",
+        "3 plantas",
+        "Amplias terrazas y balcones",
+        "Interiores modernos amueblados"
+      ],
+      "socialAmenitiesTitle": "Complejo y ubicación",
+      "socialAmenities": [
+        "Piscina compartida para 3 villas",
+        "3 km al mar",
+        "Ubicación en ladera con vistas abiertas",
+        "Zona residencial tranquila"
+      ]
+    },
+    "besthome-37-rent-2-1": {
+      "title": "BestHome 37 — 2+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "Desde 75€ / día · 1.500–2.250€ / mes",
+      "description": "Apartamento amueblado 2+1 en alquiler en BestHome 37, centro de Alanya, Turquía.\n\nSuperficie: 67 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 75€ por día. Desde 1.500€ al mes en temporada baja. Desde 2.250€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "2+1 — 67 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-37-rent-2-1-75": {
+      "title": "BestHome 37 — 2+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "Desde 75€ / día · 1.500–2.250€ / mes",
+      "description": "Apartamento amueblado 2+1 en alquiler en BestHome 37, centro de Alanya, Turquía.\n\nSuperficie: 75 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 75€ por día. Desde 1.500€ al mes en temporada baja. Desde 2.250€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "2+1 — 75 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-36-rent-1-1": {
+      "title": "BestHome 36 — 1+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 36, centro de Alanya, Turquía.\n\nSuperficie: 50 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 50 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-37-rent-1-1-45": {
+      "title": "BestHome 37 — 1+1 Alquiler (45 m²)",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 37, centro de Alanya, Turquía.\n\nSuperficie: 45 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 45 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-36-rent-1-1-38": {
+      "title": "BestHome 36 — 1+1 Alquiler (38 m²)",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 36, centro de Alanya, Turquía.\n\nSuperficie: 38 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 38 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-37-rent-1-1-43": {
+      "title": "BestHome 37 — 1+1 Alquiler (43 m²)",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 37, centro de Alanya, Turquía.\n\nSuperficie: 43 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 43 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-36-rent-1-1-52": {
+      "title": "BestHome 36 — 1+1 Alquiler (52 m²)",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 36, centro de Alanya, Turquía.\n\nSuperficie: 52 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 52 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-37-rent-1-1-54": {
+      "title": "BestHome 37 — 1+1 Alquiler (54 m²)",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 700–1500€ / mes",
+      "description": "Apartamento amueblado 1+1 en alquiler en BestHome 37, centro de Alanya, Turquía.\n\nSuperficie: 54 m². Distancia al mar: 120 m. Playa de arena privada con tumbonas y sombrillas gratis.\n\nAire acondicionado. Balcón amplio.\n\nSupermercados, restaurantes, cafeterías, farmacias, bancos y transporte público a poca distancia a pie.",
+      "note": "Tarifas: desde 50€ por día. Desde 700€ al mes en temporada baja. Desde 1500€ al mes en temporada alta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 54 m²",
+        "Aire acondicionado",
+        "Balcón amplio",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "120 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "3 piscinas exteriores",
+        "Piscina cubierta",
+        "Jacuzzi",
+        "Hammam turco",
+        "Sauna",
+        "Gimnasio",
+        "Parque infantil",
+        "Zona de descanso",
+        "Aparcamiento",
+        "Ascensor",
+        "Generador",
+        "Videovigilancia y seguridad",
+        "Terreno cerrado y cuidado"
+      ]
+    },
     "besthome-52-cleopatra-costana": {
       "title": "BESTHOME 52 CLEOPATRA COSTANA",
       "location": "Alanya, Cleopatra, Turquía",
