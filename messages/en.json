@@ -860,6 +860,39 @@
         "Territory and façade lighting",
         "Backup generator"
       ]
+    },
+    "besthome-48-cleopatra-glory": {
+      "title": "BESTHOME 48 CLEOPATRA GLORY",
+      "location": "Alanya, Cleopatra, Turkey",
+      "priceLabel": "From €200,000",
+      "description": "New residential complex BESTHOME 48 CLEOPATRA GLORY in Alanya, Cleopatra district — 580 m from the beach.\n\nLand area: 2,966 m². Buildings: 2. Apartments: 90. Floors: 10.\n\nConstruction start: 30 November 2026. Handover: 30 December 2028.\n\nApartment types: 1+1, 2+1, and 3+1 penthouses.",
+      "note": "Prices: 1+1 (55 m²) from €200,000. 2+1 (72–75 m²) from €230,000.\nTitle deed (TAPU) registration: approximately December 2026.\nPayment plan: 20% down payment, installments until 30 June 2028. Cash or installment options available. Property exchange possible with 50% payment.\nDiscounts: 3.5% when paying 50%, 7% when paying 100%.",
+      "roomSpecsTitle": "Apartment types and finishing",
+      "roomSpecs": [
+        "1+1 — 55 m² from €200,000",
+        "2+1 — 72 / 74 m² from €230,000",
+        "3+1 penthouse — 130 / 135 m²",
+        "Steel entrance door, video intercom",
+        "Built-in kitchen and bathroom furniture",
+        "Full appliance package: refrigerator, dishwasher, cooktop, oven, hood, washing machine",
+        "Air conditioning in every room",
+        "Underfloor heating in bathrooms, shower cabins"
+      ],
+      "socialAmenitiesTitle": "Infrastructure and complex features",
+      "socialAmenities": [
+        "580 m to the beach",
+        "Heated outdoor pool (230 m²)",
+        "Children's pool (20 m²)",
+        "Two jacuzzis, heated jacuzzi",
+        "BBQ area and relaxation zone",
+        "Children's playground and indoor playroom",
+        "Sauna and fitness area",
+        "Open parking for 24 cars",
+        "Gated entrance, 24/7 security, property manager",
+        "Bicycle parking, Wi-Fi, satellite TV",
+        "Façade and landscape lighting",
+        "Backup generator"
+      ]
     }
   }
 }

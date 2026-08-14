@@ -860,6 +860,39 @@
         "Iluminación del terreno y fachadas",
         "Generador eléctrico"
       ]
+    },
+    "besthome-48-cleopatra-glory": {
+      "title": "BESTHOME 48 CLEOPATRA GLORY",
+      "location": "Alanya, Cleopatra, Turquía",
+      "priceLabel": "desde 200.000€",
+      "description": "Nuevo complejo residencial BESTHOME 48 CLEOPATRA GLORY en Alanya, distrito Cleopatra — a 580 m de la playa.\n\nSuperficie del terreno: 2.966 m². Edificios: 2. Apartamentos: 90. Plantas: 10.\n\nInicio de obra: 30.11.2026. Entrega: 30.12.2028.\n\nTipos de apartamentos: 1+1, 2+1 y áticos 3+1.",
+      "note": "Precios: 1+1 (55 m²) desde 200.000€. 2+1 (72–75 m²) desde 230.000€.\nRegistro TAPU: aproximadamente diciembre de 2026.\nPlan de pago: 20 % de entrada, plazos hasta el 30.06.2028. Pago en efectivo, posibilidad de plazos. Posibilidad de intercambio con el 50 % del valor.\nDescuentos: 3,5 % al pagar 50 %, 7 % al pagar 100 %.",
+      "roomSpecsTitle": "Tipos de apartamentos y acabados",
+      "roomSpecs": [
+        "1+1 — 55 m² desde 200.000€",
+        "2+1 — 72 / 74 m² desde 230.000€",
+        "Ático 3+1 — 130 / 135 m²",
+        "Puerta de entrada de acero, videoportero",
+        "Muebles de cocina y baño",
+        "Electrodomésticos: nevera, lavavajillas, placa, horno, campana, lavadora",
+        "Aire acondicionado en cada habitación",
+        "Suelo radiante en baños, cabinas de ducha"
+      ],
+      "socialAmenitiesTitle": "Infraestructura y características del complejo",
+      "socialAmenities": [
+        "580 m a la playa",
+        "Piscina exterior climatizada (230 m²)",
+        "Piscina infantil (20 m²)",
+        "Dos jacuzzis, jacuzzi climatizado",
+        "Zona de barbacoa y zona de relax",
+        "Parque infantil y sala de juegos interior",
+        "Sauna y zona de fitness",
+        "Aparcamiento abierto para 24 coches",
+        "Acceso cerrado, seguridad 24/7, administrador",
+        "Aparcamiento de bicicletas, Wi-Fi, TV satélite",
+        "Iluminación arquitectónica de fachadas y paisaje",
+        "Generador"
+      ]
     }
   }
 }

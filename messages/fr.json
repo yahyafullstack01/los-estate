@@ -860,6 +860,39 @@
         "Éclairage du terrain et des façades",
         "Groupe électrogène"
       ]
+    },
+    "besthome-48-cleopatra-glory": {
+      "title": "BESTHOME 48 CLEOPATRA GLORY",
+      "location": "Alanya, Cléopâtre, Turquie",
+      "priceLabel": "dès 200 000€",
+      "description": "Nouveau complexe résidentiel BESTHOME 48 CLEOPATRA GLORY à Alanya, quartier Cléopâtre — à 580 m de la plage.\n\nSurface du terrain : 2 966 m². Bâtiments : 2. Appartements : 90. Étages : 10.\n\nDébut des travaux : 30.11.2026. Livraison : 30.12.2028.\n\nTypes d'appartements : 1+1, 2+1 et penthouse 3+1.",
+      "note": "Prix : 1+1 (55 m²) dès 200 000€. 2+1 (72–75 m²) dès 230 000€.\nEnregistrement TAPU : environ décembre 2026.\nPlan de paiement : acompte de 20 %, versements jusqu'au 30.06.2028. Paiement comptant, possibilité de mensualités. Échange possible avec 50 % du prix.\nRemises : 3,5 % pour 50 % de paiement, 7 % pour 100 %.",
+      "roomSpecsTitle": "Types d'appartements et finitions",
+      "roomSpecs": [
+        "1+1 — 55 m² dès 200 000€",
+        "2+1 — 72 / 74 m² dès 230 000€",
+        "Penthouse 3+1 — 130 / 135 m²",
+        "Porte d'entrée en acier, visiophone",
+        "Meubles de cuisine et de salle de bain",
+        "Électroménager : réfrigérateur, lave-vaisselle, plaque, four, hotte, lave-linge",
+        "Climatisation dans chaque pièce",
+        "Chauffage au sol dans les salles de bain, cabines de douche"
+      ],
+      "socialAmenitiesTitle": "Infrastructures et atouts du complexe",
+      "socialAmenities": [
+        "580 m de la plage",
+        "Piscine extérieure chauffée (230 m²)",
+        "Piscine pour enfants (20 m²)",
+        "Deux jacuzzis, jacuzzi chauffé",
+        "Espace barbecue et zone de détente",
+        "Aire de jeux et salle de jeux intérieure",
+        "Sauna et espace fitness",
+        "Parking ouvert pour 24 voitures",
+        "Entrée fermée, sécurité 24h/24, gestionnaire",
+        "Parking vélos, Wi-Fi, TV satellite",
+        "Éclairage architectural des façades et du paysage",
+        "Groupe électrogène"
+      ]
     }
   }
 }

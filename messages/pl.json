@@ -860,6 +860,39 @@
         "Oświetlenie terenu i elewacji",
         "Agregat prądotwórczy"
       ]
+    },
+    "besthome-48-cleopatra-glory": {
+      "title": "BESTHOME 48 CLEOPATRA GLORY",
+      "location": "Alanya, Kleopatra, Turcja",
+      "priceLabel": "od 200 000€",
+      "description": "Nowy kompleks mieszkaniowy BESTHOME 48 CLEOPATRA GLORY w Alanyi, dzielnica Kleopatra — 580 m od plaży.\n\nPowierzchnia działki: 2966 m². Budynków: 2. Apartamentów: 90. Pięter: 10.\n\nPoczątek budowy: 30.11.2026. Oddanie: 30.12.2028.\n\nTypy apartamentów: 1+1, 2+1 i penthouse 3+1.",
+      "note": "Ceny: 1+1 (55 m²) od 200 000€. 2+1 (72–75 m²) od 230 000€.\nRejestracja TAPU: około grudnia 2026.\nPlan płatności: 20% zaliczki, raty do 30.06.2028. Płatność gotówką, możliwa rata. Możliwość wymiany przy wpłacie 50% wartości.\nRabaty: 3,5% przy płatności 50%, 7% przy płatności 100%.",
+      "roomSpecsTitle": "Typy apartamentów i wykończenie",
+      "roomSpecs": [
+        "1+1 — 55 m² od 200 000€",
+        "2+1 — 72 / 74 m² od 230 000€",
+        "Penthouse 3+1 — 130 / 135 m²",
+        "Stalowe drzwi wejściowe, wideodomofon",
+        "Szafki kuchenne i łazienkowe",
+        "Sprzęt AGD: lodówka, zmywarka, płyta, piekarnik, okap, pralka",
+        "Klimatyzacja w każdym pokoju",
+        "Ogrzewanie podłogowe w łazienkach, kabiny prysznicowe"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura i cechy kompleksu",
+      "socialAmenities": [
+        "580 m do plaży",
+        "Ogrzewany basen zewnętrzny (230 m²)",
+        "Basen dla dzieci (20 m²)",
+        "Dwa jacuzzi, podgrzewane jacuzzi",
+        "Strefa barbecue i strefa relaksu",
+        "Plac zabaw i sala zabaw dla dzieci",
+        "Sauna i strefa fitness",
+        "Otwarty parking na 24 samochody",
+        "Zamknięty wjazd, ochrona 24/7, zarządca",
+        "Parking rowerowy, Wi-Fi, telewizja satelitarna",
+        "Oświetlenie elewacji i krajobrazu",
+        "Agregat prądotwórczy"
+      ]
     }
   }
 }

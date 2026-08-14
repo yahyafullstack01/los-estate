@@ -860,6 +860,39 @@
         "Beleuchtung des Geländes und der Fassaden",
         "Notstromaggregat"
       ]
+    },
+    "besthome-48-cleopatra-glory": {
+      "title": "BESTHOME 48 CLEOPATRA GLORY",
+      "location": "Alanya, Kleopatra, Türkei",
+      "priceLabel": "ab 200.000€",
+      "description": "Neues Wohnprojekt BESTHOME 48 CLEOPATRA GLORY in Alanya, Stadtteil Kleopatra — 580 m zum Strand.\n\nGrundstücksfläche: 2.966 m². Gebäude: 2. Wohnungen: 90. Etagen: 10.\n\nBaubeginn: 30.11.2026. Fertigstellung: 30.12.2028.\n\nWohnungstypen: 1+1, 2+1 und 3+1-Penthouses.",
+      "note": "Preise: 1+1 (55 m²) ab 200.000€. 2+1 (72–75 m²) ab 230.000€.\nTAPU-Registrierung: ca. Dezember 2026.\nZahlungsplan: 20 % Anzahlung, Ratenzahlung bis 30.06.2028. Barzahlung, Ratenzahlung möglich. Tausch möglich bei 50 % Zahlung.\nRabatte: 3,5 % bei 50 % Zahlung, 7 % bei 100 % Zahlung.",
+      "roomSpecsTitle": "Wohnungstypen und Ausstattung",
+      "roomSpecs": [
+        "1+1 — 55 m² ab 200.000€",
+        "2+1 — 72 / 74 m² ab 230.000€",
+        "3+1 Penthouse — 130 / 135 m²",
+        "Stahl-Eingangstür, Video-Gegensprechanlage",
+        "Küchen- und Badezimmerschränke",
+        "Küchengeräte: Kühlschrank, Geschirrspüler, Kochfeld, Backofen, Dunstabzug, Waschmaschine",
+        "Klimaanlage in jedem Zimmer",
+        "Fußbodenheizung in den Bädern, Duschkabinen"
+      ],
+      "socialAmenitiesTitle": "Infrastruktur und Komplexmerkmale",
+      "socialAmenities": [
+        "580 m zum Strand",
+        "Beheizter Außenpool (230 m²)",
+        "Kinderbecken (20 m²)",
+        "Zwei Jacuzzis, beheiztes Jacuzzi",
+        "Grillbereich und Entspannungszone",
+        "Kinderspielplatz und Indoor-Spielzimmer",
+        "Sauna und Fitnessbereich",
+        "Offener Parkplatz für 24 Autos",
+        "Geschlossene Einfahrt, 24/7-Sicherheit, Hausverwaltung",
+        "Fahrradparkplatz, Wi-Fi, Satelliten-TV",
+        "Fassaden- und Landschaftsbeleuchtung",
+        "Notstromaggregat"
+      ]
     }
   }
 }
