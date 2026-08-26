@@ -102,8 +102,10 @@ export default async function PropertyDetailPage({ params }: Props) {
 
           <div>
             <div className="flex flex-wrap gap-2">
-              <Badge>{t(`transactions.${listing.transaction}`)}</Badge>
-              <Badge variant="muted">{t(`types.${listing.type}`)}</Badge>
+              <Badge variant={listing.transaction}>
+                {t(`transactions.${listing.transaction}`)}
+              </Badge>
+              <Badge variant={listing.type}>{t(`types.${listing.type}`)}</Badge>
             </div>
             <h1 className="mt-4 font-serif text-3xl sm:text-4xl">{title}</h1>
             <p className="mt-2 flex items-center gap-1.5 text-muted">

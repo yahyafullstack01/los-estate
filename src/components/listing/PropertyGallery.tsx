@@ -130,7 +130,10 @@ export function PropertyGallery({
                   event.stopPropagation();
                   showPrevious();
                 }}
-                className={cn(lightboxControlClass, "absolute start-2 top-1/2 -translate-y-1/2 sm:start-4")}
+                className={cn(
+                  lightboxControlClass,
+                  "absolute left-2 top-1/2 -translate-y-1/2 sm:left-4"
+                )}
                 aria-label={t("previousPhoto")}
               >
                 <ChevronLeft className="h-7 w-7 transition-transform duration-200 group-hover:-translate-x-0.5" />
@@ -141,7 +144,10 @@ export function PropertyGallery({
                   event.stopPropagation();
                   showNext();
                 }}
-                className={cn(lightboxControlClass, "absolute end-2 top-1/2 -translate-y-1/2 sm:end-4")}
+                className={cn(
+                  lightboxControlClass,
+                  "absolute right-2 top-1/2 -translate-y-1/2 sm:right-4"
+                )}
                 aria-label={t("nextPhoto")}
               >
                 <ChevronRight className="h-7 w-7 transition-transform duration-200 group-hover:translate-x-0.5" />

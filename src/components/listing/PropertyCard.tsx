@@ -38,8 +38,10 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
           <div className="absolute start-3 top-3 flex gap-2">
-            <Badge>{t(`transactions.${listing.transaction}`)}</Badge>
-            <Badge variant="muted">{t(`types.${listing.type}`)}</Badge>
+            <Badge variant={listing.transaction}>
+              {t(`transactions.${listing.transaction}`)}
+            </Badge>
+            <Badge variant={listing.type}>{t(`types.${listing.type}`)}</Badge>
           </div>
         </div>
         <div className="flex flex-1 flex-col p-4 sm:p-5">
