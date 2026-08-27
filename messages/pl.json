@@ -7,7 +7,9 @@
     "listingsTitle": "Przeglądaj nieruchomości",
     "listingsDescription": "Apartamenty, hotele i domy na sprzedaż i wynajem.",
     "contactTitle": "Kontakt",
-    "contactDescription": "Skontaktuj się z LOS ESTATE w sprawie prezentacji, inwestycji i wynajmu."
+    "contactDescription": "Skontaktuj się z LOS ESTATE w sprawie prezentacji, inwestycji i wynajmu.",
+    "partnersTitle": "Partnerzy — agencje, wynajmujący i deweloperzy",
+    "partnersDescription": "Partnerstwo z LOS ESTATE: klienci na nieruchomości w Turcji, publikacja wynajmu lub promocja nowego projektu."
   },
   "nav": {
     "home": "Strona główna",
@@ -15,7 +17,8 @@
     "listings": "Nieruchomości",
     "contact": "Kontakt",
     "sale": "Na sprzedaż",
-    "rent": "Do wynajęcia"
+    "rent": "Do wynajęcia",
+    "partners": "Dla partnerów"
   },
   "hero": {
     "title": "Podnieś standard życia",
@@ -180,7 +183,10 @@
       "sell": "Sprzedaż / wystawienie mojej nieruchomości",
       "viewing": "Umówienie oglądania",
       "investment": "Doradztwo inwestycyjne",
-      "other": "Coś innego"
+      "other": "Coś innego",
+      "agency": "Partnerstwo agencji — polecenie klienta",
+      "landlord": "Wystaw moją nieruchomość na wynajem",
+      "developer": "Promocja nowego projektu"
     },
     "name": "Imię i nazwisko",
     "email": "Adres e-mail",
@@ -894,5 +900,72 @@
         "Agregat prądotwórczy"
       ]
     }
+  },
+  "partners": {
+    "title": "Zostań partnerem LOS ESTATE",
+    "subtitle": "Agencje, prywatni właściciele i deweloperzy — pomagamy dotrzeć do kwalifikowanych kupujących i najemców mieszkań oraz domów w Turcji.",
+    "ctaPrimary": "Rozpocznij współpracę",
+    "ctaSecondary": "Zobacz oferty",
+    "tracksTitle": "Z kim współpracujemy",
+    "tracksSubtitle": "Trzy formy współpracy — wybierz swoją, a przeprowadzimy Cię przez kolejny krok.",
+    "tracks": {
+      "agency": {
+        "title": "Agencje i pośrednicy",
+        "text": "Masz klienta zainteresowanego kupnem lub wynajmem mieszkania albo domu w Turcji? Dopasujemy sprawdzone opcje i lokalną wiedzę.",
+        "points": [
+          "Kupno i wynajem w Alanyi oraz na wybrzeżu",
+          "Wspólne polecenia klientów z jasnym follow-upem",
+          "Wsparcie przy oględzinach, negocjacjach i zamknięciu"
+        ],
+        "cta": "Współpracuj jako agencja"
+      },
+      "landlord": {
+        "title": "Prywatni wynajmujący",
+        "text": "Masz mieszkanie lub dom do wynajęcia? Opublikujemy je na LOS ESTATE i połączymy Cię z poważnymi najemcami krótkoterminowymi i długoterminowymi.",
+        "points": [
+          "Profesjonalna prezentacja nieruchomości",
+          "Zasięg wśród międzynarodowych gości i mieszkańców",
+          "Koordynacja zapytań, oględzin i warunków"
+        ],
+        "cta": "Wystaw mój wynajem"
+      },
+      "developer": {
+        "title": "Deweloperzy i nowe projekty",
+        "text": "Budujesz kompleks mieszkaniowy lub przyszłe apartamenty? Zaprezentujemy projekt na stronie i pomożemy znaleźć klientów oraz inwestorów.",
+        "points": [
+          "Dedykowana prezentacja projektu na LOS ESTATE",
+          "Marketing do kupujących i inwestorów",
+          "Wsparcie w cenach, planach płatności i zapytaniach"
+        ],
+        "cta": "Przedstaw mój projekt"
+      }
+    },
+    "processEyebrow": "Prosty proces",
+    "processTitle": "Jak działa partnerstwo",
+    "processSubtitle": "Od pierwszej wiadomości do publikacji lub przedstawienia klienta — przejrzyście i profesjonalnie.",
+    "markets": "Fokus: Turcja · Alanya i wybrzeże",
+    "audience": "Kupujący, najemcy i inwestorzy",
+    "process": {
+      "step1": {
+        "title": "Powiedz, kim jesteś",
+        "text": "Wybierz agencję, właściciela lub dewelopera i krótko opisz klientów, nieruchomość lub projekt."
+      },
+      "step2": {
+        "title": "Weryfikujemy i uzgadniamy",
+        "text": "Nasz zespół ocenia dopasowanie, pozycjonowanie i najlepszy sposób prezentacji na LOS ESTATE."
+      },
+      "step3": {
+        "title": "Publikacja lub rekomendacja",
+        "text": "Publikujemy ofertę lub projekt — albo przedstawiamy Twojego klienta pasującym opcjom kupna/wynajmu."
+      },
+      "step4": {
+        "title": "Bieżący kontakt",
+        "text": "Otrzymujesz aktualizacje zapytań i skoordynowany follow-up do momentu postępu transakcji."
+      }
+    },
+    "closingTitle": "Gotowi rosnąć razem?",
+    "closingSubtitle": "Wyślij krótkie zapytanie partnerskie — odpowiadamy w ciągu dnia roboczego.",
+    "closingCta": "Zostań partnerem",
+    "closingContact": "Kontakt ogólny"
   }
 }

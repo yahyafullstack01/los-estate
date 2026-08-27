@@ -40,6 +40,14 @@ export async function Footer() {
               </li>
               <li>
                 <Link
+                  href="/partners"
+                  className="text-sm text-muted hover:text-foreground"
+                >
+                  {nav("partners")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="text-sm text-muted hover:text-foreground"
                 >

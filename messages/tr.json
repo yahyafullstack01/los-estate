@@ -7,7 +7,9 @@
     "listingsTitle": "Gayrimenkulleri inceleyin",
     "listingsDescription": "Satılık ve kiralık daireleri, otelleri ve evleri keşfedin.",
     "contactTitle": "İletişim",
-    "contactDescription": "Görüntüleme, yatırım ve kiralama talepleriniz için LOS ESTATE ile iletişime geçin."
+    "contactDescription": "Görüntüleme, yatırım ve kiralama talepleriniz için LOS ESTATE ile iletişime geçin.",
+    "partnersTitle": "Ortaklar — Ajanslar, Mülk Sahipleri ve Müteahhitler",
+    "partnersDescription": "LOS ESTATE ile ortaklık: Türkiye emlak müşterileri, kiralık ilanınız veya yeni konut projenizin tanıtımı."
   },
   "nav": {
     "home": "Ana sayfa",
@@ -15,7 +17,8 @@
     "listings": "Gayrimenkuller",
     "contact": "İletişim",
     "sale": "Satılık",
-    "rent": "Kiralık"
+    "rent": "Kiralık",
+    "partners": "Ortaklar için"
   },
   "hero": {
     "title": "Yaşam tarzınızı yükseltin",
@@ -180,7 +183,10 @@
       "sell": "Mülkümü satmak / listelemek",
       "viewing": "Gezme randevusu",
       "investment": "Yatırım danışmanlığı",
-      "other": "Diğer"
+      "other": "Diğer",
+      "agency": "Ajans ortaklığı — müşteri yönlendirme",
+      "landlord": "Kiralık mülkümü listele",
+      "developer": "Yeni proje tanıtımı"
     },
     "name": "Ad soyad",
     "email": "E-posta adresi",
@@ -894,5 +900,72 @@
         "Jeneratör"
       ]
     }
+  },
+  "partners": {
+    "title": "LOS ESTATE ile ortaklık",
+    "subtitle": "Ajanslar, özel mülk sahipleri ve müteahhitler — Türkiye'de daire ve ev arayan nitelikli alıcı ve kiracılara ulaşmanıza yardımcı oluyoruz.",
+    "ctaPrimary": "Ortaklığa başla",
+    "ctaSecondary": "İlanlarımıza bakın",
+    "tracksTitle": "Kimlerle çalışıyoruz",
+    "tracksSubtitle": "Birlikte büyümenin üç yolu — size uygun olanı seçin, sonraki adımı birlikte planlayalım.",
+    "tracks": {
+      "agency": {
+        "title": "Ajanslar ve brokerlar",
+        "text": "Türkiye'de daire veya ev almak ya da kiralamak isteyen bir müşteriniz mi var? Doğrulanmış seçenekler ve yerel uzmanlıkla eşleştiriyoruz.",
+        "points": [
+          "Alanya ve sahilde alım-satım ile kiralama fırsatları",
+          "Net takip ile ortak müşteri yönlendirmeleri",
+          "Görüntüleme, müzakere ve kapanış desteği"
+        ],
+        "cta": "Ajans olarak ortak ol"
+      },
+      "landlord": {
+        "title": "Özel mülk sahipleri",
+        "text": "Kiraya vermek istediğiniz bir daireniz veya eviniz mi var? LOS ESTATE'te yayınlayıp ciddi kısa ve uzun dönem kiracılarla buluşturuyoruz.",
+        "points": [
+          "Profesyonel ilan sunumu",
+          "Uluslararası misafir ve yerleşimcilere erişim",
+          "Talep, görüntüleme ve şartlar için koordinasyon"
+        ],
+        "cta": "Kiralığımı listele"
+      },
+      "developer": {
+        "title": "Müteahhitler ve yeni projeler",
+        "text": "Yeni bir konut kompleksi veya gelecek daireler mi inşa ediyorsunuz? Projenizi sitede sergileyip alıcı ve yatırımcı bulmanıza yardımcı oluyoruz.",
+        "points": [
+          "LOS ESTATE'te özel proje sunumu",
+          "Alıcı ve yatırımcı kitlesine pazarlama",
+          "Fiyat, ödeme planı ve talepler için destek"
+        ],
+        "cta": "Projemi tanıt"
+      }
+    },
+    "processEyebrow": "Basit süreç",
+    "processTitle": "Ortaklık nasıl işler",
+    "processSubtitle": "İlk mesajdan yayına veya müşteri tanıtımına kadar net ve profesyonel ilerleriz.",
+    "markets": "Odak: Türkiye · Alanya ve sahil",
+    "audience": "Alıcılar, kiracılar ve yatırımcılar",
+    "process": {
+      "step1": {
+        "title": "Kendinizi anlatın",
+        "text": "Ajans, mülk sahibi veya müteahhit seçin; müşterileriniz, mülkünüz veya projeniz hakkında kısa bilgi verin."
+      },
+      "step2": {
+        "title": "İnceleyip hizalarız",
+        "text": "Ekibimiz uyumu, pazar konumunu ve LOS ESTATE'te en iyi sunumu değerlendirir."
+      },
+      "step3": {
+        "title": "Yayın veya tanıtım",
+        "text": "İlanınızı veya projenizi yayınlarız — ya da müşterinizi uygun satış/kiralama seçenekleriyle buluştururuz."
+      },
+      "step4": {
+        "title": "Süreci takip ederiz",
+        "text": "Talep güncellemeleri ve koordine takip ile anlaşma ilerleyene kadar yanınızda oluruz."
+      }
+    },
+    "closingTitle": "Birlikte büyümeye hazır mısınız?",
+    "closingSubtitle": "Kısa bir ortaklık talebi gönderin — iş günü içinde dönüş yaparız.",
+    "closingCta": "Ortak olun",
+    "closingContact": "Genel iletişim"
   }
 }

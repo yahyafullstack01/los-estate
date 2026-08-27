@@ -5,7 +5,7 @@ import { getSiteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
-  const staticPaths = ["", "/listings", "/contact"];
+  const staticPaths = ["", "/listings", "/partners", "/contact"];
   const slugs = getListingSlugs();
 
   const entries: MetadataRoute.Sitemap = [];

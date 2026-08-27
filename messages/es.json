@@ -7,7 +7,9 @@
     "listingsTitle": "Explorar propiedades",
     "listingsDescription": "Apartamentos, hoteles y casas en venta y alquiler.",
     "contactTitle": "Contáctenos",
-    "contactDescription": "Póngase en contacto con LOS ESTATE para visitas, inversiones y alquileres."
+    "contactDescription": "Póngase en contacto con LOS ESTATE para visitas, inversiones y alquileres.",
+    "partnersTitle": "Partners — Agencias, propietarios y promotores",
+    "partnersDescription": "Colabora con LOS ESTATE: clientes para inmuebles en Turquía, publica tu alquiler o promociona tu nuevo proyecto."
   },
   "nav": {
     "home": "Inicio",
@@ -15,7 +17,8 @@
     "listings": "Propiedades",
     "contact": "Contacto",
     "sale": "En venta",
-    "rent": "En alquiler"
+    "rent": "En alquiler",
+    "partners": "Para partners"
   },
   "hero": {
     "title": "Eleve su estilo de vida",
@@ -180,7 +183,10 @@
       "sell": "Vender / publicar mi propiedad",
       "viewing": "Reservar una visita",
       "investment": "Asesoramiento de inversión",
-      "other": "Otra cosa"
+      "other": "Otra cosa",
+      "agency": "Colaboración de agencia — referidos",
+      "landlord": "Publicar mi propiedad en alquiler",
+      "developer": "Promocionar un proyecto nuevo"
     },
     "name": "Nombre completo",
     "email": "Correo electrónico",
@@ -894,5 +900,72 @@
         "Generador"
       ]
     }
+  },
+  "partners": {
+    "title": "Asóciate con LOS ESTATE",
+    "subtitle": "Agencias, propietarios particulares y promotores — te ayudamos a llegar a compradores e inquilinos cualificados de pisos y casas en Turquía.",
+    "ctaPrimary": "Empezar una colaboración",
+    "ctaSecondary": "Ver propiedades",
+    "tracksTitle": "Con quién trabajamos",
+    "tracksSubtitle": "Tres formas de crecer juntos — elige la tuya y te guiamos en el siguiente paso.",
+    "tracks": {
+      "agency": {
+        "title": "Agencias y brokers",
+        "text": "¿Tienes un cliente interesado en comprar o alquilar un piso o casa en Turquía? Lo conectamos con opciones verificadas y experiencia local.",
+        "points": [
+          "Compra y alquiler en Alanya y la costa",
+          "Presentaciones compartidas con seguimiento claro",
+          "Apoyo en visitas, negociación y cierre"
+        ],
+        "cta": "Colaborar como agencia"
+      },
+      "landlord": {
+        "title": "Propietarios particulares",
+        "text": "¿Tienes un piso o casa para alquilar? Lo publicamos en LOS ESTATE y te conectamos con inquilinos serios de corto y largo plazo.",
+        "points": [
+          "Presentación profesional del inmueble",
+          "Alcance a huéspedes y residentes internacionales",
+          "Coordinación de consultas, visitas y condiciones"
+        ],
+        "cta": "Publicar mi alquiler"
+      },
+      "developer": {
+        "title": "Promotores y proyectos nuevos",
+        "text": "¿Construyes un complejo residencial o futuros apartamentos? Mostramos tu proyecto en nuestra web y te ayudamos a encontrar clientes.",
+        "points": [
+          "Presentación dedicada del proyecto en LOS ESTATE",
+          "Marketing para compradores e inversores",
+          "Apoyo en precios, planes de pago y consultas"
+        ],
+        "cta": "Presentar mi proyecto"
+      }
+    },
+    "processEyebrow": "Proceso sencillo",
+    "processTitle": "Cómo funciona la colaboración",
+    "processSubtitle": "Del primer mensaje a la publicación o presentación del cliente — claro y profesional.",
+    "markets": "Enfoque: Turquía · Alanya y costa",
+    "audience": "Compradores, inquilinos e inversores",
+    "process": {
+      "step1": {
+        "title": "Cuéntanos quién eres",
+        "text": "Elige agencia, propietario o promotor y comparte un breve resumen de tus clientes, inmueble o proyecto."
+      },
+      "step2": {
+        "title": "Revisamos y alineamos",
+        "text": "Nuestro equipo evalúa el encaje, el posicionamiento y la mejor forma de presentar tu oportunidad."
+      },
+      "step3": {
+        "title": "Publicar o presentar",
+        "text": "Publicamos tu anuncio o proyecto — o presentamos a tu cliente opciones de compra o alquiler adecuadas."
+      },
+      "step4": {
+        "title": "Seguimiento continuo",
+        "text": "Recibes actualizaciones de consultas y seguimiento coordinado hasta avanzar la operación."
+      }
+    },
+    "closingTitle": "¿Listos para crecer juntos?",
+    "closingSubtitle": "Envía una breve solicitud de colaboración — respondemos en un día laborable.",
+    "closingCta": "Ser partner",
+    "closingContact": "Contacto general"
   }
 }

@@ -7,7 +7,9 @@
     "listingsTitle": "Immobilien durchsuchen",
     "listingsDescription": "Entdecken Sie Apartments, Hotels und Häuser zum Kauf und zur Miete.",
     "contactTitle": "Kontakt",
-    "contactDescription": "Kontaktieren Sie LOS ESTATE für Besichtigungen, Investitionen und Vermietungen."
+    "contactDescription": "Kontaktieren Sie LOS ESTATE für Besichtigungen, Investitionen und Vermietungen.",
+    "partnersTitle": "Partner — Agenturen, Vermieter & Bauträger",
+    "partnersDescription": "Partner von LOS ESTATE: Kunden für Türkei-Immobilien, Vermietung listen oder Neubauprojekt vermarkten."
   },
   "nav": {
     "home": "Startseite",
@@ -15,7 +17,8 @@
     "listings": "Immobilien",
     "contact": "Kontakt",
     "sale": "Zum Verkauf",
-    "rent": "Zur Miete"
+    "rent": "Zur Miete",
+    "partners": "Für Partner"
   },
   "hero": {
     "title": "Heben Sie Ihren Lebensstil auf ein neues Niveau",
@@ -180,7 +183,10 @@
       "sell": "Meine Immobilie verkaufen / inserieren",
       "viewing": "Besichtigung buchen",
       "investment": "Investmentberatung",
-      "other": "Sonstiges"
+      "other": "Sonstiges",
+      "agency": "Agentur-Partnerschaft — Kundenvermittlung",
+      "landlord": "Meine Immobilie zur Miete listen",
+      "developer": "Neubauprojekt vermarkten"
     },
     "name": "Vollständiger Name",
     "email": "E-Mail-Adresse",
@@ -894,5 +900,72 @@
         "Notstromaggregat"
       ]
     }
+  },
+  "partners": {
+    "title": "Partner von LOS ESTATE werden",
+    "subtitle": "Agenturen, private Eigentümer und Bauträger — wir helfen Ihnen, qualifizierte Käufer und Mieter für Wohnungen und Häuser in der Türkei zu erreichen.",
+    "ctaPrimary": "Partnerschaft starten",
+    "ctaSecondary": "Objekte ansehen",
+    "tracksTitle": "Mit wem wir arbeiten",
+    "tracksSubtitle": "Drei Wege der Zusammenarbeit — wählen Sie den passenden, und wir zeigen den nächsten Schritt.",
+    "tracks": {
+      "agency": {
+        "title": "Agenturen & Makler",
+        "text": "Haben Sie einen Kunden, der eine Wohnung oder ein Haus in der Türkei kaufen oder mieten möchte? Wir vermitteln geprüfte Optionen und lokale Expertise.",
+        "points": [
+          "Kauf- und Mietangebote in Alanya und an der Küste",
+          "Gemeinsame Kundenvorstellungen mit klarem Follow-up",
+          "Unterstützung bei Besichtigung, Verhandlung und Abschluss"
+        ],
+        "cta": "Als Agentur partnern"
+      },
+      "landlord": {
+        "title": "Private Vermieter",
+        "text": "Besitzen Sie eine Wohnung oder ein Haus zur Vermietung? Wir listen sie bei LOS ESTATE und verbinden Sie mit ernsthaften Kurz- und Langzeitmietern.",
+        "points": [
+          "Professionelle Objektdarstellung",
+          "Reichweite bei internationalen Gästen und Bewohnern",
+          "Koordination von Anfragen, Besichtigungen und Konditionen"
+        ],
+        "cta": "Meine Vermietung listen"
+      },
+      "developer": {
+        "title": "Bauträger & Neubauprojekte",
+        "text": "Bauen Sie einen neuen Wohnkomplex oder künftige Apartments? Wir präsentieren Ihr Projekt auf unserer Website und helfen Ihnen, Käufer und Investoren zu finden.",
+        "points": [
+          "Eigene Projektpräsentation auf LOS ESTATE",
+          "Marketing für Käufer- und Investorenpublikum",
+          "Unterstützung zu Preisen, Zahlungsplänen und Anfragen"
+        ],
+        "cta": "Mein Projekt vorstellen"
+      }
+    },
+    "processEyebrow": "Einfacher Ablauf",
+    "processTitle": "So funktioniert die Partnerschaft",
+    "processSubtitle": "Von der ersten Nachricht bis zur Veröffentlichung oder Kundenvorstellung — klar und professionell.",
+    "markets": "Fokus: Türkei · Alanya & Küste",
+    "audience": "Käufer, Mieter & Investoren",
+    "process": {
+      "step1": {
+        "title": "Stellen Sie sich vor",
+        "text": "Wählen Sie Agentur, Eigentümer oder Bauträger und geben Sie einen kurzen Überblick zu Kunden, Objekt oder Projekt."
+      },
+      "step2": {
+        "title": "Wir prüfen & abstimmen",
+        "text": "Unser Team prüft Passung, Marktpositionierung und die beste Darstellung auf LOS ESTATE."
+      },
+      "step3": {
+        "title": "Live gehen oder vorstellen",
+        "text": "Wir veröffentlichen Ihr Inserat oder Projekt — oder stellen Ihren Kunden passende Kauf-/Mietobjekte vor."
+      },
+      "step4": {
+        "title": "Im Austausch bleiben",
+        "text": "Sie erhalten Anfrage-Updates und koordiniertes Follow-up, bis das Geschäft vorankommt."
+      }
+    },
+    "closingTitle": "Bereit, gemeinsam zu wachsen?",
+    "closingSubtitle": "Senden Sie eine kurze Partneranfrage — wir antworten innerhalb eines Werktags.",
+    "closingCta": "Partner werden",
+    "closingContact": "Allgemeiner Kontakt"
   }
 }

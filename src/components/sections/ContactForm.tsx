@@ -17,6 +17,9 @@ const INTEREST_VALUES = [
   "sell",
   "viewing",
   "investment",
+  "agency",
+  "landlord",
+  "developer",
   "other",
 ] as const;
 

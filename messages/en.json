@@ -7,7 +7,9 @@
     "listingsTitle": "Browse Properties",
     "listingsDescription": "Explore apartments, hotels, and houses for sale and rent.",
     "contactTitle": "Contact Us",
-    "contactDescription": "Get in touch with LOS ESTATE for viewings, investments, and rentals."
+    "contactDescription": "Get in touch with LOS ESTATE for viewings, investments, and rentals.",
+    "partnersTitle": "Partners — Agencies, Landlords & Developers",
+    "partnersDescription": "Partner with LOS ESTATE: refer clients for Turkey property, list your rental, or promote your new residential project."
   },
   "nav": {
     "home": "Home",
@@ -15,7 +17,8 @@
     "listings": "Properties",
     "contact": "Contact",
     "sale": "For Sale",
-    "rent": "For Rent"
+    "rent": "For Rent",
+    "partners": "For Partners"
   },
   "hero": {
     "title": "Elevate Your Lifestyle",
@@ -180,7 +183,10 @@
       "sell": "Selling / listing my property",
       "viewing": "Booking a viewing",
       "investment": "Investment advice",
-      "other": "Something else"
+      "other": "Something else",
+      "agency": "Agency partnership — client referral",
+      "landlord": "List my property for rent",
+      "developer": "Promote a new development project"
     },
     "name": "Full name",
     "email": "Email address",
@@ -894,5 +900,72 @@
         "Backup generator"
       ]
     }
+  },
+  "partners": {
+    "title": "Partner with LOS ESTATE",
+    "subtitle": "Agencies, private owners, and developers — we help you reach qualified buyers and renters looking for apartments and houses in Turkey.",
+    "ctaPrimary": "Start a partnership",
+    "ctaSecondary": "Browse our listings",
+    "tracksTitle": "Who we work with",
+    "tracksSubtitle": "Three ways to grow together — tell us which fits you and we will guide the next step.",
+    "tracks": {
+      "agency": {
+        "title": "Agencies & brokers",
+        "text": "Already have a client interested in buying or renting an apartment or house in Turkey? We match them with verified options and local expertise.",
+        "points": [
+          "Buy and rent opportunities in Alanya and coastal Turkey",
+          "Shared client introductions with clear follow-up",
+          "Support through viewing, negotiation, and closing"
+        ],
+        "cta": "Partner as an agency"
+      },
+      "landlord": {
+        "title": "Private landlords",
+        "text": "Own an apartment or house you want to rent? We list it on LOS ESTATE and connect you with serious short- and long-term tenants.",
+        "points": [
+          "Professional listing photos and presentation",
+          "Reach international guests and residents",
+          "Coordination for inquiries, viewings, and terms"
+        ],
+        "cta": "List my rental"
+      },
+      "developer": {
+        "title": "Developers & new projects",
+        "text": "Building a new residential complex or future apartments? We showcase your project on our site and help you find buyers and investors.",
+        "points": [
+          "Dedicated project presentation on LOS ESTATE",
+          "Marketing to our buyer and investor audience",
+          "Support for pricing, payment plans, and inquiries"
+        ],
+        "cta": "Present my project"
+      }
+    },
+    "processEyebrow": "Simple process",
+    "processTitle": "How partnership works",
+    "processSubtitle": "From first message to published listing or client introduction — we keep it clear and professional.",
+    "markets": "Focus: Turkey · Alanya & coast",
+    "audience": "Buyers, renters & investors",
+    "process": {
+      "step1": {
+        "title": "Tell us who you are",
+        "text": "Choose agency, landlord, or developer and share a short overview of your clients, property, or project."
+      },
+      "step2": {
+        "title": "We review & align",
+        "text": "Our team checks fit, market positioning, and the best way to present your opportunity on LOS ESTATE."
+      },
+      "step3": {
+        "title": "Go live or introduce",
+        "text": "We publish your listing or project — or introduce your client to matching apartments and houses for sale or rent."
+      },
+      "step4": {
+        "title": "Stay in the loop",
+        "text": "You get inquiry updates and coordinated follow-up until the deal moves forward."
+      }
+    },
+    "closingTitle": "Ready to grow together?",
+    "closingSubtitle": "Send a short partnership inquiry — we reply within one business day.",
+    "closingCta": "Become a partner",
+    "closingContact": "General contact"
   }
 }

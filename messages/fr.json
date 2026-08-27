@@ -7,7 +7,9 @@
     "listingsTitle": "Parcourir les biens",
     "listingsDescription": "Appartements, hôtels et maisons à vendre et à louer.",
     "contactTitle": "Nous contacter",
-    "contactDescription": "Contactez LOS ESTATE pour des visites, investissements et locations."
+    "contactDescription": "Contactez LOS ESTATE pour des visites, investissements et locations.",
+    "partnersTitle": "Partenaires — Agences, propriétaires & promoteurs",
+    "partnersDescription": "Partenariat LOS ESTATE : clients immobiliers en Turquie, location à publier ou promotion de votre nouveau projet."
   },
   "nav": {
     "home": "Accueil",
@@ -15,7 +17,8 @@
     "listings": "Biens",
     "contact": "Contact",
     "sale": "À vendre",
-    "rent": "À louer"
+    "rent": "À louer",
+    "partners": "Pour les partenaires"
   },
   "hero": {
     "title": "Élevez votre style de vie",
@@ -180,7 +183,10 @@
       "sell": "Vendre / publier mon bien",
       "viewing": "Réserver une visite",
       "investment": "Conseil en investissement",
-      "other": "Autre"
+      "other": "Autre",
+      "agency": "Partenariat agence — recommandation client",
+      "landlord": "Publier mon bien en location",
+      "developer": "Promouvoir un nouveau projet"
     },
     "name": "Nom complet",
     "email": "Adresse e-mail",
@@ -894,5 +900,72 @@
         "Groupe électrogène"
       ]
     }
+  },
+  "partners": {
+    "title": "Devenez partenaire de LOS ESTATE",
+    "subtitle": "Agences, propriétaires privés et promoteurs — nous vous aidons à atteindre des acheteurs et locataires qualifiés pour des appartements et maisons en Turquie.",
+    "ctaPrimary": "Démarrer un partenariat",
+    "ctaSecondary": "Voir nos biens",
+    "tracksTitle": "Avec qui nous travaillons",
+    "tracksSubtitle": "Trois façons de grandir ensemble — choisissez celle qui vous correspond, nous vous guiderons.",
+    "tracks": {
+      "agency": {
+        "title": "Agences & courtiers",
+        "text": "Vous avez un client intéressé par l'achat ou la location d'un appartement ou d'une maison en Turquie ? Nous le mettons en relation avec des options vérifiées.",
+        "points": [
+          "Opportunités d'achat et de location à Alanya et sur la côte",
+          "Présentations clients partagées avec suivi clair",
+          "Accompagnement visite, négociation et signature"
+        ],
+        "cta": "Partenariat agence"
+      },
+      "landlord": {
+        "title": "Propriétaires privés",
+        "text": "Vous avez un appartement ou une maison à louer ? Nous le publions sur LOS ESTATE et vous connectons à des locataires sérieux.",
+        "points": [
+          "Présentation professionnelle du bien",
+          "Audience internationale de voyageurs et résidents",
+          "Coordination des demandes, visites et conditions"
+        ],
+        "cta": "Publier ma location"
+      },
+      "developer": {
+        "title": "Promoteurs & nouveaux projets",
+        "text": "Vous construisez un complexe résidentiel ou de futurs appartements ? Nous présentons votre projet sur notre site et aidons à trouver des clients.",
+        "points": [
+          "Présentation dédiée du projet sur LOS ESTATE",
+          "Marketing auprès d'acheteurs et d'investisseurs",
+          "Support sur prix, plans de paiement et demandes"
+        ],
+        "cta": "Présenter mon projet"
+      }
+    },
+    "processEyebrow": "Processus simple",
+    "processTitle": "Comment fonctionne le partenariat",
+    "processSubtitle": "Du premier message à la publication ou à la mise en relation — clair et professionnel.",
+    "markets": "Focus : Turquie · Alanya & côte",
+    "audience": "Acheteurs, locataires & investisseurs",
+    "process": {
+      "step1": {
+        "title": "Présentez-vous",
+        "text": "Choisissez agence, propriétaire ou promoteur et décrivez brièvement vos clients, votre bien ou votre projet."
+      },
+      "step2": {
+        "title": "Nous alignons",
+        "text": "Notre équipe vérifie l'adéquation, le positionnement et la meilleure façon de présenter votre offre."
+      },
+      "step3": {
+        "title": "Publication ou introduction",
+        "text": "Nous publions votre annonce ou projet — ou présentons à votre client des appartements et maisons adaptés."
+      },
+      "step4": {
+        "title": "Suivi continu",
+        "text": "Vous recevez les mises à jour des demandes et un suivi coordonné jusqu'à l'avancement de l'opération."
+      }
+    },
+    "closingTitle": "Prêts à grandir ensemble ?",
+    "closingSubtitle": "Envoyez une courte demande de partenariat — réponse sous un jour ouvrable.",
+    "closingCta": "Devenir partenaire",
+    "closingContact": "Contact général"
   }
 }
