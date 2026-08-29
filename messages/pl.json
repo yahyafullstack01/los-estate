@@ -9,7 +9,9 @@
     "contactTitle": "Kontakt",
     "contactDescription": "Skontaktuj się z LOS ESTATE w sprawie prezentacji, inwestycji i wynajmu.",
     "partnersTitle": "Partnerzy — agencje, wynajmujący i deweloperzy",
-    "partnersDescription": "Partnerstwo z LOS ESTATE: klienci na nieruchomości w Turcji, publikacja wynajmu lub promocja nowego projektu."
+    "partnersDescription": "Partnerstwo z LOS ESTATE: klienci na nieruchomości w Turcji, publikacja wynajmu lub promocja nowego projektu.",
+    "forOwnersTitle": "Dla właścicieli — Zarządzanie nieruchomością w Turcji",
+    "forOwnersDescription": "Zarządzanie pod klucz lub gwarantowany najem mieszkania w Turcji. Stabilny dochód bez kłopotów."
   },
   "nav": {
     "home": "Strona główna",
@@ -18,7 +20,8 @@
     "contact": "Kontakt",
     "sale": "Na sprzedaż",
     "rent": "Do wynajęcia",
-    "partners": "Dla partnerów"
+    "partners": "Dla partnerów",
+    "forOwners": "Dla właścicieli"
   },
   "hero": {
     "title": "Podnieś standard życia",
@@ -186,7 +189,9 @@
       "other": "Coś innego",
       "agency": "Partnerstwo agencji — polecenie klienta",
       "landlord": "Wystaw moją nieruchomość na wynajem",
-      "developer": "Promocja nowego projektu"
+      "developer": "Promocja nowego projektu",
+      "turnkey": "Zarządzanie pod klucz",
+      "guaranteed": "Gwarantowany najem"
     },
     "name": "Imię i nazwisko",
     "email": "Adres e-mail",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Wyślij krótkie zapytanie partnerskie — odpowiadamy w ciągu dnia roboczego.",
     "closingCta": "Zostań partnerem",
     "closingContact": "Kontakt ogólny"
+  },
+  "propertyManagement": {
+    "eyebrow": "Zarządzanie nieruchomością",
+    "title": "Profesjonalne zarządzanie Twoją nieruchomością",
+    "intro": "Profesjonalnie zarządzamy nieruchomościami i oferujemy właścicielom w Turcji dwa wygodne modele współpracy.",
+    "options": {
+      "turnkey": {
+        "title": "Zarządzanie pod klucz",
+        "text": "Zajmujemy się reklamą, sprzątaniem, pełnym cyklem pracy z gośćmi i wsparciem — Ty otrzymujesz czysty dochód bez kłopotów.",
+        "points": [
+          "Profesjonalna reklama i marketing",
+          "Sprzątanie i utrzymanie nieruchomości",
+          "Pełny cykl pracy z gośćmi i zameldowaniem",
+          "Przejrzysta prowizja — zostaje czysty dochód"
+        ],
+        "highlight": "Płacisz procent za naszą usługę i otrzymujesz czysty dochód bez codziennego stresu.",
+        "cta": "Zapytaj o zarządzanie pod klucz"
+      },
+      "guaranteed": {
+        "title": "Gwarantowany najem",
+        "text": "Bierzemy mieszkanie — umeblowane lub nie — w długoterminowy najem z prawem do wynajmu dobowego.",
+        "points": [
+          "Mieszkania umeblowane i nieumeblowane",
+          "Długoterminowy najem z prawem wynajmu dobowego",
+          "Stała miesięczna wypłata dla właściciela",
+          "Bez martwienia się o pustostany i gości"
+        ],
+        "highlight": "Stabilny miesięczny dochód i pełny spokój — wszystko bierzemy na siebie.",
+        "cta": "Zapytaj o gwarantowany najem"
+      }
+    },
+    "cta": "Omów moją nieruchomość",
+    "ctaNote": "Opowiedz o mieszkaniu lub domu — dobierzemy najlepszą opcję.",
+    "pageTitle": "Twoja nieruchomość pod profesjonalnym zarządzaniem",
+    "pageSubtitle": "Masz mieszkanie lub dom w Turcji? Oferujemy zarządzanie pod klucz lub gwarantowany miesięczny najem — dochód bez codziennego stresu.",
+    "optionsTitle": "Wybierz model współpracy",
+    "learnMore": "Więcej o zarządzaniu",
+    "whyTitle": "Dlaczego właściciele wybierają nas",
+    "whySubtitle": "Łączymy lokalną wiedzę w Alanyi i na tureckim wybrzeżu z pełnym zespołem operacyjnym.",
+    "whyItems": [
+      {
+        "title": "Pełna kontrola operacyjna",
+        "text": "Reklama, sprzątanie, kontakt z gośćmi i utrzymanie — wszystko po naszej stronie."
+      },
+      {
+        "title": "Dochód, który można planować",
+        "text": "Dochód netto z wynajmu dobowego lub stała miesięczna gwarancja — wiesz, czego się spodziewać."
+      },
+      {
+        "title": "Transparentne partnerstwo",
+        "text": "Jasne warunki, regularne raporty i dedykowany kontakt dla każdego właściciela."
+      }
+    ],
+    "processEyebrow": "Jak to działa",
+    "processTitle": "Od pierwszego kontaktu do stabilnego dochodu",
+    "processSubtitle": "Prosty, przejrzysty proces dla właścicieli w Turcji.",
+    "process": {
+      "step1": {
+        "title": "Opowiedz o nieruchomości",
+        "text": "Podaj lokalizację, metraż, umeblowanie i preferencję: pod klucz czy gwarantowany najem."
+      },
+      "step2": {
+        "title": "Ocena i oferta",
+        "text": "Nasz zespół ocenia obiekt i proponuje najlepszy model z jasnymi warunkami."
+      },
+      "step3": {
+        "title": "Umowa i przekazanie",
+        "text": "Podpisujemy, przygotowujemy lokal i rozpoczynamy marketing lub gwarantowane wypłaty."
+      },
+      "step4": {
+        "title": "Ty otrzymujesz dochód — my resztę",
+        "text": "Regularne wypłaty, przejrzyste raporty i zero telefonów od gości czy w sprawach technicznych."
+      }
+    },
+    "faqTitle": "Częste pytania",
+    "faq": {
+      "q1": {
+        "q": "Która opcja jest dla mnie?",
+        "a": "Zarządzanie pod klucz — maksymalny dochód z wynajmu dobowego. Gwarantowany najem — stała miesięczna wypłata i spokój."
+      },
+      "q2": {
+        "q": "Czy przyjmujecie mieszkania bez mebli?",
+        "a": "Tak. Przy gwarantowanym najmie przyjmujemy mieszkania umeblowane i nieumeblowane."
+      },
+      "q3": {
+        "q": "Gdzie działacie?",
+        "a": "Skupiamy się na Alanyi i tureckim wybrzeżu Morza Śródziemnego."
+      }
+    },
+    "closingTitle": "Gotowy zarabiać na nieruchomości?",
+    "closingSubtitle": "Wyślij zapytanie — dobierzemy najlepszy model dla Twojego mieszkania.",
+    "contactCalloutEyebrow": "Właściciel nieruchomości?",
+    "contactCalloutTitle": "Pod klucz lub gwarantowany najem",
+    "contactCalloutText": "Wybierz opcję poniżej lub przeczytaj pełny przewodnik dla właścicieli."
   }
 }

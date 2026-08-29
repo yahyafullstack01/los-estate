@@ -9,7 +9,9 @@
     "contactTitle": "Kontakt",
     "contactDescription": "Kontaktieren Sie LOS ESTATE für Besichtigungen, Investitionen und Vermietungen.",
     "partnersTitle": "Partner — Agenturen, Vermieter & Bauträger",
-    "partnersDescription": "Partner von LOS ESTATE: Kunden für Türkei-Immobilien, Vermietung listen oder Neubauprojekt vermarkten."
+    "partnersDescription": "Partner von LOS ESTATE: Kunden für Türkei-Immobilien, Vermietung listen oder Neubauprojekt vermarkten.",
+    "forOwnersTitle": "Für Eigentümer — Immobilienverwaltung in der Türkei",
+    "forOwnersDescription": "Schlüsselfertige Verwaltung oder garantierte Miete für Ihre Wohnung in der Türkei. Stabiles Einkommen ohne Aufwand."
   },
   "nav": {
     "home": "Startseite",
@@ -18,7 +20,8 @@
     "contact": "Kontakt",
     "sale": "Zum Verkauf",
     "rent": "Zur Miete",
-    "partners": "Für Partner"
+    "partners": "Für Partner",
+    "forOwners": "Für Eigentümer"
   },
   "hero": {
     "title": "Heben Sie Ihren Lebensstil auf ein neues Niveau",
@@ -186,7 +189,9 @@
       "other": "Sonstiges",
       "agency": "Agentur-Partnerschaft — Kundenvermittlung",
       "landlord": "Meine Immobilie zur Miete listen",
-      "developer": "Neubauprojekt vermarkten"
+      "developer": "Neubauprojekt vermarkten",
+      "turnkey": "Schlüsselfertige Verwaltung",
+      "guaranteed": "Garantierte Miete"
     },
     "name": "Vollständiger Name",
     "email": "E-Mail-Adresse",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Senden Sie eine kurze Partneranfrage — wir antworten innerhalb eines Werktags.",
     "closingCta": "Partner werden",
     "closingContact": "Allgemeiner Kontakt"
+  },
+  "propertyManagement": {
+    "eyebrow": "Immobilienverwaltung",
+    "title": "Professionelle Verwaltung Ihrer Immobilie",
+    "intro": "Wir verwalten Immobilien professionell und bieten Eigentümern in der Türkei zwei praktische Kooperationsmodelle.",
+    "options": {
+      "turnkey": {
+        "title": "Schlüsselfertige Verwaltung",
+        "text": "Wir übernehmen Werbung, Reinigung, den kompletten Gästezyklus und Support — Sie erhalten Nettoeinkommen ohne Aufwand.",
+        "points": [
+          "Professionelle Inserate und Vermarktung",
+          "Reinigung und Objektpflege",
+          "Vollständiger Gästekommunikations- und Check-in/out-Zyklus",
+          "Transparente Servicegebühr — Sie behalten das Nettoeinkommen"
+        ],
+        "highlight": "Sie zahlen einen Prozentsatz für unseren Service und erhalten stressfreies Nettoeinkommen.",
+        "cta": "Schlüsselfertige Verwaltung anfragen"
+      },
+      "guaranteed": {
+        "title": "Garantierte Miete",
+        "text": "Wir mieten Ihre Wohnung — möbliert oder unmöbliert — langfristig mit dem Recht zur Tagesvermietung.",
+        "points": [
+          "Möblierte und unmöblierte Wohnungen möglich",
+          "Langfristmiete mit Tagesvermietungsrecht",
+          "Feste monatliche Zahlung an den Eigentümer",
+          "Keine Leerstandssorgen oder Gästeverwaltung für Sie"
+        ],
+        "highlight": "Stabiles monatliches Einkommen und absolute Ruhe — wir kümmern uns um alles.",
+        "cta": "Garantierte Miete anfragen"
+      }
+    },
+    "cta": "Immobilie besprechen",
+    "ctaNote": "Erzählen Sie uns von Ihrer Wohnung oder Ihrem Haus — wir empfehlen die beste Option.",
+    "pageTitle": "Ihre Immobilie, professionell verwaltet",
+    "pageSubtitle": "Besitzen Sie eine Wohnung oder ein Haus in der Türkei? Schlüsselfertige Verwaltung oder garantierte Monatsmiete — Einkommen ohne täglichen Stress.",
+    "optionsTitle": "Wählen Sie Ihr Kooperationsmodell",
+    "learnMore": "Mehr zur Verwaltung",
+    "whyTitle": "Warum Eigentümer uns wählen",
+    "whySubtitle": "Lokale Expertise in Alanya und an der türkischen Küste plus ein vollständiges Betriebsteam.",
+    "whyItems": [
+      {
+        "title": "Volle operative Kontrolle",
+        "text": "Werbung, Reinigung, Gästekommunikation und Wartung — alles durch unser Team."
+      },
+      {
+        "title": "Planbares Einkommen",
+        "text": "Nettoeinkommen aus Tagesvermietung oder feste monatliche Garantie — Sie wissen, was Sie erwartet."
+      },
+      {
+        "title": "Transparente Partnerschaft",
+        "text": "Klare Bedingungen, regelmäßige Berichte und ein fester Ansprechpartner."
+      }
+    ],
+    "processEyebrow": "So funktioniert es",
+    "processTitle": "Vom ersten Anruf zum stabilen Einkommen",
+    "processSubtitle": "Ein einfacher, transparenter Prozess für Eigentümer in der Türkei.",
+    "process": {
+      "step1": {
+        "title": "Erzählen Sie uns von Ihrer Immobilie",
+        "text": "Standort, Größe, Möblierung und Präferenz: Schlüsselfertig oder garantierte Miete."
+      },
+      "step2": {
+        "title": "Bewertung und Angebot",
+        "text": "Unser Team bewertet die Immobilie und empfiehlt das beste Modell mit klaren Konditionen."
+      },
+      "step3": {
+        "title": "Vertrag und Übergabe",
+        "text": "Wir unterzeichnen, bereiten die Einheit vor und starten Marketing oder garantierte Zahlungen."
+      },
+      "step4": {
+        "title": "Sie erhalten Einkommen — wir den Rest",
+        "text": "Regelmäßige Auszahlungen, transparente Berichte, keine Gäste- oder Wartungsanrufe für Sie."
+      }
+    },
+    "faqTitle": "Häufige Fragen",
+    "faq": {
+      "q1": {
+        "q": "Welche Option passt zu mir?",
+        "a": "Schlüsselfertige Verwaltung für maximales Einkommen aus Tagesvermietung. Garantierte Miete für feste monatliche Zahlung und Ruhe."
+      },
+      "q2": {
+        "q": "Nehmen Sie unmöblierte Wohnungen?",
+        "a": "Ja. Für garantierte Miete akzeptieren wir möblierte und unmöblierte Einheiten."
+      },
+      "q3": {
+        "q": "Wo sind Sie tätig?",
+        "a": "Fokus auf Alanya und die türkische Mittelmeerküste mit Erfahrung in Ferien- und Langzeitmiete."
+      }
+    },
+    "closingTitle": "Bereit, mit Ihrer Immobilie zu verdienen?",
+    "closingSubtitle": "Senden Sie eine Anfrage — wir empfehlen das passende Modell.",
+    "contactCalloutEyebrow": "Immobilieneigentümer?",
+    "contactCalloutTitle": "Schlüsselfertige Verwaltung oder garantierte Miete",
+    "contactCalloutText": "Wählen Sie unten die passende Option oder lesen Sie unseren Eigentümer-Leitfaden."
   }
 }

@@ -9,7 +9,9 @@
     "contactTitle": "Nous contacter",
     "contactDescription": "Contactez LOS ESTATE pour des visites, investissements et locations.",
     "partnersTitle": "Partenaires — Agences, propriétaires & promoteurs",
-    "partnersDescription": "Partenariat LOS ESTATE : clients immobiliers en Turquie, location à publier ou promotion de votre nouveau projet."
+    "partnersDescription": "Partenariat LOS ESTATE : clients immobiliers en Turquie, location à publier ou promotion de votre nouveau projet.",
+    "forOwnersTitle": "Pour propriétaires — Gestion immobilière en Turquie",
+    "forOwnersDescription": "Gestion clé en main ou location garantie pour votre appartement en Turquie. Revenu stable sans tracas."
   },
   "nav": {
     "home": "Accueil",
@@ -18,7 +20,8 @@
     "contact": "Contact",
     "sale": "À vendre",
     "rent": "À louer",
-    "partners": "Pour les partenaires"
+    "partners": "Pour les partenaires",
+    "forOwners": "Pour propriétaires"
   },
   "hero": {
     "title": "Élevez votre style de vie",
@@ -186,7 +189,9 @@
       "other": "Autre",
       "agency": "Partenariat agence — recommandation client",
       "landlord": "Publier mon bien en location",
-      "developer": "Promouvoir un nouveau projet"
+      "developer": "Promouvoir un nouveau projet",
+      "turnkey": "Gestion clé en main",
+      "guaranteed": "Location garantie"
     },
     "name": "Nom complet",
     "email": "Adresse e-mail",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Envoyez une courte demande de partenariat — réponse sous un jour ouvrable.",
     "closingCta": "Devenir partenaire",
     "closingContact": "Contact général"
+  },
+  "propertyManagement": {
+    "eyebrow": "Gestion immobilière",
+    "title": "Gestion professionnelle de votre bien",
+    "intro": "Nous gérons les biens immobiliers de manière professionnelle et proposons deux options de collaboration pratiques aux propriétaires en Turquie.",
+    "options": {
+      "turnkey": {
+        "title": "Gestion clé en main",
+        "text": "Nous nous occupons de la publicité, du ménage, du cycle complet avec les voyageurs et du support — vous recevez un revenu net sans tracas.",
+        "points": [
+          "Annonces et marketing professionnels",
+          "Ménage et entretien du bien",
+          "Cycle complet avec les voyageurs et check-in/out",
+          "Commission transparente — vous conservez le revenu net"
+        ],
+        "highlight": "Vous payez un pourcentage pour notre service et recevez un revenu net sans stress quotidien.",
+        "cta": "Demander la gestion clé en main"
+      },
+      "guaranteed": {
+        "title": "Location garantie",
+        "text": "Nous prenons votre appartement — meublé ou non — en location longue durée avec droit de sous-location à la journée.",
+        "points": [
+          "Appartements meublés ou non meublés acceptés",
+          "Bail longue durée avec droit de location journalière",
+          "Paiement mensuel fixe au propriétaire",
+          "Aucune vacance ni gestion des voyageurs pour vous"
+        ],
+        "highlight": "Revenu mensuel stable et tranquillité totale — nous nous occupons de tout.",
+        "cta": "Demander la location garantie"
+      }
+    },
+    "cta": "Discuter de mon bien",
+    "ctaNote": "Parlez-nous de votre appartement ou maison — nous recommanderons la meilleure option.",
+    "pageTitle": "Votre bien, géré professionnellement",
+    "pageSubtitle": "Vous possédez un appartement ou une maison en Turquie ? Gestion clé en main ou location mensuelle garantie — revenus sans stress quotidien.",
+    "optionsTitle": "Choisissez votre modèle de collaboration",
+    "learnMore": "En savoir plus sur la gestion",
+    "whyTitle": "Pourquoi les propriétaires nous choisissent",
+    "whySubtitle": "Expertise locale à Alanya et sur la côte turque, avec une équipe opérationnelle complète.",
+    "whyItems": [
+      {
+        "title": "Contrôle opérationnel total",
+        "text": "Publicité, ménage, communication avec les voyageurs et entretien — tout est géré par notre équipe."
+      },
+      {
+        "title": "Revenu prévisible",
+        "text": "Revenu net de locations journalières ou garantie mensuelle fixe — vous savez à quoi vous attendre."
+      },
+      {
+        "title": "Partenariat transparent",
+        "text": "Conditions claires, rapports réguliers et interlocuteur dédié pour chaque propriétaire."
+      }
+    ],
+    "processEyebrow": "Comment ça marche",
+    "processTitle": "Du premier appel au revenu stable",
+    "processSubtitle": "Un processus simple et transparent pour les propriétaires en Turquie.",
+    "process": {
+      "step1": {
+        "title": "Parlez-nous de votre bien",
+        "text": "Localisation, surface, ameublement et préférence : clé en main ou location garantie."
+      },
+      "step2": {
+        "title": "Évaluation et proposition",
+        "text": "Notre équipe évalue le bien et recommande le meilleur modèle avec des conditions claires."
+      },
+      "step3": {
+        "title": "Contrat et remise",
+        "text": "Nous signons, préparons le logement si nécessaire et lançons la commercialisation ou les paiements garantis."
+      },
+      "step4": {
+        "title": "Vous recevez le revenu — nous gérons le reste",
+        "text": "Versements réguliers, rapports transparents, zéro appel de voyageurs ou de maintenance pour vous."
+      }
+    },
+    "faqTitle": "Questions fréquentes",
+    "faq": {
+      "q1": {
+        "q": "Quelle option me convient ?",
+        "a": "La gestion clé en main pour un revenu maximum en location journalière. La location garantie pour un paiement mensuel fixe et la tranquillité."
+      },
+      "q2": {
+        "q": "Acceptez-vous les appartements non meublés ?",
+        "a": "Oui. Pour la location garantie, nous acceptons les logements meublés et non meublés."
+      },
+      "q3": {
+        "q": "Où opérez-vous ?",
+        "a": "Focus sur Alanya et la côte méditerranéenne turque, avec une forte expérience en location vacances et longue durée."
+      }
+    },
+    "closingTitle": "Prêt à monétiser votre bien ?",
+    "closingSubtitle": "Envoyez une demande — nous recommanderons le modèle adapté à votre appartement.",
+    "contactCalloutEyebrow": "Propriétaire ?",
+    "contactCalloutTitle": "Gestion clé en main ou location garantie",
+    "contactCalloutText": "Sélectionnez l'option ci-dessous ou consultez notre guide complet pour propriétaires."
   }
 }

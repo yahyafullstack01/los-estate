@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { ContactChannels } from "@/components/sections/ContactChannels";
+import { OwnerContactCallout } from "@/components/sections/OwnerContactCallout";
 import { getListingBySlug } from "@/data/listings";
 import { getListingInquiryContext } from "@/lib/property-i18n";
 import { getAlternateLanguages } from "@/lib/seo";
@@ -50,6 +51,7 @@ export default async function ContactPage({ params, searchParams }: Props) {
             id="inquiry"
             className="rounded-xl border border-border bg-surface p-6 sm:p-8 lg:p-10"
           >
+            <OwnerContactCallout interest={interest} />
             <ContactForm
               key={`${interest ?? "default"}-${listingInquiry?.slug ?? "none"}`}
               listing={listingInquiry}

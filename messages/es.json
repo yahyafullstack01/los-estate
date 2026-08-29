@@ -9,7 +9,9 @@
     "contactTitle": "Contáctenos",
     "contactDescription": "Póngase en contacto con LOS ESTATE para visitas, inversiones y alquileres.",
     "partnersTitle": "Partners — Agencias, propietarios y promotores",
-    "partnersDescription": "Colabora con LOS ESTATE: clientes para inmuebles en Turquía, publica tu alquiler o promociona tu nuevo proyecto."
+    "partnersDescription": "Colabora con LOS ESTATE: clientes para inmuebles en Turquía, publica tu alquiler o promociona tu nuevo proyecto.",
+    "forOwnersTitle": "Para propietarios — Gestión inmobiliaria en Turquía",
+    "forOwnersDescription": "Gestión llave en mano o alquiler garantizado para su apartamento en Turquía. Ingreso estable sin complicaciones."
   },
   "nav": {
     "home": "Inicio",
@@ -18,7 +20,8 @@
     "contact": "Contacto",
     "sale": "En venta",
     "rent": "En alquiler",
-    "partners": "Para partners"
+    "partners": "Para partners",
+    "forOwners": "Para propietarios"
   },
   "hero": {
     "title": "Eleve su estilo de vida",
@@ -186,7 +189,9 @@
       "other": "Otra cosa",
       "agency": "Colaboración de agencia — referidos",
       "landlord": "Publicar mi propiedad en alquiler",
-      "developer": "Promocionar un proyecto nuevo"
+      "developer": "Promocionar un proyecto nuevo",
+      "turnkey": "Gestión llave en mano",
+      "guaranteed": "Alquiler garantizado"
     },
     "name": "Nombre completo",
     "email": "Correo electrónico",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Envía una breve solicitud de colaboración — respondemos en un día laborable.",
     "closingCta": "Ser partner",
     "closingContact": "Contacto general"
+  },
+  "propertyManagement": {
+    "eyebrow": "Gestión inmobiliaria",
+    "title": "Gestión profesional de su propiedad",
+    "intro": "Gestionamos inmuebles de forma profesional y ofrecemos dos opciones de colaboración prácticas para propietarios en Turquía.",
+    "options": {
+      "turnkey": {
+        "title": "Gestión llave en mano",
+        "text": "Nos encargamos de la publicidad, limpieza, ciclo completo con huéspedes y soporte — usted recibe ingresos netos sin complicaciones.",
+        "points": [
+          "Anuncios y marketing profesional",
+          "Limpieza y mantenimiento del inmueble",
+          "Ciclo completo con huéspedes y check-in/out",
+          "Comisión transparente — usted conserva el ingreso neto"
+        ],
+        "highlight": "Paga un porcentaje por nuestro servicio y recibe ingresos netos sin estrés diario.",
+        "cta": "Solicitar gestión llave en mano"
+      },
+      "guaranteed": {
+        "title": "Alquiler garantizado",
+        "text": "Tomamos su apartamento — amueblado o sin amueblar — en alquiler a largo plazo con derecho a subarrendar por días.",
+        "points": [
+          "Apartamentos amueblados o sin amueblar",
+          "Arrendamiento a largo plazo con derecho de alquiler diario",
+          "Pago mensual fijo al propietario",
+          "Sin preocupaciones de vacancia ni gestión de huéspedes"
+        ],
+        "highlight": "Ingreso mensual estable y total tranquilidad — nosotros nos encargamos de todo.",
+        "cta": "Solicitar alquiler garantizado"
+      }
+    },
+    "cta": "Hablar de mi propiedad",
+    "ctaNote": "Cuéntenos sobre su apartamento o casa — recomendaremos la mejor opción.",
+    "pageTitle": "Su propiedad, gestionada profesionalmente",
+    "pageSubtitle": "¿Tiene un apartamento o casa en Turquía? Gestión llave en mano o alquiler mensual garantizado — ingresos sin estrés diario.",
+    "optionsTitle": "Elija su modelo de colaboración",
+    "learnMore": "Más sobre gestión",
+    "whyTitle": "Por qué nos eligen los propietarios",
+    "whySubtitle": "Combinamos experiencia local en Alanya y la costa turca con un equipo operativo completo.",
+    "whyItems": [
+      {
+        "title": "Control operativo total",
+        "text": "Publicidad, limpieza, comunicación con huéspedes y mantenimiento — todo lo gestiona nuestro equipo."
+      },
+      {
+        "title": "Ingresos predecibles",
+        "text": "Ingreso neto de alquileres diarios o garantía mensual fija — sabe qué esperar."
+      },
+      {
+        "title": "Colaboración transparente",
+        "text": "Condiciones claras, informes regulares y contacto dedicado para cada propietario."
+      }
+    ],
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la primera llamada al ingreso estable",
+    "processSubtitle": "Un proceso simple y transparente para propietarios en Turquía.",
+    "process": {
+      "step1": {
+        "title": "Cuéntenos sobre su propiedad",
+        "text": "Ubicación, tamaño, amueblado y preferencia: llave en mano o alquiler garantizado."
+      },
+      "step2": {
+        "title": "Evaluación y propuesta",
+        "text": "Nuestro equipo evalúa el inmueble y recomienda el mejor modelo con condiciones claras."
+      },
+      "step3": {
+        "title": "Acuerdo y entrega",
+        "text": "Firmamos, preparamos la unidad si es necesario e iniciamos marketing o pagos garantizados."
+      },
+      "step4": {
+        "title": "Usted recibe ingresos — nosotros el resto",
+        "text": "Pagos regulares, informes transparentes y cero llamadas de huéspedes o mantenimiento."
+      }
+    },
+    "faqTitle": "Preguntas frecuentes",
+    "faq": {
+      "q1": {
+        "q": "¿Qué opción me conviene?",
+        "a": "Gestión llave en mano para máximo ingreso diario. Alquiler garantizado para pago mensual fijo y tranquilidad."
+      },
+      "q2": {
+        "q": "¿Aceptan apartamentos sin amueblar?",
+        "a": "Sí. Para alquiler garantizado aceptamos unidades amuebladas y sin amueblar."
+      },
+      "q3": {
+        "q": "¿Dónde operan?",
+        "a": "Enfoque en Alanya y la costa mediterránea turca, con experiencia en alquiler vacacional y a largo plazo."
+      }
+    },
+    "closingTitle": "¿Listo para ganar con su propiedad?",
+    "closingSubtitle": "Envíe una consulta — recomendaremos el modelo adecuado para su apartamento.",
+    "contactCalloutEyebrow": "¿Es propietario?",
+    "contactCalloutTitle": "Gestión llave en mano o alquiler garantizado",
+    "contactCalloutText": "Seleccione la opción abajo o lea nuestra guía completa para propietarios."
   }
 }

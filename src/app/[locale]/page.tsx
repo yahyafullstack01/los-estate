@@ -9,6 +9,7 @@ import {
   AboutClosing,
 } from "@/components/sections/AboutUs";
 import { FeaturedListings } from "@/components/sections/FeaturedListings";
+import { PropertyManagementTeaser } from "@/components/sections/PropertyManagementTeaser";
 import { Stats } from "@/components/sections/Stats";
 import { CTA } from "@/components/sections/CTA";
 import { getAlternateLanguages } from "@/lib/seo";
@@ -37,6 +38,7 @@ export default async function HomePage({ params }: Props) {
     <>
       <Hero />
       <CategoryStrip />
+      <PropertyManagementTeaser />
       <AboutIntro />
       <FeaturedListings />
       <AboutSpecialization />

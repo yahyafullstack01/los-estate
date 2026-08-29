@@ -9,7 +9,9 @@
     "contactTitle": "İletişim",
     "contactDescription": "Görüntüleme, yatırım ve kiralama talepleriniz için LOS ESTATE ile iletişime geçin.",
     "partnersTitle": "Ortaklar — Ajanslar, Mülk Sahipleri ve Müteahhitler",
-    "partnersDescription": "LOS ESTATE ile ortaklık: Türkiye emlak müşterileri, kiralık ilanınız veya yeni konut projenizin tanıtımı."
+    "partnersDescription": "LOS ESTATE ile ortaklık: Türkiye emlak müşterileri, kiralık ilanınız veya yeni konut projenizin tanıtımı.",
+    "forOwnersTitle": "Mülk sahipleri — Türkiye'de emlak yönetimi",
+    "forOwnersDescription": "Türkiye'deki daireniz için anahtar teslim yönetim veya garantili kira. Zahmetsiz gelir — LOS ESTATE her şeyi halleder."
   },
   "nav": {
     "home": "Ana sayfa",
@@ -18,7 +20,8 @@
     "contact": "İletişim",
     "sale": "Satılık",
     "rent": "Kiralık",
-    "partners": "Ortaklar için"
+    "partners": "Ortaklar için",
+    "forOwners": "Mülk sahipleri"
   },
   "hero": {
     "title": "Yaşam tarzınızı yükseltin",
@@ -186,7 +189,9 @@
       "other": "Diğer",
       "agency": "Ajans ortaklığı — müşteri yönlendirme",
       "landlord": "Kiralık mülkümü listele",
-      "developer": "Yeni proje tanıtımı"
+      "developer": "Yeni proje tanıtımı",
+      "turnkey": "Anahtar teslim yönetim",
+      "guaranteed": "Garantili kira"
     },
     "name": "Ad soyad",
     "email": "E-posta adresi",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Kısa bir ortaklık talebi gönderin — iş günü içinde dönüş yaparız.",
     "closingCta": "Ortak olun",
     "closingContact": "Genel iletişim"
+  },
+  "propertyManagement": {
+    "eyebrow": "Emlak yönetimi",
+    "title": "Mülkünüz için profesyonel yönetim",
+    "intro": "Emlakları profesyonelce yönetiyoruz ve Türkiye'deki mülk sahipleri için iki pratik iş birliği seçeneği sunuyoruz.",
+    "options": {
+      "turnkey": {
+        "title": "Anahtar teslim yönetim",
+        "text": "Reklam, temizlik, misafir sürecinin tamamı ve destek bizde — siz zahmetsiz net gelir elde edersiniz.",
+        "points": [
+          "Profesyonel ilan ve pazarlama",
+          "Temizlik ve mülk bakımı",
+          "Misafirlerle tam döngü iletişim ve check-in/out",
+          "Şeffaf hizmet ücreti — net gelir sizde kalır"
+        ],
+        "highlight": "Hizmetimiz için yüzde ödersiniz ve günlük stres olmadan net gelir alırsınız.",
+        "cta": "Anahtar teslim yönetim talebi"
+      },
+      "guaranteed": {
+        "title": "Garantili kira",
+        "text": "Dairenizi — mobilyalı veya mobilyasız — günlük kiraya verme hakkıyla uzun vadeli kiralama alıyoruz.",
+        "points": [
+          "Mobilyalı veya mobilyasız daireler kabul edilir",
+          "Günlük kiralama hakkıyla uzun vadeli kira",
+          "Mülk sahibine sabit aylık ödeme",
+          "Sizin için boşluk veya misafir yönetimi yok"
+        ],
+        "highlight": "Sabit aylık gelir ve tam huzur — her şeyi biz hallederiz.",
+        "cta": "Garantili kira talebi"
+      }
+    },
+    "cta": "Mülkünüzü görüşelim",
+    "ctaNote": "Daireniz veya eviniz hakkında bilgi verin — size en uygun seçeneği önerelim.",
+    "pageTitle": "Mülkünüz profesyonelce yönetiliyor",
+    "pageSubtitle": "Türkiye'de daireniz veya eviniz mi var? Anahtar teslim yönetim veya garantili aylık kira sunuyoruz — günlük stres olmadan gelir.",
+    "optionsTitle": "İş birliği modelinizi seçin",
+    "learnMore": "Yönetim hakkında daha fazla",
+    "whyTitle": "Sahipler neden bizi seçiyor",
+    "whySubtitle": "Alanya ve Türkiye sahilindeki yerel uzmanlığı tam operasyon ekibiyle birleştiriyoruz.",
+    "whyItems": [
+      {
+        "title": "Tam operasyonel kontrol",
+        "text": "Reklam, temizlik, misafir iletişimi ve bakım — hepsi bizde."
+      },
+      {
+        "title": "Planlanabilir gelir",
+        "text": "Günlük kiralardan net gelir veya sabit aylık garanti — ne bekleyeceğinizi bilirsiniz."
+      },
+      {
+        "title": "Şeffaf ortaklık",
+        "text": "Net şartlar, düzenli raporlama ve her sahip için özel iletişim."
+      }
+    ],
+    "processEyebrow": "Nasıl işler",
+    "processTitle": "İlk aramadan düzenli gelire",
+    "processSubtitle": "Türkiye'deki daire ve ev sahipleri için basit, şeffaf süreç.",
+    "process": {
+      "step1": {
+        "title": "Mülkünüzü anlatın",
+        "text": "Konum, büyüklük, mobilya ve anahtar teslim mi garantili kira mı tercih ettiğinizi paylaşın."
+      },
+      "step2": {
+        "title": "Değerlendirme ve teklif",
+        "text": "Ekibimiz mülkü değerlendirir ve net ücret veya aylık garanti ile en iyi modeli önerir."
+      },
+      "step3": {
+        "title": "Anlaşma ve devir",
+        "text": "İmzalarız, gerekirse daireyi hazırlarız ve pazarlamaya başlar veya garantili ödemelere geçeriz."
+      },
+      "step4": {
+        "title": "Siz gelir alırsınız — gerisini biz hallederiz",
+        "text": "Düzenli ödemeler, şeffaf raporlar ve sizin için sıfır misafir/bakım araması."
+      }
+    },
+    "faqTitle": "Sık sorulan sorular",
+    "faq": {
+      "q1": {
+        "q": "Hangi seçenek bana uygun?",
+        "a": "Anahtar teslim günlük kiralardan maksimum gelir isteyenler için. Garantili kira sabit aylık ödeme ve huzur isteyenler için."
+      },
+      "q2": {
+        "q": "Mobilyasız daire kabul ediyor musunuz?",
+        "a": "Evet. Garantili kira için mobilyalı ve mobilyasız daireler kabul edilir."
+      },
+      "q3": {
+        "q": "Nerede faaliyet gösteriyorsunuz?",
+        "a": "Alanya ve Türkiye Akdeniz sahilinde — tatil ve uzun dönem kiralama deneyimi."
+      }
+    },
+    "closingTitle": "Mülkünüzden kazanmaya hazır mısınız?",
+    "closingSubtitle": "Talep gönderin — dairenize göre en uygun modeli önerelim.",
+    "contactCalloutEyebrow": "Mülk sahibi misiniz?",
+    "contactCalloutTitle": "Anahtar teslim veya garantili kira",
+    "contactCalloutText": "Aşağıdan size uygun seçeneği işaretleyin veya tam rehberimizi okuyun."
   }
 }

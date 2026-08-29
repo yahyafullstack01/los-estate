@@ -9,7 +9,9 @@
     "contactTitle": "Contact Us",
     "contactDescription": "Get in touch with LOS ESTATE for viewings, investments, and rentals.",
     "partnersTitle": "Partners — Agencies, Landlords & Developers",
-    "partnersDescription": "Partner with LOS ESTATE: refer clients for Turkey property, list your rental, or promote your new residential project."
+    "partnersDescription": "Partner with LOS ESTATE: refer clients for Turkey property, list your rental, or promote your new residential project.",
+    "forOwnersTitle": "For Owners — Property Management in Turkey",
+    "forOwnersDescription": "Turnkey management or guaranteed rental for your apartment in Turkey. Stable income, zero hassle — LOS ESTATE handles everything."
   },
   "nav": {
     "home": "Home",
@@ -18,7 +20,8 @@
     "contact": "Contact",
     "sale": "For Sale",
     "rent": "For Rent",
-    "partners": "For Partners"
+    "partners": "For Partners",
+    "forOwners": "For Owners"
   },
   "hero": {
     "title": "Elevate Your Lifestyle",
@@ -186,7 +189,9 @@
       "other": "Something else",
       "agency": "Agency partnership — client referral",
       "landlord": "List my property for rent",
-      "developer": "Promote a new development project"
+      "developer": "Promote a new development project",
+      "turnkey": "Turnkey property management",
+      "guaranteed": "Guaranteed rental"
     },
     "name": "Full name",
     "email": "Email address",
@@ -967,5 +972,99 @@
     "closingSubtitle": "Send a short partnership inquiry — we reply within one business day.",
     "closingCta": "Become a partner",
     "closingContact": "General contact"
+  },
+  "propertyManagement": {
+    "eyebrow": "Property management",
+    "title": "Professional management for your property",
+    "intro": "We professionally manage real estate and offer two convenient cooperation options for owners in Turkey.",
+    "options": {
+      "turnkey": {
+        "title": "Turnkey management",
+        "text": "We handle advertising, cleaning, the full guest cycle, and ongoing support — you receive net income without the hassle.",
+        "points": [
+          "Professional listing and marketing",
+          "Cleaning and property upkeep",
+          "Full guest communication and check-in/out",
+          "Transparent service fee — you keep the net income"
+        ],
+        "highlight": "You pay a percentage for our service and receive clean income with zero day-to-day stress.",
+        "cta": "Request turnkey management"
+      },
+      "guaranteed": {
+        "title": "Guaranteed rental",
+        "text": "We take your apartment — furnished or unfurnished — on a long-term lease with the right to sublet on a daily basis.",
+        "points": [
+          "Furnished or unfurnished apartments accepted",
+          "Long-term lease with daily rental rights",
+          "Fixed monthly payment to the owner",
+          "No vacancy worries or guest management for you"
+        ],
+        "highlight": "Stable monthly income and complete peace of mind — we take care of everything.",
+        "cta": "Request guaranteed rental"
+      }
+    },
+    "cta": "Discuss your property",
+    "ctaNote": "Tell us about your apartment or house — we will recommend the best option for you.",
+    "pageTitle": "Your property, professionally managed",
+    "pageSubtitle": "Own an apartment or house in Turkey? We offer turnkey management or guaranteed monthly rental — so you earn with zero day-to-day stress.",
+    "optionsTitle": "Choose your cooperation model",
+    "learnMore": "Learn more about management",
+    "whyTitle": "Why owners choose us",
+    "whySubtitle": "We combine local expertise in Alanya and coastal Turkey with a full operational team.",
+    "whyItems": [
+      {
+        "title": "Full operational control",
+        "text": "Advertising, cleaning, guest communication, and maintenance — all handled by our team."
+      },
+      {
+        "title": "Income you can plan",
+        "text": "Whether net income from daily rentals or a fixed monthly guarantee — you know what to expect."
+      },
+      {
+        "title": "Transparent partnership",
+        "text": "Clear terms, regular reporting, and a dedicated point of contact for every owner."
+      }
+    ],
+    "processEyebrow": "How it works",
+    "processTitle": "From first call to steady income",
+    "processSubtitle": "A simple, transparent process for apartment and house owners in Turkey.",
+    "process": {
+      "step1": {
+        "title": "Tell us about your property",
+        "text": "Share location, size, furnishing, and whether you prefer turnkey management or guaranteed rental."
+      },
+      "step2": {
+        "title": "We assess and propose terms",
+        "text": "Our team evaluates the property and recommends the best model with clear fees or monthly guarantee."
+      },
+      "step3": {
+        "title": "Agreement and handover",
+        "text": "We sign, prepare the unit if needed, and start marketing or begin guaranteed payments."
+      },
+      "step4": {
+        "title": "You receive income — we handle the rest",
+        "text": "Regular payouts, transparent reports, and zero guest or maintenance calls for you."
+      }
+    },
+    "faqTitle": "Common questions",
+    "faq": {
+      "q1": {
+        "q": "Which option is right for me?",
+        "a": "Turnkey management suits owners who want maximum income from daily rentals. Guaranteed rental suits owners who prefer a fixed monthly payment and complete peace of mind."
+      },
+      "q2": {
+        "q": "Do you accept unfurnished apartments?",
+        "a": "Yes. For guaranteed rental we accept both furnished and unfurnished units. We can discuss furnishing if needed."
+      },
+      "q3": {
+        "q": "Where do you operate?",
+        "a": "We focus on Alanya and the Turkish Mediterranean coast, with deep experience in holiday rentals and long-term leases."
+      }
+    },
+    "closingTitle": "Ready to earn from your property?",
+    "closingSubtitle": "Send an inquiry — we will recommend turnkey management or guaranteed rental based on your apartment.",
+    "contactCalloutEyebrow": "Property owner?",
+    "contactCalloutTitle": "Turnkey management or guaranteed rental",
+    "contactCalloutText": "Select the option that fits you below, or read our full owner guide."
   }
 }
