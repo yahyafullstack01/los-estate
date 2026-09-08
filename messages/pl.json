@@ -132,7 +132,30 @@
     "nextPhoto": "Następne zdjęcie",
     "photoViewer": "Podgląd zdjęć",
     "photoOf": "Zdjęcie {current} z {total}",
-    "inquire": "Zapytaj o tę nieruchomość"
+    "inquire": "Zapytaj o tę nieruchomość",
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 1+1 w BestHome Legend 37, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 1. Łazienki: 1. Powierzchnia: 56 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 56 m²",
+        "1 sypialnia, 1 łazienka",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
+      ]
+    }
   },
   "types": {
     "apartment": "Apartament",

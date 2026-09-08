@@ -132,7 +132,30 @@
     "nextPhoto": "Foto siguiente",
     "photoViewer": "Visor de fotos",
     "photoOf": "Foto {current} de {total}",
-    "inquire": "Consultar sobre esta propiedad"
+    "inquire": "Consultar sobre esta propiedad",
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Centro de Alanya, Turquía",
+      "description": "Apartamento amueblado 1+1 en BestHome Legend 37, centro de Alanya, Turquía.\n\nPlanta: −1. Dormitorios: 1. Baños: 1. Superficie: 56 m². Plantas del edificio: 5.\n\nCalefacción: aire acondicionado split. Distancia al mar: 150 m.\n\nPlaya privada con tumbonas y sombrillas gratis.",
+      "note": "Infraestructura del complejo: fitness, sauna, hammam, tres piscinas exteriores y una piscina cubierta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "Planta −1, 56 m²",
+        "1 dormitorio, 1 baño",
+        "Calefacción — sistema split",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "150 m al mar",
+        "Playa privada — tumbonas y sombrillas gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 piscinas exteriores",
+        "1 piscina cubierta"
+      ]
+    }
   },
   "types": {
     "apartment": "Apartamento",

@@ -23,6 +23,34 @@ export interface Listing {
 
 export const listings: Listing[] = [
   {
+    id: "25",
+    slug: "besthome-legend-37-1-1",
+    type: "apartment",
+    transaction: "sale",
+    price: 166000,
+    currency: "EUR",
+    location: "Alanya Center, Turkey",
+    beds: 1,
+    baths: 1,
+    areaSqm: 56,
+    imageDir: "/listings/besthome-legend-37-1-1",
+    images: [
+      "/listings/besthome-legend-37-1-1/01-living-dining.jpg",
+      "/listings/besthome-legend-37-1-1/02-kitchen.jpg",
+      "/listings/besthome-legend-37-1-1/03-living-tv.jpg",
+      "/listings/besthome-legend-37-1-1/04-bedroom.jpg",
+      "/listings/besthome-legend-37-1-1/05-bathroom.jpg",
+      "/listings/besthome-legend-37-1-1/06-balcony.jpg",
+    ],
+    featured: true,
+    features: [
+      "150 m to sea",
+      "Private beach",
+      "Fitness & spa",
+      "4 pools",
+    ],
+  },
+  {
     id: "1",
     slug: "develi-hotel-alanya",
     type: "hotel",
