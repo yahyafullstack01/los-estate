@@ -132,30 +132,7 @@
     "nextPhoto": "Photo suivante",
     "photoViewer": "Visionneuse de photos",
     "photoOf": "Photo {current} sur {total}",
-    "inquire": "Demander des informations",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Centre d'Alanya, Turquie",
-      "description": "Appartement meublé 1+1 dans BestHome Legend 37, centre d'Alanya, Turquie.\n\nÉtage : −1. Chambres : 1. Salles de bain : 1. Surface : 56 m². Nombre d'étages : 5.\n\nChauffage : climatisation split. Distance à la mer : 150 m.\n\nPlage privée avec transats et parasols gratuits.",
-      "note": "Infrastructures du complexe : fitness, sauna, hammam, trois piscines extérieures et une piscine intérieure.",
-      "roomSpecsTitle": "Détails de l'appartement",
-      "roomSpecs": [
-        "Étage −1, 56 m²",
-        "1 chambre, 1 salle de bain",
-        "Chauffage — système split",
-        "Intérieur moderne meublé"
-      ],
-      "socialAmenitiesTitle": "Infrastructures du complexe",
-      "socialAmenities": [
-        "150 m de la mer",
-        "Plage privée — transats et parasols gratuits",
-        "Fitness",
-        "Sauna",
-        "Hammam",
-        "3 piscines extérieures",
-        "1 piscine intérieure"
-      ]
-    }
+    "inquire": "Demander des informations"
   },
   "types": {
     "apartment": "Appartement",
@@ -269,6 +246,34 @@
     "dark": "Mode sombre"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Centre d'Alanya",
+      "location": "Centre d'Alanya, Turquie — front de mer",
+      "description": "Hôtel de plage au centre d'Alanya, en front de mer — en activité et bien entretenu, entièrement rénové il y a 1 an.\n\n41 chambres avec vue mer et château. Bâtiment de 6 étages avec ascenseur. Licence d'activité touristique.\n\nBureau privé de 90 m² au dernier étage. Trois restaurants avec un loyer net annuel de 150 000 €.\n\nClientèle principalement d'Europe, de Russie, des pays arabes et de Scandinavie — environ 70 % d'Europe occidentale.",
+      "note": "Documents d'analyse des revenus (2024) disponibles sur demande.",
+      "roomSpecsTitle": "Hôtel et commerces",
+      "roomSpecs": [
+        "41 chambres — vue mer et château",
+        "6 étages avec ascenseur",
+        "Entièrement rénové il y a 1 an",
+        "Licence d'activité touristique",
+        "Bureau privé de 90 m² au dernier étage",
+        "3 restaurants — 150 000 € de loyer net annuel",
+        "Commerce 1 : 230 m² — DOTTO",
+        "Commerce 2 : 101 m² — Burger",
+        "Commerce 3 : 175 m² — Espresso Lab",
+        "Commerce 4 : 190 m² — Cilvarda",
+        "Commerce 5 : 110 m² — logement du personnel et stockage"
+      ],
+      "socialAmenitiesTitle": "Emplacement et clientèle",
+      "socialAmenities": [
+        "Front de mer au centre d'Alanya",
+        "Vue mer et château",
+        "Espace beach club",
+        "Piscines extérieures",
+        "Clients d'Europe occidentale (~70 %), Russie, pays arabes, Scandinavie"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turquie",
@@ -926,6 +931,29 @@
         "Parking vélos, Wi-Fi, TV satellite",
         "Éclairage architectural des façades et du paysage",
         "Groupe électrogène"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Centre d'Alanya, Turquie",
+      "description": "Appartement meublé 1+1 dans BestHome Legend 37, centre d'Alanya, Turquie.\n\nÉtage : −1. Chambres : 1. Salles de bain : 1. Surface : 56 m². Nombre d'étages : 5.\n\nChauffage : climatisation split. Distance à la mer : 150 m.\n\nPlage privée avec transats et parasols gratuits.",
+      "note": "Infrastructures du complexe : fitness, sauna, hammam, trois piscines extérieures et une piscine intérieure.",
+      "roomSpecsTitle": "Détails de l'appartement",
+      "roomSpecs": [
+        "Étage −1, 56 m²",
+        "1 chambre, 1 salle de bain",
+        "Chauffage — système split",
+        "Intérieur moderne meublé"
+      ],
+      "socialAmenitiesTitle": "Infrastructures du complexe",
+      "socialAmenities": [
+        "150 m de la mer",
+        "Plage privée — transats et parasols gratuits",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 piscines extérieures",
+        "1 piscine intérieure"
       ]
     }
   },

@@ -132,30 +132,7 @@
     "nextPhoto": "Next photo",
     "photoViewer": "Photo viewer",
     "photoOf": "Photo {current} of {total}",
-    "inquire": "Inquire about this property",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Alanya Center, Turkey",
-      "description": "Furnished 1+1 apartment in BestHome Legend 37, Alanya Center, Turkey.\n\nFloor: −1. Bedrooms: 1. Bathrooms: 1. Area: 56 m². Building floors: 5.\n\nHeating: split-system air conditioning. Distance to the sea: 150 m.\n\nPrivate beach with free sunbeds and umbrellas.",
-      "note": "Complex amenities: fitness, sauna, hammam, three outdoor pools, and one indoor pool.",
-      "roomSpecsTitle": "Apartment details",
-      "roomSpecs": [
-        "Floor −1, 56 m²",
-        "1 bedroom, 1 bathroom",
-        "Split-system heating and cooling",
-        "Furnished modern interior"
-      ],
-      "socialAmenitiesTitle": "Complex amenities",
-      "socialAmenities": [
-        "150 m to the sea",
-        "Private beach — free sunbeds and umbrellas",
-        "Fitness",
-        "Sauna",
-        "Hammam",
-        "3 outdoor pools",
-        "1 indoor pool"
-      ]
-    }
+    "inquire": "Inquire about this property"
   },
   "types": {
     "apartment": "Apartment",
@@ -269,6 +246,34 @@
     "dark": "Dark mode"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Alanya Center",
+      "location": "Alanya Center, Turkey — seafront",
+      "description": "Beach hotel in Alanya Center, right on the seafront — fully operational and well maintained, completely renovated 1 year ago.\n\n41 rooms with sea and castle views. 6-story building with elevator. Tourism business license included.\n\n90 m² private office on the top floor. Three restaurants with annual net rent of €150,000.\n\nGuest portfolio mainly from Europe, Russia, Arab countries and Scandinavia — about 70% from Western Europe.",
+      "note": "Income analysis documents (2024) are available on request.",
+      "roomSpecsTitle": "Hotel & commercial units",
+      "roomSpecs": [
+        "41 rooms — sea and castle views",
+        "6 floors with elevator",
+        "Completely renovated 1 year ago",
+        "Tourism business license",
+        "90 m² private office on the top floor",
+        "3 restaurants — €150,000 net annual rent",
+        "Shop 1: 230 m² — DOTTO",
+        "Shop 2: 101 m² — Burger",
+        "Shop 3: 175 m² — Espresso Lab",
+        "Shop 4: 190 m² — Cilvarda",
+        "Shop 5: 110 m² — hotel staff accommodation and storage"
+      ],
+      "socialAmenitiesTitle": "Location & guests",
+      "socialAmenities": [
+        "Seafront in Alanya Center",
+        "Sea and castle views",
+        "Private beach club area",
+        "Outdoor pools",
+        "Guests from Western Europe (~70%), Russia, Arab countries, Scandinavia"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turkey",
@@ -926,6 +931,29 @@
         "Bicycle parking, Wi-Fi, satellite TV",
         "Façade and landscape lighting",
         "Backup generator"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Alanya Center, Turkey",
+      "description": "Furnished 1+1 apartment in BestHome Legend 37, Alanya Center, Turkey.\n\nFloor: −1. Bedrooms: 1. Bathrooms: 1. Area: 56 m². Building floors: 5.\n\nHeating: split-system air conditioning. Distance to the sea: 150 m.\n\nPrivate beach with free sunbeds and umbrellas.",
+      "note": "Complex amenities: fitness, sauna, hammam, three outdoor pools, and one indoor pool.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Floor −1, 56 m²",
+        "1 bedroom, 1 bathroom",
+        "Split-system heating and cooling",
+        "Furnished modern interior"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "Private beach — free sunbeds and umbrellas",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 outdoor pools",
+        "1 indoor pool"
       ]
     }
   },

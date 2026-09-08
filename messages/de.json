@@ -132,30 +132,7 @@
     "nextPhoto": "Nächstes Foto",
     "photoViewer": "Fotobetrachter",
     "photoOf": "Foto {current} von {total}",
-    "inquire": "Anfrage zu dieser Immobilie",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Alanya Zentrum, Türkei",
-      "description": "Möbliertes 1+1-Apartment in BestHome Legend 37, Alanya Zentrum, Türkei.\n\nEtage: −1. Schlafzimmer: 1. Bäder: 1. Fläche: 56 m². Gebäudehöhe: 5 Etagen.\n\nHeizung: Split-Klimaanlage. Entfernung zum Meer: 150 m.\n\nPrivater Strand mit kostenlosen Liegen und Sonnenschirmen.",
-      "note": "Komplexinfrastruktur: Fitness, Sauna, Hammam, drei Außenpools und ein Hallenbad.",
-      "roomSpecsTitle": "Apartmentdetails",
-      "roomSpecs": [
-        "Etage −1, 56 m²",
-        "1 Schlafzimmer, 1 Bad",
-        "Heizung — Split-System",
-        "Modern möblierter Innenraum"
-      ],
-      "socialAmenitiesTitle": "Komplexinfrastruktur",
-      "socialAmenities": [
-        "150 m zum Meer",
-        "Privater Strand — Liegen und Sonnenschirme kostenlos",
-        "Fitness",
-        "Sauna",
-        "Hammam",
-        "3 Außenpools",
-        "1 Hallenbad"
-      ]
-    }
+    "inquire": "Anfrage zu dieser Immobilie"
   },
   "types": {
     "apartment": "Apartment",
@@ -269,6 +246,34 @@
     "dark": "Dunkler Modus"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Alanya Zentrum",
+      "location": "Alanya Zentrum, Türkei — direkt am Meer",
+      "description": "Strandhotel im Zentrum von Alanya, direkt an der ersten Meereslinie — betriebsbereit und gepflegt, vor 1 Jahr komplett renoviert.\n\n41 Zimmer mit Meer- und Burgblick. 6-stöckiges Gebäude mit Aufzug. Tourismusgewerbelizenz.\n\n90 m² privates Büro im obersten Stock. Drei Restaurants mit €150.000 Nettomiete pro Jahr.\n\nGäste hauptsächlich aus Europa, Russland, arabischen Ländern und Skandinavien — ca. 70 % aus Westeuropa.",
+      "note": "Einkommensanalyse-Dokumente (2024) auf Anfrage verfügbar.",
+      "roomSpecsTitle": "Hotel & Gewerbeeinheiten",
+      "roomSpecs": [
+        "41 Zimmer — Meer- und Burgblick",
+        "6 Etagen mit Aufzug",
+        "Vor 1 Jahr komplett renoviert",
+        "Tourismusgewerbelizenz",
+        "90 m² privates Büro im obersten Stock",
+        "3 Restaurants — €150.000 Nettomiete / Jahr",
+        "Laden 1: 230 m² — DOTTO",
+        "Laden 2: 101 m² — Burger",
+        "Laden 3: 175 m² — Espresso Lab",
+        "Laden 4: 190 m² — Cilvarda",
+        "Laden 5: 110 m² — Personalunterkunft und Lager"
+      ],
+      "socialAmenitiesTitle": "Lage & Gäste",
+      "socialAmenities": [
+        "Erste Meereslinie im Zentrum von Alanya",
+        "Meer- und Burgblick",
+        "Strandclub-Bereich",
+        "Außenpools",
+        "Gäste aus Westeuropa (~70 %), Russland, arabischen Ländern, Skandinavien"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Türkei",
@@ -926,6 +931,29 @@
         "Fahrradparkplatz, Wi-Fi, Satelliten-TV",
         "Fassaden- und Landschaftsbeleuchtung",
         "Notstromaggregat"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Möbliertes 1+1-Apartment in BestHome Legend 37, Alanya Zentrum, Türkei.\n\nEtage: −1. Schlafzimmer: 1. Bäder: 1. Fläche: 56 m². Gebäudehöhe: 5 Etagen.\n\nHeizung: Split-Klimaanlage. Entfernung zum Meer: 150 m.\n\nPrivater Strand mit kostenlosen Liegen und Sonnenschirmen.",
+      "note": "Komplexinfrastruktur: Fitness, Sauna, Hammam, drei Außenpools und ein Hallenbad.",
+      "roomSpecsTitle": "Apartmentdetails",
+      "roomSpecs": [
+        "Etage −1, 56 m²",
+        "1 Schlafzimmer, 1 Bad",
+        "Heizung — Split-System",
+        "Modern möblierter Innenraum"
+      ],
+      "socialAmenitiesTitle": "Komplexinfrastruktur",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "Privater Strand — Liegen und Sonnenschirme kostenlos",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 Außenpools",
+        "1 Hallenbad"
       ]
     }
   },

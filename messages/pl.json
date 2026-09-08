@@ -132,30 +132,7 @@
     "nextPhoto": "Następne zdjęcie",
     "photoViewer": "Podgląd zdjęć",
     "photoOf": "Zdjęcie {current} z {total}",
-    "inquire": "Zapytaj o tę nieruchomość",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Centrum Alanyi, Turcja",
-      "description": "Umeblowany apartament 1+1 w BestHome Legend 37, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 1. Łazienki: 1. Powierzchnia: 56 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
-      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
-      "roomSpecsTitle": "Szczegóły apartamentu",
-      "roomSpecs": [
-        "Piętro −1, 56 m²",
-        "1 sypialnia, 1 łazienka",
-        "Ogrzewanie — system split",
-        "Nowoczesne umeblowane wnętrze"
-      ],
-      "socialAmenitiesTitle": "Infrastruktura kompleksu",
-      "socialAmenities": [
-        "150 m do morza",
-        "Prywatna plaża — leżaki i parasole gratis",
-        "Fitness",
-        "Sauna",
-        "Hammam",
-        "3 baseny odkryte",
-        "1 basen kryty"
-      ]
-    }
+    "inquire": "Zapytaj o tę nieruchomość"
   },
   "types": {
     "apartment": "Apartament",
@@ -269,6 +246,34 @@
     "dark": "Ciemny motyw"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Centrum Alanyi",
+      "location": "Centrum Alanyi, Turcja — pierwsza linia morza",
+      "description": "Hotel plażowy w centrum Alanyi, bezpośrednio na pierwszej linii morza — działający i zadbany, całkowicie wyremontowany rok temu.\n\n41 pokoi z widokiem na morze i zamek. Budynek 6-piętrowy z windą. Licencja na działalność turystyczną.\n\n90 m² prywatne biuro na najwyższym piętrze. Trzy restauracje z rocznym czynszem netto 150 000 €.\n\nGoście głównie z Europy, Rosji, krajów arabskich i Skandynawii — ok. 70% z Europy Zachodniej.",
+      "note": "Dokumenty analizy przychodów (2024) dostępne na życzenie.",
+      "roomSpecsTitle": "Hotel i lokale komercyjne",
+      "roomSpecs": [
+        "41 pokoi — widok na morze i zamek",
+        "6 pięter z windą",
+        "Całkowity remont rok temu",
+        "Licencja na działalność turystyczną",
+        "90 m² prywatne biuro na najwyższym piętrze",
+        "3 restauracje — 150 000 € czynszu netto rocznie",
+        "Lokal 1: 230 m² — DOTTO",
+        "Lokal 2: 101 m² — Burger",
+        "Lokal 3: 175 m² — Espresso Lab",
+        "Lokal 4: 190 m² — Cilvarda",
+        "Lokal 5: 110 m² — zakwaterowanie personelu i magazyn"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja i goście",
+      "socialAmenities": [
+        "Pierwsza linia morza w centrum Alanyi",
+        "Widok na morze i zamek",
+        "Strefa beach club",
+        "Baseny zewnętrzne",
+        "Goście z Europy Zachodniej (~70%), Rosji, krajów arabskich, Skandynawii"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turcja",
@@ -926,6 +931,29 @@
         "Parking rowerowy, Wi-Fi, telewizja satelitarna",
         "Oświetlenie elewacji i krajobrazu",
         "Agregat prądotwórczy"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany apartament 1+1 w BestHome Legend 37, centrum Alanyi, Turcja.\n\nPiętro: −1. Sypialnie: 1. Łazienki: 1. Powierzchnia: 56 m². Liczba pięter: 5.\n\nOgrzewanie: klimatyzacja split. Odległość do morza: 150 m.\n\nPrywatna plaża z bezpłatnymi leżakami i parasolami.",
+      "note": "Infrastruktura kompleksu: fitness, sauna, hammam, trzy baseny odkryte i jeden basen kryty.",
+      "roomSpecsTitle": "Szczegóły apartamentu",
+      "roomSpecs": [
+        "Piętro −1, 56 m²",
+        "1 sypialnia, 1 łazienka",
+        "Ogrzewanie — system split",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Infrastruktura kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "Prywatna plaża — leżaki i parasole gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 baseny odkryte",
+        "1 basen kryty"
       ]
     }
   },

@@ -132,30 +132,7 @@
     "nextPhoto": "Foto siguiente",
     "photoViewer": "Visor de fotos",
     "photoOf": "Foto {current} de {total}",
-    "inquire": "Consultar sobre esta propiedad",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Centro de Alanya, Turquía",
-      "description": "Apartamento amueblado 1+1 en BestHome Legend 37, centro de Alanya, Turquía.\n\nPlanta: −1. Dormitorios: 1. Baños: 1. Superficie: 56 m². Plantas del edificio: 5.\n\nCalefacción: aire acondicionado split. Distancia al mar: 150 m.\n\nPlaya privada con tumbonas y sombrillas gratis.",
-      "note": "Infraestructura del complejo: fitness, sauna, hammam, tres piscinas exteriores y una piscina cubierta.",
-      "roomSpecsTitle": "Detalles del apartamento",
-      "roomSpecs": [
-        "Planta −1, 56 m²",
-        "1 dormitorio, 1 baño",
-        "Calefacción — sistema split",
-        "Interior moderno amueblado"
-      ],
-      "socialAmenitiesTitle": "Infraestructura del complejo",
-      "socialAmenities": [
-        "150 m al mar",
-        "Playa privada — tumbonas y sombrillas gratis",
-        "Fitness",
-        "Sauna",
-        "Hammam",
-        "3 piscinas exteriores",
-        "1 piscina cubierta"
-      ]
-    }
+    "inquire": "Consultar sobre esta propiedad"
   },
   "types": {
     "apartment": "Apartamento",
@@ -269,6 +246,34 @@
     "dark": "Modo oscuro"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Centro de Alanya",
+      "location": "Centro de Alanya, Turquía — primera línea de mar",
+      "description": "Hotel de playa en el centro de Alanya, en primera línea de mar — operativo y bien mantenido, completamente renovado hace 1 año.\n\n41 habitaciones con vistas al mar y al castillo. Edificio de 6 plantas con ascensor. Licencia de negocio turístico.\n\n90 m² de oficina privada en la planta superior. Tres restaurantes con alquiler neto anual de €150.000.\n\nPerfil de huéspedes principalmente de Europa, Rusia, países árabes y Escandinavia — alrededor del 70% de Europa Occidental.",
+      "note": "Documentos de análisis de ingresos (2024) disponibles bajo petición.",
+      "roomSpecsTitle": "Hotel y locales comerciales",
+      "roomSpecs": [
+        "41 habitaciones — vistas al mar y al castillo",
+        "6 plantas con ascensor",
+        "Completamente renovado hace 1 año",
+        "Licencia de negocio turístico",
+        "90 m² de oficina privada en la planta superior",
+        "3 restaurantes — €150.000 de alquiler neto anual",
+        "Local 1: 230 m² — DOTTO",
+        "Local 2: 101 m² — Burger",
+        "Local 3: 175 m² — Espresso Lab",
+        "Local 4: 190 m² — Cilvarda",
+        "Local 5: 110 m² — alojamiento del personal y almacén"
+      ],
+      "socialAmenitiesTitle": "Ubicación y huéspedes",
+      "socialAmenities": [
+        "Primera línea de mar en el centro de Alanya",
+        "Vistas al mar y al castillo",
+        "Zona de beach club",
+        "Piscinas exteriores",
+        "Huéspedes de Europa Occidental (~70%), Rusia, países árabes, Escandinavia"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Turquía",
@@ -926,6 +931,29 @@
         "Aparcamiento de bicicletas, Wi-Fi, TV satélite",
         "Iluminación arquitectónica de fachadas y paisaje",
         "Generador"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Centro de Alanya, Turquía",
+      "description": "Apartamento amueblado 1+1 en BestHome Legend 37, centro de Alanya, Turquía.\n\nPlanta: −1. Dormitorios: 1. Baños: 1. Superficie: 56 m². Plantas del edificio: 5.\n\nCalefacción: aire acondicionado split. Distancia al mar: 150 m.\n\nPlaya privada con tumbonas y sombrillas gratis.",
+      "note": "Infraestructura del complejo: fitness, sauna, hammam, tres piscinas exteriores y una piscina cubierta.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "Planta −1, 56 m²",
+        "1 dormitorio, 1 baño",
+        "Calefacción — sistema split",
+        "Interior moderno amueblado"
+      ],
+      "socialAmenitiesTitle": "Infraestructura del complejo",
+      "socialAmenities": [
+        "150 m al mar",
+        "Playa privada — tumbonas y sombrillas gratis",
+        "Fitness",
+        "Sauna",
+        "Hammam",
+        "3 piscinas exteriores",
+        "1 piscina cubierta"
       ]
     }
   },

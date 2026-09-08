@@ -132,30 +132,7 @@
     "nextPhoto": "Sonraki fotoğraf",
     "photoViewer": "Fotoğraf görüntüleyici",
     "photoOf": "Fotoğraf {current} / {total}",
-    "inquire": "Bu gayrimenkul hakkında bilgi al",
-    "besthome-legend-37-1-1": {
-      "title": "BestHome Legend 37 — 1+1",
-      "location": "Alanya Merkez, Türkiye",
-      "description": "BestHome Legend 37 kompleksinde, Alanya merkezde mobilyalı 1+1 daire.\n\nKat: −1. Yatak odası: 1. Banyo: 1. Alan: 56 m². Bina kat sayısı: 5.\n\nIsıtma: split klima. Denize mesafe: 150 m.\n\nÖzel plaj, şezlong ve şemsiyeler ücretsiz.",
-      "note": "Kompleks olanakları: fitness, sauna, hamam, üç açık havuz ve bir kapalı havuz.",
-      "roomSpecsTitle": "Daire özellikleri",
-      "roomSpecs": [
-        "Kat −1, 56 m²",
-        "1 yatak odası, 1 banyo",
-        "Isıtma — split sistem",
-        "Modern mobilyalı iç mekan"
-      ],
-      "socialAmenitiesTitle": "Kompleks olanakları",
-      "socialAmenities": [
-        "Denize 150 m",
-        "Özel plaj — şezlong ve şemsiye ücretsiz",
-        "Fitness",
-        "Sauna",
-        "Hamam",
-        "3 açık havuz",
-        "1 kapalı havuz"
-      ]
-    }
+    "inquire": "Bu gayrimenkul hakkında bilgi al"
   },
   "types": {
     "apartment": "Daire",
@@ -269,6 +246,34 @@
     "dark": "Karanlık mod"
   },
   "properties": {
+    "demanor-boutique-hotel-alanya": {
+      "title": "DE'MANOR Boutique Hotel — Alanya Merkez",
+      "location": "Alanya Merkez, Türkiye — deniz kenarı",
+      "description": "Alanya merkezde, deniz kenarında plaj oteli — faal ve bakımlı, 1 yıl önce tamamen yenilendi.\n\nDeniz ve kale manzaralı 41 oda. Asansörlü 6 katlı bina. Turizm işletme belgesi.\n\nÜst katta 90 m² özel ofis. Yıllık net 150.000 € kira getirisi olan üç restoran.\n\nMisafir profili ağırlıklı olarak Avrupa, Rusya, Arap ülkeleri ve İskandinavya — yaklaşık %70 Batı Avrupa.",
+      "note": "Gelir analizi belgeleri (2024) talep üzerine sunulur.",
+      "roomSpecsTitle": "Otel ve ticari üniteler",
+      "roomSpecs": [
+        "41 oda — deniz ve kale manzarası",
+        "Asansörlü 6 kat",
+        "1 yıl önce tamamen yenilendi",
+        "Turizm işletme belgesi",
+        "Üst katta 90 m² özel ofis",
+        "3 restoran — yıllık net 150.000 € kira",
+        "Dükkan 1: 230 m² — DOTTO",
+        "Dükkan 2: 101 m² — Burger",
+        "Dükkan 3: 175 m² — Espresso Lab",
+        "Dükkan 4: 190 m² — Cilvarda",
+        "Dükkan 5: 110 m² — personel konaklama ve depo"
+      ],
+      "socialAmenitiesTitle": "Konum ve misafirler",
+      "socialAmenities": [
+        "Alanya merkezde deniz kenarı",
+        "Deniz ve kale manzarası",
+        "Beach club alanı",
+        "Açık havuzlar",
+        "Batı Avrupa (~%70), Rusya, Arap ülkeleri, İskandinavya misafirleri"
+      ]
+    },
     "develi-hotel-alanya": {
       "title": "Develi Hotel",
       "location": "Alanya, Antalya, Türkiye",
@@ -926,6 +931,29 @@
         "Bisiklet parkı, Wi-Fi, uydu TV",
         "Cephe ve peyzaj aydınlatması",
         "Jeneratör"
+      ]
+    },
+    "besthome-legend-37-1-1": {
+      "title": "BestHome Legend 37 — 1+1",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome Legend 37 kompleksinde, Alanya merkezde mobilyalı 1+1 daire.\n\nKat: −1. Yatak odası: 1. Banyo: 1. Alan: 56 m². Bina kat sayısı: 5.\n\nIsıtma: split klima. Denize mesafe: 150 m.\n\nÖzel plaj, şezlong ve şemsiyeler ücretsiz.",
+      "note": "Kompleks olanakları: fitness, sauna, hamam, üç açık havuz ve bir kapalı havuz.",
+      "roomSpecsTitle": "Daire özellikleri",
+      "roomSpecs": [
+        "Kat −1, 56 m²",
+        "1 yatak odası, 1 banyo",
+        "Isıtma — split sistem",
+        "Modern mobilyalı iç mekan"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "Özel plaj — şezlong ve şemsiye ücretsiz",
+        "Fitness",
+        "Sauna",
+        "Hamam",
+        "3 açık havuz",
+        "1 kapalı havuz"
       ]
     }
   },
