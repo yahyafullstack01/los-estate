@@ -246,6 +246,33 @@
     "dark": "Modo oscuro"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Hotel de playa — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Turquía — primera línea de mar",
+      "priceLabel": "Precio a consultar",
+      "description": "Hotel de playa en una parcela de 5.100 m² en primera línea de mar en Gazipaşa — 35 km del centro de Alanya, 7,5 km del centro de Gazipaşa y 5,2 km del aeropuerto de Gazipaşa.\n\n43 habitaciones con vistas al mar y al castillo de Gazipaşa. Bien mantenido y en funcionamiento, renovado por completo hace menos de 1 año. Licencia turística incluida.\n\nCartera de huéspedes principalmente de Europa, Rusia, países árabes y Escandinavia — alrededor del 70 % de Europa Occidental. Facturación anual proyectada para 2025: 1.700.000 €.",
+      "note": "Detalles financieros y documentos disponibles bajo petición.",
+      "roomSpecsTitle": "Instalaciones del hotel",
+      "roomSpecs": [
+        "43 habitaciones — vistas al mar y al castillo de Gazipaşa",
+        "Parcela 5.100 m² — primera línea de mar",
+        "Renovado por completo hace menos de 1 año",
+        "Licencia turística",
+        "Aparcamiento para 15 vehículos",
+        "2 restaurantes y 1 bar",
+        "Centro spa — hamam, sauna, salas de masaje, zona de relax",
+        "1 piscina cubierta y jacuzzi",
+        "2 playas"
+      ],
+      "socialAmenitiesTitle": "Ubicación y huéspedes",
+      "socialAmenities": [
+        "Primera línea de mar en Gazipaşa",
+        "35 km a Alanya · 7,5 km al centro de Gazipaşa · 5,2 km al aeropuerto",
+        "Vistas al mar y al castillo de Gazipaşa",
+        "Huéspedes de Europa Occidental (~70 %), Rusia, países árabes, Escandinavia",
+        "Facturación proyectada 2025: 1.700.000 €"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Centro de Alanya",
       "location": "Centro de Alanya, Turquía — primera línea de mar",

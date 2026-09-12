@@ -23,6 +23,36 @@ export interface Listing {
 
 export const listings: Listing[] = [
   {
+    id: "27",
+    slug: "gazipasa-beach-hotel",
+    type: "hotel",
+    transaction: "sale",
+    price: 0,
+    currency: "EUR",
+    location: "Gazipaşa, Antalya, Turkey",
+    units: 43,
+    beds: 43,
+    baths: 43,
+    areaSqm: 5100,
+    imageDir: "/listings/gazipasa-beach-hotel",
+    images: [
+      "/listings/gazipasa-beach-hotel/01-aerial-resort.jpg",
+      "/listings/gazipasa-beach-hotel/02-beach-terrace.jpg",
+      "/listings/gazipasa-beach-hotel/03-pool.jpg",
+      "/listings/gazipasa-beach-hotel/04-jacuzzi-sea-view.jpg",
+      "/listings/gazipasa-beach-hotel/05-terrace-jacuzzi.jpg",
+      "/listings/gazipasa-beach-hotel/06-double-room.jpg",
+      "/listings/gazipasa-beach-hotel/07-twin-room.jpg",
+    ],
+    featured: true,
+    features: [
+      "Seafront",
+      "43 rooms",
+      "2 beaches",
+      "Spa & pools",
+    ],
+  },
+  {
     id: "26",
     slug: "demanor-boutique-hotel-alanya",
     type: "hotel",

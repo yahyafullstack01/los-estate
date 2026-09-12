@@ -246,6 +246,33 @@
     "dark": "Dunkler Modus"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Strandhotel — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Türkei — direkt am Meer",
+      "priceLabel": "Preis auf Anfrage",
+      "description": "Strandhotel auf einem 5.100 m² großen Grundstück direkt am Meer in Gazipaşa — 35 km vom Zentrum Alanayas, 7,5 km vom Zentrum Gazipaşas und 5,2 km vom Flughafen Gazipaşa.\n\n43 Zimmer mit Meerblick und Blick auf die Burg Gazipaşa. Gut gepflegt und in Betrieb, vor weniger als einem Jahr vollständig renoviert. Tourismuslizenz inklusive.\n\nGästeportfolio hauptsächlich aus Europa, Russland, arabischen Ländern und Skandinavien — etwa 70% aus Westeuropa. Prognostizierter Jahresumsatz 2025: €1.700.000.",
+      "note": "Finanzielle Details und Unterlagen auf Anfrage.",
+      "roomSpecsTitle": "Hotelausstattung",
+      "roomSpecs": [
+        "43 Zimmer — Meerblick und Burg Gazipaşa",
+        "Grundstück 5.100 m² — direkt am Meer",
+        "Vor weniger als einem Jahr vollständig renoviert",
+        "Tourismuslizenz",
+        "Parkplätze für 15 Fahrzeuge",
+        "2 Restaurants und 1 Bar",
+        "Spa-Zentrum — Hamam, Sauna, Massageräume, Ruhebereich",
+        "1 Hallenbad und Whirlpool",
+        "2 Strände"
+      ],
+      "socialAmenitiesTitle": "Lage & Gäste",
+      "socialAmenities": [
+        "Direkt am Meer in Gazipaşa",
+        "35 km nach Alanya · 7,5 km zum Zentrum Gazipaşa · 5,2 km zum Flughafen",
+        "Meerblick und Burg Gazipaşa",
+        "Gäste aus Westeuropa (~70%), Russland, arabischen Ländern, Skandinavien",
+        "Umsatzprognose 2025: €1.700.000"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Alanya Zentrum",
       "location": "Alanya Zentrum, Türkei — direkt am Meer",

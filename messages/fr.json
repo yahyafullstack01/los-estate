@@ -246,6 +246,33 @@
     "dark": "Mode sombre"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Hôtel de plage — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Turquie — front de mer",
+      "priceLabel": "Prix sur demande",
+      "description": "Hôtel de plage sur une parcelle de 5 100 m² en front de mer à Gazipaşa — 35 km du centre d’Alanya, 7,5 km du centre de Gazipaşa et 5,2 km de l’aéroport de Gazipaşa.\n\n43 chambres avec vue sur la mer et le château de Gazipaşa. Bien entretenu et en activité, entièrement rénové il y a moins d’un an. Licence touristique incluse.\n\nClientèle principalement d’Europe, de Russie, des pays arabes et de Scandinavie — environ 70 % d’Europe occidentale. Chiffre d’affaires annuel projeté pour 2025 : 1 700 000 €.",
+      "note": "Détails financiers et documents disponibles sur demande.",
+      "roomSpecsTitle": "Équipements de l’hôtel",
+      "roomSpecs": [
+        "43 chambres — vue mer et château de Gazipaşa",
+        "Parcelle 5 100 m² — front de mer",
+        "Entièrement rénové il y a moins d’un an",
+        "Licence touristique",
+        "Parking pour 15 véhicules",
+        "2 restaurants et 1 bar",
+        "Centre spa — hammam, sauna, salles de massage, espace détente",
+        "1 piscine intérieure et jacuzzi",
+        "2 plages"
+      ],
+      "socialAmenitiesTitle": "Emplacement & clientèle",
+      "socialAmenities": [
+        "Front de mer à Gazipaşa",
+        "35 km d’Alanya · 7,5 km du centre de Gazipaşa · 5,2 km de l’aéroport",
+        "Vue mer et château de Gazipaşa",
+        "Clients d’Europe occidentale (~70 %), Russie, pays arabes, Scandinavie",
+        "CA projeté 2025 : 1 700 000 €"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Centre d'Alanya",
       "location": "Centre d'Alanya, Turquie — front de mer",

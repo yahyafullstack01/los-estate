@@ -246,6 +246,33 @@
     "dark": "Ciemny motyw"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Hotel plażowy — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Turcja — pierwsza linia morza",
+      "priceLabel": "Cena na zapytanie",
+      "description": "Hotel plażowy na działce 5 100 m² przy pierwszej linii morza w Gazipaşa — 35 km od centrum Alanyi, 7,5 km od centrum Gazipaşa i 5,2 km od lotniska Gazipaşa.\n\n43 pokoje z widokiem na morze i zamek Gazipaşa. Utrzymany i działający, całkowicie wyremontowany mniej niż rok temu. Licencja turystyczna w cenie.\n\nGoście głównie z Europy, Rosji, krajów arabskich i Skandynawii — ok. 70% z Europy Zachodniej. Prognozowany roczny obrót na 2025: 1 700 000 €.",
+      "note": "Szczegóły finansowe i dokumenty dostępne na zapytanie.",
+      "roomSpecsTitle": "Infrastruktura hotelu",
+      "roomSpecs": [
+        "43 pokoje — widok na morze i zamek Gazipaşa",
+        "Działka 5 100 m² — pierwsza linia morza",
+        "Całkowity remont mniej niż rok temu",
+        "Licencja turystyczna",
+        "Parking na 15 pojazdów",
+        "2 restauracje i 1 bar",
+        "Centrum spa — hammam, sauna, gabinety masażu, strefa relaksu",
+        "1 kryty basen i jacuzzi",
+        "2 plaże"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja i goście",
+      "socialAmenities": [
+        "Pierwsza linia morza w Gazipaşa",
+        "35 km do Alanyi · 7,5 km do centrum Gazipaşa · 5,2 km do lotniska",
+        "Widok na morze i zamek Gazipaşa",
+        "Goście z Europy Zachodniej (~70%), Rosji, krajów arabskich, Skandynawii",
+        "Prognoza obrotu 2025: 1 700 000 €"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Centrum Alanyi",
       "location": "Centrum Alanyi, Turcja — pierwsza linia morza",

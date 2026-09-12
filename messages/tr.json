@@ -246,6 +246,33 @@
     "dark": "Karanlık mod"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Sahil Oteli — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Türkiye — deniz kenarı",
+      "priceLabel": "Fiyat talep üzerine",
+      "description": "Gazipaşa’da 5.100 m² deniz kenarı arsa üzerinde sahil oteli — Alanya merkezine 35 km, Gazipaşa merkezine 7,5 km ve Gazipaşa Havalimanı’na 5,2 km.\n\nDeniz ve Gazipaşa Kalesi manzaralı 43 oda. Bakımlı ve faal; 1 yıldan kısa süre önce tamamen yenilenmiş. Turizm işletme belgesi dahil.\n\nMisafir portföyü ağırlıklı olarak Avrupa, Rusya, Arap ülkeleri ve İskandinavya — yaklaşık %70 Batı Avrupa. 2025 için öngörülen yıllık ciro: €1.700.000.",
+      "note": "Finansal detaylar ve belgeler talep üzerine sunulur.",
+      "roomSpecsTitle": "Otel olanakları",
+      "roomSpecs": [
+        "43 oda — deniz ve Gazipaşa Kalesi manzarası",
+        "5.100 m² arsa — deniz kenarı",
+        "1 yıldan kısa süre önce tamamen yenilenmiş",
+        "Turizm işletme belgesi",
+        "15 araçlık otopark",
+        "2 restoran ve 1 bar",
+        "Spa merkezi — hamam, sauna, masaj odaları, dinlenme alanı",
+        "1 kapalı havuz ve jakuzi",
+        "2 plaj"
+      ],
+      "socialAmenitiesTitle": "Konum ve misafirler",
+      "socialAmenities": [
+        "Gazipaşa’da deniz kenarı",
+        "Alanya’ya 35 km · Gazipaşa merkezine 7,5 km · havalimanına 5,2 km",
+        "Deniz ve Gazipaşa Kalesi manzarası",
+        "Misafirler: Batı Avrupa (~%70), Rusya, Arap ülkeleri, İskandinavya",
+        "2025 öngörülen ciro: €1.700.000"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Alanya Merkez",
       "location": "Alanya Merkez, Türkiye — deniz kenarı",

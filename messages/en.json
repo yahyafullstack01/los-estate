@@ -246,6 +246,33 @@
     "dark": "Dark mode"
   },
   "properties": {
+    "gazipasa-beach-hotel": {
+      "title": "Beach Hotel — Gazipaşa",
+      "location": "Gazipaşa, Antalya, Turkey — seafront",
+      "priceLabel": "Price on request",
+      "description": "Beach hotel on a 5,100 m² seafront plot in Gazipaşa — 35 km from Alanya city center, 7.5 km from Gazipaşa center, and 5.2 km from Gazipaşa Airport.\n\n43 rooms with sea and Gazipaşa Castle views. Well-maintained and fully operational, completely renovated less than 1 year ago. Tourism business license included.\n\nGuest portfolio mainly from Europe, Russia, Arab countries and Scandinavia — about 70% from Western Europe. Projected annual turnover for 2025: €1,700,000.",
+      "note": "Financial details and documents available on request.",
+      "roomSpecsTitle": "Hotel facilities",
+      "roomSpecs": [
+        "43 rooms — sea and Gazipaşa Castle views",
+        "Plot 5,100 m² — seafront",
+        "Completely renovated less than 1 year ago",
+        "Tourism business license",
+        "Parking for 15 vehicles",
+        "2 restaurants and 1 bar",
+        "Spa center — hamam, sauna, massage rooms, relaxation area",
+        "1 indoor pool and jacuzzi",
+        "2 beaches"
+      ],
+      "socialAmenitiesTitle": "Location & guests",
+      "socialAmenities": [
+        "Seafront in Gazipaşa",
+        "35 km to Alanya · 7.5 km to Gazipaşa center · 5.2 km to airport",
+        "Sea and Gazipaşa Castle views",
+        "Guests from Western Europe (~70%), Russia, Arab countries, Scandinavia",
+        "Projected turnover 2025: €1,700,000"
+      ]
+    },
     "demanor-boutique-hotel-alanya": {
       "title": "DE'MANOR Boutique Hotel — Alanya Center",
       "location": "Alanya Center, Turkey — seafront",
