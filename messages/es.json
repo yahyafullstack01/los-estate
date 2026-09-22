@@ -492,6 +492,58 @@
         "Terreno cerrado y cuidado"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 60€ / día · 800–1500€ / mes",
+      "description": "Apartamento 1+1 amueblado en alquiler en BestHome 37 The Legend Centrum, centro de Alanya — complejo premium.\n\nDistribución: 1 dormitorio + salón-cocina. 1 baño. Mar: 150 m. Playa de arena privada, tumbonas y sombrillas gratis. 10% de descuento en playa en comida y bebidas.\n\nLibre desde el 6 de octubre.",
+      "note": "Tarifas: invierno 60€ / día · verano desde 65€ / día. Mes de invierno desde 800€ · verano desde 1500€ / mes. Libre desde el 06.10.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 1 dormitorio + salón-cocina",
+        "1 baño",
+        "Interior moderno amueblado",
+        "Libre desde el 6 de octubre"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "10% de descuento en playa en comida y bebidas",
+        "3 piscinas exteriores",
+        "1 piscina cubierta",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Sala infantil",
+        "Gimnasio",
+        "Complejo premium — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Dúplex 2+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 150€ / día · 2000–3500€ / mes",
+      "description": "Apartamento dúplex 2+1 amueblado en alquiler en BestHome 37 The Legend Centrum, centro de Alanya — complejo premium.\n\nSuperficie: 100 m². Distribución: dos dormitorios + salón-cocina. Dos baños. Mar: 150 m. Playa de arena privada, tumbonas y sombrillas gratis. 10% de descuento en playa en comida y bebidas.",
+      "note": "Tarifas: desde 150€ / día · verano desde 250€ / día. Mes de invierno 2000€ · verano desde 3500€ / mes.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "Dúplex 2+1 — 100 m²",
+        "Dos dormitorios + salón-cocina",
+        "Dos baños",
+        "Interior moderno amueblado · balcón con vistas al mar / ciudad"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "10% de descuento en playa en comida y bebidas",
+        "3 piscinas exteriores",
+        "1 piscina cubierta",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Complejo premium — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Dúplex 2+1 Alquiler",
       "location": "Centro de Alanya, Turquía",
@@ -552,6 +604,33 @@
         "Generador",
         "Videovigilancia y seguridad",
         "Terreno cerrado y cuidado"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 85€ / día · 1570–2500€ / mes",
+      "description": "Apartamento 2+1 amueblado en alquiler en BestHome 36 Centrum, centro de Alanya — complejo premium.\n\nDistribución: dos dormitorios + salón-cocina. Dos baños. Mar: 150 m. Playa de arena privada, tumbonas y sombrillas gratis. 10% de descuento en playa en comida y bebidas.\n\nLibre desde el 4 de noviembre.",
+      "note": "Tarifas: invierno 85€ / día · verano 110€ / día. Mes de invierno 1570€ · verano desde 2500€ / mes. Libre desde el 04.11.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "2+1 — dos dormitorios + salón-cocina",
+        "Dos baños",
+        "Interior moderno amueblado",
+        "Libre desde el 4 de noviembre"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "10% de descuento en playa en comida y bebidas",
+        "3 piscinas exteriores",
+        "1 piscina cubierta",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Sala infantil",
+        "Aparcamiento",
+        "Complejo premium"
       ]
     },
     "alanya-sugozu-villa": {

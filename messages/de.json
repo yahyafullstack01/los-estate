@@ -492,6 +492,58 @@
         "Eingezäuntes gepflegtes Gelände"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Miete",
+      "location": "Alanya Zentrum, Türkei",
+      "priceLabel": "ab 60€ / Tag · 800–1500€ / Monat",
+      "description": "Möblierte 1+1 Wohnung zur Miete in BestHome 37 The Legend Centrum, Alanya Zentrum — Premium-Wohnanlage.\n\nGrundriss: 1 Schlafzimmer + Wohnküche. 1 Bad. Meer: 150 m. Privater Sandstrand mit kostenlosen Liegen und Schirmen. 10% Strandrabatt auf Speisen und Getränke.\n\nFrei ab 6. Oktober.",
+      "note": "Preise: Winter 60€ / Tag · Sommer ab 65€ / Tag. Wintermonat ab 800€ · Sommer ab 1500€ / Monat. Frei ab 06.10.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "1+1 — 1 Schlafzimmer + Wohnküche",
+        "1 Bad",
+        "Modern möbliertes Interieur",
+        "Frei ab 6. Oktober"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum privaten Sandstrand — Liegen und Schirme kostenlos",
+        "10% Strandrabatt auf Speisen und Getränke",
+        "3 Außenpools",
+        "1 Hallenbad",
+        "Spa",
+        "Sauna",
+        "Hamam",
+        "Kinderspielzimmer",
+        "Fitnessstudio",
+        "Premium-Wohnanlage — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Duplex 2+1 Miete",
+      "location": "Alanya Zentrum, Türkei",
+      "priceLabel": "ab 150€ / Tag · 2000–3500€ / Monat",
+      "description": "Möblierte Duplex-2+1-Wohnung zur Miete in BestHome 37 The Legend Centrum, Alanya Zentrum — Premium-Wohnanlage.\n\nFläche: 100 m². Grundriss: zwei Schlafzimmer + Wohnküche. Zwei Bäder. Meer: 150 m. Privater Sandstrand mit kostenlosen Liegen und Schirmen. 10% Strandrabatt auf Speisen und Getränke.",
+      "note": "Preise: ab 150€ / Tag · Sommer ab 250€ / Tag. Wintermonat 2000€ · Sommer ab 3500€ / Monat.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "Duplex 2+1 — 100 m²",
+        "Zwei Schlafzimmer + Wohnküche",
+        "Zwei Bäder",
+        "Modern möbliertes Interieur · Balkon mit Meer- / Stadtblick"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum privaten Sandstrand — Liegen und Schirme kostenlos",
+        "10% Strandrabatt auf Speisen und Getränke",
+        "3 Außenpools",
+        "1 Hallenbad",
+        "Spa",
+        "Sauna",
+        "Hamam",
+        "Premium-Wohnanlage — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Duplex 2+1 Miete",
       "location": "Alanya Zentrum, Türkei",
@@ -552,6 +604,33 @@
         "Generator",
         "Videoüberwachung und Sicherheit",
         "Geschlossenes gepflegtes Gelände"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Miete",
+      "location": "Alanya Zentrum, Türkei",
+      "priceLabel": "ab 85€ / Tag · 1570–2500€ / Monat",
+      "description": "Möblierte 2+1 Wohnung zur Miete in BestHome 36 Centrum, Alanya Zentrum — Premium-Wohnanlage.\n\nGrundriss: zwei Schlafzimmer + Wohnküche. Zwei Bäder. Meer: 150 m. Privater Sandstrand mit kostenlosen Liegen und Schirmen. 10% Strandrabatt auf Speisen und Getränke.\n\nFrei ab 4. November.",
+      "note": "Preise: Winter 85€ / Tag · Sommer 110€ / Tag. Wintermonat 1570€ · Sommer ab 2500€ / Monat. Frei ab 04.11.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "2+1 — zwei Schlafzimmer + Wohnküche",
+        "Zwei Bäder",
+        "Modern möbliertes Interieur",
+        "Frei ab 4. November"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum privaten Sandstrand — Liegen und Schirme kostenlos",
+        "10% Strandrabatt auf Speisen und Getränke",
+        "3 Außenpools",
+        "1 Hallenbad",
+        "Spa",
+        "Sauna",
+        "Hamam",
+        "Kinderspielzimmer",
+        "Parkplätze",
+        "Premium-Wohnanlage"
       ]
     },
     "alanya-sugozu-villa": {

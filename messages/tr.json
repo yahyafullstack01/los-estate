@@ -492,6 +492,58 @@
         "Kapalı bakımlı alan"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Kiralık",
+      "location": "Alanya Merkez, Türkiye",
+      "priceLabel": "60€ / günden · 800–1500€ / ay",
+      "description": "BestHome 37 The Legend Centrum, Alanya Merkez’de kiralık mobilyalı 1+1 daire — premium sınıf kompleks.\n\nPlan: 1 yatak odası + salon-mutfak. 1 banyo. Denize mesafe: 150 m. Özel kumsal plaj, şezlong ve şemsiye ücretsiz. Plajda yiyecek ve içeceklerde %10 indirim.\n\n6 Ekim’den itibaren müsait.",
+      "note": "Tarifeler: kış 60€ / gün · yaz 65€ / günden. Kış aylık 800€’den · yaz aylık 1500€’den. 06.10’dan müsait.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "1+1 — 1 yatak odası + salon-mutfak",
+        "1 banyo",
+        "Modern mobilyalı iç mekan",
+        "6 Ekim’den itibaren müsait"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Özel kumsal plaja 150 m — şezlong ve şemsiye ücretsiz",
+        "Plajda yiyecek ve içeceklerde %10 indirim",
+        "3 açık havuz",
+        "1 kapalı havuz",
+        "Spa",
+        "Sauna",
+        "Türk hamamı",
+        "Çocuk odası",
+        "Fitness salonu",
+        "Premium sınıf kompleks — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Dubleks 2+1 Kiralık",
+      "location": "Alanya Merkez, Türkiye",
+      "priceLabel": "150€ / günden · 2000–3500€ / ay",
+      "description": "BestHome 37 The Legend Centrum, Alanya Merkez’de kiralık mobilyalı dubleks 2+1 daire — premium sınıf kompleks.\n\nAlan: 100 m². Plan: iki yatak odası + salon-mutfak. İki banyo. Denize mesafe: 150 m. Özel kumsal plaj, şezlong ve şemsiye ücretsiz. Plajda yiyecek ve içeceklerde %10 indirim.",
+      "note": "Tarifeler: günden 150€ · yaz 250€ / günden. Kış aylık 2000€ · yaz aylık 3500€’den.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "Dubleks 2+1 — 100 m²",
+        "İki yatak odası + salon-mutfak",
+        "İki banyo",
+        "Modern mobilyalı iç mekan · deniz / şehir manzaralı balkon"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Özel kumsal plaja 150 m — şezlong ve şemsiye ücretsiz",
+        "Plajda yiyecek ve içeceklerde %10 indirim",
+        "3 açık havuz",
+        "1 kapalı havuz",
+        "Spa",
+        "Sauna",
+        "Türk hamamı",
+        "Premium sınıf kompleks — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Dubleks 2+1 Kiralık",
       "location": "Alanya Merkez, Türkiye",
@@ -552,6 +604,33 @@
         "Jeneratör",
         "Kamera sistemi ve güvenlik",
         "Kapalı bakımlı site"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Kiralık",
+      "location": "Alanya Merkez, Türkiye",
+      "priceLabel": "85€ / günden · 1570–2500€ / ay",
+      "description": "BestHome 36 Centrum, Alanya Merkez’de kiralık mobilyalı 2+1 daire — premium sınıf kompleks.\n\nPlan: iki yatak odası + salon-mutfak. İki banyo. Denize mesafe: 150 m. Özel kumsal plaj, şezlong ve şemsiye ücretsiz. Plajda yiyecek ve içeceklerde %10 indirim.\n\n4 Kasım’dan itibaren müsait.",
+      "note": "Tarifeler: kış 85€ / gün · yaz 110€ / gün. Kış aylık 1570€ · yaz aylık 2500€’den. 04.11’den müsait.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "2+1 — iki yatak odası + salon-mutfak",
+        "İki banyo",
+        "Modern mobilyalı iç mekan",
+        "4 Kasım’dan itibaren müsait"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Özel kumsal plaja 150 m — şezlong ve şemsiye ücretsiz",
+        "Plajda yiyecek ve içeceklerde %10 indirim",
+        "3 açık havuz",
+        "1 kapalı havuz",
+        "Spa",
+        "Sauna",
+        "Türk hamamı",
+        "Çocuk odası",
+        "Otopark",
+        "Premium sınıf kompleks"
       ]
     },
     "alanya-sugozu-villa": {

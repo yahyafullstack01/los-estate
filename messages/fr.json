@@ -492,6 +492,58 @@
         "Terrain clos et entretenu"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Location",
+      "location": "Centre d’Alanya, Turquie",
+      "priceLabel": "dès 60€ / jour · 800–1500€ / mois",
+      "description": "Appartement 1+1 meublé à louer à BestHome 37 The Legend Centrum, centre d’Alanya — complexe premium.\n\nPlan: 1 chambre + salon-cuisine. 1 salle de bain. Mer: 150 m. Plage de sable privée, transats et parasols gratuits. 10% de réduction plage sur cuisine et boissons.\n\nLibre à partir du 6 octobre.",
+      "note": "Tarifs: hiver 60€ / jour · été dès 65€ / jour. Mois d’hiver dès 800€ · été dès 1500€ / mois. Libre dès le 06.10.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "1+1 — 1 chambre + salon-cuisine",
+        "1 salle de bain",
+        "Intérieur moderne meublé",
+        "Libre à partir du 6 octobre"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la plage de sable privée — transats et parasols gratuits",
+        "10% de réduction plage sur cuisine et boissons",
+        "3 piscines extérieures",
+        "1 piscine intérieure",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Salle pour enfants",
+        "Salle de sport",
+        "Complexe premium — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Duplex 2+1 Location",
+      "location": "Centre d’Alanya, Turquie",
+      "priceLabel": "dès 150€ / jour · 2000–3500€ / mois",
+      "description": "Appartement duplex 2+1 meublé à louer à BestHome 37 The Legend Centrum, centre d’Alanya — complexe premium.\n\nSurface: 100 m². Plan: deux chambres + salon-cuisine. Deux salles de bain. Mer: 150 m. Plage de sable privée, transats et parasols gratuits. 10% de réduction plage sur cuisine et boissons.",
+      "note": "Tarifs: dès 150€ / jour · été dès 250€ / jour. Mois d’hiver 2000€ · été dès 3500€ / mois.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "Duplex 2+1 — 100 m²",
+        "Deux chambres + salon-cuisine",
+        "Deux salles de bain",
+        "Intérieur moderne meublé · balcon vue mer / ville"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la plage de sable privée — transats et parasols gratuits",
+        "10% de réduction plage sur cuisine et boissons",
+        "3 piscines extérieures",
+        "1 piscine intérieure",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Complexe premium — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Duplex 2+1 Location",
       "location": "Centre d'Alanya, Turquie",
@@ -552,6 +604,33 @@
         "Générateur",
         "Vidéosurveillance et sécurité",
         "Résidence fermée et entretenue"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Location",
+      "location": "Centre d’Alanya, Turquie",
+      "priceLabel": "dès 85€ / jour · 1570–2500€ / mois",
+      "description": "Appartement 2+1 meublé à louer à BestHome 36 Centrum, centre d’Alanya — complexe premium.\n\nPlan: deux chambres + salon-cuisine. Deux salles de bain. Mer: 150 m. Plage de sable privée, transats et parasols gratuits. 10% de réduction plage sur cuisine et boissons.\n\nLibre à partir du 4 novembre.",
+      "note": "Tarifs: hiver 85€ / jour · été 110€ / jour. Mois d’hiver 1570€ · été dès 2500€ / mois. Libre dès le 04.11.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "2+1 — deux chambres + salon-cuisine",
+        "Deux salles de bain",
+        "Intérieur moderne meublé",
+        "Libre à partir du 4 novembre"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la plage de sable privée — transats et parasols gratuits",
+        "10% de réduction plage sur cuisine et boissons",
+        "3 piscines extérieures",
+        "1 piscine intérieure",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Salle pour enfants",
+        "Parking",
+        "Complexe premium"
       ]
     },
     "alanya-sugozu-villa": {

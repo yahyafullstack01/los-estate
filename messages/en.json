@@ -492,6 +492,58 @@
         "Gated landscaped territory"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Rent",
+      "location": "Alanya Center, Turkey",
+      "priceLabel": "From €60 / day · €800–€1,500 / month",
+      "description": "Furnished 1+1 apartment for rent in BestHome 37 The Legend Centrum, Alanya Center — premium-class complex.\n\nLayout: 1 bedroom + living-kitchen. 1 bathroom. Distance to the sea: 150 m. Private sandy beach with free sunbeds and umbrellas. 10% beach discount on food and drinks.\n\nAvailable from 6 October.",
+      "note": "Rates: winter €60 / day · summer from €65 / day. Winter month from €800 · summer from €1,500 / month. Available from 06.10.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "1+1 — 1 bedroom + living-kitchen",
+        "1 bathroom",
+        "Furnished modern interior",
+        "Available from 6 October"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to private sandy beach — free sunbeds and umbrellas",
+        "10% beach discount on food and drinks",
+        "3 outdoor pools",
+        "1 indoor pool",
+        "Spa",
+        "Sauna",
+        "Turkish hammam",
+        "Children's playroom",
+        "Fitness gym",
+        "Premium-class complex — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Duplex 2+1 Rent",
+      "location": "Alanya Center, Turkey",
+      "priceLabel": "From €150 / day · €2,000–€3,500 / month",
+      "description": "Furnished duplex 2+1 apartment for rent in BestHome 37 The Legend Centrum, Alanya Center — premium-class complex.\n\nArea: 100 m². Layout: two bedrooms + living-kitchen. Two bathrooms. Distance to the sea: 150 m. Private sandy beach with free sunbeds and umbrellas. 10% beach discount on food and drinks.",
+      "note": "Rates: from €150 / day · summer from €250 / day. Winter month €2,000 · summer from €3,500 / month.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Duplex 2+1 — 100 m²",
+        "Two bedrooms + living-kitchen",
+        "Two bathrooms",
+        "Furnished modern interior · balcony with sea / city views"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to private sandy beach — free sunbeds and umbrellas",
+        "10% beach discount on food and drinks",
+        "3 outdoor pools",
+        "1 indoor pool",
+        "Spa",
+        "Sauna",
+        "Turkish hammam",
+        "Premium-class complex — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Duplex 2+1 Rent",
       "location": "Alanya Center, Turkey",
@@ -552,6 +604,33 @@
         "Generator",
         "Video surveillance and security",
         "Gated landscaped territory"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Rent",
+      "location": "Alanya Center, Turkey",
+      "priceLabel": "From €85 / day · €1,570–€2,500 / month",
+      "description": "Furnished 2+1 apartment for rent in BestHome 36 Centrum, Alanya Center — premium-class complex.\n\nLayout: two bedrooms + living-kitchen. Two bathrooms. Distance to the sea: 150 m. Private sandy beach with free sunbeds and umbrellas. 10% beach discount on food and drinks.\n\nAvailable from 4 November.",
+      "note": "Rates: winter €85 / day · summer €110 / day. Winter month €1,570 · summer from €2,500 / month. Available from 04.11.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "2+1 — two bedrooms + living-kitchen",
+        "Two bathrooms",
+        "Furnished modern interior",
+        "Available from 4 November"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to private sandy beach — free sunbeds and umbrellas",
+        "10% beach discount on food and drinks",
+        "3 outdoor pools",
+        "1 indoor pool",
+        "Spa",
+        "Sauna",
+        "Turkish hammam",
+        "Children's playroom",
+        "Parking",
+        "Premium-class complex"
       ]
     },
     "alanya-sugozu-villa": {

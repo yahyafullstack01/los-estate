@@ -492,6 +492,58 @@
         "Zamknięty zadbany teren"
       ]
     },
+    "besthome-37-legend-rent-1-1-b": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Wynajem",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "od 60€ / dzień · 800–1500€ / miesiąc",
+      "description": "Umeblowane mieszkanie 1+1 na wynajem w BestHome 37 The Legend Centrum, centrum Alanyi — kompleks premium.\n\nUkład: 1 sypialnia + salon-kuchnia. 1 łazienka. Morze: 150 m. Prywatna piaszczysta plaża, leżaki i parasole gratis. 10% zniżki na plaży na jedzenie i napoje.\n\nWolne od 6 października.",
+      "note": "Ceny: zima 60€ / dzień · lato od 65€ / dzień. Miesiąc zimowy od 800€ · latem od 1500€ / miesiąc. Wolne od 06.10.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "1+1 — 1 sypialnia + salon-kuchnia",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze",
+        "Wolne od 6 października"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do prywatnej piaszczystej plaży — leżaki i parasole gratis",
+        "10% zniżki na plaży na jedzenie i napoje",
+        "3 baseny zewnętrzne",
+        "1 basen kryty",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Pokój dla dzieci",
+        "Siłownia",
+        "Kompleks premium — BestHome 37 The Legend"
+      ]
+    },
+    "besthome-37-legend-duplex-rent-2-1": {
+      "title": "BestHome 37 The Legend Centrum — Duplex 2+1 Wynajem",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "od 150€ / dzień · 2000–3500€ / miesiąc",
+      "description": "Umeblowany duplex 2+1 na wynajem w BestHome 37 The Legend Centrum, centrum Alanyi — kompleks premium.\n\nPowierzchnia: 100 m². Układ: dwie sypialnie + salon-kuchnia. Dwie łazienki. Morze: 150 m. Prywatna piaszczysta plaża, leżaki i parasole gratis. 10% zniżki na plaży na jedzenie i napoje.",
+      "note": "Ceny: od 150€ / dzień · latem od 250€ / dzień. Miesiąc zimowy 2000€ · latem od 3500€ / miesiąc.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "Duplex 2+1 — 100 m²",
+        "Dwie sypialnie + salon-kuchnia",
+        "Dwie łazienki",
+        "Nowoczesne umeblowane wnętrze · balkon z widokiem na morze / miasto"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do prywatnej piaszczystej plaży — leżaki i parasole gratis",
+        "10% zniżki na plaży na jedzenie i napoje",
+        "3 baseny zewnętrzne",
+        "1 basen kryty",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Kompleks premium — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-duplex-rent-2-1": {
       "title": "BestHome 37 — Duplex 2+1 Wynajem",
       "location": "Centrum Alanyi, Turcja",
@@ -552,6 +604,33 @@
         "Generator",
         "Monitoring i ochrona",
         "Zamknięty, zadbany teren"
+      ]
+    },
+    "besthome-36-rent-2-1": {
+      "title": "BestHome 36 Centrum — 2+1 Wynajem",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "od 85€ / dzień · 1570–2500€ / miesiąc",
+      "description": "Umeblowane mieszkanie 2+1 na wynajem w BestHome 36 Centrum, centrum Alanyi — kompleks premium.\n\nUkład: dwie sypialnie + salon-kuchnia. Dwie łazienki. Morze: 150 m. Prywatna piaszczysta plaża, leżaki i parasole gratis. 10% zniżki na plaży na jedzenie i napoje.\n\nWolne od 4 listopada.",
+      "note": "Ceny: zima 85€ / dzień · lato 110€ / dzień. Miesiąc zimowy 1570€ · latem od 2500€ / miesiąc. Wolne od 04.11.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "2+1 — dwie sypialnie + salon-kuchnia",
+        "Dwie łazienki",
+        "Nowoczesne umeblowane wnętrze",
+        "Wolne od 4 listopada"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do prywatnej piaszczystej plaży — leżaki i parasole gratis",
+        "10% zniżki na plaży na jedzenie i napoje",
+        "3 baseny zewnętrzne",
+        "1 basen kryty",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Pokój dla dzieci",
+        "Parking",
+        "Kompleks premium"
       ]
     },
     "alanya-sugozu-villa": {
