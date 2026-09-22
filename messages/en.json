@@ -710,6 +710,33 @@
         "Gated landscaped territory"
       ]
     },
+    "besthome-37-rent-2-1-b": {
+      "title": "BestHome 37 Centrum — 2+1 Rent",
+      "location": "Alanya Center, Turkey",
+      "priceLabel": "From €85 / day · €1,500–€2,700 / month",
+      "description": "Furnished 2+1 apartment for rent in BestHome 37 Centrum, Alanya Center — premium-class complex.\n\nLayout: two bedrooms + living-kitchen. One bathroom. Distance to the sea: 150 m. Private sandy beach with free sunbeds and umbrellas. 10% beach discount on food and drinks.",
+      "note": "Rates: winter from €85 / day · winter month €1,500. Summer from €110 / day · summer from €2,700 / month.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "2+1 — two bedrooms + living-kitchen",
+        "1 bathroom",
+        "Furnished modern interior",
+        "Balcony"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to private sandy beach — free sunbeds and umbrellas",
+        "10% beach discount on food and drinks",
+        "3 outdoor pools",
+        "1 indoor pool",
+        "Spa",
+        "Sauna",
+        "Turkish hammam",
+        "Children's playroom",
+        "Parking",
+        "Premium-class complex"
+      ]
+    },
     "besthome-37-rent-2-1-75": {
       "title": "BestHome 37 — 2+1 Rent",
       "location": "Alanya Center, Turkey",

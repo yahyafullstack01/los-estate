@@ -710,6 +710,33 @@
         "Kapalı bakımlı alan"
       ]
     },
+    "besthome-37-rent-2-1-b": {
+      "title": "BestHome 37 Centrum — 2+1 Kiralık",
+      "location": "Alanya Merkez, Türkiye",
+      "priceLabel": "85€ / günden · 1500–2700€ / ay",
+      "description": "BestHome 37 Centrum, Alanya Merkez’de kiralık mobilyalı 2+1 daire — premium sınıf kompleks.\n\nPlan: iki yatak odası + salon-mutfak. 1 banyo. Denize mesafe: 150 m. Özel kumsal plaj, şezlong ve şemsiye ücretsiz. Plajda yiyecek ve içeceklerde %10 indirim.",
+      "note": "Tarifeler: kış 85€ / günden · aylık 1500€. Yaz 110€ / günden · aylık 2700€’den.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "2+1 — iki yatak odası + salon-mutfak",
+        "1 banyo",
+        "Modern mobilyalı iç mekan",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Özel kumsal plaja 150 m — şezlong ve şemsiye ücretsiz",
+        "Plajda yiyecek ve içeceklerde %10 indirim",
+        "3 açık havuz",
+        "1 kapalı havuz",
+        "Spa",
+        "Sauna",
+        "Türk hamamı",
+        "Çocuk odası",
+        "Otopark",
+        "Premium sınıf kompleks"
+      ]
+    },
     "besthome-37-rent-2-1-75": {
       "title": "BestHome 37 — 2+1 Kiralık",
       "location": "Alanya Merkez, Türkiye",

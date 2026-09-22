@@ -710,6 +710,33 @@
         "Terreno cerrado y cuidado"
       ]
     },
+    "besthome-37-rent-2-1-b": {
+      "title": "BestHome 37 Centrum — 2+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 85€ / día · 1500–2700€ / mes",
+      "description": "Apartamento 2+1 amueblado en alquiler en BestHome 37 Centrum, centro de Alanya — complejo premium.\n\nDistribución: dos dormitorios + salón-cocina. 1 baño. Mar: 150 m. Playa de arena privada, tumbonas y sombrillas gratis. 10% de descuento en playa en comida y bebidas.",
+      "note": "Tarifas: invierno desde 85€ / día · mes 1500€. Verano desde 110€ / día · mes desde 2700€.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "2+1 — dos dormitorios + salón-cocina",
+        "1 baño",
+        "Interior moderno amueblado",
+        "Balcón"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "10% de descuento en playa en comida y bebidas",
+        "3 piscinas exteriores",
+        "1 piscina cubierta",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Sala infantil",
+        "Aparcamiento",
+        "Complejo premium"
+      ]
+    },
     "besthome-37-rent-2-1-75": {
       "title": "BestHome 37 — 2+1 Alquiler",
       "location": "Centro de Alanya, Turquía",

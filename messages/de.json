@@ -710,6 +710,33 @@
         "Eingezäuntes gepflegtes Gelände"
       ]
     },
+    "besthome-37-rent-2-1-b": {
+      "title": "BestHome 37 Centrum — 2+1 Miete",
+      "location": "Alanya Zentrum, Türkei",
+      "priceLabel": "ab 85€ / Tag · 1500–2700€ / Monat",
+      "description": "Möblierte 2+1 Wohnung zur Miete in BestHome 37 Centrum, Alanya Zentrum — Premium-Wohnanlage.\n\nGrundriss: zwei Schlafzimmer + Wohnküche. 1 Bad. Meer: 150 m. Privater Sandstrand mit kostenlosen Liegen und Schirmen. 10% Strandrabatt auf Speisen und Getränke.",
+      "note": "Preise: Winter ab 85€ / Tag · Monat 1500€. Sommer ab 110€ / Tag · Monat ab 2700€.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "2+1 — zwei Schlafzimmer + Wohnküche",
+        "1 Bad",
+        "Modern möbliertes Interieur",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum privaten Sandstrand — Liegen und Schirme kostenlos",
+        "10% Strandrabatt auf Speisen und Getränke",
+        "3 Außenpools",
+        "1 Hallenbad",
+        "Spa",
+        "Sauna",
+        "Hamam",
+        "Kinderspielzimmer",
+        "Parkplätze",
+        "Premium-Wohnanlage"
+      ]
+    },
     "besthome-37-rent-2-1-75": {
       "title": "BestHome 37 — 2+1 Miete",
       "location": "Alanya Zentrum, Türkei",

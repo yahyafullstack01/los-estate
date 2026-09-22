@@ -710,6 +710,33 @@
         "Zamknięty zadbany teren"
       ]
     },
+    "besthome-37-rent-2-1-b": {
+      "title": "BestHome 37 Centrum — 2+1 Wynajem",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "od 85€ / dzień · 1500–2700€ / miesiąc",
+      "description": "Umeblowane mieszkanie 2+1 na wynajem w BestHome 37 Centrum, centrum Alanyi — kompleks premium.\n\nUkład: dwie sypialnie + salon-kuchnia. 1 łazienka. Morze: 150 m. Prywatna piaszczysta plaża, leżaki i parasole gratis. 10% zniżki na plaży na jedzenie i napoje.",
+      "note": "Ceny: zima od 85€ / dzień · miesiąc 1500€. Lato od 110€ / dzień · miesiąc od 2700€.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "2+1 — dwie sypialnie + salon-kuchnia",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do prywatnej piaszczystej plaży — leżaki i parasole gratis",
+        "10% zniżki na plaży na jedzenie i napoje",
+        "3 baseny zewnętrzne",
+        "1 basen kryty",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Pokój dla dzieci",
+        "Parking",
+        "Kompleks premium"
+      ]
+    },
     "besthome-37-rent-2-1-75": {
       "title": "BestHome 37 — 2+1 Wynajem",
       "location": "Centrum Alanyi, Turcja",
