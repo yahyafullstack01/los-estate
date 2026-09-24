@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { type Listing } from "@/data/listings";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations } from "@/lib/property-i18n";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -17,6 +17,7 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
   const locale = await getLocale();
   const property = await getPropertyTranslations(listing.slug);
   const title = property.title;
+  const { name, layout } = splitListingTitle(title);
   const location = await getListingLocation(listing.slug, listing);
   const price = formatPrice(listing, locale);
   const priceLabel =
@@ -45,9 +46,14 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
           </div>
         </div>
         <div className="flex flex-1 flex-col p-4 sm:p-5">
-          <p className="font-serif text-lg leading-tight text-foreground group-hover:text-brand-gold transition-colors">
-            {title}
+          <p className="font-serif text-base leading-snug text-foreground group-hover:text-brand-gold transition-colors sm:text-lg">
+            {name}
           </p>
+          {layout ? (
+            <p className="mt-1.5 font-sans text-2xl font-bold tracking-wide text-foreground sm:text-3xl">
+              {layout}
+            </p>
+          ) : null}
           <p className="mt-1 text-sm text-muted">{location}</p>
           <p className="mt-3 text-xl font-semibold text-brand-gold">{priceLabel}</p>
           <ul className="mt-4 flex flex-wrap gap-4 text-xs text-muted">

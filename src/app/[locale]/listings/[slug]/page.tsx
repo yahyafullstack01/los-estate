@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/Button";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { PropertyGallery } from "@/components/listing/PropertyGallery";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations, getListingInquiryContext } from "@/lib/property-i18n";
 import { getAlternateLanguages } from "@/lib/seo";
 import { locales, type Locale } from "@/i18n/routing";
@@ -58,6 +58,7 @@ export default async function PropertyDetailPage({ params }: Props) {
   const t = await getTranslations();
   const property = await getPropertyTranslations(slug);
   const title = property.title;
+  const { name, layout } = splitListingTitle(title);
   const description = property.description;
   const location = await getListingLocation(slug, listing);
   const price = formatPrice(listing, locale);
@@ -107,7 +108,12 @@ export default async function PropertyDetailPage({ params }: Props) {
               </Badge>
               <Badge variant={listing.type}>{t(`types.${listing.type}`)}</Badge>
             </div>
-            <h1 className="mt-4 font-serif text-3xl sm:text-4xl">{title}</h1>
+            <h1 className="mt-4 font-serif text-3xl sm:text-4xl">{name}</h1>
+            {layout ? (
+              <p className="mt-2 font-sans text-3xl font-bold tracking-wide text-foreground sm:text-4xl">
+                {layout}
+              </p>
+            ) : null}
             <p className="mt-2 flex items-center gap-1.5 text-muted">
               <MapPin className="h-4 w-4 text-brand-gold" />
               {location}

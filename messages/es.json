@@ -492,6 +492,33 @@
         "Terreno cerrado y cuidado"
       ]
     },
+    "besthome-37-legend-rent-1-1-c": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Alquiler",
+      "location": "Centro de Alanya, Turquía",
+      "priceLabel": "desde 50€ / día · 900–2000€ / mes",
+      "description": "Apartamento 1+1 amueblado en alquiler en BestHome 37 The Legend Centrum, centro de Alanya — complejo premium.\n\nDistribución: 1 dormitorio + salón-cocina. 1 baño. Mar: 150 m. Playa de arena privada, tumbonas y sombrillas gratis. 10% de descuento en playa en comida y bebidas.\n\nLibre desde el 13 de octubre.",
+      "note": "Tarifas: invierno 50€ / día · verano desde 70€ / día. Mes de invierno desde 900€ · verano desde 2000€ / mes. Libre desde el 13.10.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "1+1 — 1 dormitorio + salón-cocina",
+        "1 baño",
+        "Interior moderno amueblado",
+        "Libre desde el 13 de octubre"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m a la playa de arena privada — tumbonas y sombrillas gratis",
+        "10% de descuento en playa en comida y bebidas",
+        "3 piscinas exteriores",
+        "1 piscina cubierta",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Sala infantil",
+        "Gimnasio",
+        "Complejo premium — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-legend-rent-1-1-b": {
       "title": "BestHome 37 The Legend Centrum — 1+1 Alquiler",
       "location": "Centro de Alanya, Turquía",

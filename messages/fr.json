@@ -492,6 +492,33 @@
         "Terrain clos et entretenu"
       ]
     },
+    "besthome-37-legend-rent-1-1-c": {
+      "title": "BestHome 37 The Legend Centrum — 1+1 Location",
+      "location": "Centre d’Alanya, Turquie",
+      "priceLabel": "dès 50€ / jour · 900–2000€ / mois",
+      "description": "Appartement 1+1 meublé à louer à BestHome 37 The Legend Centrum, centre d’Alanya — complexe premium.\n\nPlan: 1 chambre + salon-cuisine. 1 salle de bain. Mer: 150 m. Plage de sable privée, transats et parasols gratuits. 10% de réduction plage sur cuisine et boissons.\n\nLibre à partir du 13 octobre.",
+      "note": "Tarifs: hiver 50€ / jour · été dès 70€ / jour. Mois d’hiver dès 900€ · été dès 2000€ / mois. Libre dès le 13.10.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "1+1 — 1 chambre + salon-cuisine",
+        "1 salle de bain",
+        "Intérieur moderne meublé",
+        "Libre à partir du 13 octobre"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la plage de sable privée — transats et parasols gratuits",
+        "10% de réduction plage sur cuisine et boissons",
+        "3 piscines extérieures",
+        "1 piscine intérieure",
+        "Spa",
+        "Sauna",
+        "Hammam",
+        "Salle pour enfants",
+        "Salle de sport",
+        "Complexe premium — BestHome 37 The Legend"
+      ]
+    },
     "besthome-37-legend-rent-1-1-b": {
       "title": "BestHome 37 The Legend Centrum — 1+1 Location",
       "location": "Centre d’Alanya, Turquie",
