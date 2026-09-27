@@ -46,3 +46,24 @@ export function splitListingTitle(title: string): {
 
   return { name: name || title, layout };
 }
+
+/** Build SEO-friendly alt text from listing title + image filename. */
+export function listingImageAlt(
+  title: string,
+  src: string,
+  index?: number,
+  total?: number
+): string {
+  const base = src.split("/").pop()?.replace(/\.[^.]+$/, "") ?? "";
+  const label = base
+    .replace(/^\d+-/, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (label) return `${title} — ${label}`;
+  if (index != null && total != null) {
+    return `${title} — photo ${index} of ${total}`;
+  }
+  return title;
+}

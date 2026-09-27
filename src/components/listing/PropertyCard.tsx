@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { type Listing } from "@/data/listings";
-import { formatPrice, splitListingTitle } from "@/lib/utils";
+import { formatPrice, splitListingTitle, listingImageAlt } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations } from "@/lib/property-i18n";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -26,6 +26,7 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
       ? `${price}${t("listings.perMonth")}`
       : price);
   const imageSrc = listing.images[0] ?? "/og-default.png";
+  const imageAlt = listingImageAlt(title, imageSrc);
 
   return (
     <Card className="group flex flex-col">
@@ -33,7 +34,7 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
         <div className="relative aspect-[4/3] overflow-hidden bg-surface-muted">
           <Image
             src={imageSrc}
-            alt={title}
+            alt={imageAlt}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

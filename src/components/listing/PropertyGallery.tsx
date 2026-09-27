@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, X, ZoomIn } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { Listing } from "@/data/listings";
-import { cn } from "@/lib/utils";
+import { cn, listingImageAlt } from "@/lib/utils";
 
 const lightboxControlClass = cn(
   "group z-10 rounded-full border border-white/25 bg-white/10 p-3 text-white shadow-lg backdrop-blur-sm",
@@ -81,7 +81,7 @@ export function PropertyGallery({
       <div className="space-y-3">
         <GalleryImageButton
           src={images[0]}
-          alt={title}
+          alt={listingImageAlt(title, images[0], 1, images.length)}
           className="aspect-[4/3] rounded-xl"
           sizes="(max-width: 1024px) 100vw, 50vw"
           priority
@@ -94,7 +94,7 @@ export function PropertyGallery({
               <GalleryImageButton
                 key={src}
                 src={src}
-                alt={`${title} ${i + 2}`}
+                alt={listingImageAlt(title, src, i + 2, images.length)}
                 className="aspect-video rounded-lg"
                 sizes="(max-width: 1024px) 50vw, 25vw"
                 openLabel={t("openPhoto")}
@@ -161,7 +161,12 @@ export function PropertyGallery({
           >
             <Image
               src={images[activeIndex]}
-              alt={`${title} ${activeIndex + 1}`}
+              alt={listingImageAlt(
+                title,
+                images[activeIndex],
+                activeIndex + 1,
+                images.length
+              )}
               width={1920}
               height={1080}
               className="max-h-[90vh] w-auto max-w-full object-contain"
