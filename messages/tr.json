@@ -1115,6 +1115,97 @@
         "3 açık havuz",
         "1 kapalı havuz"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Satılık",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 36 Centrum, Alanya Merkez’de satılık mobilyasız 2+1 daire — 84 m², denize 150 m.\n\nPlan: iki yatak odası + salon-mutfak. Modern bitişler, ankastre mutfak, balkon, kapalı otopark.\n\nHavuzlar, özel SPA, fitness, sinema, coworking ve çocuk alanları olan premium kompleks.",
+      "note": "Mobilyasız. Fiyat: 320.000€.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "İki yatak odası + salon-mutfak",
+        "Modern banyo bitişleri",
+        "Mobilyasız — zevkinize göre döşenebilir",
+        "Balkon",
+        "Kapalı otopark"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "3 açık havuz",
+        "Kapalı kış havuzu",
+        "Profesyonel yönetilen özel SPA merkezi",
+        "VIP SPA",
+        "Dinlenme alanı",
+        "2 fitness salonu",
+        "2 çocuk oyun odası ve açık oyun alanları",
+        "Sinema salonu",
+        "Masa tenisi",
+        "Coworking alanı",
+        "Kapalı otopark"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Dubleks 2+1 Satılık",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 36 Centrum, Alanya Merkez’de satılık mobilyasız dubleks 2+1 daire — 99 m², denize 150 m.\n\nİç merdivenli iki katlı plan, yatak odaları, modern banyo ve kompleks havuzlarına bakan balkon.\n\nPremium olanaklar: açık ve kapalı havuzlar, özel SPA / VIP SPA, fitness, sinema, coworking, çocuk alanları ve kapalı otopark.",
+      "note": "Mobilyasız. Fiyat: 230.000€.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "Dubleks 2+1 — 99 m²",
+        "İç merdivenli iki kat",
+        "İki yatak odası + oturma alanı",
+        "Modern banyo",
+        "Mobilyasız — zevkinize göre döşenebilir",
+        "Kompleks / havuz manzaralı balkon",
+        "Kapalı otopark"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "3 açık havuz",
+        "Kapalı kış havuzu",
+        "Profesyonel yönetilen özel SPA merkezi",
+        "VIP SPA",
+        "Dinlenme alanı",
+        "2 fitness salonu",
+        "2 çocuk oyun odası ve açık oyun alanları",
+        "Sinema salonu",
+        "Masa tenisi",
+        "Coworking alanı",
+        "Kapalı otopark"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Dubleks 2+1 Satılık",
+      "location": "Alanya Merkez, Türkiye",
+      "description": "BestHome 37 Centrum, Alanya Merkez’de satılık mobilyalı dubleks 2+1 daire — 119 m², denize 150 m.\n\nTam mobilyalı salon-yemek alanı, modern ankastre mutfak (Siemens), deniz yönü ve kompleks havuz manzaralı balkon.\n\nPremium olanaklar: açık ve kapalı havuzlar, özel SPA / VIP SPA, fitness, sinema, coworking, çocuk alanları ve kapalı otopark.",
+      "note": "Mobilyalı. Fiyat: 375.000€.",
+      "roomSpecsTitle": "Daire detayları",
+      "roomSpecs": [
+        "Dubleks 2+1 — 119 m²",
+        "İki yatak odası + salon-yemek",
+        "Tam mobilyalı modern iç mekan",
+        "Siemens ankastre mutfak",
+        "Deniz / kompleks manzaralı balkon",
+        "Kapalı otopark"
+      ],
+      "socialAmenitiesTitle": "Kompleks olanakları",
+      "socialAmenities": [
+        "Denize 150 m",
+        "3 açık havuz",
+        "Kapalı kış havuzu",
+        "Profesyonel yönetilen özel SPA merkezi",
+        "VIP SPA",
+        "Dinlenme alanı",
+        "2 fitness salonu",
+        "2 çocuk oyun odası ve açık oyun alanları",
+        "Sinema salonu",
+        "Masa tenisi",
+        "Coworking alanı",
+        "Kapalı otopark"
+      ]
     }
   },
   "partners": {

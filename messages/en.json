@@ -1115,6 +1115,97 @@
         "3 outdoor pools",
         "1 indoor pool"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Sale",
+      "location": "Alanya Center, Turkey",
+      "description": "Unfurnished 2+1 apartment for sale in BestHome 36 Centrum, Alanya Center — 84 m², 150 m from the sea.\n\nLayout: two bedrooms + living-kitchen. Modern finishes, fitted kitchen, balcony, covered parking.\n\nPremium complex with pools, exclusive SPA, fitness, cinema, coworking and kids’ areas.",
+      "note": "Sold unfurnished (без мебели). Price: €320,000.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "Two bedrooms + living-kitchen",
+        "Modern bathroom finishes",
+        "Unfurnished — ready to furnish to your taste",
+        "Balcony",
+        "Covered parking"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "3 outdoor pools",
+        "Indoor winter pool",
+        "Professionally managed exclusive SPA center",
+        "VIP SPA",
+        "Relaxation zone",
+        "2 fitness gyms",
+        "2 children's playrooms and outdoor playgrounds",
+        "Cinema hall",
+        "Table tennis",
+        "Coworking zone",
+        "Covered parking"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Duplex 2+1 Sale",
+      "location": "Alanya Center, Turkey",
+      "description": "Unfurnished duplex 2+1 apartment for sale in BestHome 36 Centrum, Alanya Center — 99 m², 150 m from the sea.\n\nTwo-level layout with staircase, bedrooms, modern bathroom and balcony overlooking the complex pools.\n\nPremium amenities: outdoor and indoor pools, exclusive SPA / VIP SPA, fitness, cinema, coworking, kids’ areas and covered parking.",
+      "note": "Sold unfurnished (без мебели). Price: €230,000.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Duplex 2+1 — 99 m²",
+        "Two levels with internal staircase",
+        "Two bedrooms + living area",
+        "Modern bathroom",
+        "Unfurnished — ready to furnish to your taste",
+        "Balcony with complex / pool views",
+        "Covered parking"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "3 outdoor pools",
+        "Indoor winter pool",
+        "Professionally managed exclusive SPA center",
+        "VIP SPA",
+        "Relaxation zone",
+        "2 fitness gyms",
+        "2 children's playrooms and outdoor playgrounds",
+        "Cinema hall",
+        "Table tennis",
+        "Coworking zone",
+        "Covered parking"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Duplex 2+1 Sale",
+      "location": "Alanya Center, Turkey",
+      "description": "Furnished duplex 2+1 apartment for sale in BestHome 37 Centrum, Alanya Center — 119 m², 150 m from the sea.\n\nFully furnished living-dining area, modern fitted kitchen (Siemens appliances), balcony with sea direction view and complex pool outlook.\n\nPremium amenities: outdoor and indoor pools, exclusive SPA / VIP SPA, fitness, cinema, coworking, kids’ areas and covered parking.",
+      "note": "Sold furnished (с мебелью). Price: €375,000.",
+      "roomSpecsTitle": "Apartment details",
+      "roomSpecs": [
+        "Duplex 2+1 — 119 m²",
+        "Two bedrooms + living-dining",
+        "Fully furnished modern interior",
+        "Fitted kitchen with Siemens appliances",
+        "Balcony with sea / complex views",
+        "Covered parking"
+      ],
+      "socialAmenitiesTitle": "Complex amenities",
+      "socialAmenities": [
+        "150 m to the sea",
+        "3 outdoor pools",
+        "Indoor winter pool",
+        "Professionally managed exclusive SPA center",
+        "VIP SPA",
+        "Relaxation zone",
+        "2 fitness gyms",
+        "2 children's playrooms and outdoor playgrounds",
+        "Cinema hall",
+        "Table tennis",
+        "Coworking zone",
+        "Covered parking"
+      ]
     }
   },
   "partners": {

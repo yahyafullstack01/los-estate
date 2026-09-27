@@ -1115,6 +1115,97 @@
         "3 piscinas exteriores",
         "1 piscina cubierta"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Venta",
+      "location": "Centro de Alanya, Turquía",
+      "description": "Apartamento 2+1 sin amueblar en venta en BestHome 36 Centrum, centro de Alanya — 84 m², 150 m al mar.\n\nDistribución: dos dormitorios + salón-cocina. Acabados modernos, cocina equipada, balcón, aparcamiento cubierto.\n\nComplejo premium con piscinas, SPA exclusivo, gimnasio, cine, coworking y zonas infantiles.",
+      "note": "Sin amueblar. Precio: 320.000€.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "Dos dormitorios + salón-cocina",
+        "Acabados de baño modernos",
+        "Sin amueblar — listo para amueblar a su gusto",
+        "Balcón",
+        "Aparcamiento cubierto"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m al mar",
+        "3 piscinas exteriores",
+        "Piscina cubierta de invierno",
+        "Centro SPA exclusivo gestionado profesionalmente",
+        "VIP SPA",
+        "Zona de relax",
+        "2 gimnasios",
+        "2 salas de juegos infantiles y zonas exteriores",
+        "Sala de cine",
+        "Tenis de mesa",
+        "Zona de coworking",
+        "Aparcamiento cubierto"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Dúplex 2+1 Venta",
+      "location": "Centro de Alanya, Turquía",
+      "description": "Dúplex 2+1 sin amueblar en venta en BestHome 36 Centrum, centro de Alanya — 99 m², 150 m al mar.\n\nDistribución en dos niveles con escalera, dormitorios, baño moderno y balcón con vistas a las piscinas del complejo.\n\nAmenidades premium: piscinas exteriores e interior, SPA exclusivo / VIP SPA, gimnasio, cine, coworking, zonas infantiles y aparcamiento cubierto.",
+      "note": "Sin amueblar. Precio: 230.000€.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "Dúplex 2+1 — 99 m²",
+        "Dos niveles con escalera interior",
+        "Dos dormitorios + zona de estar",
+        "Baño moderno",
+        "Sin amueblar — listo para amueblar a su gusto",
+        "Balcón con vistas al complejo / piscinas",
+        "Aparcamiento cubierto"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m al mar",
+        "3 piscinas exteriores",
+        "Piscina cubierta de invierno",
+        "Centro SPA exclusivo gestionado profesionalmente",
+        "VIP SPA",
+        "Zona de relax",
+        "2 gimnasios",
+        "2 salas de juegos infantiles y zonas exteriores",
+        "Sala de cine",
+        "Tenis de mesa",
+        "Zona de coworking",
+        "Aparcamiento cubierto"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Dúplex 2+1 Venta",
+      "location": "Centro de Alanya, Turquía",
+      "description": "Dúplex 2+1 amueblado en venta en BestHome 37 Centrum, centro de Alanya — 119 m², 150 m al mar.\n\nSalón-comedor completamente amueblado, cocina equipada moderna (Siemens), balcón con vistas al mar y a las piscinas del complejo.\n\nAmenidades premium: piscinas exteriores e interior, SPA exclusivo / VIP SPA, gimnasio, cine, coworking, zonas infantiles y aparcamiento cubierto.",
+      "note": "Amueblado. Precio: 375.000€.",
+      "roomSpecsTitle": "Detalles del apartamento",
+      "roomSpecs": [
+        "Dúplex 2+1 — 119 m²",
+        "Dos dormitorios + salón-comedor",
+        "Interior moderno completamente amueblado",
+        "Cocina equipada Siemens",
+        "Balcón con vistas al mar / complejo",
+        "Aparcamiento cubierto"
+      ],
+      "socialAmenitiesTitle": "Servicios del complejo",
+      "socialAmenities": [
+        "150 m al mar",
+        "3 piscinas exteriores",
+        "Piscina cubierta de invierno",
+        "Centro SPA exclusivo gestionado profesionalmente",
+        "VIP SPA",
+        "Zona de relax",
+        "2 gimnasios",
+        "2 salas de juegos infantiles y zonas exteriores",
+        "Sala de cine",
+        "Tenis de mesa",
+        "Zona de coworking",
+        "Aparcamiento cubierto"
+      ]
     }
   },
   "partners": {

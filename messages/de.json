@@ -1115,6 +1115,97 @@
         "3 Außenpools",
         "1 Hallenbad"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Verkauf",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Unmöblierte 2+1 Wohnung zum Verkauf in BestHome 36 Centrum, Alanya Zentrum — 84 m², 150 m zum Meer.\n\nGrundriss: zwei Schlafzimmer + Wohnküche. Moderne Ausstattung, Einbauküche, Balkon, überdachte Parkplätze.\n\nPremium-Anlage mit Pools, exklusivem SPA, Fitness, Kino, Coworking und Kinderbereichen.",
+      "note": "Unmöbliert. Preis: 320.000€.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "Zwei Schlafzimmer + Wohnküche",
+        "Moderne Badausstattung",
+        "Unmöbliert — nach Wunsch einrichtbar",
+        "Balkon",
+        "Überdachte Parkplätze"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "3 Außenpools",
+        "Hallenbad (Winter)",
+        "Professionell geführtes exklusives SPA-Center",
+        "VIP SPA",
+        "Entspannungsbereich",
+        "2 Fitnessstudios",
+        "2 Kinderspielräume und Außenspielplätze",
+        "Kinosaal",
+        "Tischtennis",
+        "Coworking-Bereich",
+        "Tiefgarage / überdachte Parkplätze"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Duplex 2+1 Verkauf",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Unmöbliertes Duplex-2+1 zum Verkauf in BestHome 36 Centrum, Alanya Zentrum — 99 m², 150 m zum Meer.\n\nZweietagige Aufteilung mit Treppe, Schlafzimmern, modernem Bad und Balkon mit Blick auf die Anlagenpools.\n\nPremium-Ausstattung: Außen- und Hallenbäder, exklusives SPA / VIP SPA, Fitness, Kino, Coworking, Kinderbereiche und überdachte Parkplätze.",
+      "note": "Unmöbliert. Preis: 230.000€.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "Duplex 2+1 — 99 m²",
+        "Zwei Ebenen mit Innentreppe",
+        "Zwei Schlafzimmer + Wohnbereich",
+        "Modernes Bad",
+        "Unmöbliert — nach Wunsch einrichtbar",
+        "Balkon mit Blick auf die Anlage / Pools",
+        "Überdachte Parkplätze"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "3 Außenpools",
+        "Hallenbad (Winter)",
+        "Professionell geführtes exklusives SPA-Center",
+        "VIP SPA",
+        "Entspannungsbereich",
+        "2 Fitnessstudios",
+        "2 Kinderspielräume und Außenspielplätze",
+        "Kinosaal",
+        "Tischtennis",
+        "Coworking-Bereich",
+        "Überdachte Parkplätze"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Duplex 2+1 Verkauf",
+      "location": "Alanya Zentrum, Türkei",
+      "description": "Möbliertes Duplex-2+1 zum Verkauf in BestHome 37 Centrum, Alanya Zentrum — 119 m², 150 m zum Meer.\n\nVoll möblierter Wohn-Essbereich, moderne Einbauküche (Siemens), Balkon mit Meeresrichtung und Blick auf die Anlagenpools.\n\nPremium-Ausstattung: Außen- und Hallenbäder, exklusives SPA / VIP SPA, Fitness, Kino, Coworking, Kinderbereiche und überdachte Parkplätze.",
+      "note": "Möbliert. Preis: 375.000€.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "Duplex 2+1 — 119 m²",
+        "Zwei Schlafzimmer + Wohn-Essbereich",
+        "Voll möbliertes modernes Interieur",
+        "Einbauküche mit Siemens-Geräten",
+        "Balkon mit Meer- / Anlagenblick",
+        "Überdachte Parkplätze"
+      ],
+      "socialAmenitiesTitle": "Anlage-Ausstattung",
+      "socialAmenities": [
+        "150 m zum Meer",
+        "3 Außenpools",
+        "Hallenbad (Winter)",
+        "Professionell geführtes exklusives SPA-Center",
+        "VIP SPA",
+        "Entspannungsbereich",
+        "2 Fitnessstudios",
+        "2 Kinderspielräume und Außenspielplätze",
+        "Kinosaal",
+        "Tischtennis",
+        "Coworking-Bereich",
+        "Überdachte Parkplätze"
+      ]
     }
   },
   "partners": {

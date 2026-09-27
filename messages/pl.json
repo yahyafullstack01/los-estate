@@ -1115,6 +1115,97 @@
         "3 baseny odkryte",
         "1 basen kryty"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Sprzedaż",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Nieumeblowane mieszkanie 2+1 na sprzedaż w BestHome 36 Centrum, centrum Alanyi — 84 m², 150 m od morza.\n\nUkład: dwie sypialnie + salon-kuchnia. Nowoczesne wykończenie, zabudowana kuchnia, balkon, parking kryty.\n\nKompleks premium z basenami, ekskluzywnym SPA, siłownią, kinem, coworkingiem i strefami dla dzieci.",
+      "note": "Bez mebli. Cena: 320 000€.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "Dwie sypialnie + salon-kuchnia",
+        "Nowoczesne wykończenie łazienki",
+        "Bez mebli — do urządzenia według uznania",
+        "Balkon",
+        "Parking kryty"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "3 baseny zewnętrzne",
+        "Basen kryty zimowy",
+        "Profesjonalnie zarządzane ekskluzywne SPA",
+        "VIP SPA",
+        "Strefa relaksu",
+        "2 siłownie",
+        "2 pokoje zabaw dla dzieci i place zewnętrzne",
+        "Sala kinowa",
+        "Tenis stołowy",
+        "Strefa coworking",
+        "Parking kryty"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Duplex 2+1 Sprzedaż",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Nieumeblowany duplex 2+1 na sprzedaż w BestHome 36 Centrum, centrum Alanyi — 99 m², 150 m od morza.\n\nUkład dwupoziomowy ze schodami, sypialniami, nowoczesną łazienką i balkonem z widokiem na baseny kompleksu.\n\nPremium: baseny zewnętrzne i kryty, ekskluzywne SPA / VIP SPA, siłownia, kino, coworking, strefy dla dzieci i parking kryty.",
+      "note": "Bez mebli. Cena: 230 000€.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "Duplex 2+1 — 99 m²",
+        "Dwa poziomy z wewnętrznymi schodami",
+        "Dwie sypialnie + część dzienna",
+        "Nowoczesna łazienka",
+        "Bez mebli — do urządzenia według uznania",
+        "Balkon z widokiem na kompleks / baseny",
+        "Parking kryty"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "3 baseny zewnętrzne",
+        "Basen kryty zimowy",
+        "Profesjonalnie zarządzane ekskluzywne SPA",
+        "VIP SPA",
+        "Strefa relaksu",
+        "2 siłownie",
+        "2 pokoje zabaw dla dzieci i place zewnętrzne",
+        "Sala kinowa",
+        "Tenis stołowy",
+        "Strefa coworking",
+        "Parking kryty"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Duplex 2+1 Sprzedaż",
+      "location": "Centrum Alanyi, Turcja",
+      "description": "Umeblowany duplex 2+1 na sprzedaż w BestHome 37 Centrum, centrum Alanyi — 119 m², 150 m od morza.\n\nW pełni umeblowany salon-jadalnia, nowoczesna kuchnia (Siemens), balkon z widokiem w stronę morza i na baseny kompleksu.\n\nPremium: baseny zewnętrzne i kryty, ekskluzywne SPA / VIP SPA, siłownia, kino, coworking, strefy dla dzieci i parking kryty.",
+      "note": "Z meblami. Cena: 375 000€.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "Duplex 2+1 — 119 m²",
+        "Dwie sypialnie + salon-jadalnia",
+        "W pełni umeblowane nowoczesne wnętrze",
+        "Zabudowana kuchnia Siemens",
+        "Balkon z widokiem na morze / kompleks",
+        "Parking kryty"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "150 m do morza",
+        "3 baseny zewnętrzne",
+        "Basen kryty zimowy",
+        "Profesjonalnie zarządzane ekskluzywne SPA",
+        "VIP SPA",
+        "Strefa relaksu",
+        "2 siłownie",
+        "2 pokoje zabaw dla dzieci i place zewnętrzne",
+        "Sala kinowa",
+        "Tenis stołowy",
+        "Strefa coworking",
+        "Parking kryty"
+      ]
     }
   },
   "partners": {

@@ -1115,6 +1115,97 @@
         "3 piscines extérieures",
         "1 piscine intérieure"
       ]
+    },
+    "besthome-36-sale-2-1-84": {
+      "title": "BestHome 36 Centrum — 2+1 Vente",
+      "location": "Centre d’Alanya, Turquie",
+      "description": "Appartement 2+1 non meublé à vendre à BestHome 36 Centrum, centre d’Alanya — 84 m², 150 m de la mer.\n\nPlan: deux chambres + salon-cuisine. Finitions modernes, cuisine équipée, balcon, parking couvert.\n\nComplexe premium avec piscines, SPA exclusif, fitness, cinéma, coworking et espaces enfants.",
+      "note": "Non meublé. Prix: 320 000€.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "2+1 — 84 m²",
+        "Deux chambres + salon-cuisine",
+        "Finitions salle de bain modernes",
+        "Non meublé — à aménager selon vos goûts",
+        "Balcon",
+        "Parking couvert"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la mer",
+        "3 piscines extérieures",
+        "Piscine intérieure d’hiver",
+        "Centre SPA exclusif géré professionnellement",
+        "VIP SPA",
+        "Zone de détente",
+        "2 salles de fitness",
+        "2 salles de jeux pour enfants et aires extérieures",
+        "Salle de cinéma",
+        "Tennis de table",
+        "Espace coworking",
+        "Parking couvert"
+      ]
+    },
+    "besthome-36-sale-duplex-2-1-99": {
+      "title": "BestHome 36 Centrum — Duplex 2+1 Vente",
+      "location": "Centre d’Alanya, Turquie",
+      "description": "Duplex 2+1 non meublé à vendre à BestHome 36 Centrum, centre d’Alanya — 99 m², 150 m de la mer.\n\nPlan sur deux niveaux avec escalier, chambres, salle de bain moderne et balcon donnant sur les piscines du complexe.\n\nÉquipements premium: piscines extérieures et intérieure, SPA exclusif / VIP SPA, fitness, cinéma, coworking, espaces enfants et parking couvert.",
+      "note": "Non meublé. Prix: 230 000€.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "Duplex 2+1 — 99 m²",
+        "Deux niveaux avec escalier intérieur",
+        "Deux chambres + espace de vie",
+        "Salle de bain moderne",
+        "Non meublé — à aménager selon vos goûts",
+        "Balcon vue complexe / piscines",
+        "Parking couvert"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la mer",
+        "3 piscines extérieures",
+        "Piscine intérieure d’hiver",
+        "Centre SPA exclusif géré professionnellement",
+        "VIP SPA",
+        "Zone de détente",
+        "2 salles de fitness",
+        "2 salles de jeux pour enfants et aires extérieures",
+        "Salle de cinéma",
+        "Tennis de table",
+        "Espace coworking",
+        "Parking couvert"
+      ]
+    },
+    "besthome-37-sale-duplex-2-1-119": {
+      "title": "BestHome 37 Centrum — Duplex 2+1 Vente",
+      "location": "Centre d’Alanya, Turquie",
+      "description": "Duplex 2+1 meublé à vendre à BestHome 37 Centrum, centre d’Alanya — 119 m², 150 m de la mer.\n\nSalon-salle à manger entièrement meublé, cuisine équipée moderne (Siemens), balcon avec vue mer et sur les piscines du complexe.\n\nÉquipements premium: piscines extérieures et intérieure, SPA exclusif / VIP SPA, fitness, cinéma, coworking, espaces enfants et parking couvert.",
+      "note": "Meublé. Prix: 375 000€.",
+      "roomSpecsTitle": "Détails de l’appartement",
+      "roomSpecs": [
+        "Duplex 2+1 — 119 m²",
+        "Deux chambres + salon-salle à manger",
+        "Intérieur moderne entièrement meublé",
+        "Cuisine équipée Siemens",
+        "Balcon vue mer / complexe",
+        "Parking couvert"
+      ],
+      "socialAmenitiesTitle": "Équipements du complexe",
+      "socialAmenities": [
+        "150 m de la mer",
+        "3 piscines extérieures",
+        "Piscine intérieure d’hiver",
+        "Centre SPA exclusif géré professionnellement",
+        "VIP SPA",
+        "Zone de détente",
+        "2 salles de fitness",
+        "2 salles de jeux pour enfants et aires extérieures",
+        "Salle de cinéma",
+        "Tennis de table",
+        "Espace coworking",
+        "Parking couvert"
+      ]
     }
   },
   "partners": {
