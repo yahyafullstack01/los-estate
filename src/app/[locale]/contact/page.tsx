@@ -5,7 +5,7 @@ import { ContactChannels } from "@/components/sections/ContactChannels";
 import { OwnerContactCallout } from "@/components/sections/OwnerContactCallout";
 import { getListingBySlug } from "@/data/listings";
 import { getListingInquiryContext } from "@/lib/property-i18n";
-import { getAlternateLanguages } from "@/lib/seo";
+import { getPageAlternates } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {
@@ -20,9 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("contactTitle"),
     description: t("contactDescription"),
-    alternates: {
-      languages: getAlternateLanguages("/contact"),
-    },
+    alternates: getPageAlternates(locale as Locale, "/contact"),
   };
 }
 

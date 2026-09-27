@@ -12,7 +12,7 @@ import { FeaturedListings } from "@/components/sections/FeaturedListings";
 import { PropertyManagementTeaser } from "@/components/sections/PropertyManagementTeaser";
 import { Stats } from "@/components/sections/Stats";
 import { CTA } from "@/components/sections/CTA";
-import { getAlternateLanguages } from "@/lib/seo";
+import { getPageAlternates } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -24,9 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("homeTitle"),
     description: t("homeDescription"),
-    alternates: {
-      languages: getAlternateLanguages("/"),
-    },
+    alternates: getPageAlternates(locale as Locale, "/"),
   };
 }
 

@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { ForOwnersContent } from "@/components/sections/ForOwnersContent";
-import { getAlternateLanguages } from "@/lib/seo";
+import { getPageAlternates } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {
@@ -15,9 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("forOwnersTitle"),
     description: t("forOwnersDescription"),
-    alternates: {
-      languages: getAlternateLanguages("/for-owners"),
-    },
+    alternates: getPageAlternates(locale as Locale, "/for-owners"),
   };
 }
 

@@ -14,7 +14,7 @@ import { PropertyGallery } from "@/components/listing/PropertyGallery";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
 import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations, getListingInquiryContext } from "@/lib/property-i18n";
-import { getAlternateLanguages } from "@/lib/seo";
+import { absoluteUrl, getPageAlternates } from "@/lib/seo";
 import { locales, type Locale } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
@@ -36,15 +36,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     namespace: `properties.${slug}`,
   });
 
+  const description = t("description");
+  const shortDescription =
+    description.length > 160
+      ? `${description.slice(0, 157).trim()}...`
+      : description;
+
   return {
     title: t("title"),
-    description: t("description"),
+    description: shortDescription,
     openGraph: {
-      images: listing.images[0] ? [listing.images[0]] : ["/og-default.png"],
+      title: t("title"),
+      description: shortDescription,
+      images: listing.images[0]
+        ? [absoluteUrl(listing.images[0])]
+        : [absoluteUrl("/og-default.png")],
+      type: "website",
     },
-    alternates: {
-      languages: getAlternateLanguages(`/listings/${slug}`),
-    },
+    alternates: getPageAlternates(locale as Locale, `/listings/${slug}`),
   };
 }
 

@@ -5,7 +5,7 @@ import { listings } from "@/data/listings";
 import type { PropertyType, TransactionType } from "@/data/listings";
 import { ListingFilters } from "@/components/listing/ListingFilters";
 import { PropertyGrid } from "@/components/listing/PropertyGrid";
-import { getAlternateLanguages } from "@/lib/seo";
+import { getPageAlternates } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {
@@ -20,9 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("listingsTitle"),
     description: t("listingsDescription"),
-    alternates: {
-      languages: getAlternateLanguages("/listings"),
-    },
+    alternates: getPageAlternates(locale as Locale, "/listings"),
   };
 }
 

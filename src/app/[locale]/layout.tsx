@@ -5,13 +5,14 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-import { getSiteUrl } from "@/lib/seo";
+import { getSiteUrl, absoluteUrl } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import { Cormorant_Garamond, DM_Sans, Noto_Sans_Arabic } from "next/font/google";
 import { routing, rtlLocales, type Locale } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -64,7 +65,7 @@ export async function generateMetadata({
       apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
     },
     openGraph: {
-      images: ["/og-default.png"],
+      images: [absoluteUrl("/og-default.png")],
     },
   };
 }
@@ -93,6 +94,7 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
+            <OrganizationJsonLd />
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
