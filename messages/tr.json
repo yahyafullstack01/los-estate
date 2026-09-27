@@ -12,8 +12,8 @@
     "partnersDescription": "Türkiye'de LOS ESTATE ile iş ortaklığı: Alanya gayrimenkulü için müşteri yönlendirin, kiralığınızı listeleyin veya projenizi tanıtın. Komisyon bazlı ajans ortaklığı.",
     "forOwnersTitle": "Alanya'da Ev Sahipleri için Mülk Yönetimi | LOS ESTATE",
     "forOwnersDescription": "Alanya'daki daireniz için anahtar teslim yönetim veya garantili kira. Stabil gelir, misafir ve bakım — her şeyi LOS ESTATE yönetir.",
-    "guidesTitle": "Alanya Emlak Rehberleri | LOS ESTATE",
-    "guidesDescription": "Alanya'da kiralama ve satın alma rehberleri — öncelikli içerik İngilizce ve Rusça."
+    "guidesTitle": "Alanya emlak rehberleri — kiralama, satın alma, kış | LOS ESTATE",
+    "guidesDescription": "Alanya’da kiralama ve satın alma, BestHome 36 vs 37 ve kış aylık kira rehberleri. LOS ESTATE ipuçları ve WhatsApp desteği."
   },
   "nav": {
     "home": "Ana sayfa",
@@ -1373,19 +1373,19 @@
     "contactCalloutText": "Aşağıdan size uygun seçeneği işaretleyin veya tam rehberimizi okuyun."
   },
   "guides": {
-    "eyebrow": "Guides",
-    "title": "Alanya Property Guides",
-    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
-    "teaserTitle": "Guides to Alanya property",
-    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
-    "viewAll": "All guides",
-    "readMore": "Read guide",
-    "published": "Published",
-    "backToGuides": "Back to guides",
-    "faqTitle": "FAQ",
-    "relatedListings": "Related properties",
-    "allListings": "All properties",
-    "whatsapp": "WhatsApp us",
-    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
+    "eyebrow": "Rehberler",
+    "title": "Alanya emlak rehberleri",
+    "subtitle": "Alanya’da kiralama, satın alma, BestHome siteleri ve kış konaklaması hakkında pratik rehberler — uluslararası müşteriler için.",
+    "teaserTitle": "Alanya emlak rehberleri",
+    "teaserIntro": "Kirala, satın al, BestHome 36 vs 37 ve kış aylık kira — gerçek ilan bağlantılarıyla.",
+    "viewAll": "Tüm rehberler",
+    "readMore": "Rehberi oku",
+    "published": "Yayınlandı",
+    "backToGuides": "Rehberlere dön",
+    "faqTitle": "SSS",
+    "relatedListings": "İlgili gayrimenkuller",
+    "allListings": "Tüm gayrimenkuller",
+    "whatsapp": "WhatsApp’tan yazın",
+    "whatsappPrefill": "Merhaba LOS ESTATE, “{title}” yazısını okudum ve Alanya’da gayrimenkul için yardıma ihtiyacım var."
   }
 }

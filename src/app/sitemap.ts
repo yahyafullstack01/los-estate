@@ -41,13 +41,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     for (const slug of guideSlugs) {
-      // Prioritize EN + RU in crawl budget hints
-      const priority = locale === "en" || locale === "ru" ? 0.85 : 0.55;
       entries.push({
         url: `${base}/${locale}/guides/${slug}`,
         lastModified: new Date(),
         changeFrequency: "monthly",
-        priority,
+        priority: 0.85,
       });
     }
   }

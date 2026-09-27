@@ -12,8 +12,8 @@
     "partnersDescription": "Partnerschaft mit LOS ESTATE in der Türkei: Kunden für Alanya-Immobilien vermitteln, Mietobjekt listen oder Projekt bewerben. Provisionsbasierte Agenturpartnerschaft.",
     "forOwnersTitle": "Immobilienverwaltung in Alanya für Eigentümer | LOS ESTATE",
     "forOwnersDescription": "Schlüsselfertige Verwaltung oder garantierte Miete für Ihre Wohnung in Alanya. Stabiles Einkommen, Gäste und Wartung — LOS ESTATE übernimmt alles.",
-    "guidesTitle": "Ratgeber Immobilien Alanya | LOS ESTATE",
-    "guidesDescription": "Ratgeber zu Miete und Kauf in Alanya — Inhalte schwerpunktmäßig auf Englisch und Russisch."
+    "guidesTitle": "Immobilien-Ratgeber Alanya — Mieten, Kaufen, Winter | LOS ESTATE",
+    "guidesDescription": "Ratgeber zu Miete und Kauf in Alanya, BestHome 36 vs 37 und Winter-Monatsmiete. Tipps von LOS ESTATE mit WhatsApp-Support."
   },
   "nav": {
     "home": "Startseite",
@@ -1373,19 +1373,19 @@
     "contactCalloutText": "Wählen Sie unten die passende Option oder lesen Sie unseren Eigentümer-Leitfaden."
   },
   "guides": {
-    "eyebrow": "Guides",
-    "title": "Alanya Property Guides",
-    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
-    "teaserTitle": "Guides to Alanya property",
-    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
-    "viewAll": "All guides",
-    "readMore": "Read guide",
-    "published": "Published",
-    "backToGuides": "Back to guides",
+    "eyebrow": "Ratgeber",
+    "title": "Immobilien-Ratgeber Alanya",
+    "subtitle": "Praxisratgeber zu Miete, Kauf, BestHome-Anlagen und Winteraufenthalt in Alanya — für internationale Kunden.",
+    "teaserTitle": "Ratgeber zu Immobilien in Alanya",
+    "teaserIntro": "Mieten, kaufen, BestHome 36 vs 37 und Winter-Monatsmiete — mit Links zu echten Angeboten.",
+    "viewAll": "Alle Ratgeber",
+    "readMore": "Weiterlesen",
+    "published": "Veröffentlicht",
+    "backToGuides": "Zurück zu den Ratgebern",
     "faqTitle": "FAQ",
-    "relatedListings": "Related properties",
-    "allListings": "All properties",
-    "whatsapp": "WhatsApp us",
-    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
+    "relatedListings": "Ähnliche Objekte",
+    "allListings": "Alle Objekte",
+    "whatsapp": "Per WhatsApp schreiben",
+    "whatsappPrefill": "Hallo LOS ESTATE, ich habe „{title}“ gelesen und brauche Hilfe bei Immobilien in Alanya."
   }
 }

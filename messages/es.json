@@ -12,8 +12,8 @@
     "partnersDescription": "Asóciese con LOS ESTATE en Turquía: derive clientes para Alanya, liste su alquiler o promueva su proyecto. Asociación de agencia por comisión.",
     "forOwnersTitle": "Gestión inmobiliaria en Alanya para propietarios | LOS ESTATE",
     "forOwnersDescription": "Gestión llave en mano o alquiler garantizado para su apartamento en Alanya. Ingresos estables, huéspedes y mantenimiento — LOS ESTATE se encarga de todo.",
-    "guidesTitle": "Guías inmobiliarias Alanya | LOS ESTATE",
-    "guidesDescription": "Guías de alquiler y compra en Alanya — contenido prioritario en inglés y ruso."
+    "guidesTitle": "Guías inmobiliarias Alanya — alquiler, compra, invierno | LOS ESTATE",
+    "guidesDescription": "Guías sobre alquiler y compra en Alanya, BestHome 36 vs 37 y alquiler mensual de invierno. Consejos de LOS ESTATE y WhatsApp."
   },
   "nav": {
     "home": "Inicio",
@@ -1373,19 +1373,19 @@
     "contactCalloutText": "Seleccione la opción abajo o lea nuestra guía completa para propietarios."
   },
   "guides": {
-    "eyebrow": "Guides",
-    "title": "Alanya Property Guides",
-    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
-    "teaserTitle": "Guides to Alanya property",
-    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
-    "viewAll": "All guides",
-    "readMore": "Read guide",
-    "published": "Published",
-    "backToGuides": "Back to guides",
-    "faqTitle": "FAQ",
-    "relatedListings": "Related properties",
-    "allListings": "All properties",
-    "whatsapp": "WhatsApp us",
-    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
+    "eyebrow": "Guías",
+    "title": "Guías inmobiliarias de Alanya",
+    "subtitle": "Guías prácticas sobre alquiler, compra, complejos BestHome e invierno en Alanya — para clientes internacionales.",
+    "teaserTitle": "Guías de inmuebles en Alanya",
+    "teaserIntro": "Alquilar, comprar, BestHome 36 vs 37 y alquiler mensual de invierno — con enlaces a anuncios reales.",
+    "viewAll": "Todas las guías",
+    "readMore": "Leer guía",
+    "published": "Publicado",
+    "backToGuides": "Volver a las guías",
+    "faqTitle": "Preguntas frecuentes",
+    "relatedListings": "Propiedades relacionadas",
+    "allListings": "Todas las propiedades",
+    "whatsapp": "Escribir por WhatsApp",
+    "whatsappPrefill": "Hola LOS ESTATE, leí “{title}” y necesito ayuda con un inmueble en Alanya."
   }
 }

@@ -18,7 +18,7 @@ export function GuideJsonLd({ guide, content, locale }: Props) {
         description: content.description,
         datePublished: guide.publishedAt,
         dateModified: guide.publishedAt,
-        inLanguage: locale === "ru" ? "ru" : "en",
+        inLanguage: locale,
         author: {
           "@type": "Organization",
           name: "LOS ESTATE",

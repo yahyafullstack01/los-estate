@@ -12,8 +12,8 @@
     "partnersDescription": "Współpraca z LOS ESTATE w Turcji: polecaj klientów na Alanyę, wystawiaj wynajem lub promuj projekt. Partnerska współpraca prowizyjna.",
     "forOwnersTitle": "Zarządzanie nieruchomościami w Alanyi dla właścicieli | LOS ESTATE",
     "forOwnersDescription": "Zarządzanie pod klucz lub gwarantowany wynajem Twojego apartamentu w Alanyi. Stabilny dochód, goście i utrzymanie — LOS ESTATE zajmuje się wszystkim.",
-    "guidesTitle": "Przewodniki po nieruchomościach w Alanyi | LOS ESTATE",
-    "guidesDescription": "Przewodniki LOS ESTATE o wynajmie i zakupie mieszkań w Alanyi (treści głównie EN/RU)."
+    "guidesTitle": "Przewodniki po nieruchomościach w Alanyi — wynajem, zakup, zima | LOS ESTATE",
+    "guidesDescription": "Przewodniki o wynajmie i zakupie mieszkań w Alanyi, BestHome 36 vs 37 oraz zimowym wynajmie miesięcznym. Porady LOS ESTATE i WhatsApp."
   },
   "nav": {
     "home": "Strona główna",
@@ -1373,19 +1373,19 @@
     "contactCalloutText": "Wybierz opcję poniżej lub przeczytaj pełny przewodnik dla właścicieli."
   },
   "guides": {
-    "eyebrow": "Guides",
-    "title": "Alanya Property Guides",
-    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
-    "teaserTitle": "Guides to Alanya property",
-    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
-    "viewAll": "All guides",
-    "readMore": "Read guide",
-    "published": "Published",
-    "backToGuides": "Back to guides",
+    "eyebrow": "Przewodniki",
+    "title": "Przewodniki po nieruchomościach w Alanyi",
+    "subtitle": "Praktyczne materiały: wynajem, zakup, kompleksy BestHome i zimowanie w Alanyi — dla klientów międzynarodowych.",
+    "teaserTitle": "Przewodniki po nieruchomościach Alanyi",
+    "teaserIntro": "Wynajem, zakup, BestHome 36 vs 37 i zimowy wynajem miesięczny — z linkami do realnych ofert.",
+    "viewAll": "Wszystkie przewodniki",
+    "readMore": "Czytaj",
+    "published": "Opublikowano",
+    "backToGuides": "Wróć do przewodników",
     "faqTitle": "FAQ",
-    "relatedListings": "Related properties",
-    "allListings": "All properties",
-    "whatsapp": "WhatsApp us",
-    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
+    "relatedListings": "Powiązane oferty",
+    "allListings": "Wszystkie oferty",
+    "whatsapp": "Napisz na WhatsApp",
+    "whatsappPrefill": "Cześć LOS ESTATE, przeczytałem/am „{title}” i potrzebuję pomocy z nieruchomością w Alanyi."
   }
 }
