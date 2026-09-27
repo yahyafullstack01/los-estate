@@ -11,7 +11,9 @@
     "partnersTitle": "للشركاء — وكالات وملاك ومطورون | LOS ESTATE",
     "partnersDescription": "شراكة مع LOS ESTATE في تركيا: أحِل عملاء لعقارات ألانيا، أو اعرض إيجارك، أو روّج لمشروعك. شراكة وكالات على عمولة.",
     "forOwnersTitle": "إدارة عقارات ألانيا للملاك | LOS ESTATE",
-    "forOwnersDescription": "إدارة متكاملة أو إيجار مضمون لشقتك في ألانيا. دخل مستقر وضيوف وصيانة — LOS ESTATE يتولى كل شيء."
+    "forOwnersDescription": "إدارة متكاملة أو إيجار مضمون لشقتك في ألانيا. دخل مستقر وضيوف وصيانة — LOS ESTATE يتولى كل شيء.",
+    "guidesTitle": "أدلة عقارات ألانيا | LOS ESTATE",
+    "guidesDescription": "أدلة الإيجار والشراء في ألانيا — المحتوى الأساسي بالإنجليزية والروسية."
   },
   "nav": {
     "home": "الرئيسية",
@@ -21,7 +23,8 @@
     "sale": "للبيع",
     "rent": "للإيجار",
     "partners": "للشركاء",
-    "forOwners": "للملاك"
+    "forOwners": "للملاك",
+    "guides": "أدلة"
   },
   "hero": {
     "title": "ارتقِ بأسلوب حياتك",
@@ -1368,5 +1371,21 @@
     "contactCalloutEyebrow": "مالك عقار؟",
     "contactCalloutTitle": "إدارة متكاملة أو إيجار مضمون",
     "contactCalloutText": "اختر الخيار المناسب أدناه أو اقرأ دليل الملاك الكامل."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Alanya Property Guides",
+    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
+    "teaserTitle": "Guides to Alanya property",
+    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
+    "viewAll": "All guides",
+    "readMore": "Read guide",
+    "published": "Published",
+    "backToGuides": "Back to guides",
+    "faqTitle": "FAQ",
+    "relatedListings": "Related properties",
+    "allListings": "All properties",
+    "whatsapp": "WhatsApp us",
+    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
   }
 }

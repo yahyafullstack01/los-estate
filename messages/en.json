@@ -2,16 +2,18 @@
   "metadata": {
     "siteName": "LOS ESTATE",
     "tagline": "Real Estate Group",
-    "homeTitle": "Apartments & Hotels for Sale and Rent in Alanya, Turkey",
-    "homeDescription": "LOS ESTATE — luxury apartments, duplexes and beach hotels for sale and rent in Alanya, Gazipaşa and Antalya. Multilingual service for buyers and tenants from Europe, Russia and Kazakhstan.",
-    "listingsTitle": "Properties for Sale & Rent in Alanya | LOS ESTATE",
-    "listingsDescription": "Browse apartments, duplexes and hotels for sale and rent in Alanya Center, BestHome complexes and Gazipaşa. Verified listings with photos, prices and WhatsApp contact.",
+    "homeTitle": "Apartments for Rent & Sale in Alanya, Turkey | LOS ESTATE",
+    "homeDescription": "Rent or buy apartments in Alanya — BestHome 1+1 and 2+1, duplexes and beach hotels in Gazipaşa. LOS ESTATE helps English- and Russian-speaking clients with WhatsApp support.",
+    "listingsTitle": "Apartments for Rent & Sale in Alanya | BestHome & Hotels",
+    "listingsDescription": "Browse Alanya apartments for rent and sale: BestHome 36 & 37, duplexes, and hotels in Gazipaşa. Verified photos, prices and WhatsApp — LOS ESTATE.",
     "contactTitle": "Contact LOS ESTATE — Alanya Real Estate",
     "contactDescription": "Contact LOS ESTATE for apartment rentals, property sales and hotel investments in Alanya and Gazipaşa, Turkey. WhatsApp and email replies in English and Russian.",
     "partnersTitle": "Partners — Agencies, Landlords & Developers | LOS ESTATE",
     "partnersDescription": "Partner with LOS ESTATE in Turkey: refer clients for Alanya property, list your rental, or promote your residential project. Commission-based agency partnerships.",
     "forOwnersTitle": "Property Management in Alanya for Owners | LOS ESTATE",
-    "forOwnersDescription": "Turnkey property management or guaranteed rental for your apartment in Alanya, Turkey. Stable income, guest handling and maintenance — LOS ESTATE manages everything."
+    "forOwnersDescription": "Turnkey property management or guaranteed rental for your apartment in Alanya, Turkey. Stable income, guest handling and maintenance — LOS ESTATE manages everything.",
+    "guidesTitle": "Alanya Property Guides — Rent, Buy & Winter Stay | LOS ESTATE",
+    "guidesDescription": "English guides to renting and buying apartments in Alanya, BestHome 36 vs 37, and winter monthly rentals. Expert tips from LOS ESTATE with WhatsApp support."
   },
   "nav": {
     "home": "Home",
@@ -21,7 +23,8 @@
     "sale": "For Sale",
     "rent": "For Rent",
     "partners": "For Partners",
-    "forOwners": "For Owners"
+    "forOwners": "For Owners",
+    "guides": "Guides"
   },
   "hero": {
     "title": "Elevate Your Lifestyle",
@@ -1368,5 +1371,21 @@
     "contactCalloutEyebrow": "Property owner?",
     "contactCalloutTitle": "Turnkey management or guaranteed rental",
     "contactCalloutText": "Select the option that fits you below, or read our full owner guide."
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Alanya Property Guides",
+    "subtitle": "Practical English guides on renting, buying, BestHome complexes, and winter stays in Alanya — written for international clients.",
+    "teaserTitle": "Guides to Alanya property",
+    "teaserIntro": "Rent, buy, BestHome 36 vs 37, and winter monthly stays — clear advice with links to real listings.",
+    "viewAll": "All guides",
+    "readMore": "Read guide",
+    "published": "Published",
+    "backToGuides": "Back to guides",
+    "faqTitle": "FAQ",
+    "relatedListings": "Related properties",
+    "allListings": "All properties",
+    "whatsapp": "WhatsApp us",
+    "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
   }
 }

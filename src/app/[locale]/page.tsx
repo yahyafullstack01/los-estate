@@ -10,6 +10,7 @@ import {
 } from "@/components/sections/AboutUs";
 import { FeaturedListings } from "@/components/sections/FeaturedListings";
 import { PropertyManagementTeaser } from "@/components/sections/PropertyManagementTeaser";
+import { GuidesTeaser } from "@/components/sections/GuidesTeaser";
 import { Stats } from "@/components/sections/Stats";
 import { CTA } from "@/components/sections/CTA";
 import { getPageAlternates } from "@/lib/seo";
@@ -39,6 +40,7 @@ export default async function HomePage({ params }: Props) {
       <PropertyManagementTeaser />
       <AboutIntro />
       <FeaturedListings />
+      <GuidesTeaser />
       <AboutSpecialization />
       <AboutWhyChoose />
       <AboutClosing />
