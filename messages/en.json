@@ -1209,6 +1209,78 @@
         "Coworking zone",
         "Covered parking"
       ]
+    },
+    "alanya-kargicak-villa-3-1-rent": {
+      "title": "Villa 3+1 Rent — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Turkey",
+      "priceLabel": "From €200 / day · from €1,500 / month",
+      "description": "Spacious 3+1 villa for rent in Alanya Kargıcak, Turkey.\n\n3 bedrooms, 3 bathrooms, 220 m². Private outdoor pool, modern furnished interiors, open-plan living and kitchen, mountain and valley views from the terrace.\n\nIdeal for long-term stay, winter living, or short daily rentals. Air conditioning, bright rooms, and a quiet hillside location.",
+      "note": "Rates: from €200 per day. From €1,500 per month for long-term rent. Contact us on WhatsApp for availability.",
+      "roomSpecsTitle": "Villa details",
+      "roomSpecs": [
+        "3+1 — 220 m²",
+        "3 bedrooms",
+        "3 bathrooms",
+        "Private outdoor pool",
+        "Furnished modern interiors",
+        "Terrace with views"
+      ],
+      "socialAmenitiesTitle": "Location & lifestyle",
+      "socialAmenities": [
+        "Alanya Kargıcak — hillside residential area",
+        "Mountain and valley views",
+        "Quiet surroundings",
+        "Suitable for winter and long-term stay",
+        "Daily and monthly rental options"
+      ]
+    },
+    "alanya-kargicak-villa-5-1-rent": {
+      "title": "Villa 5+1 Rent — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Turkey",
+      "priceLabel": "From €200 / day · from €1,000 / month",
+      "description": "Spacious 5+1 villa for rent in Alanya Kargıcak, Turkey.\n\n5 bedrooms, 3 bathrooms, 300 m². Private pool with terrace and sea views, luxury furnished interiors, open living area with kitchen and dining, panoramic bedrooms.\n\nIdeal for large families, long-term stay, winter living, or daily rental.",
+      "note": "Rates: from €200 per day. From €1,000 per month for long-term rent. Contact us on WhatsApp for availability.",
+      "roomSpecsTitle": "Villa details",
+      "roomSpecs": [
+        "5+1 — 300 m²",
+        "5 bedrooms",
+        "3 bathrooms",
+        "Private outdoor pool",
+        "Sea and hillside views",
+        "Luxury furnished interiors"
+      ],
+      "socialAmenitiesTitle": "Location & lifestyle",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Pool terrace with sea view",
+        "Quiet hillside area",
+        "Suitable for winter and long-term stay",
+        "Daily and monthly rental options"
+      ]
+    },
+    "alanya-goldcity-villa-3-1-rent": {
+      "title": "Villa 3+1 Rent — Goldcity Alanya",
+      "location": "Alanya, Goldcity / Kargıcak, Turkey",
+      "priceLabel": "From €200 / day · from €1,500 / month",
+      "description": "Detached 3+1 villa for rent in the elite Goldcity complex, Alanya Kargıcak.\n\n200 m² with a completely new renovation — move-in ready. Private pool, sun loungers, and a modern outdoor fireplace BBQ. Fresh interiors, new finishes and furnishings throughout.\n\nPanoramic views and access to Goldcity hotel services and resort infrastructure.",
+      "note": "Rates: from €200 per day. From €1,500 per month for long-term rent. Contact us on WhatsApp for availability.",
+      "roomSpecsTitle": "Villa details",
+      "roomSpecs": [
+        "3+1 — 200 m²",
+        "Detached villa",
+        "Private outdoor pool",
+        "Sun loungers & outdoor BBQ fireplace",
+        "Fully renovated interiors",
+        "Move-in ready"
+      ],
+      "socialAmenitiesTitle": "Location & lifestyle",
+      "socialAmenities": [
+        "Elite Goldcity complex, Kargıcak",
+        "Panoramic views",
+        "Hotel services & resort amenities",
+        "Aquapark and complex infrastructure",
+        "Daily and monthly rental options"
+      ]
     }
   },
   "partners": {

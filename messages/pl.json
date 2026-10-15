@@ -1209,6 +1209,78 @@
         "Strefa coworking",
         "Parking kryty"
       ]
+    },
+    "alanya-kargicak-villa-3-1-rent": {
+      "title": "Wynajem willi 3+1 — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Turcja",
+      "priceLabel": "Od €200 / doba · od €1,500 / miesiąc",
+      "description": "Przestronna willa 3+1 do wynajęcia w Alanyi, Kargıcak.\n\n3 sypialnie, 3 łazienki, 220 m². Prywatny basen, nowoczesne umeblowanie, salon z kuchnią, widok na góry z tarasu.\n\nIdealna na długi wynajem, zimowanie lub wynajem dobowy.",
+      "note": "Ceny: od €200 za dobę. Od €1,500 miesięcznie przy długim wynajmie. Napisz na WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły willi",
+      "roomSpecs": [
+        "3+1 — 220 m²",
+        "3 sypialnie",
+        "3 łazienki",
+        "Prywatny basen",
+        "Nowoczesne umeblowanie",
+        "Taras z widokiem"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Widok na góry i dolinę",
+        "Spokojna okolica",
+        "Na zimowanie i długi pobyt",
+        "Wynajem dobowy i miesięczny"
+      ]
+    },
+    "alanya-kargicak-villa-5-1-rent": {
+      "title": "Wynajem willi 5+1 — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Turcja",
+      "priceLabel": "Od €200 / doba · od €1,000 / miesiąc",
+      "description": "Przestronna willa 5+1 do wynajęcia w Alanyi Kargıcak.\n\n5 sypialni, 3 łazienki, 300 m². Prywatny basen z tarasem i widokiem na morze, luksusowe wnętrza.\n\nIdealna dla dużej rodziny, długiego wynajmu, zimowania lub wynajmu dobowego.",
+      "note": "Ceny: od €200 za dobę. Od €1,000 miesięcznie przy długim wynajmie. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły willi",
+      "roomSpecs": [
+        "5+1 — 300 m²",
+        "5 sypialni",
+        "3 łazienki",
+        "Prywatny basen",
+        "Widok na morze",
+        "Luksusowe umeblowanie"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Taras przy basenie z widokiem na morze",
+        "Spokojna okolica",
+        "Na zimowanie i długi pobyt",
+        "Wynajem dobowy i miesięczny"
+      ]
+    },
+    "alanya-goldcity-villa-3-1-rent": {
+      "title": "Wynajem willi 3+1 — Goldcity Alanya",
+      "location": "Alanya, Goldcity / Kargıcak, Turcja",
+      "priceLabel": "Od €200 / doba · od €1,500 / miesiąc",
+      "description": "Wolnostojąca willa 3+1 w elitarnym kompleksie Goldcity, Alanya Kargıcak.\n\n200 m² z całkowicie nowym remontem — wprowadź się i mieszkaj. Prywatny basen, leżaki i nowoczesny zewnętrzny kominek BBQ. Całkowicie odnowione wnętrza.\n\nPanoramiczne widoki i dostęp do serwisu hotelowego Goldcity.",
+      "note": "Ceny: od €200 za dobę. Od €1,500 miesięcznie przy długim wynajmie. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły willi",
+      "roomSpecs": [
+        "3+1 — 200 m²",
+        "Willa wolnostojąca",
+        "Prywatny basen",
+        "Leżaki i zewnętrzny kominek BBQ",
+        "Całkowicie nowy remont",
+        "Gotowa do zamieszkania"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja",
+      "socialAmenities": [
+        "Elitarny kompleks Goldcity, Kargıcak",
+        "Panoramiczne widoki",
+        "Serwis hotelowy i infrastruktura",
+        "Aquapark kompleksu",
+        "Wynajem dobowy i miesięczny"
+      ]
     }
   },
   "partners": {

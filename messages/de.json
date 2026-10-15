@@ -1209,6 +1209,78 @@
         "Coworking-Bereich",
         "Überdachte Parkplätze"
       ]
+    },
+    "alanya-kargicak-villa-3-1-rent": {
+      "title": "Villa 3+1 Miete — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Türkei",
+      "priceLabel": "Ab €200 / Tag · ab €1.500 / Monat",
+      "description": "Geräumige 3+1 Villa zur Miete in Alanya Kargıcak.\n\n3 Schlafzimmer, 3 Bäder, 220 m². Privater Pool, moderne Einrichtung, offener Wohn-/Kochbereich, Bergblick von der Terrasse.\n\nIdeal für Langzeitmiete, Winteraufenthalt oder Tagesmiete.",
+      "note": "Preise: ab €200 pro Tag. Ab €1.500 pro Monat bei Langzeitmiete. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Villa-Details",
+      "roomSpecs": [
+        "3+1 — 220 m²",
+        "3 Schlafzimmer",
+        "3 Bäder",
+        "Privater Außenpool",
+        "Modern möbliert",
+        "Terrasse mit Aussicht"
+      ],
+      "socialAmenitiesTitle": "Lage",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Berg- und Talblick",
+        "Ruhige Umgebung",
+        "Für Winter und Langzeitaufenthalt",
+        "Tages- und Monatsmiete"
+      ]
+    },
+    "alanya-kargicak-villa-5-1-rent": {
+      "title": "Villa 5+1 Miete — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Türkei",
+      "priceLabel": "Ab €200 / Tag · ab €1.000 / Monat",
+      "description": "Geräumige 5+1 Villa zur Miete in Alanya Kargıcak.\n\n5 Schlafzimmer, 3 Bäder, 300 m². Privater Pool mit Terrasse und Meerblick, luxuriöse Einrichtung.\n\nIdeal für große Familien, Langzeitmiete, Winteraufenthalt oder Tagesmiete.",
+      "note": "Preise: ab €200 pro Tag. Ab €1.000 pro Monat bei Langzeitmiete. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Villa-Details",
+      "roomSpecs": [
+        "5+1 — 300 m²",
+        "5 Schlafzimmer",
+        "3 Bäder",
+        "Privater Pool",
+        "Meerblick",
+        "Luxuriös möbliert"
+      ],
+      "socialAmenitiesTitle": "Lage",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Poolterrasse mit Meerblick",
+        "Ruhige Hanglage",
+        "Für Winter und Langzeitaufenthalt",
+        "Tages- und Monatsmiete"
+      ]
+    },
+    "alanya-goldcity-villa-3-1-rent": {
+      "title": "Villa 3+1 Miete — Goldcity Alanya",
+      "location": "Alanya, Goldcity / Kargıcak, Türkei",
+      "priceLabel": "Ab €200 / Tag · ab €1.500 / Monat",
+      "description": "Freistehende 3+1 Villa im Elite-Komplex Goldcity, Alanya Kargıcak.\n\n200 m² mit komplett neuer Renovierung — bezugsfertig. Privater Pool, Sonnenliegen und moderner Outdoor-Kamin BBQ. Vollständig erneuerte Innenausstattung.\n\nPanoramablick und Zugang zum Hotelservice von Goldcity.",
+      "note": "Preise: ab €200 pro Tag. Ab €1.500 pro Monat bei Langzeitmiete. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Villa-Details",
+      "roomSpecs": [
+        "3+1 — 200 m²",
+        "Freistehende Villa",
+        "Privater Pool",
+        "Sonnenliegen & Outdoor-Kamin BBQ",
+        "Komplett renoviert",
+        "Bezugsfertig"
+      ],
+      "socialAmenitiesTitle": "Lage",
+      "socialAmenities": [
+        "Elite-Komplex Goldcity, Kargıcak",
+        "Panoramablick",
+        "Hotelservice & Infrastruktur",
+        "Aquapark des Komplexes",
+        "Tages- und Monatsmiete"
+      ]
     }
   },
   "partners": {

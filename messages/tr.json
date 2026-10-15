@@ -1209,6 +1209,78 @@
         "Coworking alanı",
         "Kapalı otopark"
       ]
+    },
+    "alanya-kargicak-villa-3-1-rent": {
+      "title": "Kiralık Villa 3+1 — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Türkiye",
+      "priceLabel": "€200 / gün’den · €1.500 / ay’dan",
+      "description": "Alanya Kargıcak’ta kiralık ferah 3+1 villa.\n\n3 yatak odası, 3 banyo, 220 m². Özel havuz, modern eşya, açık mutfak-salon, terastan dağ manzarası.\n\nUzun dönem, kış konaklaması veya günlük kiralama için uygundur.",
+      "note": "Fiyatlar: günde €200’den. Uzun dönem ayda €1.500’den. Müsaitlik için WhatsApp.",
+      "roomSpecsTitle": "Villa detayları",
+      "roomSpecs": [
+        "3+1 — 220 m²",
+        "3 yatak odası",
+        "3 banyo",
+        "Özel havuz",
+        "Modern eşyalı",
+        "Manzaralı teras"
+      ],
+      "socialAmenitiesTitle": "Konum",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Dağ ve vadi manzarası",
+        "Sakin çevre",
+        "Kış ve uzun konaklama",
+        "Günlük ve aylık kiralama"
+      ]
+    },
+    "alanya-kargicak-villa-5-1-rent": {
+      "title": "Kiralık Villa 5+1 — Alanya Kargıcak",
+      "location": "Alanya, Kargıcak, Türkiye",
+      "priceLabel": "€200 / gün’den · €1.000 / ay’dan",
+      "description": "Alanya Kargıcak’ta kiralık ferah 5+1 villa.\n\n5 yatak odası, 3 banyo, 300 m². Deniz manzaralı özel havuz ve teras, lüks eşya, geniş yaşam alanı.\n\nKalabalık aile, uzun dönem, kış konaklaması veya günlük kiralama için ideal.",
+      "note": "Fiyatlar: günde €200’den. Uzun dönem ayda €1.000’den. Müsaitlik için WhatsApp.",
+      "roomSpecsTitle": "Villa detayları",
+      "roomSpecs": [
+        "5+1 — 300 m²",
+        "5 yatak odası",
+        "3 banyo",
+        "Özel havuz",
+        "Deniz manzarası",
+        "Lüks eşyalı"
+      ],
+      "socialAmenitiesTitle": "Konum",
+      "socialAmenities": [
+        "Alanya Kargıcak",
+        "Deniz manzaralı havuz terası",
+        "Sakin yamaç bölge",
+        "Kış ve uzun konaklama",
+        "Günlük ve aylık kiralama"
+      ]
+    },
+    "alanya-goldcity-villa-3-1-rent": {
+      "title": "Kiralık Villa 3+1 — Goldcity Alanya",
+      "location": "Alanya, Goldcity / Kargıcak, Türkiye",
+      "priceLabel": "€200 / gün’den · €1.500 / ay’dan",
+      "description": "Alanya Kargıcak Goldcity elit sitesinde müstakil 3+1 villa.\n\n200 m², tamamen yeni tadilat — taşın ve yaşa. Özel havuz, şezlong alanı ve modern dış mekan şömine-barbekü. İç mekanlar ve mobilyalar tamamen yeni.\n\nPanoramik manzara ve Goldcity otel hizmetlerine erişim.",
+      "note": "Fiyatlar: günde €200’den. Uzun dönem ayda €1.500’den. Müsaitlik için WhatsApp.",
+      "roomSpecsTitle": "Villa detayları",
+      "roomSpecs": [
+        "3+1 — 200 m²",
+        "Müstakil villa",
+        "Özel havuz",
+        "Şezlong ve dış şömine-barbekü",
+        "Tamamen yenilenmiş",
+        "Taşınmaya hazır"
+      ],
+      "socialAmenitiesTitle": "Konum",
+      "socialAmenities": [
+        "Elit Goldcity sitesi, Kargıcak",
+        "Panoramik manzara",
+        "Otel hizmetleri ve altyapı",
+        "Aquapark",
+        "Günlük ve aylık kiralama"
+      ]
     }
   },
   "partners": {
