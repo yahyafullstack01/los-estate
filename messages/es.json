@@ -135,7 +135,10 @@
     "nextPhoto": "Foto siguiente",
     "photoViewer": "Visor de fotos",
     "photoOf": "Foto {current} de {total}",
-    "inquire": "Consultar sobre esta propiedad"
+    "inquire": "Consultar sobre esta propiedad",
+    "whatsapp": "Escribir por WhatsApp",
+    "whatsappPrefill": "Hola LOS ESTATE, me interesa: {title}\n{url}",
+    "contactUs": "Contacto"
   },
   "types": {
     "apartment": "Apartamento",

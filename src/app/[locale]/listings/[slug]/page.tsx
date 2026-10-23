@@ -9,6 +9,7 @@ import {
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { WhatsAppLink } from "@/components/contact/WhatsAppLink";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { PropertyGallery } from "@/components/listing/PropertyGallery";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
@@ -91,6 +92,11 @@ export default async function PropertyDetailPage({ params }: Props) {
       : t("listings.features"));
   const propertyNote = property.note;
   const listingInquiry = await getListingInquiryContext(slug, listing);
+  const listingUrl = absoluteUrl(`/${locale}/listings/${slug}`);
+  const whatsappPrefill = t("listings.whatsappPrefill", {
+    title,
+    url: listingUrl,
+  });
 
   return (
     <>
@@ -196,8 +202,14 @@ export default async function PropertyDetailPage({ params }: Props) {
               </ul>
             </section>
 
-            <div className="mt-8 hidden lg:block">
-              <Button href="#inquire" size="lg">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <WhatsAppLink
+                label={t("listings.whatsapp")}
+                prefill={whatsappPrefill}
+                size="lg"
+                className="w-full sm:w-auto"
+              />
+              <Button href="#inquire" size="lg" variant="secondary" className="w-full sm:w-auto">
                 {t("listings.inquire")}
               </Button>
             </div>
@@ -213,6 +225,13 @@ export default async function PropertyDetailPage({ params }: Props) {
               {t("listings.inquire")}
             </h2>
             <p className="mt-3 text-muted">{t("contact.subtitle")}</p>
+            <div className="mt-6 flex justify-center">
+              <WhatsAppLink
+                label={t("listings.whatsapp")}
+                prefill={whatsappPrefill}
+                size="lg"
+              />
+            </div>
           </div>
           <div className="mx-auto mt-8 max-w-2xl rounded-xl border border-border bg-surface p-6 sm:p-8">
             <ContactForm listing={listingInquiry} />

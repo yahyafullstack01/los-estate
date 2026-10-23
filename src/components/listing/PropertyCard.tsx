@@ -1,12 +1,14 @@
-import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { type Listing } from "@/data/listings";
-import { formatPrice, splitListingTitle, listingImageAlt } from "@/lib/utils";
+import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations } from "@/lib/property-i18n";
 import { Badge } from "@/components/ui/Badge";
-import { Card } from "@/components/ui/Card";
-import { Bed, Bath, Maximize } from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import { WhatsAppLink } from "@/components/contact/WhatsAppLink";
+import { PropertyCardMedia } from "@/components/listing/PropertyCardMedia";
+import { absoluteUrl } from "@/lib/seo";
+import { Bed, Bath, MapPin, Maximize } from "lucide-react";
 
 interface PropertyCardProps {
   listing: Listing;
@@ -25,57 +27,81 @@ export async function PropertyCard({ listing }: PropertyCardProps) {
     (listing.transaction === "rent"
       ? `${price}${t("listings.perMonth")}`
       : price);
-  const imageSrc = listing.images[0] ?? "/og-default.png";
-  const imageAlt = listingImageAlt(title, imageSrc);
+  const listingUrl = absoluteUrl(`/${locale}/listings/${listing.slug}`);
+  const whatsappPrefill = t("listings.whatsappPrefill", {
+    title,
+    url: listingUrl,
+  });
+  const displayTitle = layout ? `${name} (${layout})` : name;
 
   return (
-    <Card className="group flex flex-col">
-      <Link href={`/listings/${listing.slug}`} className="block">
-        <div className="relative aspect-[4/3] overflow-hidden bg-surface-muted">
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
-          <div className="absolute start-3 top-3 flex gap-2">
+    <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border/80 bg-surface shadow-sm transition-shadow hover:shadow-md">
+      <PropertyCardMedia
+        slug={listing.slug}
+        title={title}
+        images={listing.images}
+        badges={
+          <>
             <Badge variant={listing.transaction}>
               {t(`transactions.${listing.transaction}`)}
             </Badge>
             <Badge variant={listing.type}>{t(`types.${listing.type}`)}</Badge>
-          </div>
-        </div>
-        <div className="flex flex-1 flex-col p-4 sm:p-5">
-          <p className="font-serif text-base leading-snug text-foreground group-hover:text-brand-gold transition-colors sm:text-lg">
-            {name}
+          </>
+        }
+      />
+
+      <div className="flex flex-1 flex-col px-4 pb-2 pt-4 sm:px-5 sm:pt-5">
+        <Link href={`/listings/${listing.slug}`} className="block">
+          <h3 className="font-serif text-xl leading-snug text-foreground transition-colors group-hover:text-brand-gold sm:text-2xl">
+            {displayTitle}
+          </h3>
+          <p className="mt-2 flex items-start gap-1.5 text-sm text-muted">
+            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-gold" aria-hidden />
+            <span className="line-clamp-2">{location}</span>
           </p>
-          {layout ? (
-            <p className="mt-1.5 font-sans text-2xl font-bold tracking-wide text-foreground sm:text-3xl">
-              {layout}
-            </p>
-          ) : null}
-          <p className="mt-1 text-sm text-muted">{location}</p>
-          <p className="mt-3 text-xl font-semibold text-brand-gold">{priceLabel}</p>
-          <ul className="mt-4 flex flex-wrap gap-4 text-xs text-muted">
-            <li className="flex items-center gap-1">
-              <Bed className="h-3.5 w-3.5" />
-              {t("listings.beds", { count: listing.beds })}
-            </li>
-            <li className="flex items-center gap-1">
-              <Bath className="h-3.5 w-3.5" />
-              {t("listings.baths", { count: listing.baths })}
-            </li>
-            <li className="flex items-center gap-1">
-              <Maximize className="h-3.5 w-3.5" />
-              {t("listings.area", { sqm: listing.areaSqm })}
-            </li>
-          </ul>
-          <span className="mt-4 text-sm font-medium text-brand-gold">
-            {t("listings.viewDetails")} →
-          </span>
-        </div>
-      </Link>
-    </Card>
+          <p className="mt-3 text-lg font-semibold text-brand-gold">{priceLabel}</p>
+        </Link>
+
+        <ul className="mt-4 flex flex-wrap items-center gap-x-0 gap-y-2 text-sm text-foreground/80">
+          <li className="flex items-center gap-1.5 pe-3">
+            <Maximize className="h-4 w-4 text-brand-gold" aria-hidden />
+            {t("listings.area", { sqm: listing.areaSqm })}
+          </li>
+          <li
+            className="hidden h-4 w-px bg-brand-gold/40 sm:block"
+            aria-hidden
+          />
+          <li className="flex items-center gap-1.5 px-3">
+            <Bed className="h-4 w-4 text-brand-gold" aria-hidden />
+            {t("listings.beds", { count: listing.beds })}
+          </li>
+          <li
+            className="hidden h-4 w-px bg-brand-gold/40 sm:block"
+            aria-hidden
+          />
+          <li className="flex items-center gap-1.5 ps-3">
+            <Bath className="h-4 w-4 text-brand-gold" aria-hidden />
+            {t("listings.baths", { count: listing.baths })}
+          </li>
+        </ul>
+      </div>
+
+      <div className="mt-auto flex gap-2 border-t border-border/70 px-4 py-3.5 sm:px-5 sm:py-4">
+        <WhatsAppLink
+          label={t("listings.whatsapp")}
+          prefill={whatsappPrefill}
+          size="sm"
+          className="min-w-0 flex-1 rounded-xl"
+        />
+        <Button
+          href={`/listings/${listing.slug}#inquire`}
+          variant="primary"
+          size="sm"
+          className="min-w-0 flex-1 rounded-xl"
+        >
+          {t("listings.contactUs")}
+        </Button>
+      </div>
+    </article>
   );
 }

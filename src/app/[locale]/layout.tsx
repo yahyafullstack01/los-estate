@@ -12,6 +12,7 @@ import { routing, rtlLocales, type Locale } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { WhatsAppFloat } from "@/components/contact/WhatsAppFloat";
 import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -99,6 +100,7 @@ export default async function LocaleLayout({
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
+            <WhatsAppFloat />
           </ThemeProvider>
         </NextIntlClientProvider>
         <SpeedInsights />

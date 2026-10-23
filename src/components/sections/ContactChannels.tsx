@@ -11,10 +11,11 @@ import {
   Phone,
 } from "lucide-react";
 
+import { whatsappHref } from "@/lib/whatsapp";
+
 const PHONE_DISPLAY = "+48 575 656 702";
 const PHONE_TEL = "+48575656702";
 const EMAIL = "losestate2025@gmail.com";
-const WHATSAPP_NUMBER = "48575656702";
 
 const services = [
   { key: "buy" as const, interest: "buy", icon: Home },
@@ -25,9 +26,7 @@ const services = [
 
 export async function ContactChannels() {
   const t = await getTranslations("contact");
-  const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-    t("whatsappPrefill")
-  )}`;
+  const waHref = whatsappHref(t("whatsappPrefill"));
 
   return (
     <div className="space-y-10">
@@ -66,7 +65,7 @@ export async function ContactChannels() {
           </li>
           <li>
             <a
-              href={whatsappHref}
+              href={waHref}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start gap-3 py-4 transition-colors hover:text-brand-gold"

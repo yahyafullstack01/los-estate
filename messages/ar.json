@@ -135,7 +135,10 @@
     "nextPhoto": "الصورة التالية",
     "photoViewer": "عارض الصور",
     "photoOf": "الصورة {current} من {total}",
-    "inquire": "استفسار عن هذا العقار"
+    "inquire": "استفسار عن هذا العقار",
+    "whatsapp": "راسلنا واتساب",
+    "whatsappPrefill": "مرحباً LOS ESTATE، أهتم بـ: {title}\n{url}",
+    "contactUs": "تواصل معنا"
   },
   "types": {
     "apartment": "شقة",

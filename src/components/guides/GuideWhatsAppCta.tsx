@@ -1,8 +1,7 @@
 "use client";
 
 import { MessageCircle } from "lucide-react";
-
-const WHATSAPP_NUMBER = "48575656702";
+import { whatsappHref } from "@/lib/whatsapp";
 
 type Props = {
   heading: string;
@@ -17,7 +16,7 @@ export function GuideWhatsAppCta({
   buttonLabel,
   prefill,
 }: Props) {
-  const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(prefill)}`;
+  const href = whatsappHref(prefill);
 
   return (
     <aside className="mt-12 border border-brand-gold/30 bg-surface-muted/50 px-6 py-8 sm:px-8">

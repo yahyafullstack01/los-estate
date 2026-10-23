@@ -135,7 +135,10 @@
     "nextPhoto": "Наступне фото",
     "photoViewer": "Перегляд фото",
     "photoOf": "Фото {current} з {total}",
-    "inquire": "Запит щодо об'єкта"
+    "inquire": "Запит щодо об'єкта",
+    "whatsapp": "Написати в WhatsApp",
+    "whatsappPrefill": "Вітаю LOS ESTATE, мене цікавить: {title}\n{url}",
+    "contactUs": "Зв'язатися"
   },
   "types": {
     "apartment": "Квартира",

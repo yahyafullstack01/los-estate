@@ -135,7 +135,10 @@
     "nextPhoto": "Sonraki fotoğraf",
     "photoViewer": "Fotoğraf görüntüleyici",
     "photoOf": "Fotoğraf {current} / {total}",
-    "inquire": "Bu gayrimenkul hakkında bilgi al"
+    "inquire": "Bu gayrimenkul hakkında bilgi al",
+    "whatsapp": "WhatsApp yazın",
+    "whatsappPrefill": "Merhaba LOS ESTATE, bununla ilgileniyorum: {title}\n{url}",
+    "contactUs": "İletişim"
   },
   "types": {
     "apartment": "Daire",
