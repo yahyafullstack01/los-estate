@@ -93,7 +93,9 @@
     "title": "Öne çıkan gayrimenkuller",
     "sale": "Satılık",
     "rent": "Kiralık",
-    "viewAll": "Tümünü gör"
+    "viewAll": "Tümünü gör",
+    "viewAllSale": "Tüm satılıkları gör",
+    "viewAllRent": "Tüm kiralıkları gör"
   },
   "stats": {
     "properties": "Gayrimenkul",

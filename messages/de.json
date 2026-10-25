@@ -93,7 +93,9 @@
     "title": "Ausgewählte Immobilien",
     "sale": "Zum Verkauf",
     "rent": "Zur Miete",
-    "viewAll": "Alle ansehen"
+    "viewAll": "Alle ansehen",
+    "viewAllSale": "Alle zum Verkauf",
+    "viewAllRent": "Alle zur Miete"
   },
   "stats": {
     "properties": "Immobilien",

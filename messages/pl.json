@@ -93,7 +93,9 @@
     "title": "Polecane oferty",
     "sale": "Na sprzedaż",
     "rent": "Do wynajęcia",
-    "viewAll": "Zobacz wszystkie"
+    "viewAll": "Zobacz wszystkie",
+    "viewAllSale": "Wszystkie na sprzedaż",
+    "viewAllRent": "Wszystkie na wynajem"
   },
   "stats": {
     "properties": "Nieruchomości",

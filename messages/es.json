@@ -93,7 +93,9 @@
     "title": "Propiedades destacadas",
     "sale": "En venta",
     "rent": "En alquiler",
-    "viewAll": "Ver todas"
+    "viewAll": "Ver todas",
+    "viewAllSale": "Ver todos en venta",
+    "viewAllRent": "Ver todos en alquiler"
   },
   "stats": {
     "properties": "Propiedades",

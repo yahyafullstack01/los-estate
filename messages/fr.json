@@ -93,7 +93,9 @@
     "title": "Biens en vedette",
     "sale": "À vendre",
     "rent": "À louer",
-    "viewAll": "Voir tout"
+    "viewAll": "Voir tout",
+    "viewAllSale": "Voir toutes les ventes",
+    "viewAllRent": "Voir toutes les locations"
   },
   "stats": {
     "properties": "Biens",

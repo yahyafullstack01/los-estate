@@ -93,7 +93,9 @@
     "title": "Featured Properties",
     "sale": "For Sale",
     "rent": "For Rent",
-    "viewAll": "View all"
+    "viewAll": "View all",
+    "viewAllSale": "View all for sale",
+    "viewAllRent": "View all for rent"
   },
   "stats": {
     "properties": "Properties",
