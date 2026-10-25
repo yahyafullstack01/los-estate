@@ -15,6 +15,7 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFloat } from "@/components/contact/WhatsAppFloat";
 import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
 import { GoogleAdsTag } from "@/components/analytics/GoogleAdsTag";
+import { MicrosoftClarity } from "@/components/analytics/MicrosoftClarity";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const dmSans = DM_Sans({
@@ -105,6 +106,7 @@ export default async function LocaleLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
         <GoogleAdsTag />
+        <MicrosoftClarity />
         <SpeedInsights />
       </body>
     </html>
