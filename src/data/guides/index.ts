@@ -4,6 +4,7 @@ import rentApartmentAlanya from "./rent-apartment-alanya.json";
 import buyApartmentAlanya from "./buy-apartment-alanya.json";
 import besthome36Vs37 from "./besthome-36-vs-37.json";
 import winterRentAlanya from "./winter-rent-alanya.json";
+import longTermRentAlanya from "./long-term-rent-alanya.json";
 
 export type {
   Guide,
@@ -27,6 +28,7 @@ export const guides: Guide[] = [
   asGuide(buyApartmentAlanya),
   asGuide(besthome36Vs37),
   asGuide(winterRentAlanya),
+  asGuide(longTermRentAlanya),
 ];
 
 export function getGuideSlugs(): string[] {

@@ -32,6 +32,8 @@ export async function OrganizationJsonLd() {
         areaServed: [
           { "@type": "City", name: "Alanya" },
           { "@type": "City", name: "Gazipaşa" },
+          { "@type": "Place", name: "Kargıcak" },
+          { "@type": "Place", name: "Goldcity Alanya" },
           { "@type": "AdministrativeArea", name: "Antalya" },
           { "@type": "Country", name: "Turkey" },
         ],

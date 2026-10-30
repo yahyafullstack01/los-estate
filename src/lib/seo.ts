@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { locales, type Locale } from "@/i18n/routing";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://los-estate.com";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.losestate.com";
 
 export function getSiteUrl(): string {
   return siteUrl.replace(/\/$/, "");
