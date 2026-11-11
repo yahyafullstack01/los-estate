@@ -1,8 +1,11 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
 import { getListingSlugs } from "@/data/listings";
-import { getGuideSlugs } from "@/data/guides";
+import { guides } from "@/data/guides";
 import { getSiteUrl } from "@/lib/seo";
+
+/** Fixed per-build timestamp — avoids reporting every URL as "just modified" on every request. */
+const BUILD_DATE = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
@@ -15,7 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
   ];
   const slugs = getListingSlugs();
-  const guideSlugs = getGuideSlugs();
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -25,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const isGuideIndex = path === "/guides";
       entries.push({
         url: `${base}/${locale}${path}`,
-        lastModified: new Date(),
+        lastModified: BUILD_DATE,
         changeFrequency: isHome || isGuideIndex ? "weekly" : "monthly",
         priority: isHome ? 1 : isGuideIndex ? 0.9 : 0.8,
       });
@@ -34,16 +36,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const slug of slugs) {
       entries.push({
         url: `${base}/${locale}/listings/${slug}`,
-        lastModified: new Date(),
+        lastModified: BUILD_DATE,
         changeFrequency: "weekly",
         priority: 0.7,
       });
     }
 
-    for (const slug of guideSlugs) {
+    for (const guide of guides) {
       entries.push({
-        url: `${base}/${locale}/guides/${slug}`,
-        lastModified: new Date(),
+        url: `${base}/${locale}/guides/${guide.slug}`,
+        lastModified: new Date(guide.publishedAt),
         changeFrequency: "monthly",
         priority: 0.85,
       });
