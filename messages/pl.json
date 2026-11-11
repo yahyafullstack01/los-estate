@@ -500,6 +500,133 @@
         "Zamknięty zadbany teren"
       ]
     },
+    "besthome-37-rent-1-1-d11": {
+      "title": "BestHome 37 Centrum — Wynajem 1+1 (Blok D11)",
+      "location": "Centrum Alanyi, Turcja",
+      "priceLabel": "Od €50 / doba · €800–€1,500 / miesiąc",
+      "description": "Umeblowane mieszkanie 1+1 do wynajęcia w BestHome 37 Centrum, Alanya — blok D11.\n\nPowierzchnia: 50 m². 1 sypialnia, kuchnia studio, 1 łazienka. Do morza: 100 m. Prywatna piaszczysta plaża Çimen Beach — leżaki i parasole gratis.\n\nKompleks: SPA, sauna, hammam, fitness, pokój dziecięcy, parking podziemny.",
+      "note": "Ceny: od €50 / doba (lato od €70). Od €800 / miesiąc. Lato od €1,500 / miesiąc. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "1+1 — 50 m² · blok D11",
+        "1 sypialnia",
+        "Kuchnia studio",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "100 m do prywatnej piaszczystej plaży Çimen Beach — leżaki i parasole gratis",
+        "SPA",
+        "Sauna",
+        "Hammam",
+        "Fitness",
+        "Pokój dziecięcy",
+        "Parking podziemny",
+        "Baseny zewnętrzne",
+        "Zamknięty kompleks"
+      ]
+    },
+    "besthome-42-cleopatra-diva-rent-1-1-d11": {
+      "title": "BestHome 42 Cleopatra Diva — Wynajem 1+1 (Blok D11)",
+      "location": "Alanya Kleopatra, Turcja",
+      "priceLabel": "Od €50 / doba · €800–€1,500 / miesiąc",
+      "description": "Umeblowane mieszkanie 1+1 do wynajęcia w BestHome 42 Cleopatra Diva, Alanya — blok D11.\n\nPowierzchnia: 60 m². 1 sypialnia, kuchnia studio, 1 łazienka. Do morza: 200 m. Plaża Kleopatra Beach w pobliżu.\n\nKompleks: sauna, jacuzzi, fitness, pokój dziecięcy, 1 basen zewnętrzny z podgrzewaniem.",
+      "note": "Ceny: od €50 / doba · od €800 / miesiąc. Lato: od €75 / doba · od €1,500 / miesiąc. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "1+1 — 60 m² · blok D11",
+        "1 sypialnia",
+        "Kuchnia studio",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "200 m do plaży Kleopatra Beach",
+        "1 basen zewnętrzny z podgrzewaniem",
+        "Sauna",
+        "Jacuzzi",
+        "Fitness",
+        "Pokój dziecięcy",
+        "Zamknięty kompleks"
+      ]
+    },
+    "besthome-42-cleopatra-diva-rent-1-1-d17": {
+      "title": "BestHome 42 Cleopatra Diva — Wynajem 1+1 (Blok D17)",
+      "location": "Alanya Kleopatra, Turcja",
+      "priceLabel": "Od €50 / doba · €800–€1,500 / miesiąc",
+      "description": "Umeblowane mieszkanie 1+1 do wynajęcia w BestHome 42 Cleopatra Diva, Alanya — blok D17.\n\nPowierzchnia: 60 m². 1 sypialnia, kuchnia studio, 1 łazienka. Do morza: 200 m. Plaża Kleopatra Beach w pobliżu.\n\nKompleks: sauna, jacuzzi, fitness, pokój dziecięcy, 1 basen zewnętrzny z podgrzewaniem.",
+      "note": "Ceny: od €50 / doba · od €800 / miesiąc. Lato: od €75 / doba · od €1,500 / miesiąc. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "1+1 — 60 m² · blok D17",
+        "1 sypialnia",
+        "Kuchnia studio",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "200 m do plaży Kleopatra Beach",
+        "1 basen zewnętrzny z podgrzewaniem",
+        "Sauna",
+        "Jacuzzi",
+        "Fitness",
+        "Pokój dziecięcy",
+        "Zamknięty kompleks"
+      ]
+    },
+    "besthome-42-cleopatra-diva-rent-2-1-d12": {
+      "title": "BestHome 42 Cleopatra Diva — Wynajem 2+1 (Blok D12)",
+      "location": "Alanya Kleopatra, Turcja",
+      "priceLabel": "Od €100 / doba · €1,500–€2,500 / miesiąc",
+      "description": "Umeblowane mieszkanie 2+1 do wynajęcia w BestHome 42 Cleopatra Diva, Alanya — blok D12.\n\nPowierzchnia: 84 m². 2 sypialnie, kuchnia studio, salon. Do morza: 200 m. Plaża Kleopatra Beach w pobliżu.\n\nKompleks: sauna, jacuzzi, fitness, pokój dziecięcy, 1 basen zewnętrzny z podgrzewaniem.",
+      "note": "Ceny: od €100 / doba · od €1,500 / miesiąc. Lato: od €150 / doba · od €2,500 / miesiąc. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "2+1 — 84 m² · blok D12",
+        "2 sypialnie",
+        "Kuchnia studio · salon",
+        "Nowoczesne umeblowane wnętrze",
+        "Przestronny balkon"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "200 m do plaży Kleopatra Beach",
+        "1 basen zewnętrzny z podgrzewaniem",
+        "Sauna",
+        "Jacuzzi",
+        "Fitness",
+        "Pokój dziecięcy",
+        "Zamknięty kompleks"
+      ]
+    },
+    "besthome-42-diva-rent-1-1-57": {
+      "title": "BestHome 42 Diva — Wynajem 1+1 (57 m²)",
+      "location": "Alanya Kleopatra, Turcja",
+      "priceLabel": "Od €40 / doba · €1,000–€1,800 / miesiąc",
+      "description": "Umeblowane mieszkanie 1+1 do wynajęcia w BestHome 42 Diva, Alanya Kleopatra.\n\nPowierzchnia: 57 m². 1 sypialnia, kuchnia studio, 1 łazienka. Do morza: 350 m (Kleopatra Beach). 800 m do centrum.\n\nKompleks: basen zewnętrzny, siłownia, pokój dziecięcy.",
+      "note": "Ceny: zima od €40 / doba · od €1,000 / miesiąc. Lato od €65 / doba · od €1,800 / miesiąc. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły mieszkania",
+      "roomSpecs": [
+        "1+1 — 57 m²",
+        "1 sypialnia",
+        "Kuchnia studio",
+        "1 łazienka",
+        "Nowoczesne umeblowane wnętrze"
+      ],
+      "socialAmenitiesTitle": "Udogodnienia kompleksu",
+      "socialAmenities": [
+        "350 m do plaży Kleopatra Beach",
+        "800 m do centrum",
+        "Basen zewnętrzny",
+        "Siłownia",
+        "Pokój dziecięcy"
+      ]
+    },
     "besthome-37-legend-rent-1-1-c": {
       "title": "BestHome 37 The Legend Centrum — 1+1 Wynajem",
       "location": "Centrum Alanyi, Turcja",
@@ -1239,6 +1366,30 @@
         "Wynajem dobowy i miesięczny"
       ]
     },
+    "alanya-kargicak-villa-3-1-view-rent": {
+      "title": "Wynajem willi 3+1 — Alanya Kargıcak (widok na góry)",
+      "location": "Alanya, Kargıcak, Turcja",
+      "priceLabel": "Od €200 / doba · od €1,500 / miesiąc",
+      "description": "Nowoczesna willa 3+1 do wynajęcia w Alanyi, Kargıcak.\n\n3 sypialnie, 3 łazienki, 220 m². Prywatny basen z leżakami, salon-kuchnia open space, odnowione wnętrza i panoramiczny widok na góry i dolinę z tarasu — z pięknymi zachodami słońca.\n\nIdealna na wynajem długoterminowy, zimowanie lub wynajem dobowy.",
+      "note": "Ceny: od €200 za dobę. Od €1,500 miesięcznie przy długim wynajmie. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły willi",
+      "roomSpecs": [
+        "3+1 — 220 m²",
+        "3 sypialnie",
+        "3 łazienki",
+        "Prywatny basen i leżaki",
+        "Salon / kuchnia open space",
+        "Taras z widokiem na góry"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja",
+      "socialAmenities": [
+        "Alanya, Kargıcak — lokalizacja na zboczu",
+        "Panoramiczny widok na góry i dolinę",
+        "Spokojna okolica mieszkalna",
+        "Na zimowanie i długi pobyt",
+        "Wynajem dobowy i miesięczny"
+      ]
+    },
     "alanya-kargicak-villa-5-1-rent": {
       "title": "Wynajem willi 5+1 — Alanya Kargıcak",
       "location": "Alanya, Kargıcak, Turcja",
@@ -1268,6 +1419,30 @@
       "location": "Alanya, Goldcity / Kargıcak, Turcja",
       "priceLabel": "Od €200 / doba · od €1,500 / miesiąc",
       "description": "Wolnostojąca willa 3+1 w elitarnym kompleksie Goldcity, Alanya Kargıcak.\n\n200 m² z całkowicie nowym remontem — wprowadź się i mieszkaj. Prywatny basen, leżaki i nowoczesny zewnętrzny kominek BBQ. Całkowicie odnowione wnętrza.\n\nPanoramiczne widoki i dostęp do serwisu hotelowego Goldcity.",
+      "note": "Ceny: od €200 za dobę. Od €1,500 miesięcznie przy długim wynajmie. WhatsApp o dostępność.",
+      "roomSpecsTitle": "Szczegóły willi",
+      "roomSpecs": [
+        "3+1 — 200 m²",
+        "Willa wolnostojąca",
+        "Prywatny basen",
+        "Leżaki i zewnętrzny kominek BBQ",
+        "Całkowicie nowy remont",
+        "Gotowa do zamieszkania"
+      ],
+      "socialAmenitiesTitle": "Lokalizacja",
+      "socialAmenities": [
+        "Elitarny kompleks Goldcity, Kargıcak",
+        "Panoramiczne widoki",
+        "Serwis hotelowy i infrastruktura",
+        "Aquapark kompleksu",
+        "Wynajem dobowy i miesięczny"
+      ]
+    },
+    "alanya-goldcity-detached-villa-3-1-rent": {
+      "title": "Willa 3+1 (200 m²) — Goldcity Alanya / Kargıcak",
+      "location": "Alanya, Goldcity / Kargıcak, Turcja",
+      "priceLabel": "Od €200 / doba · od €1,500 / miesiąc",
+      "description": "Wolnostojąca willa 3+1 (200 m²) w elitarnym kompleksie Goldcity, Alanya Kargıcak.\n\nCałkowicie nowy remont — wprowadź się i mieszkaj. Prywatny basen, strefa opalania z leżakami i nowoczesny zewnętrzny kominek BBQ. Wnętrza w pełni odnowione: wykończenie i wyposażenie nowe.\n\nInfrastruktura: panoramiczne widoki i dostęp do serwisu hotelowego Goldcity.",
       "note": "Ceny: od €200 za dobę. Od €1,500 miesięcznie przy długim wynajmie. WhatsApp o dostępność.",
       "roomSpecsTitle": "Szczegóły willi",
       "roomSpecs": [

@@ -59,3 +59,60 @@ body {
 [dir="rtl"] .font-serif {
   font-family: var(--font-noto-arabic), var(--font-cormorant), Georgia, serif;
 }
+
+@keyframes hero-kenburns {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-media {
+  animation: hero-kenburns 18s ease-out forwards;
+  will-change: transform;
+}
+
+.hero-reveal {
+  opacity: 0;
+  animation: hero-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-reveal-1 {
+  animation-delay: 0.12s;
+}
+
+.hero-reveal-2 {
+  animation-delay: 0.28s;
+}
+
+.hero-reveal-3 {
+  animation-delay: 0.44s;
+}
+
+.hero-reveal-4 {
+  animation-delay: 0.6s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-media,
+  .hero-reveal {
+    animation: none;
+  }
+
+  .hero-reveal {
+    opacity: 1;
+  }
+}
