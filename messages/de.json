@@ -627,6 +627,81 @@
         "Kinderzimmer"
       ]
     },
+    "besthome-42-diva-rent-1-1-d19": {
+      "title": "BestHome 42 Diva — 1+1 Miete (Block D19)",
+      "location": "Alanya Cleopatra, Türkei",
+      "priceLabel": "Ab €40 / Tag · €1.000–€1.800 / Monat",
+      "description": "Möblierte 1+1 Wohnung zur Miete in BestHome 42 Diva, Alanya Cleopatra — Block D19.\n\nFläche: 57 m². 1 Schlafzimmer, Studio-Küche, 1 Bad. Entfernung zum Meer: 350 m (Kleopatra Beach). 800 m zum Stadtzentrum.\n\nKomplex: Außenpool, Fitnessstudio, Kinderzimmer.",
+      "note": "Preise: Winter ab €40 / Tag · ab €1.000 / Monat. Sommer ab €65 / Tag · ab €1.800 / Monat. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "1+1 — 57 m² · Block D19",
+        "1 Schlafzimmer",
+        "Studio-Küche",
+        "1 Bad",
+        "Möblierter moderner Innenraum",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Komplex-Ausstattung",
+      "socialAmenities": [
+        "350 m zum Kleopatra Beach",
+        "800 m zum Stadtzentrum",
+        "Außenpool",
+        "Fitnessstudio",
+        "Kinderzimmer"
+      ]
+    },
+    "besthome-42-diva-rent-1-1-d18": {
+      "title": "BestHome 42 Diva — 1+1 Miete (Block D18)",
+      "location": "Alanya Cleopatra, Türkei",
+      "priceLabel": "Ab €40 / Tag · €1.000–€1.800 / Monat",
+      "description": "Möblierte 1+1 Wohnung zur Miete in BestHome 42 Diva, Alanya Cleopatra — Block D18.\n\nFläche: 55 m². 1 Schlafzimmer, Studio-Küche, 1 Bad. Entfernung zum Meer: 350 m (Kleopatra Beach). 800 m zum Stadtzentrum.\n\nKomplex: Außenpool, Fitnessstudio, Kinderzimmer, Lounge-Bereich.",
+      "note": "Preise: Winter ab €40 / Tag · ab €1.000 / Monat. Sommer ab €65 / Tag · ab €1.800 / Monat. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "1+1 — 55 m² · Block D18",
+        "1 Schlafzimmer",
+        "Studio-Küche",
+        "1 Bad",
+        "Möblierter moderner Innenraum",
+        "Balkon"
+      ],
+      "socialAmenitiesTitle": "Komplex-Ausstattung",
+      "socialAmenities": [
+        "350 m zum Kleopatra Beach",
+        "800 m zum Stadtzentrum",
+        "Außenpool",
+        "Fitnessstudio",
+        "Kinderzimmer",
+        "Lounge-Bereich"
+      ]
+    },
+    "besthome-20-cleopatra-select-rent-1-1-a36": {
+      "title": "BestHome 20 Cleopatra Select — 1+1 Miete (A36)",
+      "location": "Alanya Cleopatra, Türkei",
+      "priceLabel": "Ab €40 / Tag · €1.000–€1.800 / Monat",
+      "description": "Möblierte 1+1 Wohnung zur Miete in BestHome 20 Cleopatra Select, Alanya — Apt A36 (West A Block).\n\nFläche: 55 m². Wohnküche, Schlafzimmer und Balkon-Lounge. Entfernung zum Meer: 350 m. Geschäfte: 50 m. Stadtzentrum: 800 m.\n\nAusstattung: Kühlschrank, Waschmaschine, Geschirrspüler, Mikrowelle, Haartrockner, Bügeleisen & Brett, Wäscheständer, Klimaanlage, TV, Wi-Fi. Strandliegen. Flughafentransfer möglich.",
+      "note": "Preise: Winter ab €40 / Tag · ab €1.000 / Monat. Sommer ab €65 / Tag · ab €1.800 / Monat. WhatsApp für Verfügbarkeit.",
+      "roomSpecsTitle": "Wohnungsdetails",
+      "roomSpecs": [
+        "1+1 — 55 m² · Apt A36",
+        "Wohnzimmer · Küche",
+        "Schlafzimmer",
+        "Balkon-Lounge",
+        "Kühlschrank · Waschmaschine · Spüler · Mikrowelle",
+        "Klimaanlage · TV · Wi-Fi · Bügeleisen & Föhn"
+      ],
+      "socialAmenitiesTitle": "Komplex-Ausstattung",
+      "socialAmenities": [
+        "350 m zum Meer",
+        "Außenpool mit Aquapark",
+        "Innenpool",
+        "Finnische Sauna",
+        "Fitnessstudio",
+        "50 m zu Geschäften · 800 m zum Zentrum",
+        "Flughafentransfer möglich"
+      ]
+    },
     "besthome-37-legend-rent-1-1-c": {
       "title": "BestHome 37 The Legend Centrum — 1+1 Miete",
       "location": "Alanya Zentrum, Türkei",
