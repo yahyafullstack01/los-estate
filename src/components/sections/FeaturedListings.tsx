@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { listings } from "@/data/listings";
+import { listings, sortListingsNewestFirst } from "@/data/listings";
 import { PropertyGrid } from "@/components/listing/PropertyGrid";
 import { Button } from "@/components/ui/Button";
 
@@ -8,12 +8,12 @@ const HOME_FEATURED_LIMIT = 3;
 
 export async function FeaturedListings() {
   const t = await getTranslations("featured");
-  const saleListings = listings
-    .filter((l) => l.featured && l.transaction === "sale")
-    .slice(0, HOME_FEATURED_LIMIT);
-  const rentListings = listings
-    .filter((l) => l.featured && l.transaction === "rent")
-    .slice(0, HOME_FEATURED_LIMIT);
+  const saleListings = sortListingsNewestFirst(
+    listings.filter((l) => l.featured && l.transaction === "sale"),
+  ).slice(0, HOME_FEATURED_LIMIT);
+  const rentListings = sortListingsNewestFirst(
+    listings.filter((l) => l.featured && l.transaction === "rent"),
+  ).slice(0, HOME_FEATURED_LIMIT);
 
   return (
     <section className="bg-surface-muted/50 py-16 sm:py-20">

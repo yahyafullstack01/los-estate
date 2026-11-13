@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { listings } from "@/data/listings";
+import { listings, sortListingsNewestFirst } from "@/data/listings";
 import type { PropertyType, TransactionType } from "@/data/listings";
 import { ListingFilters } from "@/components/listing/ListingFilters";
 import { PropertyGrid } from "@/components/listing/PropertyGrid";
@@ -31,15 +31,17 @@ export default async function ListingsPage({ params, searchParams }: Props) {
 
   const t = await getTranslations("listings");
 
-  const filtered = listings.filter((l) => {
-    if (transaction && l.transaction !== (transaction as TransactionType)) {
-      return false;
-    }
-    if (type && l.type !== (type as PropertyType)) {
-      return false;
-    }
-    return true;
-  });
+  const filtered = sortListingsNewestFirst(
+    listings.filter((l) => {
+      if (transaction && l.transaction !== (transaction as TransactionType)) {
+        return false;
+      }
+      if (type && l.type !== (type as PropertyType)) {
+        return false;
+      }
+      return true;
+    }),
+  );
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
