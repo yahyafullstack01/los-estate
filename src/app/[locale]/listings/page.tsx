@@ -1,7 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { listings, sortListingsNewestFirst } from "@/data/listings";
+import {
+  listings,
+  sortListingsNewestFirst,
+  sortListingsOldestFirst,
+  sortListingsByPrice,
+} from "@/data/listings";
 import type { PropertyType, TransactionType } from "@/data/listings";
 import { ListingFilters } from "@/components/listing/ListingFilters";
 import { PropertyGrid } from "@/components/listing/PropertyGrid";
@@ -10,7 +15,11 @@ import type { Locale } from "@/i18n/routing";
 
 type Props = {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ transaction?: string; type?: string }>;
+  searchParams: Promise<{
+    transaction?: string;
+    type?: string;
+    sort?: string;
+  }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -26,22 +35,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ListingsPage({ params, searchParams }: Props) {
   const { locale } = await params;
-  const { transaction, type } = await searchParams;
+  const { transaction, type, sort } = await searchParams;
   setRequestLocale(locale as Locale);
 
   const t = await getTranslations("listings");
 
-  const filtered = sortListingsNewestFirst(
-    listings.filter((l) => {
-      if (transaction && l.transaction !== (transaction as TransactionType)) {
-        return false;
-      }
-      if (type && l.type !== (type as PropertyType)) {
-        return false;
-      }
-      return true;
-    }),
-  );
+  const matched = listings.filter((l) => {
+    if (transaction && l.transaction !== (transaction as TransactionType)) {
+      return false;
+    }
+    if (type && l.type !== (type as PropertyType)) {
+      return false;
+    }
+    return true;
+  });
+
+  const filtered =
+    sort === "price-asc"
+      ? sortListingsByPrice(matched, "asc")
+      : sort === "price-desc"
+        ? sortListingsByPrice(matched, "desc")
+        : sort === "oldest"
+          ? sortListingsOldestFirst(matched)
+          : sortListingsNewestFirst(matched);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">

@@ -2309,6 +2309,26 @@ export function sortListingsNewestFirst(items: Listing[]): Listing[] {
   return [...items].sort((a, b) => Number(b.id) - Number(a.id));
 }
 
+/** Oldest listings first (lower numeric id = added earlier). */
+export function sortListingsOldestFirst(items: Listing[]): Listing[] {
+  return [...items].sort((a, b) => Number(a.id) - Number(b.id));
+}
+
+/** Listing's lowest advertised price; "price on request" (0) sorts last. */
+function comparablePrice(listing: Listing): number {
+  return listing.price > 0 ? listing.price : Number.POSITIVE_INFINITY;
+}
+
+export function sortListingsByPrice(
+  items: Listing[],
+  direction: "asc" | "desc"
+): Listing[] {
+  return [...items].sort((a, b) => {
+    const diff = comparablePrice(a) - comparablePrice(b);
+    return direction === "asc" ? diff : -diff;
+  });
+}
+
 export function getListingBySlug(slug: string): Listing | undefined {
   return listings.find((l) => l.slug === slug);
 }

@@ -22,6 +22,10 @@ export function ListingFilters() {
 
   const transaction = searchParams.get("transaction") ?? "";
   const type = searchParams.get("type") ?? "";
+  const sort = searchParams.get("sort") ?? "";
+  const isPriceSort = sort === "price-asc" || sort === "price-desc";
+  const dateSort = isPriceSort ? "" : sort;
+  const priceSort = isPriceSort ? sort : "";
 
   function update(key: string, value: string) {
     const params = new URLSearchParams(searchParams.toString());
@@ -92,6 +96,33 @@ export function ListingFilters() {
               </Link>
             ))}
           </div>
+        </div>
+      </div>
+
+      <div className="mt-5 flex flex-col gap-4 border-t border-border pt-5 sm:flex-row sm:gap-8">
+        <div>
+          <p className="mb-2 text-xs text-muted">{t("filterSortDate")}</p>
+          <select
+            value={dateSort}
+            onChange={(e) => update("sort", e.target.value)}
+            className="rounded-lg border border-border bg-surface-muted px-3 py-2 text-sm text-foreground outline-none transition-colors focus:border-brand-gold"
+          >
+            <option value="">{t("sortNewest")}</option>
+            <option value="oldest">{t("sortOldest")}</option>
+          </select>
+        </div>
+
+        <div>
+          <p className="mb-2 text-xs text-muted">{t("filterSortPrice")}</p>
+          <select
+            value={priceSort}
+            onChange={(e) => update("sort", e.target.value)}
+            className="rounded-lg border border-border bg-surface-muted px-3 py-2 text-sm text-foreground outline-none transition-colors focus:border-brand-gold"
+          >
+            <option value="">{t("sortPriceDefault")}</option>
+            <option value="price-asc">{t("sortPriceAsc")}</option>
+            <option value="price-desc">{t("sortPriceDesc")}</option>
+          </select>
         </div>
       </div>
     </div>

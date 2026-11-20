@@ -12,6 +12,8 @@ import { Button } from "@/components/ui/Button";
 import { WhatsAppLink } from "@/components/contact/WhatsAppLink";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { PropertyGallery } from "@/components/listing/PropertyGallery";
+import { PropertyMap } from "@/components/listing/PropertyMap";
+import { AdvisorCard } from "@/components/listing/AdvisorCard";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
 import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations, getListingInquiryContext } from "@/lib/property-i18n";
@@ -110,11 +112,18 @@ export default async function PropertyDetailPage({ params }: Props) {
         </Link>
 
         <div className="mt-6 grid gap-8 lg:grid-cols-2 lg:gap-12">
-          <PropertyGallery
-            listing={listing}
-            title={title}
-            placeholder={t("listings.photosPlaceholder")}
-          />
+          <div className="flex flex-col">
+            <PropertyGallery
+              listing={listing}
+              title={title}
+              placeholder={t("listings.photosPlaceholder")}
+            />
+
+            <section className="mt-8 flex flex-1 flex-col">
+              <h2 className="text-lg font-semibold">{t("listings.location")}</h2>
+              <PropertyMap query={`${title}, ${location}`} title={title} />
+            </section>
+          </div>
 
           <div>
             <div className="flex flex-wrap gap-2">
@@ -213,6 +222,8 @@ export default async function PropertyDetailPage({ params }: Props) {
                 {t("listings.inquire")}
               </Button>
             </div>
+
+            <AdvisorCard />
           </div>
         </div>
 

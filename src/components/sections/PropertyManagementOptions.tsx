@@ -27,7 +27,7 @@ export async function PropertyManagementOptions({
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-gold/15 transition-colors group-hover:bg-brand-gold/20">
               <Icon className="h-6 w-6 text-brand-gold" />
             </div>
-            <span className="font-serif text-4xl leading-none text-brand-gold/25 transition-colors group-hover:text-brand-gold/40">
+            <span className="font-sans text-4xl font-semibold leading-none tracking-tight text-brand-gold/25 transition-colors group-hover:text-brand-gold/40">
               {number}
             </span>
           </div>
