@@ -2,9 +2,15 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { cn } from "@/lib/utils";
 import type { PropertyType, TransactionType } from "@/data/listings";
+
+const CITIES: { slug: string; label: string }[] = [
+  { slug: "turkey/alanya", label: "Alanya" },
+  { slug: "turkey/gazipasa", label: "Gazipaşa" },
+];
 
 export function ListingFilters() {
   const t = useTranslations("listings");
@@ -70,6 +76,20 @@ export function ListingFilters() {
                 onClick={() => update("type", item.value)}
                 label={item.label}
               />
+            ))}
+          </div>
+        </div>
+        <div>
+          <p className="mb-2 text-xs text-muted">{t("filterCity")}</p>
+          <div className="flex flex-wrap gap-2">
+            {CITIES.map((item) => (
+              <Link
+                key={item.slug}
+                href={`/locations/${item.slug}`}
+                className="rounded-full bg-surface-muted px-3 py-1.5 text-sm text-muted transition-colors hover:text-foreground"
+              >
+                {item.label}
+              </Link>
             ))}
           </div>
         </div>

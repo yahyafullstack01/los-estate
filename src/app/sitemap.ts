@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
-import { getListingSlugs } from "@/data/listings";
+import { getListingSlugs, getListingCountryCityParams } from "@/data/listings";
 import { guides } from "@/data/guides";
 import { getSiteUrl } from "@/lib/seo";
 
@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
   ];
   const slugs = getListingSlugs();
+  const cityParams = getListingCountryCityParams();
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -39,6 +40,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: BUILD_DATE,
         changeFrequency: "weekly",
         priority: 0.7,
+      });
+    }
+
+    for (const { country, city } of cityParams) {
+      entries.push({
+        url: `${base}/${locale}/locations/${country}/${city}`,
+        lastModified: BUILD_DATE,
+        changeFrequency: "weekly",
+        priority: 0.75,
       });
     }
 

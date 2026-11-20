@@ -4,15 +4,17 @@
     "tagline": "Gayrimenkul Grubu",
     "homeTitle": "Alanya, Türkiye'de Satılık ve Kiralık Daireler & Oteller",
     "homeDescription": "LOS ESTATE — Alanya, Gazipaşa ve Antalya'da satılık ve kiralık lüks daireler, dubleksler ve sahil otelleri. Avrupa, Rusya ve Kazakistan'dan alıcı ve kiracılar için çok dilli hizmet.",
-    "listingsTitle": "Alanya'da Satılık & Kiralık Gayrimenkul | LOS ESTATE",
+    "listingsTitle": "Alanya'da Satılık & Kiralık Gayrimenkul",
     "listingsDescription": "Alanya Merkez, BestHome kompleksleri ve Gazipaşa'da satılık ve kiralık daire, dubleks ve oteller. Fotoğraflı, fiyatlı doğrulanmış ilanlar ve WhatsApp iletişim.",
+    "cityListingsTitle": "{city}, {country}'de Satılık ve Kiralık Daireler & Oteller",
+    "cityListingsDescription": "{city}, {country}'de doğrulanmış satılık ve kiralık daire, ev ve oteller — fiyatlar, fotoğraflar ve LOS ESTATE WhatsApp desteği.",
     "contactTitle": "LOS ESTATE İletişim — Alanya Gayrimenkul",
     "contactDescription": "Alanya ve Gazipaşa'da daire kiralama, satış ve otel yatırımı için LOS ESTATE ile iletişime geçin. WhatsApp ve e-posta ile Türkçe, İngilizce ve Rusça yanıt.",
-    "partnersTitle": "Partnerler — Ajanslar, Ev Sahipleri & Geliştiriciler | LOS ESTATE",
+    "partnersTitle": "Partnerler — Ajanslar, Ev Sahipleri & Geliştiriciler",
     "partnersDescription": "Türkiye'de LOS ESTATE ile iş ortaklığı: Alanya gayrimenkulü için müşteri yönlendirin, kiralığınızı listeleyin veya projenizi tanıtın. Komisyon bazlı ajans ortaklığı.",
-    "forOwnersTitle": "Alanya'da Ev Sahipleri için Mülk Yönetimi | LOS ESTATE",
+    "forOwnersTitle": "Alanya'da Ev Sahipleri için Mülk Yönetimi",
     "forOwnersDescription": "Alanya'daki daireniz için anahtar teslim yönetim veya garantili kira. Stabil gelir, misafir ve bakım — her şeyi LOS ESTATE yönetir.",
-    "guidesTitle": "Alanya emlak rehberleri — kiralama, satın alma, kış | LOS ESTATE",
+    "guidesTitle": "Alanya emlak rehberleri — kiralama, satın alma, kış",
     "guidesDescription": "Alanya’da kiralama ve satın alma, BestHome 36 vs 37 ve kış aylık kira rehberleri. LOS ESTATE ipuçları ve WhatsApp desteği."
   },
   "nav": {
@@ -111,9 +113,12 @@
   "listings": {
     "title": "Tüm gayrimenkuller",
     "subtitle": "İşlem türüne ve gayrimenkul kategorisine göre filtreleyin",
+    "cityTitle": "{city}'de Gayrimenkuller",
+    "citySubtitle": "{city}, {country}'de satılık ve kiralık daire, ev ve oteller",
     "filters": "Filtreler",
     "filterTransaction": "İşlem",
     "filterType": "Tür",
+    "filterCity": "Şehir",
     "allTypes": "Tüm türler",
     "allTransactions": "Tümü",
     "noResults": "Filtrelerinize uygun gayrimenkul bulunamadı.",
@@ -2295,5 +2300,19 @@
     "allListings": "Tüm gayrimenkuller",
     "whatsapp": "WhatsApp’tan yazın",
     "whatsappPrefill": "Merhaba LOS ESTATE, “{title}” yazısını okudum ve Alanya’da gayrimenkul için yardıma ihtiyacım var."
+  },
+  "locationIntros": {
+    "alanya": {
+      "paragraphs": [
+        "Alanya, yabancı alıcılar ve uzun dönem kiracılar için Türkiye'nin en bilinen sahil şehridir; Kleopatra Plajı, tarihi Alanya Kalesi ve Kızıl Kule çoğu konut sitesine birkaç dakika uzaklıktadır. Alanya Merkez ve Kleopatra en popüler bölgelerdir; BestHome siteleri denize birkaç dakika mesafede eşyalı 1+1 ve 2+1 daireler sunar.",
+        "Alanya'da kiralar siteye ve sezona göre aylık 700–2.500 € arasında değişir; kış dönemi (Ekim–Nisan) özellikle Kuzey Avrupalı uzun dönem kiracılar arasında popülerdir. LOS ESTATE; Kleopatra, Alanya Merkez, Kargıcak ve Goldcity'de daireler yönetmektedir — güncel müsaitlik ve fiyatlar için WhatsApp'tan bize ulaşın."
+      ]
+    },
+    "gazipasa": {
+      "paragraphs": [
+        "Gazipaşa, Alanya'nın yaklaşık 45 dakika güneyinde yer alan daha sakin bir sahil kasabasıdır; Gazipaşa-Alanya Havalimanı'na ev sahipliği yapar ve sahil kenarında artan sayıda otel ve villa yatırımına sahiptir. Alanya Merkez'e göre daha düşük giriş fiyatları arayan alıcılar için aynı Akdeniz sahil şeridinde güçlü bir seçenektir.",
+        "LOS ESTATE, Gazipaşa'da hem otel işletmecilerine hem de özel alıcılara uygun sahil projeleri dahil olmak üzere otel ve yatırım amaçlı gayrimenkul satışlarını yürütmektedir. Güncel ilanlar ve yatırım detayları için WhatsApp'tan bize ulaşın."
+      ]
+    }
   }
 }

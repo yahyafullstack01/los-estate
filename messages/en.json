@@ -4,15 +4,17 @@
     "tagline": "Real Estate Group",
     "homeTitle": "Rent & Buy Apartments in Alanya, Turkey | Winter Stay | LOS ESTATE",
     "homeDescription": "Apartments and houses for rent and sale in Alanya — BestHome, Kargıcak, Goldcity, Gazipaşa. Winter stays and long-term rent with WhatsApp support from LOS ESTATE.",
-    "listingsTitle": "Apartments & Houses for Rent and Sale in Alanya | LOS ESTATE",
+    "listingsTitle": "Apartments & Houses for Rent and Sale in Alanya",
     "listingsDescription": "Browse Alanya rentals and sales: BestHome apartments, Kargıcak villas, Goldcity, Gazipaşa hotels. Verified photos, prices, winter and long-term options — WhatsApp LOS ESTATE.",
+    "cityListingsTitle": "Apartments & Hotels for Sale and Rent in {city}, {country}",
+    "cityListingsDescription": "Browse verified apartments, houses and hotels for sale and rent in {city}, {country} — prices, photos and WhatsApp support from LOS ESTATE.",
     "contactTitle": "Contact LOS ESTATE — Alanya Real Estate",
     "contactDescription": "Contact LOS ESTATE for apartment rentals, property sales and hotel investments in Alanya and Gazipaşa, Turkey. WhatsApp and email replies in English and Russian.",
-    "partnersTitle": "Partners — Agencies, Landlords & Developers | LOS ESTATE",
+    "partnersTitle": "Partners — Agencies, Landlords & Developers",
     "partnersDescription": "Partner with LOS ESTATE in Turkey: refer clients for Alanya property, list your rental, or promote your residential project. Commission-based agency partnerships.",
-    "forOwnersTitle": "Property Management in Alanya for Owners | LOS ESTATE",
+    "forOwnersTitle": "Property Management in Alanya for Owners",
     "forOwnersDescription": "Turnkey property management or guaranteed rental for your apartment in Alanya, Turkey. Stable income, guest handling and maintenance — LOS ESTATE manages everything.",
-    "guidesTitle": "Alanya Rent & Buy Guides — Winter Stay, BestHome | LOS ESTATE",
+    "guidesTitle": "Alanya Rent & Buy Guides — Winter Stay, BestHome",
     "guidesDescription": "Guides to renting and buying in Alanya, winter monthly stays, BestHome 36 vs 37, and long-term apartments. Expert tips from LOS ESTATE."
   },
   "nav": {
@@ -111,9 +113,12 @@
   "listings": {
     "title": "All Properties",
     "subtitle": "Filter by transaction type and property category",
+    "cityTitle": "Properties in {city}",
+    "citySubtitle": "Apartments, houses and hotels for sale and rent in {city}, {country}",
     "filters": "Filters",
     "filterTransaction": "Transaction",
     "filterType": "Type",
+    "filterCity": "City",
     "allTypes": "All types",
     "allTransactions": "All",
     "noResults": "No properties match your filters.",
@@ -2295,5 +2300,19 @@
     "allListings": "All properties",
     "whatsapp": "WhatsApp us",
     "whatsappPrefill": "Hi LOS ESTATE, I read “{title}” and I need help with Alanya property."
+  },
+  "locationIntros": {
+    "alanya": {
+      "paragraphs": [
+        "Alanya is Turkey's best-known coastal city for foreign buyers and long-term renters, with Cleopatra Beach, the historic Alanya Castle, and the Red Tower a short walk from most apartment complexes. Alanya Center and Cleopatra are the most popular districts, with BestHome complexes offering furnished 1+1 and 2+1 apartments a few minutes from the sea.",
+        "Rents in Alanya range from around €700–€2,500/month depending on complex and season, with winter stays (October–April) especially popular with long-term tenants from Northern Europe. LOS ESTATE manages apartments across Cleopatra, Alanya Center, Kargıcak, and Goldcity — WhatsApp us for current availability and pricing."
+      ]
+    },
+    "gazipasa": {
+      "paragraphs": [
+        "Gazipaşa is a quieter coastal town about 45 minutes south of Alanya, home to Gazipaşa-Alanya Airport and a growing number of seafront hotel and villa investments. It's a strong option for buyers looking for lower entry prices than Alanya Center, with the same Mediterranean coastline.",
+        "LOS ESTATE handles hotel and investment-property sales in Gazipaşa, including seafront developments suited to both hospitality operators and private buyers. Contact us on WhatsApp for current listings and investment details."
+      ]
+    }
   }
 }

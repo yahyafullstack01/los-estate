@@ -4,15 +4,17 @@
     "tagline": "Grupo Inmobiliario",
     "homeTitle": "Apartamentos y hoteles en venta y alquiler en Alanya, Turquía",
     "homeDescription": "LOS ESTATE — apartamentos de lujo, dúplex y hoteles de playa en venta y alquiler en Alanya, Gazipaşa y Antalya. Servicio multilingüe para compradores e inquilinos de Europa, Rusia y Kazajistán.",
-    "listingsTitle": "Propiedades en venta y alquiler en Alanya | LOS ESTATE",
+    "listingsTitle": "Propiedades en venta y alquiler en Alanya",
     "listingsDescription": "Apartamentos, dúplex y hoteles en venta y alquiler en el centro de Alanya, complejos BestHome y Gazipaşa. Anuncios verificados con fotos, precios y WhatsApp.",
+    "cityListingsTitle": "Apartamentos y hoteles en venta y alquiler en {city}, {country}",
+    "cityListingsDescription": "Apartamentos, casas y hoteles verificados en venta y alquiler en {city}, {country} — precios, fotos y soporte por WhatsApp de LOS ESTATE.",
     "contactTitle": "Contactar LOS ESTATE — Inmobiliaria Alanya",
     "contactDescription": "Contacte con LOS ESTATE para alquiler de apartamentos, venta de propiedades e inversión hotelera en Alanya y Gazipaşa. WhatsApp y email en español, inglés y ruso.",
-    "partnersTitle": "Socios — Agencias, propietarios y promotores | LOS ESTATE",
+    "partnersTitle": "Socios — Agencias, propietarios y promotores",
     "partnersDescription": "Asóciese con LOS ESTATE en Turquía: derive clientes para Alanya, liste su alquiler o promueva su proyecto. Asociación de agencia por comisión.",
-    "forOwnersTitle": "Gestión inmobiliaria en Alanya para propietarios | LOS ESTATE",
+    "forOwnersTitle": "Gestión inmobiliaria en Alanya para propietarios",
     "forOwnersDescription": "Gestión llave en mano o alquiler garantizado para su apartamento en Alanya. Ingresos estables, huéspedes y mantenimiento — LOS ESTATE se encarga de todo.",
-    "guidesTitle": "Guías inmobiliarias Alanya — alquiler, compra, invierno | LOS ESTATE",
+    "guidesTitle": "Guías inmobiliarias Alanya — alquiler, compra, invierno",
     "guidesDescription": "Guías sobre alquiler y compra en Alanya, BestHome 36 vs 37 y alquiler mensual de invierno. Consejos de LOS ESTATE y WhatsApp."
   },
   "nav": {
@@ -111,9 +113,12 @@
   "listings": {
     "title": "Todas las propiedades",
     "subtitle": "Filtre por tipo de transacción y categoría",
+    "cityTitle": "Propiedades en {city}",
+    "citySubtitle": "Apartamentos, casas y hoteles en venta y alquiler en {city}, {country}",
     "filters": "Filtros",
     "filterTransaction": "Transacción",
     "filterType": "Tipo",
+    "filterCity": "Ciudad",
     "allTypes": "Todos los tipos",
     "allTransactions": "Todos",
     "noResults": "Ninguna propiedad coincide con sus filtros.",
@@ -2295,5 +2300,19 @@
     "allListings": "Todas las propiedades",
     "whatsapp": "Escribir por WhatsApp",
     "whatsappPrefill": "Hola LOS ESTATE, leí “{title}” y necesito ayuda con un inmueble en Alanya."
+  },
+  "locationIntros": {
+    "alanya": {
+      "paragraphs": [
+        "Alanya es la ciudad costera más conocida de Turquía para compradores extranjeros e inquilinos de larga estancia, con la playa de Cleopatra, el histórico castillo de Alanya y la Torre Roja a pocos pasos de la mayoría de los complejos. Alanya Centro y Cleopatra son los distritos más populares, con complejos BestHome que ofrecen apartamentos amueblados 1+1 y 2+1 a pocos minutos del mar.",
+        "Los alquileres en Alanya van de 700 a 2.500 €/mes según el complejo y la temporada, siendo las estancias de invierno (octubre-abril) muy populares entre inquilinos del norte de Europa. LOS ESTATE gestiona apartamentos en Cleopatra, Alanya Centro, Kargıcak y Goldcity — contáctenos por WhatsApp para disponibilidad y precios actuales."
+      ]
+    },
+    "gazipasa": {
+      "paragraphs": [
+        "Gazipaşa es una localidad costera más tranquila a unos 45 minutos al sur de Alanya, sede del aeropuerto de Gazipaşa-Alanya y de un número creciente de inversiones en hoteles y villas frente al mar. Es una excelente opción para compradores que buscan precios de entrada más bajos que en Alanya Centro, con la misma costa mediterránea.",
+        "LOS ESTATE gestiona ventas de hoteles y propiedades de inversión en Gazipaşa, incluyendo proyectos frente al mar para operadores hoteleros y compradores privados. Contáctenos por WhatsApp para conocer la oferta actual y detalles de inversión."
+      ]
+    }
   }
 }

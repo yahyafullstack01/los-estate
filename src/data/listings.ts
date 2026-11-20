@@ -9,6 +9,8 @@ export interface Listing {
   price: number;
   priceMax?: number;
   currency: string;
+  /** ISO-ish country name, used to build /listings/[country]/[city] pages. Turkey only for now. */
+  country: string;
   location: string;
   beds: number;
   baths: number;
@@ -30,6 +32,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1700,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -62,6 +65,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1700,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -94,6 +98,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -124,6 +129,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 3000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 2,
     baths: 2,
@@ -157,6 +163,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -190,6 +197,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 3000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 2,
     baths: 2,
@@ -222,6 +230,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -253,6 +262,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -284,6 +294,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -315,6 +326,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -347,6 +359,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 3000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 2,
     baths: 2,
@@ -383,6 +396,7 @@ export const listings: Listing[] = [
     price: 600,
     priceMax: 1200,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -418,6 +432,7 @@ export const listings: Listing[] = [
     price: 600,
     priceMax: 1200,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -453,6 +468,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -486,6 +502,7 @@ export const listings: Listing[] = [
     price: 1300,
     priceMax: 2500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 2,
     baths: 2,
@@ -519,6 +536,7 @@ export const listings: Listing[] = [
     price: 850,
     priceMax: 1400,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -549,6 +567,7 @@ export const listings: Listing[] = [
     price: 850,
     priceMax: 1700,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -581,6 +600,7 @@ export const listings: Listing[] = [
     price: 650,
     priceMax: 900,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -607,6 +627,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1200,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -639,6 +660,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -669,6 +691,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -704,6 +727,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -734,6 +758,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -771,6 +796,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -808,6 +834,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -843,6 +870,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -878,6 +906,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -911,6 +940,7 @@ export const listings: Listing[] = [
     price: 1000,
     priceMax: 1800,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -940,6 +970,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 2500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 2,
     baths: 1,
@@ -973,6 +1004,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -1006,6 +1038,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Cleopatra, Turkey",
     beds: 1,
     baths: 1,
@@ -1041,6 +1074,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1074,6 +1108,7 @@ export const listings: Listing[] = [
     transaction: "rent",
     price: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Kargıcak, Turkey",
     beds: 3,
     baths: 3,
@@ -1104,6 +1139,7 @@ export const listings: Listing[] = [
     transaction: "rent",
     price: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Goldcity / Kargıcak, Turkey",
     beds: 3,
     baths: 2,
@@ -1133,6 +1169,7 @@ export const listings: Listing[] = [
     transaction: "rent",
     price: 1000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Kargıcak, Turkey",
     beds: 5,
     baths: 3,
@@ -1162,6 +1199,7 @@ export const listings: Listing[] = [
     transaction: "rent",
     price: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Kargıcak, Turkey",
     beds: 3,
     baths: 3,
@@ -1190,6 +1228,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 375000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1220,6 +1259,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 230000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1249,6 +1289,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 320000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1284,6 +1325,7 @@ export const listings: Listing[] = [
     price: 900,
     priceMax: 2000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1316,6 +1358,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 2700,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 1,
@@ -1347,6 +1390,7 @@ export const listings: Listing[] = [
     price: 2000,
     priceMax: 3500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1377,6 +1421,7 @@ export const listings: Listing[] = [
     price: 800,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1406,6 +1451,7 @@ export const listings: Listing[] = [
     price: 1570,
     priceMax: 2500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1436,6 +1482,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 0,
     currency: "EUR",
+    country: "Turkey",
     location: "Gazipaşa, Antalya, Turkey",
     units: 43,
     beds: 43,
@@ -1466,6 +1513,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 7500000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     units: 41,
     beds: 41,
@@ -1502,6 +1550,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 166000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1531,6 +1580,7 @@ export const listings: Listing[] = [
     price: 200000,
     priceMax: 230000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Cleopatra, Turkey",
     units: 90,
     beds: 3,
@@ -1563,6 +1613,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 175000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1592,6 +1643,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 275000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1625,6 +1677,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1655,6 +1708,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1685,6 +1739,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1714,6 +1769,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1746,6 +1802,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1777,6 +1834,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -1807,6 +1865,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 2250,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1838,6 +1897,7 @@ export const listings: Listing[] = [
     price: 1500,
     priceMax: 2250,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 1,
@@ -1866,6 +1926,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 375000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Turkey",
     beds: 5,
     baths: 2,
@@ -1896,6 +1957,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 825000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Sugözü, Turkey",
     beds: 4,
     baths: 5,
@@ -1929,6 +1991,7 @@ export const listings: Listing[] = [
     price: 2500,
     priceMax: 3000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1960,6 +2023,7 @@ export const listings: Listing[] = [
     price: 2500,
     priceMax: 3000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -1990,6 +2054,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -2019,6 +2084,7 @@ export const listings: Listing[] = [
     price: 700,
     priceMax: 1500,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -2049,6 +2115,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 365000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -2079,6 +2146,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 175000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 1,
     baths: 1,
@@ -2108,6 +2176,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 275000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya Center, Turkey",
     beds: 2,
     baths: 2,
@@ -2141,6 +2210,7 @@ export const listings: Listing[] = [
     price: 80000,
     priceMax: 150000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Demirtaş, Turkey",
     units: 108,
     beds: 2,
@@ -2173,6 +2243,7 @@ export const listings: Listing[] = [
     price: 235000,
     priceMax: 420000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Cleopatra, Turkey",
     units: 14,
     beds: 3,
@@ -2204,6 +2275,7 @@ export const listings: Listing[] = [
     transaction: "sale",
     price: 4500000,
     currency: "EUR",
+    country: "Turkey",
     location: "Alanya, Antalya, Turkey",
     units: 24,
     beds: 24,
@@ -2243,4 +2315,43 @@ export function getListingBySlug(slug: string): Listing | undefined {
 
 export function getListingSlugs(): string[] {
   return listings.map((l) => l.slug);
+}
+
+/** City slugs this listing's `location` text belongs to, for city landing pages. */
+export type CitySlug = "gazipasa" | "alanya";
+
+/** Derives a canonical city slug from the free-text `location` field. */
+export function getListingCitySlug(listing: Listing): CitySlug {
+  const normalized = listing.location.toLowerCase();
+  if (normalized.includes("gazipaşa") || normalized.includes("gazipasa")) {
+    return "gazipasa";
+  }
+  return "alanya";
+}
+
+export function slugify(value: string): string {
+  return value.trim().toLowerCase().replace(/\s+/g, "-");
+}
+
+/** Distinct { country, citySlug } combos present in the data, for generateStaticParams. */
+export function getListingCountryCityParams(): {
+  country: string;
+  city: CitySlug;
+}[] {
+  const seen = new Map<string, { country: string; city: CitySlug }>();
+  for (const listing of listings) {
+    const country = slugify(listing.country);
+    const city = getListingCitySlug(listing);
+    seen.set(`${country}/${city}`, { country, city });
+  }
+  return [...seen.values()];
+}
+
+export function getListingsByCountryCity(
+  country: string,
+  city: CitySlug
+): Listing[] {
+  return listings.filter(
+    (l) => slugify(l.country) === country && getListingCitySlug(l) === city
+  );
 }

@@ -4,15 +4,17 @@
     "tagline": "Grupa Nieruchomości",
     "homeTitle": "Apartamenty i hotele na sprzedaż i wynajem w Alanyi, Turcja",
     "homeDescription": "LOS ESTATE — luksusowe apartamenty, dupleksy i hotele plażowe na sprzedaż i wynajem w Alanyi, Gazipaşa i Antalyi. Wielojęzyczna obsługa nabywców i najemców z Europy, Rosji i Kazachstanu.",
-    "listingsTitle": "Nieruchomości na sprzedaż i wynajem w Alanyi | LOS ESTATE",
+    "listingsTitle": "Nieruchomości na sprzedaż i wynajem w Alanyi",
     "listingsDescription": "Apartamenty, dupleksy i hotele na sprzedaż i wynajem w centrum Alanyi, kompleksach BestHome i Gazipaşa. Zweryfikowane oferty ze zdjęciami, cenami i WhatsApp.",
+    "cityListingsTitle": "Apartamenty i hotele na sprzedaż i wynajem w {city}, {country}",
+    "cityListingsDescription": "Zweryfikowane apartamenty, domy i hotele na sprzedaż i wynajem w {city}, {country} — ceny, zdjęcia i wsparcie WhatsApp od LOS ESTATE.",
     "contactTitle": "Kontakt LOS ESTATE — Nieruchomości Alanya",
     "contactDescription": "Skontaktuj się z LOS ESTATE w sprawie wynajmu apartamentów, sprzedaży nieruchomości i inwestycji hotelowych w Alanyi i Gazipaşa. WhatsApp i e-mail po polsku, angielsku i rosyjsku.",
-    "partnersTitle": "Partnerzy — Agencje, właściciele i deweloperzy | LOS ESTATE",
+    "partnersTitle": "Partnerzy — Agencje, właściciele i deweloperzy",
     "partnersDescription": "Współpraca z LOS ESTATE w Turcji: polecaj klientów na Alanyę, wystawiaj wynajem lub promuj projekt. Partnerska współpraca prowizyjna.",
-    "forOwnersTitle": "Zarządzanie nieruchomościami w Alanyi dla właścicieli | LOS ESTATE",
+    "forOwnersTitle": "Zarządzanie nieruchomościami w Alanyi dla właścicieli",
     "forOwnersDescription": "Zarządzanie pod klucz lub gwarantowany wynajem Twojego apartamentu w Alanyi. Stabilny dochód, goście i utrzymanie — LOS ESTATE zajmuje się wszystkim.",
-    "guidesTitle": "Przewodniki po nieruchomościach w Alanyi — wynajem, zakup, zima | LOS ESTATE",
+    "guidesTitle": "Przewodniki po nieruchomościach w Alanyi — wynajem, zakup, zima",
     "guidesDescription": "Przewodniki o wynajmie i zakupie mieszkań w Alanyi, BestHome 36 vs 37 oraz zimowym wynajmie miesięcznym. Porady LOS ESTATE i WhatsApp."
   },
   "nav": {
@@ -111,9 +113,12 @@
   "listings": {
     "title": "Wszystkie oferty",
     "subtitle": "Filtruj według typu transakcji i kategorii",
+    "cityTitle": "Nieruchomości w {city}",
+    "citySubtitle": "Apartamenty, domy i hotele na sprzedaż i wynajem w {city}, {country}",
     "filters": "Filtry",
     "filterTransaction": "Transakcja",
     "filterType": "Typ",
+    "filterCity": "Miasto",
     "allTypes": "Wszystkie typy",
     "allTransactions": "Wszystkie",
     "noResults": "Brak ofert pasujących do filtrów.",
@@ -2295,5 +2300,19 @@
     "allListings": "Wszystkie oferty",
     "whatsapp": "Napisz na WhatsApp",
     "whatsappPrefill": "Cześć LOS ESTATE, przeczytałem/am „{title}” i potrzebuję pomocy z nieruchomością w Alanyi."
+  },
+  "locationIntros": {
+    "alanya": {
+      "paragraphs": [
+        "Alanya to najbardziej znane nadmorskie miasto Turcji wśród zagranicznych kupujących i najemców długoterminowych — plaża Kleopatry, historyczny zamek Alanya i Czerwona Wieża znajdują się kilka minut od większości kompleksów mieszkalnych. Alanya Centrum i Cleopatra to najpopularniejsze dzielnice, z kompleksami BestHome oferującymi umeblowane apartamenty 1+1 i 2+1 kilka minut od morza.",
+        "Czynsze w Alanyi wynoszą zwykle 700–2500 €/miesiąc w zależności od kompleksu i sezonu, a pobyty zimowe (październik–kwiecień) są szczególnie popularne wśród najemców z Europy Północnej. LOS ESTATE zarządza apartamentami w Cleopatrze, Alanya Centrum, Kargıcak i Goldcity — napisz do nas na WhatsApp, aby poznać aktualną dostępność i ceny."
+      ]
+    },
+    "gazipasa": {
+      "paragraphs": [
+        "Gazipaşa to spokojniejsze miasto nadmorskie położone około 45 minut na południe od Alanyi, w którym znajduje się lotnisko Gazipaşa-Alanya oraz rosnąca liczba inwestycji hotelowych i willowych przy plaży. To dobra opcja dla kupujących szukających niższych cen wejścia niż w Alanya Centrum, przy tym samym wybrzeżu Morza Śródziemnego.",
+        "LOS ESTATE zajmuje się sprzedażą hoteli i nieruchomości inwestycyjnych w Gazipaşa, w tym projektów przy plaży odpowiednich dla operatorów hotelowych i prywatnych kupujących. Skontaktuj się z nami na WhatsApp, aby poznać aktualne oferty i szczegóły inwestycji."
+      ]
+    }
   }
 }
