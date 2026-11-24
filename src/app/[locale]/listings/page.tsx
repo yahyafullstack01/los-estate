@@ -39,6 +39,7 @@ export default async function ListingsPage({ params, searchParams }: Props) {
   setRequestLocale(locale as Locale);
 
   const t = await getTranslations("listings");
+  const tMeta = await getTranslations({ locale, namespace: "metadata" });
 
   const matched = listings.filter((l) => {
     if (transaction && l.transaction !== (transaction as TransactionType)) {
@@ -62,8 +63,9 @@ export default async function ListingsPage({ params, searchParams }: Props) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <div className="max-w-2xl">
-        <h1 className="font-serif text-4xl">{t("title")}</h1>
-        <p className="mt-3 text-muted">{t("subtitle")}</p>
+        <h1 className="font-serif text-4xl">{tMeta("listingsTitle")}</h1>
+        <p className="mt-3 text-muted">{tMeta("listingsDescription")}</p>
+        <p className="mt-1 text-sm text-muted">{t("subtitle")}</p>
       </div>
 
       <div className="mt-10 space-y-8">
