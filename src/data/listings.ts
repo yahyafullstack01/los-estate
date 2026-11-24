@@ -39,6 +39,7 @@ export const listings: Listing[] = [
     areaSqm: 70,
     imageDir: "/listings/besthome-37-rent-2-1-b",
     images: [
+      "/listings/besthome-37-rent-2-1-b/09-tv-dining.webp",
       "/listings/besthome-37-rent-2-1-b/10-balcony.webp",
       "/listings/besthome-37-rent-2-1-b/01-pool.webp",
       "/listings/besthome-37-rent-2-1-b/02-living-dining.webp",
@@ -48,7 +49,6 @@ export const listings: Listing[] = [
       "/listings/besthome-37-rent-2-1-b/06-bedroom-twin.webp",
       "/listings/besthome-37-rent-2-1-b/07-wardrobe.webp",
       "/listings/besthome-37-rent-2-1-b/08-kitchen.webp",
-      "/listings/besthome-37-rent-2-1-b/09-tv-dining.webp",
     ],
     featured: true,
     features: [
