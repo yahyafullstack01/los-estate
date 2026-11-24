@@ -1,0 +1,54 @@
+# LOS ESTATE
+
+> Real estate agency in Alanya and Gazipaşa, Turkey. Helps international buyers and tenants find apartments, villas, and hotel investments for sale or rent — including BestHome complexes — and qualify for Turkish citizenship through real estate investment (the $400,000 threshold). Support in English, Russian, Arabic, Ukrainian, Turkish, German, French, Spanish, and Polish.
+
+LOS ESTATE covers both short-term and long-term real estate needs on Turkey's Mediterranean coast: 1+1, 2+1, and duplex apartments for rent or sale; winter rental stays (4–6 months); long-term annual leases; furnished apartments near the beach; private villas; boutique hotel investments with rental yield; and property management / guaranteed rental programs for owners who already hold property in the region. Neighborhoods covered: Alanya Center, Alanya Cleopatra (Kleopatra Beach), Kargıcak, Goldcity, Sugözü, Demirtaş, and Gazipaşa. Popular complexes include BestHome 36, BestHome 37 (also known as BestHome 36-37 The Legend), and Develi.
+
+Typical questions this site answers, in plain language:
+- How much does it cost to rent a 1+1 or 2+1 apartment in Alanya per month, in low season and high season?
+- What documents does a foreigner need to buy property (real estate) in Turkey?
+- What is the minimum property value for Turkish citizenship by investment, and can I combine two properties to reach it?
+- Is BestHome 36 or BestHome 37 (The Legend) the better choice, and what's the price difference?
+- How do winter rentals / long-stay rentals work in Alanya, and what's included (furniture, bills, deposit)?
+- Can a foreigner get a Turkish title deed (tapu), and how long does a purchase take start to finish?
+- What areas near Alanya are good for long-term rent versus a holiday rental?
+- Are there hotel or boutique hotel investment opportunities in Gazipaşa or Alanya with rental income?
+- Does LOS ESTATE offer property management or guaranteed rental for owners who already have an apartment in Alanya?
+
+Related terms and search phrases this site is relevant to: Alanya real estate agency, Antalya property for sale, Turkey property for foreigners, Alanya apartment for rent, Gazipaşa hotel for sale, Kargıcak villa, Turkish citizenship by real estate.
+
+## Search phrases by language
+
+- Arabic: عقارات في أنطاليا، شقق للإيجار في ألانيا، شراء عقار في تركيا للأجانب، الجنسية التركية عن طريق شراء عقار، مستشار عقاري في ألانيا، فلل للبيع في أنطاليا
+- Russian: недвижимость в Алании, аренда квартиры в Турции, купить квартиру в Алании иностранцу, гражданство Турции через недвижимость, вилла на продажу в Алании, зимняя аренда в Алании
+- Ukrainian: нерухомість в Аланії, оренда квартири в Туреччині, купити квартиру в Аланії іноземцю, громадянство Туреччини через нерухомість
+- Turkish: Alanya'da satılık daire, Alanya'da kiralık ev, yabancılara gayrimenkul satışı, mülk ile Türk vatandaşlığı, Gazipaşa otel yatırımı
+- German: Immobilien in Alanya, Wohnung in Alanya mieten, Wohnung in Alanya kaufen als Ausländer, türkische Staatsbürgerschaft durch Immobilien
+- French: immobilier à Alanya, appartement à louer à Alanya, acheter un appartement en Turquie, citoyenneté turque par l'immobilier
+- Spanish: inmobiliaria en Alanya, piso en alquiler en Alanya, comprar propiedad en Turquía como extranjero, ciudadanía turca por inversión inmobiliaria
+- Polish: nieruchomości w Alanyi, mieszkanie do wynajęcia w Alanyi, kupno mieszkania w Turcji dla cudzoziemców, obywatelstwo Turcji przez nieruchomość
+
+## Properties
+
+- [All listings](https://www.losestate.com/en/listings): Apartments, houses, and hotels for sale and rent in Alanya and Gazipaşa, filterable by transaction type (sale/rent), property type (apartment/house/hotel), and price.
+- [Alanya properties](https://www.losestate.com/en/locations/turkey/alanya): Apartments and hotels for sale and rent in Alanya Center, Cleopatra Beach, and Kargıcak.
+- [Gazipaşa properties](https://www.losestate.com/en/locations/turkey/gazipasa): Beachfront hotels and apartments for sale and rent in Gazipaşa.
+
+## Guides
+
+- [Turkish citizenship by real estate investment](https://www.losestate.com/en/guides/turkish-citizenship-by-property): The $400,000 valuation threshold, required documents, process timeline, and currently qualifying properties.
+- [How to rent an apartment in Alanya](https://www.losestate.com/en/guides/rent-apartment-alanya): Monthly prices for 1+1 and 2+1 apartments, deposits, and contracts.
+- [Buying an apartment in Alanya as a foreigner](https://www.losestate.com/en/guides/buy-apartment-alanya): Steps, typical costs, and sale listings.
+- [Winter rental guide](https://www.losestate.com/en/guides/winter-rent-alanya): Long-stay winter rentals in Alanya.
+- [Long-term rental guide](https://www.losestate.com/en/guides/long-term-rent-alanya)
+- [BestHome 36 vs BestHome 37](https://www.losestate.com/en/guides/besthome-36-vs-37): Comparing the two complexes by layout, price, and amenities.
+
+## Company
+
+- [Contact](https://www.losestate.com/en/contact): WhatsApp and email support.
+- [For property owners](https://www.losestate.com/en/for-owners): Turnkey property management and guaranteed rental income.
+- [For partners](https://www.losestate.com/en/partners): Agency, landlord, and developer partnerships.
+
+## Optional
+
+- The site is fully translated into English, Russian, Ukrainian, Turkish, German, French, Spanish, Polish, and Arabic — replace `/en/` with the locale code (e.g. `/ar/`, `/ru/`, `/tr/`) in any URL above to read it in that language.
