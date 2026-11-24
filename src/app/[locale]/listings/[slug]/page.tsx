@@ -20,6 +20,15 @@ import { getListingLocation, getPropertyTranslations, getListingInquiryContext }
 import { absoluteUrl, getPageAlternates } from "@/lib/seo";
 import { locales, type Locale } from "@/i18n/routing";
 
+/** Appends the listing's location to its title for search relevance, unless already present. */
+function withLocationKeyword(title: string, location: string): string {
+  const city = location.split(",")[0]?.trim();
+  if (!city) return title;
+  const haystack = title.toLowerCase();
+  if (haystack.includes(city.toLowerCase())) return title;
+  return `${title} — ${location}`;
+}
+
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export function generateStaticParams() {
@@ -39,6 +48,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     namespace: `properties.${slug}`,
   });
 
+  const location = await getListingLocation(slug, listing);
+  const title = withLocationKeyword(t("title"), location);
+
   const description = t("description");
   const shortDescription =
     description.length > 160
@@ -46,10 +58,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : description;
 
   return {
-    title: t("title"),
+    title,
     description: shortDescription,
+    keywords: [
+      t("title"),
+      location,
+      listing.type,
+      listing.transaction === "rent" ? "rent" : "for sale",
+    ],
     openGraph: {
-      title: t("title"),
+      title,
       description: shortDescription,
       images: listing.images[0]
         ? [absoluteUrl(listing.images[0])]
