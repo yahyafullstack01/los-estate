@@ -6,7 +6,6 @@ import {
   getListingBySlug,
   getListingSlugs,
 } from "@/data/listings";
-import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { WhatsAppLink } from "@/components/contact/WhatsAppLink";
@@ -15,6 +14,7 @@ import { PropertyGallery } from "@/components/listing/PropertyGallery";
 import { PropertyMap } from "@/components/listing/PropertyMap";
 import { AdvisorCard } from "@/components/listing/AdvisorCard";
 import { PropertyJsonLd } from "@/components/listing/PropertyJsonLd";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { formatPrice, splitListingTitle } from "@/lib/utils";
 import { getListingLocation, getPropertyTranslations, getListingInquiryContext } from "@/lib/property-i18n";
 import { absoluteUrl, getPageAlternates } from "@/lib/seo";
@@ -131,12 +131,13 @@ export default async function PropertyDetailPage({ params }: Props) {
     <>
       <PropertyJsonLd listing={listing} />
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <Link
-          href="/listings"
-          className="text-sm text-brand-gold hover:underline"
-        >
-          ← {t("listings.backToListings")}
-        </Link>
+        <Breadcrumbs
+          items={[
+            { label: t("nav.home"), href: "/" },
+            { label: t("nav.listings"), href: "/listings" },
+            { label: title },
+          ]}
+        />
 
         <p className="mt-3 text-sm text-muted">{seoSummary}</p>
 

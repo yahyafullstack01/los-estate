@@ -10,6 +10,7 @@ import { getListingBySlug } from "@/data/listings";
 import { Link } from "@/i18n/navigation";
 import { PropertyCard } from "@/components/listing/PropertyCard";
 import { GuideJsonLd } from "@/components/guides/GuideJsonLd";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { GuideWhatsAppCta } from "@/components/guides/GuideWhatsAppCta";
 import { absoluteUrl, getPageAlternates } from "@/lib/seo";
 import { locales, type Locale } from "@/i18n/routing";
@@ -52,6 +53,7 @@ export default async function GuideDetailPage({ params }: Props) {
   if (!guide) notFound();
 
   const t = await getTranslations("guides");
+  const tNav = await getTranslations("nav");
   const content = getGuideContent(guide, locale);
   const related = guide.relatedListingSlugs
     .map((s) => getListingBySlug(s))
@@ -63,9 +65,16 @@ export default async function GuideDetailPage({ params }: Props) {
     <>
       <GuideJsonLd guide={guide} content={content} locale={locale} />
       <article className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <Breadcrumbs
+          items={[
+            { label: tNav("home"), href: "/" },
+            { label: tNav("guides"), href: "/guides" },
+            { label: content.title },
+          ]}
+        />
         <Link
           href="/guides"
-          className="text-sm font-medium text-muted hover:text-brand-gold"
+          className="mt-3 inline-block text-sm font-medium text-muted hover:text-brand-gold"
         >
           ← {t("backToGuides")}
         </Link>
