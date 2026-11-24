@@ -118,6 +118,15 @@ export default async function PropertyDetailPage({ params }: Props) {
     url: listingUrl,
   });
 
+  const seoSummary = [
+    t(`types.${listing.type}`),
+    t(`transactions.${listing.transaction}`),
+    location,
+    t("listings.beds", { count: listing.beds }),
+    t("listings.area", { sqm: listing.areaSqm }),
+    priceLabel,
+  ].join(" · ");
+
   return (
     <>
       <PropertyJsonLd listing={listing} />
@@ -128,6 +137,8 @@ export default async function PropertyDetailPage({ params }: Props) {
         >
           ← {t("listings.backToListings")}
         </Link>
+
+        <p className="mt-3 text-sm text-muted">{seoSummary}</p>
 
         <div className="mt-6 grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col">
