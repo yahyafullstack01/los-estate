@@ -22,7 +22,7 @@ import { locales, type Locale } from "@/i18n/routing";
 
 /** Appends the listing's location to its title for search relevance, unless already present. */
 function withLocationKeyword(title: string, location: string): string {
-  const city = location.split(",")[0]?.trim();
+  const city = location.split(/[,،]/)[0]?.trim();
   if (!city) return title;
   const haystack = title.toLowerCase();
   if (haystack.includes(city.toLowerCase())) return title;

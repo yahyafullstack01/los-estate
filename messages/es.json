@@ -1461,6 +1461,30 @@
         "Complejo premium"
       ]
     },
+    "moda-terrace-villa-alanya": {
+      "title": "Moda Terrace — Bektaş, Alanya",
+      "location": "Alanya, Bektaş, Turkey",
+      "description": "Only four private villas, built into the hillside of Bektaş — one of Alanya's most scenic and sought-after districts — so no villa blocks another's view. From the terrace you get the whole picture: Cleopatra Beach's turquoise line, the medieval castle on its rock, and the marina where the yachts sit.\n\nEach 5+2 villa (490–510 m²) is laid out over three levels. The entrance floor holds the main living and kitchen area, a guest bedroom, a bathroom, and a large terrace. Down on level -1 is a separate guest wing — American-style kitchen-living space, a bedroom, its own private sauna, and a bathroom, ideal for grown children or visiting family. Upstairs are three more bedrooms, including a master suite with its own bathroom and walk-in closet, a second bathroom, a utility room, and another large terrace. Every villa has its own 56 m² private pool.\n\nThe finish level is a step above what Bektaş has seen before: Stonewrap stone cladding (the same brand used in Istanbul's new airport CIP lounge), Linea Rossa aluminum glazing systems for year-round comfort without losing the view, porcelain-clad staircases, an oversized reinforced entrance door, Hansgrohe fittings, and a fully fitted kitchen with Franke/Siemens appliances and Mitsubishi/Daikin air conditioning.\n\nNo high-rises, no shared lobbies — just the four villas, private gardens, and quiet. Supermarkets, restaurants, schools, and medical centers are all nearby, with the sea and Cleopatra Beach 4 km away.",
+      "note": "Each villa qualifies individually for Turkish citizenship by investment (above the $400,000 threshold). Only 4 units in the project — villa D has the largest private plot, at 916 m², with its own garden.",
+      "roomSpecsTitle": "Villa layout",
+      "roomSpecs": [
+        "5+2 — three levels, 490–510 m² living area",
+        "Entrance floor: living room, kitchen, guest bedroom, bathroom, terrace",
+        "Level -1: guest kitchen-living area, bedroom, private sauna, bathroom",
+        "Upper level: 3 bedrooms incl. master suite with walk-in closet, 2nd bathroom, utility room, terrace",
+        "Private 56 m² pool at every villa",
+        "Plot sizes: 561–916 m² depending on villa"
+      ],
+      "socialAmenitiesTitle": "Why Bektaş",
+      "socialAmenities": [
+        "Panoramic views of Alanya castle, Cleopatra Beach, and the marina",
+        "4 km to the sea and Cleopatra Beach",
+        "Stonewrap stone cladding, Linea Rossa glazing, Hansgrohe fittings",
+        "Franke/Siemens kitchen appliances, Mitsubishi/Daikin AC",
+        "Only 4 villas in the project — no shared building, full privacy",
+        "Qualifies for Turkish citizenship by investment"
+      ]
+    },
     "alanya-sugozu-villa": {
       "title": "Alanya / Sugözü — Villa independiente",
       "location": "Alanya, Sugözü, Turquía",
